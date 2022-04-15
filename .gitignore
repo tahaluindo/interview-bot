@@ -1,0 +1,7 @@
+interviewbot/
+.ebextensions/
+.elasticbeanstalk/
+.vscode/
+__pycache__/
+Plots/
+Report/

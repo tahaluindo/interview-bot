@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+ANG1
+</pattern>
+<template>
+<random>
+<li>What are the building blocks of Angular?</li>
+<li>Can you give us an overview of Angular architecture?</li>
+<li>What is Angular Material?</li>
+<li> What is AOT (Ahead-Of-Time) Compilation?</li>
+<li> What is Data Binding? How many ways it can be done?</li>
+<li>What is SPA (Single Page Application) in Angular?</li>
+<li> Contrast SPA technology with traditional web technology?</li>
+<li>What is the process called by which TypeScript code is converted into JavaScript code?</li>
+<li>What is Angular?</li>
+<li>What is the difference between AngularJS and Angular?</li>
+<li>What is TypeScript?</li>
+<li>What are the key components of Angular?</li>
+<li>What are directives in Angular?</li>
+<li>What are components in Angular?</li>
+<li>What are the differences between Component and Directive in Angular?</li>
+<li>What is a template in Angular?</li>
+<li>What is a module in Angular?</li>
+<li>What are lifecycle hooks available in Angular?</li>
+<li>What is a data binding in Angular?</li>
+<li>What is metadata in Angular?</li>
+<li>What is Angular CLI?</li>
+<li>What is a service in ANGULAR?</li>
+<li>What is dependency injection in Angular?</li>
+<li>How is Dependency Hierarchy formed in ANGULAR?</li>
+<li>What is the purpose of async pipe in ANGULAR?</li>
+<li>What happens if you use script tag inside template in ANGULAR?</li>
+<li>What is interpolation in ANGULAR?</li>
+<li>What are template statements in ANGULAR?</li>
+<li>How do you categorize data binding types in ANGULAR?</li>
+<li>What are pipes in ANGULAR?</li>
+<li>What are observables in ANGULAR?</li>
+<li>What is HttpClient and its benefits in ANGULAR?</li>
+<li>Explain on how to use HttpClient with an example in ANGULAR?</li>
+<li>How can you read full response in ANGULAR?</li>
+<li>What is RxJS in ANGULAR?</li>
+<li>What is subscribing in ANGULAR?</li>
+<li>What is an observable in ANGULAR?</li>
+<li>What is an observer in ANGULAR?</li>
+<li>What is the difference between promise and observable in ANGULAR?</li>
+<li>What is multicasting in ANGULAR?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULARJS
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULARJS
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULARJS *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULARJS *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR.JS
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR.JS
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR.JS *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR.JS *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 1
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 1
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 1 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 1 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 2
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 2
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 2 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 2 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 3
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 3
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 3 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 3 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 4
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 4
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 4 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 4 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 5
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 5
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 5 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 5 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 6
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 6
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGULAR 6 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGULAR 6 *
+</pattern>
+<template>
+<srai>
+ANG1
+</srai>
+</template>
+</category>
+
+</aiml>

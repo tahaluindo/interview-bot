@@ -1,0 +1,72 @@
+{% extends "layout.html"%}
+{% block body %}
+
+<br/>
+<br/>
+<div class="container">
+
+<div class="row" style="padding:3%;">
+<div class="card col-md-12">
+  <div class="card-header text-center" style="padding:3%;">
+  <h4>Your Interview ID is : <span style="background-color:#4a148c;color:white;padding:1%;border: black solid 1px;">{{interviewid}}</span></h4>
+  <br/>
+  <b>Copy this ID and save it somewhere, this would be usefull in future</b>
+  </div>
+  <div class="card-header">Requirements for Mock Interview</div>
+  <div class="card-body">
+  <div id="chrome"></div>
+  <div id="internet"></div>
+  <div id="webcamp"></div>
+  </div> 
+  <div class="card-footer" >
+  <form method="POST" action="/interview" class="text-center">
+  	<input type="submit" value="Start Interview" id="start" class="btn btn-success" />
+  </form>
+  </div>
+</div>
+</div>
+</div>
+
+<script>
+
+
+//check if the browser is chrome
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+if(isChrome!=true){
+ 	$("#chrome").html("This is not supported browser, please use chrome browser to give interview<i style=\"color:red;\" class=\"fa fa-times\" aria-hidden=\"true\"></i>");
+ 	$('input[type="submit"]').attr('disabled','disabled');
+ }
+else{
+  	$("#chrome").html("This is supported browser &nbsp;&nbsp;&nbsp;<i class=\"fa fa-check\" style=\"color:green;\" aria-hidden=\"true\"></i>");
+ }
+ 
+//check if internet is connected or not
+var internet = navigator.onLine;
+if (internet) {
+  	$("#internet").html("Connected to internet &nbsp;&nbsp;&nbsp;<i class=\"fa fa-check\" style=\"color:green;\" aria-hidden=\"true\"></i>");
+} else {
+   	$("#internet").html("Not Connected to Internet <i style=\"color:red;\" class=\"fa fa-times\" aria-hidden=\"true\"></i>");
+   	$('input[type="submit"]').attr('disabled','disabled');
+}
+
+//check if webcam is present or not
+navigator.getMedia = ( navigator.getUserMedia || // use the proper vendor prefix
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+
+var webcampAvailable=undefined;
+webcampAvailable=false;
+navigator.getMedia({video: true}, function() {
+  // webcam is available
+webcampAvailable=true;
+$("#webcamp").html("Web camera available &nbsp;&nbsp;&nbsp;<i class=\"fa fa-check\" style=\"color:green;\" aria-hidden=\"true\"></i>")
+}, function() {
+  // webcam is not available
+   	$("#webcamp").html("Web camera not availabe. <i style=\"color:red;\" class=\"fa fa-times\" aria-hidden=\"true\"></i>");
+   	$('input[type="submit"]').attr('disabled','disabled');
+});
+
+</script>
+{% endblock %}

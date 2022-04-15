@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DSA1
+</pattern>
+<template>
+<random>
+<li>What is data structure?</li>
+<li> Differentiate between file and structure storage structure.</li>
+<li>When is a binary search best applied?</li>
+<li>What is a linked list?</li>
+<li>In what areas do data structures are applied?</li>
+<li>What is a queue?</li>
+<li>What are binary trees?</li>
+<li>Which data structures are applied when dealing with a recursive function?</li>
+<li>What is a stack?</li>
+<li>Explain Binary Search Tree</li>
+<li>Are linked lists considered linear or non-linear data structures?</li>
+<li>What is merge sort?</li>
+<li>What is the primary advantage of a linked list?</li>
+<li>What is a linear search?</li>
+<li>What is a postfix expression?</li>
+<li>How do signed and unsigned numbers affect memory?</li>
+<li> What are dynamic data structures?</li>
+<li>In what data structures are pointers applied?</li>
+<li>What are ARRAYs?</li>
+<li>What is the minimum number of queues needed when implementing a priority queue?</li>
+<li>Which sorting algorithm is considered the fastest?</li>
+<li>Differentiate STACK from ARRAY.</li>
+<li>What is a bubble sort and how do you perform it?</li>
+<li>What is an AVL tree?</li>
+<li>What is Fibonacci search?</li>
+<li>Briefly explain recursive algorithm.</li>
+<li>What is data structure?</li>
+<li>Differentiate between file and structure storage structure.</li>
+<li>When is a binary search best applied?</li>
+<li>What is a linked list?</li>
+<li>How do you reference all the elements in a one-dimension array?</li>
+<li>In what areas do data structures are applied?</li>
+<li>What is LIFO?</li>
+<li>What is a queue?</li>
+<li>What are binary trees?</li>
+<li>Which data structures are applied when dealing with a recursive function?</li>
+<li>What is a stack?</li>
+<li>Explain Binary Search Tree</li>
+<li>What are multidimensional arrays?</li>
+<li>Are linked lists considered linear or non-linear data structures?</li>
+<li>How does dynamic memory allocation help in managing data?</li>
+<li>What is FIFO?</li>
+<li>What is an ordered list?</li>
+<li>What is merge sort?</li>
+<li>Differentiate NULL and VOID</li>
+<li>What is the primary advantage of a linked list?</li>
+<li>What is the difference between a PUSH and a POP?</li>
+<li>What is a linear search?</li>
+<li>How does variable declaration affect memory allocation?</li>
+<li>What is the advantage of the heap over a stack?</li>
+<li>What is a postfix expression?</li>
+<li>What is Data abstraction?</li>
+<li>How do you insert a new item in a binary search tree?</li>
+<li>How does a selection sort work for an array?</li>
+<li>How do signed and unsigned numbers affect memory?</li>
+<li>What is the minimum number of nodes that a binary tree can have?</li>
+<li>What are dynamic data structures?</li>
+<li>In what data structures are pointers applied?</li>
+<li>Do all declaration statements result in a fixed reservation in memory?</li>
+<li>What are ARRAYs?</li>
+<li>What is the minimum number of queues needed when implementing a priority queue?</li>
+<li>Which sorting algorithm is considered the fastest?</li>
+<li>Differentiate STACK from ARRAY.</li>
+<li>Give a basic algorithm for searching a binary search tree.</li>
+<li>What is a dequeue?</li>
+<li>What is a bubble sort and how do you perform it?</li>
+<li>What are the parts of a linked list?</li>
+<li>How does selection sort work?</li>
+<li>What is a graph?</li>
+<li>Differentiate linear from a nonlinear data structure.</li>
+<li>What is an AVL tree?</li>
+<li>What are doubly linked lists?</li>
+<li>What is Huffman’s algorithm?</li>
+<li>What is Fibonacci search?</li>
+<li>Briefly explain recursive algorithm.</li>
+<li>How do you search for a target key in a linked list?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DSA
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DSA
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DSA *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DSA *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA STRUCTURE
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA STRUCTURE
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA STRUCTURE *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA STRUCTURE *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+DATA STRUCTURES
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA STRUCTURES
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA STRUCTURES *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA STRUCTURES *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+ALGORITHM
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ALGORITHM
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ALGORITHM *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ALGORITHM *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+ALGORITHMS
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ALGORITHMS
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ALGORITHMS *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ALGORITHMS *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+PROBLEM SOLVING
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PROBLEM SOLVING
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PROBLEM SOLVING *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PROBLEM SOLVING *
+</pattern>
+<template>
+<srai>
+DSA1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DA1
+</pattern>
+<template>
+<random>
+<li> Which technique is used to predict categorical responses?</li>
+<li>What is logistic regression? Or State an example when you have used logistic regression recently.</li>
+<li>What are Recommender Systems?</li>
+<li>Why data cleaning plays a vital role in analysis?</li>
+<li>Differentiate between univariate bivariate and multivariate analysis</li>
+<li> What do you understand by the term Normal Distribution?</li>
+<li> What is Linear Regression?</li>
+<li>What is K-means? How can you select K for K-means?</li>
+<li>Are expected value and mean value different?</li>
+<li>What is the goal of A/B Testing?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DA
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DA
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DA *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DA *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA ANALYSIS
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA ANALYSIS
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA ANALYSIS *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA ANALYSIS *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA ANALYTICS
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA ANALYTICS
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA ANALYTICS *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA ANALYTICS *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA SCIENCE
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA SCIENCE
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATA SCIENCE *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATA SCIENCE *
+</pattern>
+<template>
+<srai>
+DA1
+</srai>
+</template>
+</category>
+
+</aiml>

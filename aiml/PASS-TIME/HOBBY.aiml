@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HOBBY1
+</pattern>
+<template>
+<random>
+<li>Tell me more about your hobby</li>
+<li>Do you have any other hobbies?</li> 
+<li>How long have you had a hobby?</li>
+<li>Why do people have hobbies?</li>
+<li>Why did you start your hobby?</li>
+<li>Can you make money from doing your hobby?</li>
+<li>How many hours a week do you spend on your hobby?</li>
+<li>Is your hobby safe or dangerous?</li>
+<li>What is a hobby?</li>
+<li>Why do people need hobbies?</li>
+<li>What can one do as a hobby?</li>
+<li>How much time can one spend on his/her hobby?</li>
+<li>What is your hobby?</li>
+<li>Does your hobby interfere with your work/study/personal life?</li>
+<li>Do you spend money on your hobby?</li>
+<li>Does your hobby influence your choice of friends?</li>
+<li>Can a hobby save a child from bad peer influence?</li>
+<li>Can a hobby be dangerous?</li>
+<li>Have you got a hobby?</li>
+<li>How long have you had your hobby?</li>
+<li>Which hobbies are the most expensive?</li>
+<li>Which hobbies are the cheapest?</li>
+<li>Which hobbies cost nothing at all?</li>
+<li>Which hobbies are the most popular in your country?</li>
+<li>Is hunting a hobby or a sport in your country?</li>
+<li>Which hobbies are the most popular with women in your country? With men?</li>
+<li>Did you have any hobbies when you were a child?</li>
+<li>Can you think of any hobbies which are popular with children and adults?</li>
+<li>Do you think a hobby is different from a sport?</li>
+<li>Are there any hobbies you would like to try?</li>
+<li>Are there any dangerous hobbies?</li>
+<li>Are there any hobbies you can do in other countries but not your own?</li>
+<li>Which hobbies do you think are the most difficult?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HOBBY
+</pattern>
+<template>
+<srai>
+HOBBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HOBBY
+</pattern>
+<template>
+<srai>
+HOBBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HOBBY *
+</pattern>
+<template>
+<srai>
+HOBBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HOBBY *
+</pattern>
+<template>
+<srai>
+HOBBY1
+</srai>
+</template>
+</category>
+
+</aiml>

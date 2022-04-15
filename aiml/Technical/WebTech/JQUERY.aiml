@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+JQUERY1
+</pattern>
+<template>
+<random>
+<li> What is jQuery?</li>
+<li> Why jQuery is needed?</li>
+<li> Whether jQuery HTML work for both HTML and XML documents?</li>
+<li> What are the methods used to provide effects?</li>
+<li> What is the advantage of using minimized version of jQuery?</li>
+<li> Is jQuery is a JavaScript or JSON library file?</li>
+<li> Which operating system is more compatible with jQuery?</li>
+<li> How can we include jQuery library in ASP</li>
+<li> Which command will give a version of jQuery?</li>
+<li> In what scenarios jQuery can be used?</li>
+<li> What is the difference between find and children methods?</li>
+<li> What is jQuery connect?</li>
+<li> How to use connect?</li>
+<li> What are the features of jQuery has been used in web applications?</li>
+<li> What are the browser related issues for jQuery?</li>
+<li> Whether we need to add jQuery file in both Master and Content page?</li>
+<li> What are the basic selectors in jQuery?</li>
+<li> Can we call C# code behind using jQuery?</li>
+<li> What is the use jQuery</li>
+<li> What is the use of each function in jQuery?</li>
+<li> What is the difference between size and length of jQuery?</li>
+<li> Can we add more than one ‘document</li>
+<li> What is the use of jQuery load method?</li>
+<li> Whether our own specific characters are used in place of $ in jQuery?</li>
+<li> What are the four parameters used for jQuery Ajax method?</li>
+<li> What is the use of jQuery filter?</li>
+<li> Which program is useful for testing jQuery?</li>
+<li> What is CDN?</li>
+<li> What are the two types of CDNs?</li>
+<li> Which sign is used as a shortcut for jQuery?</li>
+<li> Is jQuery is a client or server scripting?</li>
+<li> What is the script build up by jQuery?</li>
+<li> How can we debug jQuery?</li>
+<li> What are all the ways to include jQuery in a page?</li>
+<li> What is the use of jQuery</li>
+<li> Where can we download JQuery?</li>
+<li> Is jQuery is a replacement of JavaScript?</li>
+<li> What is called chaining?</li>
+<li> What are the advantages of jQuery?</li>
+<li> Whether C# code behind can be called from jQuery?</li>
+<li> What is the use of jQuery</li>
+<li> What is the difference between onload() and document</li>
+<li> What is the use of jQuery each function?</li>
+<li> How method can be called inside code behind using jQuery?</li>
+<li> Which is the fastest selector in jQuery?</li>
+<li> What is the slowest selector in jQuery?</li>
+<li> Where jQuery code is getting executed?</li>
+<li> What is the method used to define the specific character in place of $ sign?</li>
+<li> Why jQuery is better than JavaScript?</li>
+<li> What are the types of selectors in jQuery?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+JQUERY
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JQUERY
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JQUERY *
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JQUERY *
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JQUERY LIBRARY
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JQUERY LIBRARY
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JQUERY LIBRARY *
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JQUERY LIBRARY *
+</pattern>
+<template>
+<srai>
+JQUERY1
+</srai>
+</template>
+</category>
+
+</aiml>

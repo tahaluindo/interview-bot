@@ -1,0 +1,53 @@
+{% extends "layout.html"%}
+{% block body %}
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            {% include  "includes/_background_heading.html" %}
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            {% include  "includes/_intro_message.html" %}
+
+        </div>
+
+        <div class="col-md-6 tri shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="font-weight-bold text-center">
+                <p class="imp">
+                    <h3>Register with us</h3>
+                </p>
+            </div>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Enter your email name"
+                        required />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="username" class="form-control"
+                        placeholder="Enter a unique username for yourself" required />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Enter your password"
+                        required />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="confirm" class="form-control" placeholder="Confirm your password"
+                        required />
+                </div>
+                <button class="btn btn-primary form-group form-control" type="submit">Register Now</button>
+                <center><a href="/login" class="text-center" style="color:red">Already having an account ? Login Now</a>
+                </center>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+{% endblock %}

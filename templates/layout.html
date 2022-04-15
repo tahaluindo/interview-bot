@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap4.min.js') }}"></script>
+    <link href="{{ url_for('static',filename ='styles/bootstrap4.min.css') }}" rel="stylesheet">
+    <link rel='stylesheet' href="{{ url_for('static',filename ='styles/all.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel='stylesheet' href="{{ url_for('static',filename ='styles/icon.css') }}">
+
+    <style>
+        .fixed-bottom {
+            border: solid 1px #4a148c;
+            color: #4a148c;
+            font-style: bold;
+        }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    {% include  "includes/_navbar.html" %}
+    <br />
+    <br />
+    <br />
+    {% include  "includes/_message.html" %}
+    {% block body%}
+    {% endblock %}
+
+    <footer class="fixed-bottom font-weight-bold text-center" style="background-color:#4a148c; color:white;">
+        Interview Bot
+    </footer>
+</body>
+
+</html>

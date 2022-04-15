@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+WINDOWS1
+</pattern>
+<template>
+<random>
+<li> What is the difference between Linux and Windows? </li>
+<li> What are the five main functions of an operating system? </li>
+<li> Why do we need windows on the computer? </li>
+<li> What is the difference between window and windows? </li>
+<li> What are the types of Windows operating system? </li>
+<li> What is a Windows server used for? </li>
+<li> Explain the difference between thread  and process in an operating system? </li>
+<li> How can I see all IP addresses on my network using CMD? </li>
+<li> What is Active Directory and how does it work? </li>
+<li> What is meant by 32bit and 64bit operating system? </li>
+<li> Which is better Windows 7 or Windows XP? </li>
+<li> What is the difference between Windows 7 and Windows 10? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+WINDOWS
+</pattern>
+<template>
+<srai>
+WINDOWS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WINDOWS
+</pattern>
+<template>
+<srai>
+WINDOWS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+WINDOWS *
+</pattern>
+<template>
+<srai>
+WINDOWS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WINDOWS *
+</pattern>
+<template>
+<srai>
+WINDOWS1
+</srai>
+</template>
+</category>
+
+</aiml>

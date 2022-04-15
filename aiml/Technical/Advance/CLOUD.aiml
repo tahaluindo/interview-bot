@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CC1
+</pattern>
+<template>
+<random>
+<li>What are the advantages of using cloud computing?</li>
+<li>Mention platforms which are used for large scale cloud computing?</li>
+<li>Explain different models for deployment in cloud computing?</li>
+<li>What is the difference in cloud computing and computing for mobiles?</li>
+<li>For a transport in cloud how you can secure your data?</li>
+<li>Mention some open source cloud computing platform databases?</li>
+<li>Explain the difference between cloud and traditional datacenters?</li>
+<li>Explain what are the different modes of software as a service</li>
+<li>How important is the platform as a service?</li>
+<li>What is a cloud service?</li>
+<li>As a infrastructure as a service what are the resources that are provided by it?</li>
+<li>What are the business benefits involved in cloud architecture?</li>
+<li>Mention what is the difference between elasticity and scalability in cloud computing?</li>
+<li>Explain hybrid and community cloud?</li>
+<li>Have you used Amazon AWS?</li>
+<li>How GOOGLE CLOUD ENGINE is different from Amazon AWS?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CLOUD
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CLOUD
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CLOUD *
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CLOUD *
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CLOUD COMPUTING
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CLOUD COMPUTING
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CLOUD COMPUTING *
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CLOUD COMPUTING *
+</pattern>
+<template>
+<srai>
+CC1
+</srai>
+</template>
+</category>
+
+</aiml>

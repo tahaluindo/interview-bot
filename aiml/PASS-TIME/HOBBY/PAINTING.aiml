@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PAINTING1
+</pattern>
+<template>
+<random>
+<li>Why do you like painting/drawing/sketching?</li>
+<li>What are some famous paintings that you like? </li>
+<li>What are some famous paintings that you like? You don't like?</li>
+<li>What type of painting/sketching/drawing do you do? </li>
+<li>Have you ever sold one of your paintings or sketch?</li>
+<li>Are you impressed with people who know how to paint or sketch?</li>
+<li>Do you have a painting or sketch of yourself?</li>
+<li>What's the most expensive and most beautiful painting you have ever seen?</li>
+<li>How much are you willing to pay for a beautiful painting?</li>
+<li>Do you know Leonardo da Vinci and his paintings? Can you name some of his paintings?</li>
+<li>Do have paintings at home for decoration?</li>
+<li>If you could be given the chance to paint what would you paint? </li>
+<li> Would you sell your paintings or sketch?</li>
+<li>Does the painting make you feel happy or sad?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PAINTING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAINTING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PAINTING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAINTING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PAINT
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAINT
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PAINT *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAINT *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRAW
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRAW
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRAW *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRAW *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRAWING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRAWING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRAWING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRAWING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ART
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ART
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ART *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ART *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SKETCH
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SKETCH
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SKETCH *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SKETCH *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SKETCHING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SKETCHING
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SKETCHING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SKETCHING *
+</pattern>
+<template>
+<srai>
+PAINTING1
+</srai>
+</template>
+</category>
+
+</aiml>

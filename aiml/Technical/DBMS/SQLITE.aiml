@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SQLITE1
+</pattern>
+<template>
+<random>
+<li>What is SQLite?</li>
+<li>What are the most important features of SQLite?</li>
+<li>What are the advantages of using SQLite?</li>
+<li>What is the difference between SQL and SQLite?</li>
+<li>What is SQLite Transactions?</li>
+<li>In which areas SQLite is preferred most?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SQLITE
+</pattern>
+<template>
+<srai>
+SQLITE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SQLITE
+</pattern>
+<template>
+<srai>
+SQLITE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SQLITE *
+</pattern>
+<template>
+<srai>
+SQLITE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SQLITE *
+</pattern>
+<template>
+<srai>
+SQLITE1
+</srai>
+</template>
+</category>
+
+</aiml>

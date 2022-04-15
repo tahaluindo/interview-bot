@@ -1,0 +1,35 @@
+<style>
+.alert{
+    position: absolute;
+
+z-index:3;
+}
+body{
+z-index:1;
+}
+.close{
+cursor:pointer;
+}
+</style>
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+<div class="container">
+    <div class="row">
+	<div class="col-md-3"></div>
+<div class="col-md-9">
+    <ul class=flashes>
+    {% for category,message in messages %}
+	<div class="alert alert-{{ category }} f" id="message">{{ message }} &nbsp;&nbsp;&nbsp;<span class="close" id="close">x</span></div>
+    {% endfor %}
+    </ul>
+</div>
+   </div>
+</div>
+  {% endif %}
+{% endwith %}
+
+<script>
+$('#close').click(function(){
+$('#message').hide();
+});
+</script>

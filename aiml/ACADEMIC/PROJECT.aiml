@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PROJECT1
+</pattern>
+<template>
+<random>
+<li>Tell me more about your project</li>
+<li>What is the use case for your project?</li>
+<li>What is the future scope of the project?</li>
+<li>What was your role in the project?</li>
+<li>What did you learn during the project?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PROJECT
+</pattern>
+<template>
+<srai>
+PROJECT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PROJECT
+</pattern>
+<template>
+<srai>
+PROJECT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PROJECT *
+</pattern>
+<template>
+<srai>
+PROJECT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PROJECT *
+</pattern>
+<template>
+<srai>
+PROJECT1
+</srai>
+</template>
+</category>
+
+</aiml>

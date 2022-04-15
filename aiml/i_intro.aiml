@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category>
+<pattern>START INTERVIEW</pattern>
+<template>Hi</template>
+</category>
+
+<category>
+<pattern>INTERVIEW_BEGIN</pattern>
+<template>What is your name ?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>What is your name ?</template>
+</category>
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template><srai>NAME1 <star/></srai></template>
+</category>
+
+<category>
+<pattern>I AM *</pattern>
+<template><srai>NAME1 <star/></srai></template>
+</category>
+
+<category>
+<pattern>NAME1 *</pattern>
+<template><set name="USERNAME"><star/></set>
+Oh! Nice to meet you <get name="USERNAME"></get>
+</template>
+</category>
+<aiml>

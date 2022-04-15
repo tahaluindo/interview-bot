@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HIBERNATE1
+</pattern>
+<template>
+<random>
+<li>What is HIBERNATE?</li>
+<li>What is an ORM?</li>
+<li>How HIBERNATE fastens the application development?</li>
+<li>Have you used hibernate in any project?</li>
+<li>What are the important benefits of using Hibernate Framework?</li>
+<li>What are the advantages of Hibernate over JDBC?</li>
+<li>Name some important interfaces of Hibernate framework?</li>
+<li>What is Hibernate Session and how to get it?</li>
+<li>What is Named SQL Query?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HIBERNATE
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HIBERNATE
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HIBERNATE *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HIBERNATE *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+JAVA HIBERNATE
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA HIBERNATE
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA HIBERNATE *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA HIBERNATE *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+HIBERNATE FRAMEWORK
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HIBERNATE FRAMEWORK
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HIBERNATE FRAMEWORK *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HIBERNATE FRAMEWORK *
+</pattern>
+<template>
+<srai>
+HIBERNATE1
+</srai>
+</template>
+</category>
+
+</aiml>

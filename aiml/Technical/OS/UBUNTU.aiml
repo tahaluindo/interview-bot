@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+UBUNTU12
+</pattern>
+<template>
+<random>
+<li> What is Ubuntu and how does it work? </li>
+<li> What is the latest version of Ubuntu? </li>
+<li> Why is it called Ubuntu? </li>
+<li> How do I install Ubuntu on my PC? </li>
+<li> Which is the best version of Ubuntu? </li>
+<li> What are the Minimum System Requirements to install Ubuntu? </li>
+<li> Explain the difference between Windows and Ubuntu? </li>
+<li> What are some New features in Ubuntu 17.10? </li>
+<li> How do I check my current version of Ubuntu? </li>
+<li> What are the basic commands in Ubuntu? </li>
+<li> What is the Ubuntu terminal? </li>
+<li> How do I create a service in Ubuntu? </li>
+<li> How to start services in Ubuntu? </li>
+<li> How do I get to root in Ubuntu? </li>
+<li> How to open a file in Ubuntu terminal? </li>
+<li> How do you create a new file in Ubuntu? </li>
+<li> How do I get help in Ubuntu terminal? </li>
+<li> What is sudo command in Ubuntu? </li>
+<li> How do you go to a directory in Ubuntu? </li>
+<li> How to use mkdir command in Ubuntu? </li>
+<li> How do I reboot Ubuntu? </li>
+<li> How do you create an empty file in Ubuntu? </li>
+<li> How do I free up disk space on Ubuntu? </li>
+<li> What is chmod command Ubuntu? </li>
+<li> How do I change the root password in Ubuntu terminal? </li>
+<li> How do I delete a user account in Ubuntu? </li>
+<li> How do I change the user in Ubuntu? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+UBUNTU
+</pattern>
+<template>
+<srai>
+UBUNTU12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UBUNTU
+</pattern>
+<template>
+<srai>
+UBUNTU12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+UBUNTU *
+</pattern>
+<template>
+<srai>
+UBUNTU12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UBUNTU *
+</pattern>
+<template>
+<srai>
+UBUNTU12
+</srai>
+</template>
+</category>
+
+</aiml>

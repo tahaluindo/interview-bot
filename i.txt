@@ -1,0 +1,102 @@
+1. What are the basic differences between relational database and HDFS?
+process,analyze,big,applications,tools,visualize,distinct,companies,relational,making,data,decisions,collection,enhanced,makes,using,capture,competitors,curate,derive,value,advantage,traditional,sets,large,business,search,complex,database,store,opportunity,management,term,successfully,capabilities,emerged,difficult,transfer,processing,share
+ 
+whether,asked,tip,specifically,questions,good,idea,talk
+2. Explain “Big Data” and what are five V’s of Big Data?
+process,big,tools,hadoop,services,provides,making,solution,data,decisions,framework,various,helps,using,apache,business,traditional,analyzing,efficiently,effectively,store,problem,us,emerged,systems,evolved,done
+3. What is Hadoop and its components. 
+explaining,main,explain,tip,components,hadoop,also
+4. What are HDFS and YARN?
+responsible,topology,kinds,different,follows,hdfs,blocks,unit,slave,distributed,system,master,storage,hadoop,environment,storing,file,data
+5. Tell me about the various Hadoop daemons and their roles in a Hadoop cluster.
+explain,tip,hdfs,recommended,components
+6. Compare HDFS with Network Attached Storage (NAS).
+resources,framework,another,environment,yarn,yet,negotiator,hadoop,execution,manages,processes,resource,processing,provides
+7. List the difference between Hadoop 1 and Hadoop 2.
+explain,hdfs,tip,yarn,similarly,components,also,two
+
+detail,hdfs,blog,yarn,learn,go,tutorial,want,hadoop
+8. What are active and passive “NameNodes”? 
+generally,explaining,question,daemons,secondary,nodemanager,hdfs,yarn,lastly,namenode,approach,datanode,resorcemanager,moving,jobhistoryserver,first
+9. Why does one remove or add nodes in a Hadoop cluster frequently?
+nas,compare,question,features,explain,hdfs,follows,first
+10. What happens when two clients try to access the same file in the HDFS?
+architecture,question,points,passive,yarn,focus,namenode,important,mainly,two,answering
+11. How does NameNode tackle DataNode failures?
+commodity,decommission,ease,datanode,hadoop,scale,data,administrator,volume,framework,frequent,reasons,task,cluster,attractive,growth,add,features,common,accordance,remove,two,striking,leads,utilization,nodes,commission,another,crashes,one,feature,hardware,rapid,however
+12. What will you do when NameNode is down?
+commissioning,blog,decommissioning,get,read,detailed,hadoop,nodes,cluster,understanding
+13. What is a checkpoint?
+writes,exclusive,hdfs,supports
+14. How is HDFS fault tolerant? 
+already,open,writing,another,granted,request,client,grants,namenode,notice,reject,contacts,tries,create,second,lease,file,first
+15. Can NameNode and DataNode be a commodity hardware? 
+signal,periodically,implies,properly,functioning,namenode,datanode,heartbeat,receives,cluster
+16. Why do we use HDFS for applications having large data sets and not when there are a lot of small files? 
+block,marked,send,blocks,list,time,specific,report,datanode,fails,message,period,heartbeat,contains,dead
+17. How do you define “block” in HDFS? What is the default block size in Hadoop 1 and in Hadoop 2? Can it be changed? 
+another,replicas,blocks,replicates,created,earlier,namenode,dead,datanode,using,node
+18. What does ‘jps’ command do? 
+process,involves,make,namenode,running,hadoop,following,steps,recovery,cluster
+19. How do you define “Rack Awareness” in Hadoop?
+process,lot,even,may,hadoop,greater,routine,challenge,covered,namenode,recovery,consume,becomes,whereas,large,hdfs,blog,case,clusters,ha,availability,architecture,time,therefore,high,maintenance
+20. What is “speculative execution” in Hadoop? 
+process,startup,instead,brief,compacts,replaying,new,efficient,operation,load,directly,reduces,final,namenode,far,state,takes,secondary,thus,checkpointing,log,time,performed,fsimage,edit
+21. How can I restart “NameNode” or all the daemons in Hadoop? 
+need,copy,configuration,datanode,provides,data,namenode,default,replication,node,change,hdfs,replicas,available,replicates,tolerance,goes,fault,per,another,make,factor,stored,automatically,several
+22. What is the difference between an “HDFS Block” and an “Input Split”?
+question,commodity,answer,machine,stores,experience,space,data,personal,metadata,computers,blocks,smart,namenode,good,node,would,large,hdfs,like,datanodes,master,needs,required,laptops,tell,number,ram,hardware,stored,high,requires,memory
+23. Name the three modes in which Hadoop can run.
+files,amounts,limit,lead,directory,much,compared,generation,stores,become,single,file,metadata,data,block,words,challenge,information,many,small,system,bytes,namenode,produces,suitable,regarding,across,takes,spread,sets,large,hdfs,multiple,storing,thumb,amount,know,number,ram,therefore,memory,rule
+24. What is “MapReduce”? What is the syntax to run a “MapReduce” program? 
+files,stores,hadoop,hard,distribute,data,blocks,independent,broken,nothing,across,cluster,units,hdfs,location,smallest,drive,continuous,chunks,stored
+25. What are the main configuration parameters in a “MapReduce” program?
+block,set,blocks,environment,configured,size,hadoop,used,yes,file,parameter
+26. State the reason why we can’t perform “aggregation” (addition) in mapper? Why do we need the “reducer” for this?
+etc,resourcemanager,daemons,command,shows,helps,us,machine,namenode,running,hadoop,datanode,check,jps,nodemanager
+27. What is the purpose of “RecordReader” in Hadoop?
+minimize,copy,different,based,placed,definitions,data,block,blocks,say,placement,network,namenode,consider,default,replication,exist,every,replica,decides,replicas,third,let,datanodes,known,traffic,two,algorithm,within,one,rack,awareness,factor,policy,copies,rule
+28. Explain “Distributed Cache” in a “MapReduce Framework”.
+detail,architecture,know,hdfs,blog,rack,awareness,refer
+29. How do “reducers” communicate with each other? 
+process,killed,speculative,slower,accepted,first,called,task,redundantly,instance,node,appears,master,execute,executing,another,one,finishes,execution
+31. How will you write a custom partitioner?
+question,methods,namenode,following,discuss,answers,two,restart
+32. What is a “Combiner”? 
+files,reside,sbin,directory,inside,script,hadoop
+33. What do you know about “SequenceFileInputFormat”?
+block,logical,split,whereas,physical,hdfs,blocks,together,mapreduce,assign,mapper,input,division,divides,storing,function,processing,data
+34. What are the benefits of Apache Pig over MapReduce? 
+modes,run,follows,hadoop,three
+35. What are the different data types in Pig Latin?
+program,programming,computers,sets,large,run,model,syntax,mapreduce,parallel,used,processing,using,cluster,data
+36. What are the different relational operations in “Pig Latin” you worked with?
+revise,mapreduce,refer,tutorial,want,doubt,concepts
+37. What is a UDF?
+need,main,specify,framework,mapreduce,configuration,parameters,users
+38. What is “SerDe” in “Hive”?
+many,sequentially,points,go,answer,includes
+39. Can the default “Hive Metastore” be used by multiple users (processes) at the same time?
+access,describe,input,defines,class,data,reading,task,loads,suitable,instance,work,pairs,value,format,inputsplit,key,defined,converts,slice,mapper,source,recordreader
+40. What is the default location where “Hive” stores table data?
+provided,cache,files,access,needed,applications,cached,running,job,hadoop,file,data,explained,framework,mapreduce,every,tasks,local,facility,available,distributed,nodes,make,reducer,mapper
+41. What is Apache HBase?
+programming,question,run,mapreduce,model,reducers,isolation,tricky,allow,communicate
+42. What are the components of Apache HBase?
+partitioner,mapreduce
+43. What are the components of Region Server?
+responsible,partitioner,even,go,reducers,allowing,redirects,single,distribution,mapreduce,makes,sure,determining,values,particular,key,thus,reducer,map,mapper,output
+44. Explain “WAL” in HBase?
+custom,easily,steps,partitioner,hadoop,job,following,written
+45. Mention the differences between “HBase” and “Relational Databases”?
+combiner,sends,input,reducers,data,help,sent,efficiency,mapreduce,task,quantum,node,local,reduce,particular,performs,receives,reducing,required,reducer,mapper,enhancing,combiners,mini,output
+46. What is Apache Spark?
+files,outputs,data,format,within,one,mapreduce,specific,reading,input,job,passing,sequence,optimized,compressed,sequencefileinputformat,file,binary
+47. Can you build “Spark” with any particular Hadoop version?
+tasks,files,data,output,another,one,mapreduce,efficient,job,passing,representation,generated,sequence,intermediate
+48. Define RDD.
+analyze,representing,flows,data,program,platform,pig,writing,designed,mapreduce,developed,complexities,apache,sets,large,abstraction,used,provide,reducing,yahoo
+49. What is Apache ZooKeeper and Apache Oozie?
+etc,bag,pig,float,int,double,handle,types,like,complex,map,atomic,long,latin,tuple,data
+50. How do you configure an “Oozie” job in Hadoop?
+scalar,long,languages,float,int,double,types,like,string,basic,byte,used,char,atomic,data

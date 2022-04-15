@@ -1,0 +1,99 @@
+{% extends "layout.html"%}
+{% block body %}
+
+<div class="container-fluid">
+
+
+<div class="row" style="margin:1%;" >
+
+<div class="card shadow-lg p-1 rounded " style="width: 11rem;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+<div class="card-body text-center ">
+<i class="material-icons" style="font-size:48px;color:white">chat</i>
+
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Chatbot based Interview</h6>
+
+</div>
+</div>
+
+
+<div class="card shadow-lg p-1  rounded" style="width: 11rem;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white">record_voice_over</i>
+
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Voice based Interaction</h6>
+</div>
+</div>
+
+<div class="card shadow-lg p-1  bg-white rounded" style="width: 11rem;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white">insert_emoticon</i>
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Emotion Analysis</h6>
+</div>
+</div>
+
+<div class="card shadow-lg p-1  bg-white rounded" style="width: 11rem;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white;">sentiment_neutral</i>
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Sentiment Analysis</h6>
+</div>
+</div>
+
+<div class="card shadow-lg p-1  bg-white rounded" style="width: 11rem;border:1px solid white;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white;">note_add</i>
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Report Generation</h6>
+</div>
+</div>
+
+<div class="card shadow-lg p-1  bg-white rounded" style="width: 11rem;border:1px solid white;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);" id="data_vis">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white;">multiline_chart</i>
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Realtime Data Visualization</h6>
+</div>
+</div>
+
+<div class="card shadow-lg p-1  bg-white rounded" style="width: 11rem;border:1px solid white;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);" id="text_analytics">
+<div class="card-body text-center">
+<i class="material-icons" style="font-size:48px;color:white;">multiline_chart</i>
+<br/>
+<br/>
+<h6 class="card-title" style="color:white">Text Analysis</h6>
+</div>
+</div>
+
+</div> <!--row -->
+<div class="row" style="margin:3%;background:white;">
+<div class="col-md-12 card shadow-lg p-1  bg-white rounded" style="width: 100%;" >
+<div class="card-body text-center">
+
+<h6 class="card-title" id="content-title">Realtime Data Visualization</h6>
+<p id="content-body"></p>
+</div>
+</div>
+</div>
+
+</div> <!--container-->
+<script>
+$('#text_analytics').click(function(){
+$('#content-title').text("Text Analytics")
+$("#content-body").text("Text Analytics module is one of the core element of our project. The Text Analytics is done with the help of the python based NLTK Library.")
+});
+
+$('#data_vis').click(function(){
+$('#content-title').text("Real Time Data Visualization")
+$("#content-body").text("The results generated are shown using CHARTJS Library")
+});
+</script>
+{% endblock %}

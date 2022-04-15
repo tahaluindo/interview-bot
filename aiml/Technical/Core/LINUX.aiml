@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+LINUX1
+</pattern>
+<template>
+<random>
+<li>What is Linux?</li>
+<li>What is the difference between UNIX and LINUX?</li>
+<li>What is BASH?</li>
+<li> What is Linux Kernel?</li>
+<li>What is LILO? (in linux (its a bootloader)) </li>
+<li>What is the advantage of open source?</li>
+<li>What are the basic components of Linux?</li>
+<li>Does it help for a Linux system to have multiple desktop environments installed?</li>
+<li>What is the basic difference between BASH and DOS?</li>
+<li>Describe the root account.</li>
+<li>What is CLI?</li>
+<li>How do you change permissions under Linux?</li>
+<li>What is the maximum length for a filename under Linux?</li>
+<li>What are daemons?</li>
+<li>What are the kinds of permissions under Linux?</li>
+<li>What is grep command?</li>
+<li>What is Linux?</li>
+<li>What is the difference between Linux and Unix?</li>
+<li>What is Linux Kernel? Is it legal to edit Linux Kernel?</li>
+<li>What is LILO?</li>
+<li>What are the basic components of Linux?</li>
+<li>Which are the Shells used in Linux?</li>
+<li>What is Swap Space?</li>
+<li>What is the difference between BASH and DOS?</li>
+<li>What command would you use to check how much memory is being used by Linux?</li>
+<li>Explain file permission in Linux.</li>
+<li>What are inode and process id?</li>
+<li>Which are the Linux Directory Commands?</li>
+<li>What is Virtual Desktop?</li>
+<li>Which are the different modes of vi editor?</li>
+<li>What are daemons?</li>
+<li>What are the process states in Linux?</li>
+<li>Explain grep command.</li>
+<li>Explain Process Management System Calls in Linux</li>
+<li>Explain the ‘ls’ command in Linux</li>
+<li>Why is the tar command used?</li>
+<li>What is a Latch?</li>
+<li>What is a Microprocessor?</li>
+<li>Explain Regular Expressions and Grep</li>
+<li>What is the minimum number of disk partitions required to install Linux?</li>
+<li>How to copy a file in Linux?</li>
+<li>How to terminate a running process in Linux?</li>
+<li>How to rename a file in Linux?</li>
+<li>How to write the output of a command to a file?</li>
+<li>How to see the list of mounted devices on Linux?</li>
+<li>How to find where a file is stored in Linux?</li>
+<li>How to find the difference in two configuration files?</li>
+<li>Write a bash script to delete all the files in the current directory that contains the word “linux”.</li>
+<li>How would you create a text file without opening it?</li>
+<li>How would you delete a directory in Linux?</li>
+<li>How would you schedule a task in Linux?</li>
+<li>Suppose you try to delete a file using the rm command and the deletion fails</li>
+<li>How do you look at the contents of a file named sample.z?</li>
+<li>How to copy files to a Floppy Disk safely?</li>
+<li>How to identify which shell you are using?</li>
+<li>How can you login to another system in your network from your system?</li>
+<li>How would you open a file in read-only mode using the vim editor?</li>
+<li>How would you search for a specific Employee ID in a file using the vim editor?</li>
+<li>How to jump to a particular line in a file using vim editor?</li>
+<li>How do you sort the entries in a text file in ascending order?</li>
+<li>What is the export command used for?</li>
+<li>How do you check if a particular service in running?</li>
+<li>How do you check the status of all the services?</li>
+<li>How do you start and stop a service?</li>
+<li>Explain the free command.</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+LINUX
+</pattern>
+<template>
+<srai>
+LINUX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LINUX
+</pattern>
+<template>
+<srai>
+LINUX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+LINUX *
+</pattern>
+<template>
+<srai>
+LINUX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LINUX *
+</pattern>
+<template>
+<srai>
+LINUX1
+</srai>
+</template>
+</category>
+</aiml>

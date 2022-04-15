@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SQL1
+</pattern>
+<template>
+<random>
+<li>What is SQL?</li>
+<li>What is the difference between SQL and NOSQL?</li>
+<li>Give me a scenario when you could use NOSQL instead of SQL?</li>
+<li>Which databases you know?</li>
+<li>Tell me the difference between SQL and PLSQL</li>
+<li>What is normalization in database</li>
+<li>Explain Joins in databases</li>
+<li>Explain ACID Properties in databases</li>
+<li>What is Atomicity property in DBMS?</li>
+<li>What is Consistency property in DBMS?</li>
+<li>What is Isolation property in DBMS?</li>
+<li>What is Durablity property in DBMS?</li>
+<li>What is the difference between primary key and candidate key?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SQL
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SQL
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SQL *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SQL *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NOSQL
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NOSQL
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NOSQL *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NOSQL *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATABASE
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATABASE
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DATABASE *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DATABASE *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DBMS
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DBMS
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DBMS *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DBMS *
+</pattern>
+<template>
+<srai>
+SQL1
+</srai>
+</template>
+</category>
+
+</aiml>

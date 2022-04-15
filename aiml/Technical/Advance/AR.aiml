@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+AR1
+</pattern>
+<template>
+<random>
+<li>What is AR?</li>
+<li>How AR is different than VR?</li>
+<li>HOW AR is changing the world?</li>
+<li>Any AR Application you developed in AR?</li>
+<li>Which tools are used to develop AR Applications</li>
+<li>Will augmented reality help in the field of  marketing?</li>
+<li> Where is augmented reality being used?</li>
+<li> Is augmented reality expensive?</li>
+<li>Where is augmented reality heading?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+AR
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AR
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AR *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AR *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AUGUMENTED REALITY
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AUGUMENTED REALITY
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AUGUMENTED REALITY *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AUGUMENTED REALITY *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AR APP
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AR APP
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AR APP *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AR APP *
+</pattern>
+<template>
+<srai>
+AR1
+</srai>
+</template>
+</category>
+
+</aiml>

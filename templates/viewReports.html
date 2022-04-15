@@ -1,0 +1,32 @@
+{% extends "home.html"%}
+{% block title %}
+Interview Bot <br />
+Interview Complete
+{% endblock %}
+{% block container %}
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+
+    <li class="card card-body" style="color:white;background-color:blueviolet;">
+        <b> Dear {{user.username}},<br />
+            The following are your interview reports.</b>
+
+    </li>
+    {% for report in user.reportPaths %}
+    <li class="card card-body">
+
+        <a
+            href="{{url_for('getReportById',interviewId = report.split('/')[-1].split('.')[0])}}">{{report.split("/")[-1]}}</a>
+
+    </li>
+    {% endfor %}
+</div>
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+    <li class="card card-body" style="color:white;background-color:blueviolet;">
+
+        Please Note the evaluation is done on certain parameters. Each Interview in real life is different.
+        This report may not be true indication of your performance and are just for practise.
+    </li>
+</div>
+{% endblock %}

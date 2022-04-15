@@ -1,0 +1,264 @@
+<html>
+
+<head>
+  <title>
+  </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+
+  <style>
+    body {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(42deg, rgba(2, 0, 36, 1) 0%, rgba(104, 9, 121, 1) 33%, rgba(135, 29, 218, 1) 68%, rgba(183, 19, 230, 1) 88%, rgba(186, 0, 255, 1) 100%);
+      font-size: 24px;
+      color: white;
+    }
+
+    .back {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(42deg, rgba(2, 0, 36, 1) 0%, rgba(104, 9, 121, 1) 33%, rgba(135, 29, 218, 1) 68%, rgba(183, 19, 230, 1) 88%, rgba(186, 0, 255, 1) 100%);
+      font-size: 24px;
+      color: white;
+    }
+
+    hr {
+      background: white;
+    }
+
+    .element {
+      font-size: 24px;
+      margin-top: 3.5%;
+      margin-right: 2%;
+      margin-left: 2.5%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .display-4 {
+      color: #4a148c;
+      padding: 2.5%;
+      background: white;
+      font-size: 30px;
+      border-radius: 30px;
+    }
+
+    .holder {
+      color: #4a148c;
+      padding: 2.5%;
+      background: white;
+      font-size: 25px;
+      border-radius: 30px;
+      margin-right: 2%;
+    }
+
+    .holder_lesspad {
+      padding: 0%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card card-body" id="welcome" style="height:90%;color:black;">
+    <p class="text-center"><b>Modern Education Society's College of Engineering, Pune - 01 ,<br />Presents<br /></b></p>
+    <img src="{{ icon }}" style="width:80%;height:60%;margin:12%;"></img>
+    <div style="margin:4%">
+    </div>
+    <div class="text-center" style="font-size:65px;font-weight:bolder;">
+      <p>Interview Bot</p>
+    </div>
+  </div>
+  <div style="height:10%;">
+    <b>
+      <h2 class="text-center">
+        Interview Id : <br /><br />
+        {{user.interviewId}}</h2>
+    </b>
+  </div>
+  <div class="card card-body back" id="welcome" style="height:100%;">
+    <div class="container-fluid element" style="margin-right:3%;">
+      <!-- container start -->
+      <h1 class="display-4" style="text-align:right;">
+        <b>Interview-bot : Report</b>
+      </h1> <!-- heading -->
+      <hr />
+      <!-- message -->
+      <div class="holder">
+        <p>Congratulations!!!.. <span style="color:red">Your Report is generated</span></p>
+        <p style="margin-right:2%;">Dear {{session.username}},<br /><br />
+          We hope you have came acroos various questions which could be asked based on the responses you provide during
+          the interview process.<br />
+          We agree interviews may seem difficult, but once you get come to know how to answer in ther interview you can
+          defintely crack any interview. This is a report generated based on the responses you gave during the mock
+          interview. Don't get disheartned if you scored less there is always a room of improvement, and if you have
+          scored great, that's awesome keep practising
+          <ps>
+            <p style="text-align:right;">Thank you</p>
+            <p style="text-align:right;">
+              <b>PROJECT - INTERVIEW BOT</b>
+            </p>
+      </div>
+      <br />
+      <br />
+      <!--end message -->
+      <!--<div style="height:3%;"></div>-->
+      <hr />
+      <!-- sentiment score -->
+      <h2>Your Sentiment Score</h2>
+      <br />
+
+      <div class="row">
+        <!-- start row -->
+        <div class="col holder">
+          <p>Overall sentiment during the interview process was : <b style="color:red">{{user.prominentSentiment}}</b>
+          </p><br />
+          <p>{{user.smsg}}
+          </p>
+        </div>
+        <div class="col">
+          <img src="{{ schart }}" alt="{{schartname}}" height="300" width="400"></img>
+
+
+        </div>
+        <br />
+        <br />
+      </div><!-- end row -->
+      <br />
+      <br />
+      <hr />
+      <br />
+      <br />
+      <hr />
+      <h2>Your Emotion Score</h2>
+      <div class="row">
+        <div class="col holder">
+          <p>Overall Emotion during the interview process was : <b style="color:red">{{user.prominentEmotion}}</b></p>
+          <br />
+          <p>Keeping Neutral Sentiment is not a bad idea and it's way better than having a negative impression on the
+            interviewer.
+            A little more positive answers would definetly work for you, and you should try the same.</p>
+        </div>
+        <div class="col">
+          <img src="{{ echart }}" alt="{{echartname}}" height="300" width="400"></img>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <h2 class="holder">Your Interview Stats</h2>
+      <div class="row"
+        style="background:white;color:#4a148c;margin-left:5%;padding:3%;margin-top:1.5%;border:1px solid #4a148c;">
+        <!-- start row -->
+
+        <div class="col">
+          <span style="color:red;font-size: 30px;font-weight: bolder">Your Emotion Analysis</span><br />
+          {% set s=user.totalEmotion.values()|sum %}
+          <table class="table-bordered container-fluid" style="color:black;">
+            <thead class="thead-dark">
+
+              <tr>
+                <td>Emotion</td>
+                <td>Percentage during Interview</td>
+              </tr>
+            </thead>
+            {% for key,value in user.totalEmotion.items() %}
+            <tr>
+              <td>{{key|upper}}</td>
+              <td>{{(value*100/s)|round}}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+
+        <div class="col">
+          <span style="color:red;font-size: 30px;font-weight: bolder">Your Sentiment Analysis</span><br />
+          {% set s=user.totalSentiment.values()|sum %}
+          <table class="table-bordered container-fluid" style="color:black;">
+            <thead class="thead-dark">
+
+              <tr>
+                <td>Sentiment</td>
+                <td>Percentage during Interview</td>
+              </tr>
+            </thead>
+            {% for key,value in user.totalSentiment.items() %}
+            <tr>
+              <td>{{key.split("_")[-1]|upper}}</td>
+              <td>{{(value*100/s)|round}}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div><!-- end row -->
+      <div class="row"
+        style="background:white;color:#4a148c;margin-left:5%;padding:3%;margin-top:1.5%;border:1px solid #4a148c;">
+        Your score is {{user.totalScore|round}}<br />
+        {% if user.totalScore < 50 %}
+        <p>You need to practise as your score is below 50. You can again give mock interviews ans prepare, try to watch
+          videoson youtube and other mediums and prepare</p>
+        {% elif user.totalScore < 70 %}
+        <p>You are going great, Just a little practise and you would definetly excel in your interviews</p>
+        {% else %}
+        <p>You are doing an awesome job, but don't be overconfident. All the Best !!</p>
+        {% endif %}
+      </div>
+      <hr />
+      <div class="row">
+        <!-- start row -->
+        <div class="col-md-3 holder holder_lesspad">
+          <p style="text-align:center;padding:0%;">Your Transcript</p>
+        </div>
+        <br />
+        <div class="col-md-7 holder">
+          <div id="transcript">
+            <ul style="padding-right:1.5%"">
+              {% for item in user.user_response %}
+              <li>
+                <div class=" card card-body shadow-lg p-3 mb-5 bg-white rounded" style="border:solid black 2px;">
+              <span style="color:red;">Question</span> - &nbsp;&nbsp;&nbsp;&nbsp;{{ item.question }}<br />
+              <span style="color:green;">Answer</span> - &nbsp;&nbsp;&nbsp;&nbsp; {{ item.answer }}<br />
+              <hr />
+              Your Answer was : <br />
+
+              <span class="bg-success" style="color:white;font-weight: bolder">{{item.sentiment.sentiment_positive*100}}
+                % &nbsp;&nbsp;
+                Positive.</span>
+              <span class="bg-danger" style="color:white;font-weight: bolder">{{item.sentiment.sentiment_negative*100}}
+                % &nbsp;&nbsp;
+                Negative.</span>
+              <span class="bg-warning" style="color:white;font-weight: bolder">{{item.sentiment.sentiment_neutral*100}}
+                % &nbsp;&nbsp;
+                Neutral.</span>
+              <hr />
+              <span class="bg-info" style="color:black">Your Score was {{item.score|round}}</span>
+          </div>
+
+
+          </li>
+
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div><!-- end row -->
+    <hr />
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+</body>
+
+</html>

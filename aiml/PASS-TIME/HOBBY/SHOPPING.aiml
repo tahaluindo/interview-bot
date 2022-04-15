@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SHOPPING1
+</pattern>
+<template>
+<random>
+<li>Where is your favorite place to shop for clothes?</li>
+<li>What products do you prefer to shop online for?</li>
+<li>What products do you prefer to shop in stores for?</li>
+<li>How do you feel about sales people following you and helping you when you shop?</li>
+<li>What makes a pleasant shopping experience?</li>
+<li>How do you feel about shopping at department stores or malls?</li>
+<li>What is your favorite ecommerce site? Why?</li>
+<li>Do you know anyone who is addicted to shopping? Are you addicted to shopping?</li>
+<li>Have you ever bought any counterfeit products like fake designer bags clothing or jewelry?</li>
+<li>Do you enjoy shopping for other people?</li>
+<li>About how much did you spend on presents last year?</li>
+<li>About how much do you usually spend each day?</li>
+<li>Are you a price conscious shopper?</li>
+<li>Are you good at saving money?</li>
+<li>Are you saving money to buy something?</li>
+<li>If so what are you planning to buy?</li>
+<li>How much will it cost?</li>
+<li>How much longer will you need to save before you can buy it?</li>
+<li>Do banks pay a higher percent of interest here or in your country?</li>
+<li>Do you compare prices at different stores when you shop?</li>
+<li>Do you enjoy shopping?</li>
+<li>Do you ever buy second-hand things? ("used things")</li>
+<li>Do you ever give money to charity?</li>
+<li>Have you ever owed money to people?</li>
+<li>Have you ever bought a lottery ticket?</li>
+<li>Have you ever found any money? If so what did you do with it?</li>
+<li>Have you ever given money to a beggar?</li>
+<li>Have you ever given money to a homeless person?</li>
+<li>Have you ever had any money stolen from you?</li>
+<li>How important is money to you?</li>
+<li>How often do you go shopping?</li>
+<li>If someone gave you a lot of money what would you do with it?</li>
+<li>If someone gave you a million rs what would you do with it?</li>
+<li>Some people say that "money makes the world go around." Do you agree? Why or why not?</li>
+<li>What bank do you use?</li>
+<li>What do you need to buy next?</li>
+<li>What do you spend most of your money on?</li>
+<li>What do you spend the most money on each month?</li>
+<li>What do you want to buy next?</li>
+<li>What is something that you have bought recently that cost a lot of money?</li>
+<li>What is something that you have bought recently that was a good bargain?</li>
+<li>What is something that you have bought recently?</li>
+<li>What is something that you want to buy but don't have enough money to buy.</li>
+<li>What is something that you want to buy but think you never will.</li>
+<li>What is your opinion of discount stores?</li>
+<li>What kind of things do you often shop for?</li>
+<li>What kinds of things are you saving your money for?</li>
+<li>What store did you like best and what store did you like least?</li>
+<li>What was the last thing you bought for someone else?</li>
+<li>What was the last thing you bought for yourself?</li>
+<li>What was the last thing you spent money on?</li>
+<li>What's the most expensive thing you have ever bought?</li>
+<li>What's the most expensive thing you've ever bought?</li>
+<li>What's the most money you have spend on one thing?</li>
+<li>What's the most money you have spent on something to eat?</li>
+<li>What's the most money you have spent on something to wear?</li>
+<li>When you buy something what is most important to you: price quality fashion trend status/image?</li>
+<li>If you had to save money what can you do without?</li>
+<li>If you needed to earn some extra money how would you do that?</li>
+<li>If you had a large amount of money what would you do with it?</li>
+<li>Have you or your family ever won any money in a lottery?</li>
+<li>How much money would you have to win to be happy?</li>
+<li>Why do people often want more money no matter how much they have got?</li>
+<li>Why are poor people in many cases more generous than rich people?</li>
+<li>Do you consider companies like Microsoft and people like Bill Gates smart and shrewd?</li>
+<li>What are some of the different kinds of taxes your country has?</li>
+<li>If you were the ruler of your country what would you do to change the taxation system?</li>
+<li>What is the funniest tax you can think of to introduce?</li>
+<li>What do you like spending money on? What don't you like spending on?</li>
+<li>What would you love to buy but you can't afford?</li>
+<li>Have you ever lent money to someone? Who? What did he/she need the money for?</li>
+<li>Have you ever borrowed money from someone? Who? What did you need the money for?</li>
+<li>Do you play the lottery?</li>
+<li>How much money do you need for happiness?</li>
+<li>How often do you go shopping? Are you a price-conscious shopper? Do you "shop around" and go to many stores to compare prices?</li>
+<li>Do you ever buy second-hand things ("used things")?</li>
+<li>When you buy something what things are most important to you? Price? Quality? Fashion trends? status? or image?</li>
+<li>Do you sometimes buy things that you don't need?</li>
+<li>Are you saving money to buy something? If so what are you planning to buy? How much will it cost? How much longer will you need to save before buying it?</li>
+<li>Did your parents give you an allowance (pocket money) when you were a child? What did you use it for?</li>
+<li>Should children get an allowance from their parents?</li>
+<li>Do you ever gamble? Did you win anything?</li>
+<li>Have you ever found any money on the street? If so what did you do with it?</li>
+<li>Do you ever give money to charity? How much do you give?</li>
+<li>Have you ever given money to a beggar or homeless person?</li>
+<li>Have you ever had any money stolen from you? What happened?</li>
+<li>What would you love to buy but that you can't afford?</li>
+<li>What would you do if you won a large sum of money? What is the first thing you would buy with it? Would you invest it?</li>
+<li>Would you give some money to charity?</li>
+<li>Would you help your family/friends?</li>
+<li>How long would it take you to spend 1 million dollars?</li>
+<li>Can a person be rich without having a lot of money or possessions? How?</li>
+<li>How important is money to you? If you had little money could you be happy?</li>
+<li>How much do you spend each month on food? Where do you usually buy food?</li>
+<li>What do you spend most of your money on each month?</li>
+<li>Which costs more a hamburger here or a hamburger in your country?</li>
+<li>If someone gave you a million dollars what would you do with it?</li>
+<li>Some people say that "money makes the world go round." Do you agree?</li>
+<li>What is something that you bought recently?</li>
+<li>What is something that you want to buy but think you never will?</li>
+<li>When did you open your first bank account?</li>
+<li>How old were you when you earned your first salary? What did you spend it on?</li>
+<li>Do you think that it is right for someone to beg for money?</li>
+<li>Would you give money to a beggar? Why?</li>
+<li>When you buy something what things are most important to you: price quality fashion trends status or image?</li>
+<li>Do you have more than one bank account? Are you good at saving money?</li>
+<li>If you had to save money what could you do without? "I would stop spending money on ___".</li>
+<li>Why are poorer people in many cases more generous than rich people?</li>
+<li>If you don't want help when the store clerk asks if you need help what should you say to them? (Hint: You can say "Thanks I'm just looking.")</li>
+<li>Do you think taxes in your country are too high/low? What are some of the different kinds of taxes your country has?</li>
+<li>If you were the leader of your country what would you do to change the taxation system? What would you do to help your country's economy?</li>
+<li>Which shopping centers and stores do you like best and which do you like least?</li>
+<li>What was the last thing you bought for someone else? Why did you buy it?</li>
+<li>What's the most money you have spent on something to wear?</li>
+<li>Who takes care of the money in your family's home?</li>
+<li>What qualities must a person have to make "big money"?</li>
+<li>Do you often buy products that advertised on TV newspapers or magazines? If so what was the last item that you bought?</li>
+<li>Do you consider consumerism good or bad?</li>
+<li>What differences can you notice between commercials from 10 or 15 years ago and commercials today?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SHOPPING
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SHOPPING
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SHOPPING *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SHOPPING *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BARGAIN
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BARGAIN
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BARGAIN *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BARGAIN *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TO SHOP
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TO SHOP
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TO SHOP *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TO SHOP *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BARGAINING
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BARGAINING
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BARGAINING *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BARGAINING *
+</pattern>
+<template>
+<srai>
+SHOPPING1
+</srai>
+</template>
+</category>
+
+</aiml>

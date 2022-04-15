@@ -1,0 +1,1981 @@
+Question,Question Type,Sub Category,Category
+ Mention what is Jenkins?,TECHNICAL,JENKINS,Tools
+ Explain what is continuous integration?,TECHNICAL,JENKINS,Tools
+ What is the requirement for using Jenkins?,TECHNICAL,JENKINS,Tools
+ Mention what are the advantages of Jenkins?,TECHNICAL,JENKINS,Tools
+ Explain how you can move or copy Jenkins from one server to another?,TECHNICAL,JENKINS,Tools
+ Mention what are the commands you can use to start Jenkins manually?,TECHNICAL,JENKINS,Tools
+ Mention some of the useful plugins in Jenkin?,TECHNICAL,JENKINS,Tools
+ Explain how you can deploy a custom build of a core plugin?,TECHNICAL,JENKINS,Tools
+ Explain how can create a backup and copy files in Jenkins?,TECHNICAL,JENKINS,Tools
+ Explain how you can clone a Git repository via Jenkins?,TECHNICAL,JENKINS,Tools
+ Explain how you can set up Jenkins job?,TECHNICAL,JENKINS,Tools
+ Mention what are the two components Jenkins is mainly integrated with?,TECHNICAL,JENKINS,Tools
+ What are the differences between Docker and Hypervisors?,TECHNICAL,DOCKER,Tools
+ What is Docker?,TECHNICAL,DOCKER,Tools
+ What is Docker image?,TECHNICAL,DOCKER,Tools
+ What is Docker container?,TECHNICAL,DOCKER,Tools
+ What is Dockerfile used for?,TECHNICAL,DOCKER,Tools
+ How to create Docker container?,TECHNICAL,DOCKER,Tools
+ How to stop and restart the Docker container?,TECHNICAL,DOCKER,Tools
+ Do I lose my data when the Docker container exits?,TECHNICAL,DOCKER,Tools
+ Mention some commonly used Docker command?,TECHNICAL,DOCKER,Tools
+What is AR?,TECHNICAL,AR,Advance
+How AR is different than VR?,TECHNICAL,AR,Advance
+HOW AR is changing the world?,TECHNICAL,AR,Advance
+Any AR Application you developed in AR?,TECHNICAL,AR,Advance
+Which tools are used to develop AR Applications,TECHNICAL,AR,Advance
+Will augmented reality help in the field of  marketing?,TECHNICAL,AR,Advance
+ Where is augmented reality being used?,TECHNICAL,AR,Advance
+ Is augmented reality expensive?,TECHNICAL,AR,Advance
+Where is augmented reality heading?,TECHNICAL,AR,Advance
+Explain what is OpenStack?,TECHNICAL,OPENSTACK,Clouds
+Mention what are the three components that make modular architecture of OpenStack?,TECHNICAL,OPENSTACK,Clouds
+Give an overview of OpenStack Services?,TECHNICAL,OPENSTACK,Clouds
+What does “role” and “tenant” indicates in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+Explain what hypervisor is and what type of hypervisor does OpenStack supports?,TECHNICAL,OPENSTACK,Clouds
+What are the two types of storage does OpenStack Compute provides?,TECHNICAL,OPENSTACK,Clouds
+What are the basic functions of Identity Service in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+What are the main components of identity user management?,TECHNICAL,OPENSTACK,Clouds
+What is the meaning of term “Cinder” in OpenStack service?,TECHNICAL,OPENSTACK,Clouds
+List out the storage locations for VM images in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+Explain what is Cells in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+For networking what hardware is used in OpenStack? ,TECHNICAL,OPENSTACK,Clouds
+Explain how you can transfer volume from one owner to another in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+What is bare-metal node and what does it comprised of?,TECHNICAL,OPENSTACK,Clouds
+Mention what is the command to remove network interface from bare-metal node?,TECHNICAL,OPENSTACK,Clouds
+Explain what is the function of Cinder Scheduler?,TECHNICAL,OPENSTACK,Clouds
+Explain what is Token in OpenStack?,TECHNICAL,OPENSTACK,Clouds
+Explain about OpenStack Python SDK?,TECHNICAL,OPENSTACK,Clouds
+What is the command used for pause and unpause an instance?,TECHNICAL,OPENSTACK,Clouds
+What is the command used to list IP address information?,TECHNICAL,OPENSTACK,Clouds
+What is the meaning of term “flavor” in OpenStack? ,TECHNICAL,OPENSTACK,Clouds
+<get name="USERNAME"></get> What is Artificial Intelligence?,TECHNICAL,AI,Advance
+How AI is been utilized in your daily life?,TECHNICAL,AI,Advance
+List some applications of AI.,TECHNICAL,AI,Advance
+What is Turing test?,TECHNICAL,AI,Advance
+<get name="USERNAME"></get> What is Deep learning?,TECHNICAL,AI,Advance
+can you differentiate between supervised unsupervised and reinforcement learning.,TECHNICAL,AI,Advance
+Name few Machine Learning algorithms you know.,TECHNICAL,AI,Advance
+<get name="USERNAME"></get> Tell me any project you have done in AI.,TECHNICAL,AI,Advance
+What are the advantages of using cloud computing?,TECHNICAL,CLOUD,Advance
+Mention platforms which are used for large scale cloud computing?,TECHNICAL,CLOUD,Advance
+Explain different models for deployment in cloud computing?,TECHNICAL,CLOUD,Advance
+What is the difference in cloud computing and computing for mobiles?,TECHNICAL,CLOUD,Advance
+For a transport in cloud how you can secure your data?,TECHNICAL,CLOUD,Advance
+Mention some open source cloud computing platform databases?,TECHNICAL,CLOUD,Advance
+Explain the difference between cloud and traditional datacenters?,TECHNICAL,CLOUD,Advance
+Explain what are the different modes of software as a service,TECHNICAL,CLOUD,Advance
+How important is the platform as a service?,TECHNICAL,CLOUD,Advance
+What is a cloud service?,TECHNICAL,CLOUD,Advance
+As a infrastructure as a service what are the resources that are provided by it?,TECHNICAL,CLOUD,Advance
+What are the business benefits involved in cloud architecture?,TECHNICAL,CLOUD,Advance
+Mention what is the difference between elasticity and scalability in cloud computing?,TECHNICAL,CLOUD,Advance
+Explain hybrid and community cloud?,TECHNICAL,CLOUD,Advance
+Have you used Amazon AWS?,TECHNICAL,CLOUD,Advance
+How GOOGLE CLOUD ENGINE is different from Amazon AWS?,TECHNICAL,CLOUD,Advance
+What do you know about the term Big Data?,TECHNICAL,BIGDATA,Advance
+What are the five V’s of Big Data?,TECHNICAL,BIGDATA,Advance
+Tell us how big data and Hadoop are related to each other.,TECHNICAL,BIGDATA,Advance
+How is big data analysis helpful in increasing business revenue?,TECHNICAL,BIGDATA,Advance
+Explain the steps to be followed to deploy a Big Data solution.,TECHNICAL,BIGDATA,Advance
+Define respective components of HDFS and YARN,TECHNICAL,BIGDATA,Advance
+Why is Hadoop used for Big Data Analytics?,TECHNICAL,BIGDATA,Advance
+What are the main differences between NAS (Network-attached storage) and HDFS?,TECHNICAL,BIGDATA,Advance
+ Which technique is used to predict categorical responses?,TECHNICAL,DA,Advance
+What is logistic regression? Or State an example when you have used logistic regression recently.,TECHNICAL,DA,Advance
+What are Recommender Systems?,TECHNICAL,DA,Advance
+Why data cleaning plays a vital role in analysis?,TECHNICAL,DA,Advance
+Differentiate between univariate bivariate and multivariate analysis,TECHNICAL,DA,Advance
+ What do you understand by the term Normal Distribution?,TECHNICAL,DA,Advance
+ What is Linear Regression?,TECHNICAL,DA,Advance
+What is K-means? How can you select K for K-means?,TECHNICAL,DA,Advance
+Are expected value and mean value different?,TECHNICAL,DA,Advance
+What is the goal of A/B Testing?,TECHNICAL,DA,Advance
+What is Virtual Reality?,TECHNICAL,VR,Advance
+How do you develop an application using VR?,TECHNICAL,VR,Advance
+How VR is different than AR?,TECHNICAL,VR,Advance
+Can you name few companies which are working on product related to VR?,TECHNICAL,VR,Advance
+What are the applications of VR in healthcare?,TECHNICAL,VR,Advance
+What are the applications of VR in education?,TECHNICAL,VR,Advance
+What Are The Major Trends Driving The Introduction Of Virtual Reality Systems?,TECHNICAL,VR,Advance
+What Is Google Cardboard And How Does It Fit Into The Vr World?,TECHNICAL,VR,Advance
+How HOLOLENS is different than other VR devices?,TECHNICAL,VR,Advance
+How Might The Virtual World Change The World Of Work?,TECHNICAL,VR,Advance
+Explain Named entity recognition (NER)?,TECHNICAL,NLP,Advance
+What is Lemmatization in NLP?,TECHNICAL,NLP,Advance
+List some Components of NLP?,TECHNICAL,NLP,Advance
+List some OpenSource Libraries for NLP?,TECHNICAL,NLP,Advance
+What is latent semantic indexing? Where it is applied.,TECHNICAL,NLP,Advance
+List some areas of NLP?,TECHNICAL,NLP,Advance
+List some tools for training NLP models?,TECHNICAL,NLP,Advance
+What is NLTK?,TECHNICAL,NLP,Advance
+What is tokenization in NLP?,TECHNICAL,NLP,Advance
+What is stemming in NLP?,TECHNICAL,NLP,Advance
+What is part of speech (POS) tagging?,TECHNICAL,NLP,Advance
+List few differences between AI Machine Learning and NLP?,TECHNICAL,NLP,Advance
+What is the significance of TF-IDF?,TECHNICAL,NLP,Advance
+What is blockchain,TECHNICAL,BLOCKCHAIN,Advance
+Is blockchain and bitcoin one and the same thing.,TECHNICAL,BLOCKCHAIN,Advance
+How blockchain can bring revolution,TECHNICAL,BLOCKCHAIN,Advance
+Any projects or ideas you have implemented based on blockchain.,TECHNICAL,BLOCKCHAIN,Advance
+ What do you know about Blockchain? What is the difference between Bitcoin blockchain and Ethereum blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ What is the principle on which blockchain technology is based on?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the different types of Blockchains?,TECHNICAL,BLOCKCHAIN,Advance
+ Why is Blockchain a trusted approach?,TECHNICAL,BLOCKCHAIN,Advance
+ Name the two types of records that are present in the blockchain database?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the properties of Blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ What is encryption? What is its role in Blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ What do you mean by blocks in the blockchain technology?,TECHNICAL,BLOCKCHAIN,Advance
+ How does a block is recognized in the Blockchain approach?,TECHNICAL,BLOCKCHAIN,Advance
+ Is it possible to modify the data once it is written in a block?,TECHNICAL,BLOCKCHAIN,Advance
+ What are Block Identifiers?,TECHNICAL,BLOCKCHAIN,Advance
+ Is it possible in Blockchain to remove one or more block from the networks?,TECHNICAL,BLOCKCHAIN,Advance
+ What exactly do you know about the security of a block?,TECHNICAL,BLOCKCHAIN,Advance
+ What are Merkle trees? How important are Merkle trees in Blockchains?,TECHNICAL,BLOCKCHAIN,Advance
+ What is a ledger? Is Blockchain an incorruptible ledger?,TECHNICAL,BLOCKCHAIN,Advance
+ Name the common type of ledgers that can be considered by users in Blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ How is a blockchain ledger different from an ordinary one?,TECHNICAL,BLOCKCHAIN,Advance
+ What type of records can be kept in a Blockchain? Is there any restriction on same?,TECHNICAL,BLOCKCHAIN,Advance
+ A distributed digital ledger is used for recording transaction in Blockchain,TECHNICAL,BLOCKCHAIN,Advance
+ Can You explain the components of Blockchain Ecosystem?,TECHNICAL,BLOCKCHAIN,Advance
+ State difference between proof-of-work and proof-of-stake?,TECHNICAL,BLOCKCHAIN,Advance
+ Name some popular platforms for developing blockchain applications,TECHNICAL,BLOCKCHAIN,Advance
+ What is Double Spending? Is it possible to double spend in a Blockchain system?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the benefits of Blockchain that you know?,TECHNICAL,BLOCKCHAIN,Advance
+ Each block of a Blockchain consists of which of the following?,TECHNICAL,BLOCKCHAIN,Advance
+ Which of the following is first distributed blockchain implementation?,TECHNICAL,BLOCKCHAIN,Advance
+ Bitcoin is based on which blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ Hash identifying each block in the Blockchain is generated using which of the following cryptographic algorithm?,TECHNICAL,BLOCKCHAIN,Advance
+ A block in the blockchain can never have more than one parent block?,TECHNICAL,BLOCKCHAIN,Advance
+ Blockchain forks can result in which of the following?,TECHNICAL,BLOCKCHAIN,Advance
+ Which of the following is asymmetric encryption Algorithm?,TECHNICAL,BLOCKCHAIN,Advance
+ Can you tell me some of the widely used cryptographic algorithms?,TECHNICAL,BLOCKCHAIN,Advance
+ Tell me more about RSA algorithm? How secure is this algorithm?,TECHNICAL,BLOCKCHAIN,Advance
+ Explain the significance of blind signature and how it is useful?,TECHNICAL,BLOCKCHAIN,Advance
+ What is Secret Sharing? Does it have any benefit in Blockchain technology?,TECHNICAL,BLOCKCHAIN,Advance
+ Can you explain what are off-chain transactions?,TECHNICAL,BLOCKCHAIN,Advance
+ What exactly do you know about executive accounting? Does Blockchain support the same?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the threats to the information you are familiar with?,TECHNICAL,BLOCKCHAIN,Advance
+ How will you handle the risk management when it comes to securing the transactions records?,TECHNICAL,BLOCKCHAIN,Advance
+ What is 51% attack? ,TECHNICAL,BLOCKCHAIN,Advance
+ What challenges information leak can impose on an organization?,TECHNICAL,BLOCKCHAIN,Advance
+ What is information processing according to you? What are the key challenges that are associated with it?,TECHNICAL,BLOCKCHAIN,Advance
+ Name organizations that can use Blockchain technology?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the core requirements for a Business Blockchain?,TECHNICAL,BLOCKCHAIN,Advance
+ What are the key principles in Blockchain that are helpful in eliminating the security threats that needs to be followed?,TECHNICAL,BLOCKCHAIN,Advance
+ What is a security policy?,TECHNICAL,BLOCKCHAIN,Advance
+  Is the Blockchain Different from Banking Ledgers?,TECHNICAL,BLOCKCHAIN,Advance
+  Can you list some of the popular consensus algorithms? Why we need different consensus mechanisms?<br/>
+,TECHNICAL,BLOCKCHAIN,Advance
+ Is there any network specific conditions for using Blockchain technology in an organization?,TECHNICAL,BLOCKCHAIN,Advance
+ Name the steps that are involved in the Blockchain project implementation?,TECHNICAL,BLOCKCHAIN,Advance
+ Explain a real-life use-case where Blockchain is being used?,TECHNICAL,BLOCKCHAIN,Advance
+What is deep learning?,TECHNICAL,DL,Advance
+What is a Neural Network,TECHNICAL,DL,Advance
+How deep learning is different than machine learning,TECHNICAL,DL,Advance
+What projects you have done in DEEP LEARNING?,TECHNICAL,DL,Advance
+Do you know how to take neural network in production,TECHNICAL,DL,Advance
+Which Deep Learning Libraries you have USED,TECHNICAL,DL,Advance
+What is the cost function?,TECHNICAL,DL,Advance
+What is mean by gradient descent?,TECHNICAL,DL,Advance
+ What is meant by a backpropagation?,TECHNICAL,DL,Advance
+What is means by auto-encoder?,TECHNICAL,DL,Advance
+What are the roles of activation function?,TECHNICAL,DL,Advance
+What is Machine Learning?,TECHNICAL,ML,Advance
+Why is naive Bayes so naive ?,TECHNICAL,ML,Advance
+How AI is different from Machine Learning?,TECHNICAL,ML,Advance
+Do you know any company which have a product based on Machine Learning,TECHNICAL,ML,Advance
+How to handle unbalanced databases?,TECHNICAL,ML,Advance
+Is It the Most Important For You Model Model Accuracy or Model Performance?,TECHNICAL,ML,Advance
+What is the forward selection of data pre-processing?,TECHNICAL,ML,Advance
+What are the different Algorithm techniques in Machine Learning?,TECHNICAL,ML,Advance
+Difference between supervised and unsupervised machine learning?,TECHNICAL,ML,Advance
+What is Overfitting in Machine Learning?,TECHNICAL,ML,Advance
+What are the advantages of decision trees?,TECHNICAL,ML,Advance
+What are the three stages to build the hypotheses or model in machine learning?,TECHNICAL,ML,Advance
+What are some different cases uses of machine learning algorithms can be used?,TECHNICAL,ML,Advance
+What is computer vision,TECHNICAL,CV,Advance
+Is Computer vision or pattern recognition or image processing is all same thing.,TECHNICAL,CV,Advance
+Any projects related to computer vision?,TECHNICAL,CV,Advance
+What are the main parts of IoT systems?,TECHNICAL,IOT,Advance
+What is Internet of things?,TECHNICAL,IOT,Advance
+Have you done anything or any project related to IOT?,TECHNICAL,IOT,Advance
+Can you name few companies who are working IOT based products?,TECHNICAL,IOT,Advance
+How IOT is changing or revolutionizing our world?,TECHNICAL,IOT,Advance
+What are security concerns related to IoT?,TECHNICAL,IOT,Advance
+What is meant by a smart city regarding the Internet of Things?,TECHNICAL,IOT,Advance
+Name some of the sectors where IOT played a major role?,TECHNICAL,IOT,Advance
+What are the challenges in IOT?,TECHNICAL,IOT,Advance
+Can IOT take over human mind?,TECHNICAL,IOT,Advance
+What is the scope of IOT devices in the future?,TECHNICAL,IOT,Advance
+What is the big IOT implementation so far?,TECHNICAL,IOT,Advance
+What are Android things?,TECHNICAL,IOT,Advance
+What are the most used sensors types in iot?,TECHNICAL,IOT,Advance
+What is common uses of IoT?,TECHNICAL,IOT,Advance
+What is application of IoT in Environmental Monitoring?,TECHNICAL,IOT,Advance
+What is application of IoT in Transportation?,TECHNICAL,IOT,Advance
+What is application of IoT in Government?,TECHNICAL,IOT,Advance
+What is application of IoT in Law enforcement?,TECHNICAL,IOT,Advance
+What is IoT Cloud?,TECHNICAL,IOT,Advance
+How does the Internet of Everything relate to the Internet of Things?,TECHNICAL,IOT,Advance
+What is the difference between the Internet of Things (IoT) and the Sensors?,TECHNICAL,IOT,Advance
+Why Internet of Things will be successful in the coming years?,TECHNICAL,IOT,Advance
+What are the important Components of Internet of Things?,TECHNICAL,IOT,Advance
+What impacts will the Internet of Things (IoT) have on Energy Sector?,TECHNICAL,IOT,Advance
+What impacts will the Internet of Things (IoT) have on Agriculture Sector?,TECHNICAL,IOT,Advance
+What is application of IoT in Healthcare?,TECHNICAL,IOT,Advance
+How will the Internet of Things affect the manageability of the business and will it have any effect on the earth?,TECHNICAL,IOT,Advance
+What kind of data does Internet of Things objects convey?,TECHNICAL,IOT,Advance
+Why will the Internet of Things be effective in the coming years?,TECHNICAL,IOT,Advance
+ What is the effect of the Internet of Things have on Healthcare segment?,TECHNICAL,IOT,Advance
+ what are the fundamental difficulties of the Internet of Things usage?,TECHNICAL,IOT,Advance
+When you state Internet of Things I am not catching your meaning by the thing?,TECHNICAL,IOT,Advance
+What is Agile Methology?,TECHNICAL,AGILE,Technical
+What is the duration of a scrum sprint?,TECHNICAL,AGILE,Technical
+What do you know about impediments in Scrum? Give some examples of impediments.,TECHNICAL,AGILE,Technical
+What is the difference and similarity between Agile and Scrum?,TECHNICAL,AGILE,Technical
+State some of the Agile quality strategies.,TECHNICAL,AGILE,Technical
+Do you know about Agile Manifesto and its Principles? Explain in brief.,TECHNICAL,AGILE,Technical
+Is there any drawback of the Agile model? If yes explain.,TECHNICAL,AGILE,Technical
+What do you understand by the term Agile testing?,TECHNICAL,AGILE,Technical
+State some major principles of Agile testing.,TECHNICAL,AGILE,Technical
+Scrum is an Agile framework right? Name a few other Agile frameworks.,TECHNICAL,AGILE,Technical
+Name some methodologies and development where you have used the Agile model.,TECHNICAL,AGILE,Technical
+What is the difference between the agile and traditional way of working?,TECHNICAL,AGILE,Technical
+How is an agile testing methodology different from other testing methodologies?,TECHNICAL,AGILE,Technical
+ What is Ubuntu and how does it work? ,TECHNICAL,UBUNTU,OS
+ What is the latest version of Ubuntu? ,TECHNICAL,UBUNTU,OS
+ Why is it called Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I install Ubuntu on my PC? ,TECHNICAL,UBUNTU,OS
+ Which is the best version of Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What are the Minimum System Requirements to install Ubuntu? ,TECHNICAL,UBUNTU,OS
+ Explain the difference between Windows and Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What are some New features in Ubuntu 17.10? ,TECHNICAL,UBUNTU,OS
+ How do I check my current version of Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What are the basic commands in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What is the Ubuntu terminal? ,TECHNICAL,UBUNTU,OS
+ How do I create a service in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How to start services in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I get to root in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How to open a file in Ubuntu terminal? ,TECHNICAL,UBUNTU,OS
+ How do you create a new file in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I get help in Ubuntu terminal? ,TECHNICAL,UBUNTU,OS
+ What is sudo command in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do you go to a directory in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How to use mkdir command in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I reboot Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do you create an empty file in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I free up disk space on Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What is chmod command Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I change the root password in Ubuntu terminal? ,TECHNICAL,UBUNTU,OS
+ How do I delete a user account in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ How do I change the user in Ubuntu? ,TECHNICAL,UBUNTU,OS
+ What is the difference between Linux and Windows? ,TECHNICAL,WINDOWS,OS
+ What are the five main functions of an operating system? ,TECHNICAL,WINDOWS,OS
+ Why do we need windows on the computer? ,TECHNICAL,WINDOWS,OS
+ What is the difference between window and windows? ,TECHNICAL,WINDOWS,OS
+ What are the types of Windows operating system? ,TECHNICAL,WINDOWS,OS
+ What is a Windows server used for? ,TECHNICAL,WINDOWS,OS
+ Explain the difference between thread  and process in an operating system? ,TECHNICAL,WINDOWS,OS
+ How can I see all IP addresses on my network using CMD? ,TECHNICAL,WINDOWS,OS
+ What is Active Directory and how does it work? ,TECHNICAL,WINDOWS,OS
+ What is meant by 32bit and 64bit operating system? ,TECHNICAL,WINDOWS,OS
+ Which is better Windows 7 or Windows XP? ,TECHNICAL,WINDOWS,OS
+ What is the difference between Windows 7 and Windows 10? ,TECHNICAL,WINDOWS,OS
+What is the description for Kernel?,TECHNICAL,UNIX,Core
+What are the main features of UNIX?,TECHNICAL,UNIX,Core
+What is called Shell?,TECHNICAL,UNIX,Core
+What are the responsibilities of a shell?,TECHNICAL,UNIX,Core
+Describe the term directory in UNIX?,TECHNICAL,UNIX,Core
+Describe fork() system call?,TECHNICAL,UNIX,Core
+What is meant by Super User in unix?,TECHNICAL,UNIX,Core
+What are the different file types available with UNIX?,TECHNICAL,UNIX,Core
+Discuss the difference between swapping and paging?,TECHNICAL,UNIX,Core
+What do you understand by UNIX shell?,TECHNICAL,UNIX,Core
+What do you understand by shell variables?,TECHNICAL,UNIX,Core
+Define piping in unix,TECHNICAL,UNIX,Core
+What do you understand by terms system calls and library functions with respect to UNIX command?,TECHNICAL,UNIX,Core
+Explain pid in unix systems.,TECHNICAL,UNIX,Core
+ What is chmod command?,TECHNICAL,UNIX,Core
+Differentiate Swapping and Paging.,TECHNICAL,UNIX,Core
+What is data structure?,TECHNICAL,DS,Core
+ Differentiate between file and structure storage structure.,TECHNICAL,DS,Core
+When is a binary search best applied?,TECHNICAL,DS,Core
+What is a linked list?,TECHNICAL,DS,Core
+In what areas do data structures are applied?,TECHNICAL,DS,Core
+What is a queue?,TECHNICAL,DS,Core
+What are binary trees?,TECHNICAL,DS,Core
+Which data structures are applied when dealing with a recursive function?,TECHNICAL,DS,Core
+What is a stack?,TECHNICAL,DS,Core
+Explain Binary Search Tree,TECHNICAL,DS,Core
+Are linked lists considered linear or non-linear data structures?,TECHNICAL,DS,Core
+What is merge sort?,TECHNICAL,DS,Core
+What is the primary advantage of a linked list?,TECHNICAL,DS,Core
+What is a linear search?,TECHNICAL,DS,Core
+What is a postfix expression?,TECHNICAL,DS,Core
+How do signed and unsigned numbers affect memory?,TECHNICAL,DS,Core
+ What are dynamic data structures?,TECHNICAL,DS,Core
+In what data structures are pointers applied?,TECHNICAL,DS,Core
+What are ARRAYs?,TECHNICAL,DS,Core
+What is the minimum number of queues needed when implementing a priority queue?,TECHNICAL,DS,Core
+Which sorting algorithm is considered the fastest?,TECHNICAL,DS,Core
+Differentiate STACK from ARRAY.,TECHNICAL,DS,Core
+What is a bubble sort and how do you perform it?,TECHNICAL,DS,Core
+What is an AVL tree?,TECHNICAL,DS,Core
+What is Fibonacci search?,TECHNICAL,DS,Core
+Briefly explain recursive algorithm.,TECHNICAL,DS,Core
+Differentiate between file and structure storage structure.,TECHNICAL,DS,Core
+How do you reference all the elements in a one-dimension array?,TECHNICAL,DS,Core
+In what areas do data structures are applied?,TECHNICAL,DS,Core
+What is LIFO?,TECHNICAL,DS,Core
+What are multidimensional arrays?,TECHNICAL,DS,Core
+How does dynamic memory allocation help in managing data?,TECHNICAL,DS,Core
+What is FIFO?,TECHNICAL,DS,Core
+What is an ordered list?,TECHNICAL,DS,Core
+Differentiate NULL and VOID,TECHNICAL,DS,Core
+What is the difference between a PUSH and a POP?,TECHNICAL,DS,Core
+How does variable declaration affect memory allocation?,TECHNICAL,DS,Core
+What is the advantage of the heap over a stack?,TECHNICAL,DS,Core
+What is Data abstraction?,TECHNICAL,DS,Core
+How do you insert a new item in a binary search tree?,TECHNICAL,DS,Core
+How does a selection sort work for an array?,TECHNICAL,DS,Core
+What is the minimum number of nodes that a binary tree can have?,TECHNICAL,DS,Core
+What are dynamic data structures?,TECHNICAL,DS,Core
+Do all declaration statements result in a fixed reservation in memory?,TECHNICAL,DS,Core
+Give a basic algorithm for searching a binary search tree.,TECHNICAL,DS,Core
+What is a dequeue?,TECHNICAL,DS,Core
+What are the parts of a linked list?,TECHNICAL,DS,Core
+How does selection sort work?,TECHNICAL,DS,Core
+What is a graph?,TECHNICAL,DS,Core
+Differentiate linear from a nonlinear data structure.,TECHNICAL,DS,Core
+What are doubly linked lists?,TECHNICAL,DS,Core
+What is Huffman’s algorithm?,TECHNICAL,DS,Core
+How do you search for a target key in a linked list?,TECHNICAL,DS,Core
+What is Linux?,TECHNICAL,LINUX,Core
+What is the difference between UNIX and LINUX?,TECHNICAL,LINUX,Core
+What is BASH?,TECHNICAL,LINUX,Core
+ What is Linux Kernel?,TECHNICAL,LINUX,Core
+What is LILO? (in linux (its a bootloader)) ,TECHNICAL,LINUX,Core
+What is the advantage of open source?,TECHNICAL,LINUX,Core
+What are the basic components of Linux?,TECHNICAL,LINUX,Core
+Does it help for a Linux system to have multiple desktop environments installed?,TECHNICAL,LINUX,Core
+What is the basic difference between BASH and DOS?,TECHNICAL,LINUX,Core
+Describe the root account.,TECHNICAL,LINUX,Core
+What is CLI?,TECHNICAL,LINUX,Core
+How do you change permissions under Linux?,TECHNICAL,LINUX,Core
+What is the maximum length for a filename under Linux?,TECHNICAL,LINUX,Core
+What are daemons?,TECHNICAL,LINUX,Core
+What are the kinds of permissions under Linux?,TECHNICAL,LINUX,Core
+What is grep command?,TECHNICAL,LINUX,Core
+What is the difference between Linux and Unix?,TECHNICAL,LINUX,Core
+What is Linux Kernel? Is it legal to edit Linux Kernel?,TECHNICAL,LINUX,Core
+What is LILO?,TECHNICAL,LINUX,Core
+Which are the Shells used in Linux?,TECHNICAL,LINUX,Core
+What is Swap Space?,TECHNICAL,LINUX,Core
+What is the difference between BASH and DOS?,TECHNICAL,LINUX,Core
+What command would you use to check how much memory is being used by Linux?,TECHNICAL,LINUX,Core
+Explain file permission in Linux.,TECHNICAL,LINUX,Core
+What are inode and process id?,TECHNICAL,LINUX,Core
+Which are the Linux Directory Commands?,TECHNICAL,LINUX,Core
+What is Virtual Desktop?,TECHNICAL,LINUX,Core
+Which are the different modes of vi editor?,TECHNICAL,LINUX,Core
+What are the process states in Linux?,TECHNICAL,LINUX,Core
+Explain grep command.,TECHNICAL,LINUX,Core
+Explain Process Management System Calls in Linux,TECHNICAL,LINUX,Core
+Explain the ‘ls’ command in Linux,TECHNICAL,LINUX,Core
+Why is the tar command used?,TECHNICAL,LINUX,Core
+What is a Latch?,TECHNICAL,LINUX,Core
+What is a Microprocessor?,TECHNICAL,LINUX,Core
+Explain Regular Expressions and Grep,TECHNICAL,LINUX,Core
+What is the minimum number of disk partitions required to install Linux?,TECHNICAL,LINUX,Core
+How to copy a file in Linux?,TECHNICAL,LINUX,Core
+How to terminate a running process in Linux?,TECHNICAL,LINUX,Core
+How to rename a file in Linux?,TECHNICAL,LINUX,Core
+How to write the output of a command to a file?,TECHNICAL,LINUX,Core
+How to see the list of mounted devices on Linux?,TECHNICAL,LINUX,Core
+How to find where a file is stored in Linux?,TECHNICAL,LINUX,Core
+How to find the difference in two configuration files?,TECHNICAL,LINUX,Core
+Write a bash script to delete all the files in the current directory that contains the word “linux”.,TECHNICAL,LINUX,Core
+How would you create a text file without opening it?,TECHNICAL,LINUX,Core
+How would you delete a directory in Linux?,TECHNICAL,LINUX,Core
+How would you schedule a task in Linux?,TECHNICAL,LINUX,Core
+Suppose you try to delete a file using the rm command and the deletion fails,TECHNICAL,LINUX,Core
+How do you look at the contents of a file named sample.z?,TECHNICAL,LINUX,Core
+How to copy files to a Floppy Disk safely?,TECHNICAL,LINUX,Core
+How to identify which shell you are using?,TECHNICAL,LINUX,Core
+How can you login to another system in your network from your system?,TECHNICAL,LINUX,Core
+How would you open a file in read-only mode using the vim editor?,TECHNICAL,LINUX,Core
+How would you search for a specific Employee ID in a file using the vim editor?,TECHNICAL,LINUX,Core
+How to jump to a particular line in a file using vim editor?,TECHNICAL,LINUX,Core
+How do you sort the entries in a text file in ascending order?,TECHNICAL,LINUX,Core
+What is the export command used for?,TECHNICAL,LINUX,Core
+How do you check if a particular service in running?,TECHNICAL,LINUX,Core
+How do you check the status of all the services?,TECHNICAL,LINUX,Core
+How do you start and stop a service?,TECHNICAL,LINUX,Core
+Explain the free command.,TECHNICAL,LINUX,Core
+ Explain the key characteristic of Agile testing methodology. ,TECHNICAL,AGILETESTING,Testing
+ What are the changes that an Agile development team has to accept with the addition of the testing process? ,TECHNICAL,AGILETESTING,Testing
+ How Can Agile testing be advantageous to the developers? ,TECHNICAL,AGILETESTING,Testing
+ Mention few differences between Agile and conventional methodologies. ,TECHNICAL,AGILETESTING,Testing
+ Explain the Agile testing life cycle. ,TECHNICAL,AGILETESTING,Testing
+ Differentiate sprint backlog and product backlog ,TECHNICAL,AGILETESTING,Testing
+ What is velocity in Agile? ,TECHNICAL,AGILETESTING,Testing
+ What is pair programming? ,TECHNICAL,AGILETESTING,Testing
+ What is a test stub in Agile? ,TECHNICAL,AGILETESTING,Testing
+ Mention the qualities that an excellent Agile tester should have. ,TECHNICAL,AGILETESTING,Testing
+ Differentiate user stories tasks and epic. ,TECHNICAL,AGILETESTING,Testing
+ Explain the term spike. ,TECHNICAL,AGILETESTING,Testing
+ What is TDD (Test Driven Development)? ,TECHNICAL,AGILETESTING,Testing
+ What is scrum-ban? ,TECHNICAL,AGILETESTING,Testing
+ Explain the tracer bullet. ,TECHNICAL,AGILETESTING,Testing
+ What do you mean by Taskboard in Agile? ,TECHNICAL,AGILETESTING,Testing
+ Explain the difference between burn-down and burn-up in Agile? ,TECHNICAL,AGILETESTING,Testing
+ What do you mean by refactoring also explain its importance in agile testing? ,TECHNICAL,AGILETESTING,Testing
+ Explain the difference between agile and scrum? ,TECHNICAL,AGILETESTING,Testing
+ What are the Advantages of Manual Testing and Automated Testing? ,TECHNICAL,TESTING,Testing
+ How automation process is carried out? ,TECHNICAL,TESTING,Testing
+ Elaborate the situation where automation testing can’t be used for agile methods? ,TECHNICAL,TESTING,Testing
+ Name the frameworks that are used in Software Automation Testing? ,TECHNICAL,TESTING,Testing
+ Elaborate the scripting standard while executing testing ,TECHNICAL,TESTING,Testing
+ Notice the distinction between Data Driven Testing and Retesting? ,TECHNICAL,TESTING,Testing
+ What is client side validation? Write a snippet. ,TECHNICAL,TESTING,Testing
+ What is Selenium? ,TECHNICAL,TESTING,Testing
+ What is Quick Test Professional and what test environment it supports? ,TECHNICAL,TESTING,Testing
+ Elaborate the fields in Bug Report in automated testing ,TECHNICAL,TESTING,Testing
+ What is the difference between Static and Dynamic Testing? ,TECHNICAL,TESTING,Testing
+ Highlight attributes of good framework ,TECHNICAL,TESTING,Testing
+ How do select which automation testing tool is the best for you? ,TECHNICAL,TESTING,Testing
+ What is Self-referencing constraint in mainframe development? ,TECHNICAL,TESTING,Testing
+ Elaborate Test Plan and content availability in test plan. ,TECHNICAL,TESTING,Testing
+ What is Test Environment? Elaborate with example. ,TECHNICAL,TESTING,Testing
+ How Software Testing is handled? ,TECHNICAL,TESTING,Testing
+ Differentiate between HDAM and HIDAM Database? ,TECHNICAL,TESTING,Testing
+ What is lock Contention? ,TECHNICAL,TESTING,Testing
+ What are the different types of locks in mainframe? ,TECHNICAL,TESTING,Testing
+ What is the difference between Continue and Next Sentence? ,TECHNICAL,TESTING,Testing
+ Define some of the attributes of a test case? ,TECHNICAL,TESTING,Testing
+ Simplify the term defect severity. ,TECHNICAL,TESTING,Testing
+ Give some examples of priority – severity defect levels. ,TECHNICAL,TESTING,Testing
+ What is a critical bug in a testing field? ,TECHNICAL,TESTING,Testing
+ Define SDLC in testing. ,TECHNICAL,TESTING,Testing
+ Is it possible to achieve 100% automation? ,TECHNICAL,TESTING,Testing
+ Where to maintain information like login password and URL? ,TECHNICAL,TESTING,Testing
+ Mention a few good practices while performing automation testing. ,TECHNICAL,TESTING,Testing
+ Is UI level testing possible? ,TECHNICAL,TESTING,Testing
+ How to select an automation tool best matched for your project? ,TECHNICAL,TESTING,Testing
+ What are the advantages of Selenium as a test tool? ,TECHNICAL,SELENIUM,Testing
+ What are the different components in Selenium? ,TECHNICAL,SELENIUM,Testing
+ What are testing types supported by Selenium? ,TECHNICAL,SELENIUM,Testing
+ What is the purpose of Selenium IDE? ,TECHNICAL,SELENIUM,Testing
+ What do you mean by Selenese? ,TECHNICAL,SELENIUM,Testing
+ How many types of locators are there in Selenium? ,TECHNICAL,SELENIUM,Testing
+ How is Assert command different from Verify command? ,TECHNICAL,SELENIUM,Testing
+ Explain XPath. ,TECHNICAL,SELENIUM,Testing
+ How are Selenium IDE WebDriver and Selenium RC different from each other? ,TECHNICAL,SELENIUM,Testing
+ What is the use of Selenium Grid? ,TECHNICAL,SELENIUM,Testing
+ What are Selenium 1 and Selenium 2? ,TECHNICAL,SELENIUM,Testing
+ Name the different types of waits in WebDriver. ,TECHNICAL,SELENIUM,Testing
+ What are the uses of findElement() and findElements()? ,TECHNICAL,SELENIUM,Testing
+ How is driver.close()command different from driver.quit command? ,TECHNICAL,SELENIUM,Testing
+ Is Selenium capable of handling Windows pop-ups? ,TECHNICAL,SELENIUM,Testing
+ How are web-based pop-ups handled in Selenium? ,TECHNICAL,SELENIUM,Testing
+ Explain Junit. What are annotations? ,TECHNICAL,SELENIUM,Testing
+ How is TestNG better than Junit? ,TECHNICAL,SELENIUM,Testing
+ How is Selenium different from QTP? ,TECHNICAL,SELENIUM,Testing
+What is Struts2?,TECHNICAL,STRUTS,Frameworks
+What are the differences between Struts1 and Struts2 or how Struts2 is better than Struts1?,TECHNICAL,STRUTS,Frameworks
+What are Struts2 core components?,TECHNICAL,STRUTS,Frameworks
+What is interceptor in Struts2?,TECHNICAL,STRUTS,Frameworks
+Which design pattern is implemented by Struts2 interceptors?,TECHNICAL,STRUTS,Frameworks
+What are different ways to create Action classes in Struts2?,TECHNICAL,STRUTS,Frameworks
+Does Struts2 action and interceptors are thread safe?,TECHNICAL,STRUTS,Frameworks
+Name some useful annotations introduced in Struts2?,TECHNICAL,STRUTS,Frameworks
+Provide some important Struts2 constants that you have used?,TECHNICAL,STRUTS,Frameworks
+How can we upload files in Struts2 application?,TECHNICAL,STRUTS,Frameworks
+What are best practices to follow while developing Struts2 application?,TECHNICAL,STRUTS,Frameworks
+What is Spring Framework?,TECHNICAL,SPRING,Frameworks
+What are some of the important features and advantages of Spring Framework?,TECHNICAL,SPRING,Frameworks
+What do you understand by Dependency Injection?,TECHNICAL,SPRING,Frameworks
+How do we implement Dependency Injection in Spring Framework?,TECHNICAL,SPRING,Frameworks
+What do you understand by Aspect Oriented Programming?,TECHNICAL,SPRING,Frameworks
+Name some of the important Spring Modules?,TECHNICAL,SPRING,Frameworks
+What is a Spring Bean?,TECHNICAL,SPRING,Frameworks
+What is a Controller in Spring MVC?,TECHNICAL,SPRING,Frameworks
+How Spring is different than STRUTS?,TECHNICAL,SPRING,Frameworks
+What is a difference between SPRING and HIBERNATE?,TECHNICAL,SPRING,Frameworks
+How would you relate Spring MVC Framework to MVC architecture?,TECHNICAL,SPRING,Frameworks
+What are some of the important Spring annotations you have used?,TECHNICAL,SPRING,Frameworks
+How to integrate Spring and Hibernate Frameworks?,TECHNICAL,SPRING,Frameworks
+What are some of the best practices for Spring Framework?,TECHNICAL,SPRING,Frameworks
+What are other java frameworks you know other than Spring?,TECHNICAL,SPRING,Frameworks
+Name some of the design patterns used in Spring Framework?,TECHNICAL,SPRING,Frameworks
+What are the major features in different versions of Spring Framework?,TECHNICAL,SPRING,Frameworks
+List the advantages of Spring Framework.,TECHNICAL,SPRING,Frameworks
+What are the different features of Spring Framework?,TECHNICAL,SPRING,Frameworks
+How many modules are there in Spring Framework and what are they?,TECHNICAL,SPRING,Frameworks
+What is a Spring configuration file?,TECHNICAL,SPRING,Frameworks
+What is Spring IOC Container?,TECHNICAL,SPRING,Frameworks
+What do you mean by Dependency Injection? ,TECHNICAL,SPRING,Frameworks
+Differentiate between BeanFactory and ApplicationContext.,TECHNICAL,SPRING,Frameworks
+What do you mean by  Annotation-based container configuration?,TECHNICAL,SPRING,Frameworks
+ What do you understand by @RequestMapping annotation?,TECHNICAL,SPRING,Frameworks
+Describe Spring DAO support?,TECHNICAL,SPRING,Frameworks
+ Which classes are present in spring JDBC API?,TECHNICAL,SPRING,Frameworks
+What are the ways by which Hibernate can be accessed using Spring?,TECHNICAL,SPRING,Frameworks
+Name the types of transaction management that Spring supports.,TECHNICAL,SPRING,Frameworks
+What do you mean by Aspect?,TECHNICAL,SPRING,Frameworks
+Explain JoinPoint in SPRING?.,TECHNICAL,SPRING,Frameworks
+What do you mean by Spring MVC framework?,TECHNICAL,SPRING,Frameworks
+What is HIBERNATE?,TECHNICAL,HIBERNATE,Frameworks
+What is an ORM?,TECHNICAL,HIBERNATE,Frameworks
+How HIBERNATE fastens the application development?,TECHNICAL,HIBERNATE,Frameworks
+Have you used hibernate in any project?,TECHNICAL,HIBERNATE,Frameworks
+What are the important benefits of using Hibernate Framework?,TECHNICAL,HIBERNATE,Frameworks
+What are the advantages of Hibernate over JDBC?,TECHNICAL,HIBERNATE,Frameworks
+Name some important interfaces of Hibernate framework?,TECHNICAL,HIBERNATE,Frameworks
+What is Hibernate Session and how to get it?,TECHNICAL,HIBERNATE,Frameworks
+What is Named SQL Query?,TECHNICAL,HIBERNATE,Frameworks
+What is Scala? Is it a Language or Platform? Does it support OOP or FP? Who is the father of Scala?,TECHNICAL,SCALA,Frameworks
+Is Scala Statically-Typed Language? What is Statically-Typed Language and What is Dynamically-Typed Language?,TECHNICAL,SCALA,Frameworks
+What is the difference between statically typed and dynamically typed languages?,TECHNICAL,SCALA,Frameworks
+Is Scala a Pure OOP Language? Is Java a Pure OOP Language?,TECHNICAL,SCALA,Frameworks
+Does Scala support all Functional Programming concepts? Does Java 8 support all Functional Programming concepts?,TECHNICAL,SCALA,Frameworks
+What are the major advantages of Scala Language? Are there any drawbacks of Scala Language?,TECHNICAL,SCALA,Frameworks
+What is the Main drawback of Scala Language?,TECHNICAL,SCALA,Frameworks
+What is the main motto of Scala Language?,TECHNICAL,SCALA,Frameworks
+What are the popular JVM Languages available now?,TECHNICAL,SCALA,Frameworks
+Like Java’s java.lang.Object class what is the super class of all classes in Scala?,TECHNICAL,SCALA,Frameworks
+What is default access modifier in Scala?Does Scala have “public” keyword?,TECHNICAL,SCALA,Frameworks
+Is Scala an Expression-Based Language or Statement-Based Language? Is Java an Expression-Based Language or Statement-Based Language?,TECHNICAL,SCALA,Frameworks
+Tell me some features which are supported by Java but not by Scala and Vice versa?,TECHNICAL,SCALA,Frameworks
+Mention Some keywords which are used by Java and not required in Scala? Why Scala does not require them?,TECHNICAL,SCALA,Frameworks
+ Compare Hadoop and Spark Hadoop,TECHNICAL,SPARK,Frameworks
+ What is Apache Spark?,TECHNICAL,SPARK,Frameworks
+ Explain the key features of Apache Spark,TECHNICAL,SPARK,Frameworks
+ What are the languages supported by Apache Spark and which is the most popular one?,TECHNICAL,SPARK,Frameworks
+ What are benefits of Spark over MapReduce?,TECHNICAL,SPARK,Frameworks
+ What is YARN?,TECHNICAL,SPARK,Frameworks
+ Do you need to install Spark on all nodes of YARN cluster?,TECHNICAL,SPARK,Frameworks
+ Is there any benefit of learning MapReduce if Spark is better than MapReduce?,TECHNICAL,SPARK,Frameworks
+ Explain the concept of Resilient Distributed Dataset (RDD),TECHNICAL,SPARK,Frameworks
+ How do we create RDDs in Spark?,TECHNICAL,SPARK,Frameworks
+ What is Executor Memory in a Spark application?,TECHNICAL,SPARK,Frameworks
+ Define Partitions in Apache Spark,TECHNICAL,SPARK,Frameworks
+ What operations does RDD support?,TECHNICAL,SPARK,Frameworks
+ What do you understand by Transformations in Spark?,TECHNICAL,SPARK,Frameworks
+ Define Actions in Spark,TECHNICAL,SPARK,Frameworks
+ Define functions of SparkCore,TECHNICAL,SPARK,Frameworks
+ What do you understand by Pair RDD?,TECHNICAL,SPARK,Frameworks
+ Name the components of Spark Ecosystem,TECHNICAL,SPARK,Frameworks
+ How is Streaming implemented in Spark? Explain with examples,TECHNICAL,SPARK,Frameworks
+ Is there an API for implementing graphs in Spark?,TECHNICAL,SPARK,Frameworks
+ What is PageRank in GraphX?,TECHNICAL,SPARK,Frameworks
+ How is machine learning implemented in Spark?,TECHNICAL,SPARK,Frameworks
+ Is there a module to implement SQL in Spark? How does it work?,TECHNICAL,SPARK,Frameworks
+ How can Apache Spark be used alongside Hadoop?,TECHNICAL,SPARK,Frameworks
+ What is RDD Lineage?,TECHNICAL,SPARK,Frameworks
+ What is Spark Driver?,TECHNICAL,SPARK,Frameworks
+ What file systems does Spark support?,TECHNICAL,SPARK,Frameworks
+ List the functions of Spark SQL,TECHNICAL,SPARK,Frameworks
+ What is Spark Executor?,TECHNICAL,SPARK,Frameworks
+ Name types of Cluster Managers in Spark,TECHNICAL,SPARK,Frameworks
+ What do you understand by worker node?,TECHNICAL,SPARK,Frameworks
+ Illustrate some demerits of using Spark,TECHNICAL,SPARK,Frameworks
+ List some use cases where Spark outperforms Hadoop in processing,TECHNICAL,SPARK,Frameworks
+ What is a Sparse Vector?,TECHNICAL,SPARK,Frameworks
+ Can you use Spark to access and analyze data stored in Cassandra databases?,TECHNICAL,SPARK,Frameworks
+ Is it possible to run Apache Spark on Apache Mesos?,TECHNICAL,SPARK,Frameworks
+ How can Spark be connected to Apache Mesos?,TECHNICAL,SPARK,Frameworks
+ How can you minimize data transfers when working with Spark?,TECHNICAL,SPARK,Frameworks
+ What are broadcast variables?,TECHNICAL,SPARK,Frameworks
+ Why is there a need for broadcast variables when working with Apa,TECHNICAL,SPARK,Frameworks
+ How can you trigger automatic clean-ups in Spark to handle accumulated metadata?,TECHNICAL,SPARK,Frameworks
+ What is the significance of Sliding Window operation?,TECHNICAL,SPARK,Frameworks
+ When running Spark applications is it necessary to install Spark on all the nodes of YARN cluster?,TECHNICAL,SPARK,Frameworks
+ What are the various data sources available in Spark SQL?,TECHNICAL,SPARK,Frameworks
+ What are the various levels of persistence in Apache Spark?,TECHNICAL,SPARK,Frameworks
+ Does Apache Spark provide checkpoints?,TECHNICAL,SPARK,Frameworks
+ How Spark uses Akka?,TECHNICAL,SPARK,Frameworks
+ What do you understand by Lazy Evaluation?,TECHNICAL,SPARK,Frameworks
+ Explain a scenario where you will be using Spark Streaming,TECHNICAL,SPARK,Frameworks
+What is CSS?,TECHNICAL,CSS,WebTech
+What are the different variations of CSS?,TECHNICAL,CSS,WebTech
+How can you integrate CSS on a web page?,TECHNICAL,CSS,WebTech
+What are the advantages of CSS?,TECHNICAL,CSS,WebTech
+What are the limitations of CSS?,TECHNICAL,CSS,WebTech
+What are the CSS frameworks?,TECHNICAL,CSS,WebTech
+Why background and color are the separate properties if they should always be set together?,TECHNICAL,CSS,WebTech
+What is Embedded Style Sheet?,TECHNICAL,CSS,WebTech
+What is a CSS selector?,TECHNICAL,CSS,WebTech
+Name some CSS style components.,TECHNICAL,CSS,WebTech
+What are the advantages of External Style Sheets?,TECHNICAL,CSS,WebTech
+What is the difference between inline embedded and external style sheets?,TECHNICAL,CSS,WebTech
+What is the difference between CSS2 and CSS3?,TECHNICAL,CSS,WebTech
+What is AJAX?,TECHNICAL,AJAX,WebTech
+What are the advantages of AJAX?,TECHNICAL,AJAX,WebTech
+What are the disadvantages of AJAX?,TECHNICAL,AJAX,WebTech
+What are the real web applications of AJAX currently running in the market?,TECHNICAL,AJAX,WebTech
+What are the security issues with AJAX?,TECHNICAL,AJAX,WebTech
+What is the difference between synchronous and asynchronous requests?,TECHNICAL,AJAX,WebTech
+What are the technologies used by AJAX?,TECHNICAL,AJAX,WebTech
+What is the purpose of XMLHttpRequest?,TECHNICAL,AJAX,WebTech
+What are the properties of XMLHttpRequest?,TECHNICAL,AJAX,WebTech
+What is the role of the callback function in AJAX?,TECHNICAL,AJAX,WebTech
+What is JSON in AJAX?,TECHNICAL,AJAX,WebTech
+What are the tools for debugging AJAX applications?,TECHNICAL,AJAX,WebTech
+What is the difference between JavaScript and AJAX?,TECHNICAL,AJAX,WebTech
+What is Node.js?,TECHNICAL,NODEJS,WebTech
+What is the fundamental difference between Node.js and Ajax?,TECHNICAL,NODEJS,WebTech
+Explain the term I/O in the context of Node.js.,TECHNICAL,NODEJS,WebTech
+State where Node.js can be used.,TECHNICAL,NODEJS,WebTech
+List the tools and IDEs that are used for Node.js.,TECHNICAL,NODEJS,WebTech
+What is an error-first callback?,TECHNICAL,NODEJS,WebTech
+In the context of Node.js differentiate between operational and programmer errors.,TECHNICAL,NODEJS,WebTech
+Which is the framework that is most commonly used in Node.js?,TECHNICAL,NODEJS,WebTech
+Define “event-driven programming.,TECHNICAL,NODEJS,WebTech
+What are the two sections of event-driven programming?,TECHNICAL,NODEJS,WebTech
+List some of the big advantages of using Node.js.,TECHNICAL,NODEJS,WebTech
+List the steps involved in the Control Flow function.,TECHNICAL,NODEJS,WebTech
+Can a user access DOM in a Node?,TECHNICAL,NODEJS,WebTech
+In Node.js how do you access the last expression?,TECHNICAL,NODEJS,WebTech
+In Node.js which command is used to import external libraries?,TECHNICAL,NODEJS,WebTech
+What is the biggest drawback of Node.js?,TECHNICAL,NODEJS,WebTech
+  Differentiate between Real DOM and Virtual DOM,TECHNICAL,REACTJS,WebTech
+ What is React?,TECHNICAL,REACTJS,WebTech
+ What are the features of React?,TECHNICAL,REACTJS,WebTech
+ List some of the major advantages of React,TECHNICAL,REACTJS,WebTech
+ What are the limitations of React?,TECHNICAL,REACTJS,WebTech
+ What is JSX?,TECHNICAL,REACTJS,WebTech
+ What do you understand by Virtual DOM? Explain its working,TECHNICAL,REACTJS,WebTech
+ Why can’t browsers read JSX?,TECHNICAL,REACTJS,WebTech
+ How different is React’s ES6 syntax when compared to ES5?,TECHNICAL,REACTJS,WebTech
+ How is React different from Angular?,TECHNICAL,REACTJS,WebTech
+ What do you understand from “In React everything is a component,TECHNICAL,REACTJS,WebTech
+ Explain the purpose of render() in React,TECHNICAL,REACTJS,WebTech
+ How can you embed two or more components into one?,TECHNICAL,REACTJS,WebTech
+ What is Props?,TECHNICAL,REACTJS,WebTech
+ What is a state in React and how is it used?,TECHNICAL,REACTJS,WebTech
+ Differentiate between states and props,TECHNICAL,REACTJS,WebTech
+ How can you update the state of a component?,TECHNICAL,REACTJS,WebTech
+ What is arrow function in React? How is it used?,TECHNICAL,REACTJS,WebTech
+ Differentiate between stateful and stateless components,TECHNICAL,REACTJS,WebTech
+ What are the different phases of React component’s lifecycle?,TECHNICAL,REACTJS,WebTech
+ Explain the lifecycle methods of React components in detail,TECHNICAL,REACTJS,WebTech
+ What is an event in React?,TECHNICAL,REACTJS,WebTech
+ How do you create an event in React?,TECHNICAL,REACTJS,WebTech
+ What are synthetic events in React?,TECHNICAL,REACTJS,WebTech
+ What do you understand by refs in React?,TECHNICAL,REACTJS,WebTech
+ List some of the cases when you should use Refs,TECHNICAL,REACTJS,WebTech
+ How do you modularize code in React?,TECHNICAL,REACTJS,WebTech
+ What do you know about controlled and uncontrolled components?,TECHNICAL,REACTJS,WebTech
+ What are Higher Order Components(HOC)?,TECHNICAL,REACTJS,WebTech
+ What can you do with HOC?,TECHNICAL,REACTJS,WebTech
+ What are Pure Components?,TECHNICAL,REACTJS,WebTech
+ What is the significance of keys in React?,TECHNICAL,REACTJS,WebTech
+ What were the major problems with MVC framework?,TECHNICAL,REACTJS,WebTech
+ Explain Flux in react?,TECHNICAL,REACTJS,WebTech
+ What are the three principles that Redux follows?,TECHNICAL,REACTJS,WebTech
+ What do you understand by “S,TECHNICAL,REACTJS,WebTech
+ List down the components of Redux,TECHNICAL,REACTJS,WebTech
+ Show how the data flows through Redux?,TECHNICAL,REACTJS,WebTech
+ How are Actions defined in Redux?,TECHNICAL,REACTJS,WebTech
+ Explain the role of Reducer,TECHNICAL,REACTJS,WebTech
+ What is the significance of Store in Redux?,TECHNICAL,REACTJS,WebTech
+ How is Redux different from Flux?,TECHNICAL,REACTJS,WebTech
+ What are the advantages of Redux?,TECHNICAL,REACTJS,WebTech
+ What is React Router?,TECHNICAL,REACTJS,WebTech
+ Why do we need a Router in React?,TECHNICAL,REACTJS,WebTech
+ List down the advantages of React Router,TECHNICAL,REACTJS,WebTech
+ How is React Router different from conventional routing?,TECHNICAL,REACTJS,WebTech
+Explain what is Django?,TECHNICAL,DJANGO,Python
+Mention what are the features available in Django?,TECHNICAL,DJANGO,Python
+Mention the architecture of Django architecture?,TECHNICAL,DJANGO,Python
+Why Django should be used for web-development?,TECHNICAL,DJANGO,Python
+Explain how you can create a project in Django?,TECHNICAL,DJANGO,Python
+Explain how you can set up the Database in Django?,TECHNICAL,DJANGO,Python
+Give an example how you can write a VIEW in Django?,TECHNICAL,DJANGO,Python
+Explain how you can setup static files in Django?,TECHNICAL,DJANGO,Python
+Mention what does the Django templates consists of?,TECHNICAL,DJANGO,Python
+Explain the use of session framework in Django?,TECHNICAL,DJANGO,Python
+Explain how you can use file based sessions?,TECHNICAL,DJANGO,Python
+Explain the migration in Django and how you can do in SQL?,TECHNICAL,DJANGO,Python
+Mention what command line can be used to load data into Django?,TECHNICAL,DJANGO,Python
+Explain what does django-admin.py makemessages command is used for?,TECHNICAL,DJANGO,Python
+List out the inheritance styles in Django?,TECHNICAL,DJANGO,Python
+Mention what does the Django field class types?,TECHNICAL,DJANGO,Python
+What are the building blocks of Angular?,TECHNICAL,ANGULAR,WebTech
+Can you give us an overview of Angular architecture?,TECHNICAL,ANGULAR,WebTech
+What is Angular Material?,TECHNICAL,ANGULAR,WebTech
+ What is AOT (Ahead-Of-Time) Compilation?,TECHNICAL,ANGULAR,WebTech
+ What is Data Binding? How many ways it can be done?,TECHNICAL,ANGULAR,WebTech
+What is SPA (Single Page Application) in Angular?,TECHNICAL,ANGULAR,WebTech
+ Contrast SPA technology with traditional web technology?,TECHNICAL,ANGULAR,WebTech
+What is the process called by which TypeScript code is converted into JavaScript code?,TECHNICAL,ANGULAR,WebTech
+What is Angular?,TECHNICAL,ANGULAR,WebTech
+What is the difference between AngularJS and Angular?,TECHNICAL,ANGULAR,WebTech
+What is TypeScript?,TECHNICAL,ANGULAR,WebTech
+What are the key components of Angular?,TECHNICAL,ANGULAR,WebTech
+What are directives in Angular?,TECHNICAL,ANGULAR,WebTech
+What are components in Angular?,TECHNICAL,ANGULAR,WebTech
+What are the differences between Component and Directive in Angular?,TECHNICAL,ANGULAR,WebTech
+What is a template in Angular?,TECHNICAL,ANGULAR,WebTech
+What is a module in Angular?,TECHNICAL,ANGULAR,WebTech
+What are lifecycle hooks available in Angular?,TECHNICAL,ANGULAR,WebTech
+What is a data binding in Angular?,TECHNICAL,ANGULAR,WebTech
+What is metadata in Angular?,TECHNICAL,ANGULAR,WebTech
+What is Angular CLI?,TECHNICAL,ANGULAR,WebTech
+What is a service in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is dependency injection in Angular?,TECHNICAL,ANGULAR,WebTech
+How is Dependency Hierarchy formed in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is the purpose of async pipe in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What happens if you use script tag inside template in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is interpolation in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What are template statements in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+How do you categorize data binding types in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What are pipes in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What are observables in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is HttpClient and its benefits in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+Explain on how to use HttpClient with an example in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+How can you read full response in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is RxJS in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is subscribing in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is an observable in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is an observer in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is the difference between promise and observable in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+What is multicasting in ANGULAR?,TECHNICAL,ANGULAR,WebTech
+ What is jQuery?,TECHNICAL,JQUERY,WebTech
+ Why jQuery is needed?,TECHNICAL,JQUERY,WebTech
+ Whether jQuery HTML work for both HTML and XML documents?,TECHNICAL,JQUERY,WebTech
+ What are the methods used to provide effects?,TECHNICAL,JQUERY,WebTech
+ What is the advantage of using minimized version of jQuery?,TECHNICAL,JQUERY,WebTech
+ Is jQuery is a JavaScript or JSON library file?,TECHNICAL,JQUERY,WebTech
+ Which operating system is more compatible with jQuery?,TECHNICAL,JQUERY,WebTech
+ How can we include jQuery library in ASP,TECHNICAL,JQUERY,WebTech
+ Which command will give a version of jQuery?,TECHNICAL,JQUERY,WebTech
+ In what scenarios jQuery can be used?,TECHNICAL,JQUERY,WebTech
+ What is the difference between find and children methods?,TECHNICAL,JQUERY,WebTech
+ What is jQuery connect?,TECHNICAL,JQUERY,WebTech
+ How to use connect?,TECHNICAL,JQUERY,WebTech
+ What are the features of jQuery has been used in web applications?,TECHNICAL,JQUERY,WebTech
+ What are the browser related issues for jQuery?,TECHNICAL,JQUERY,WebTech
+ Whether we need to add jQuery file in both Master and Content page?,TECHNICAL,JQUERY,WebTech
+ What are the basic selectors in jQuery?,TECHNICAL,JQUERY,WebTech
+ Can we call C# code behind using jQuery?,TECHNICAL,JQUERY,WebTech
+ What is the use jQuery,TECHNICAL,JQUERY,WebTech
+ What is the use of each function in jQuery?,TECHNICAL,JQUERY,WebTech
+ What is the difference between size and length of jQuery?,TECHNICAL,JQUERY,WebTech
+ Can we add more than one ‘document,TECHNICAL,JQUERY,WebTech
+ What is the use of jQuery load method?,TECHNICAL,JQUERY,WebTech
+ Whether our own specific characters are used in place of $ in jQuery?,TECHNICAL,JQUERY,WebTech
+ What are the four parameters used for jQuery Ajax method?,TECHNICAL,JQUERY,WebTech
+ What is the use of jQuery filter?,TECHNICAL,JQUERY,WebTech
+ Which program is useful for testing jQuery?,TECHNICAL,JQUERY,WebTech
+ What is CDN?,TECHNICAL,JQUERY,WebTech
+ What are the two types of CDNs?,TECHNICAL,JQUERY,WebTech
+ Which sign is used as a shortcut for jQuery?,TECHNICAL,JQUERY,WebTech
+ Is jQuery is a client or server scripting?,TECHNICAL,JQUERY,WebTech
+ What is the script build up by jQuery?,TECHNICAL,JQUERY,WebTech
+ How can we debug jQuery?,TECHNICAL,JQUERY,WebTech
+ What are all the ways to include jQuery in a page?,TECHNICAL,JQUERY,WebTech
+ What is the use of jQuery,TECHNICAL,JQUERY,WebTech
+ Where can we download JQuery?,TECHNICAL,JQUERY,WebTech
+ Is jQuery is a replacement of JavaScript?,TECHNICAL,JQUERY,WebTech
+ What is called chaining?,TECHNICAL,JQUERY,WebTech
+ What are the advantages of jQuery?,TECHNICAL,JQUERY,WebTech
+ Whether C# code behind can be called from jQuery?,TECHNICAL,JQUERY,WebTech
+ What is the difference between onload() and document,TECHNICAL,JQUERY,WebTech
+ What is the use of jQuery each function?,TECHNICAL,JQUERY,WebTech
+ How method can be called inside code behind using jQuery?,TECHNICAL,JQUERY,WebTech
+ Which is the fastest selector in jQuery?,TECHNICAL,JQUERY,WebTech
+ What is the slowest selector in jQuery?,TECHNICAL,JQUERY,WebTech
+ Where jQuery code is getting executed?,TECHNICAL,JQUERY,WebTech
+ What is the method used to define the specific character in place of $ sign?,TECHNICAL,JQUERY,WebTech
+ Why jQuery is better than JavaScript?,TECHNICAL,JQUERY,WebTech
+ What are the types of selectors in jQuery?,TECHNICAL,JQUERY,WebTech
+ Explain what is backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ What are the main components of Backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is Backbone.js collections ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is Backbone.js router is used for ?,TECHNICAL,BACKBONE,WebTech
+ What is Backbone events ?,TECHNICAL,BACKBONE,WebTech
+ What are the keypoints of Backbone ?,TECHNICAL,BACKBONE,WebTech
+ Why you have to use Backbone ? Advantages ?,TECHNICAL,BACKBONE,WebTech
+ What are the three js files that you require to setup a working environment for backbone?,TECHNICAL,BACKBONE,WebTech
+ Explain when you require Backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is view in Backbone.js?,TECHNICAL,BACKBONE,WebTech
+ Explain what is Backbone.js Models?,TECHNICAL,BACKBONE,WebTech
+ Explain how you can use backbone.js for multiple page web app ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is Modelbinder in Backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ What is the most powerful capabilities of the ModelBinder ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is Converter in Backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ What is model.attributes ?,TECHNICAL,BACKBONE,WebTech
+ What is the function of toJSON ?,TECHNICAL,BACKBONE,WebTech
+ Explain when you can use Unbinding function in Backbone.js ?,TECHNICAL,BACKBONE,WebTech
+ What are the configuration options available ?,TECHNICAL,BACKBONE,WebTech
+ Mention what are the typical problems you might face with the Backbone view code ?,TECHNICAL,BACKBONE,WebTech
+ What is the function of escape ?,TECHNICAL,BACKBONE,WebTech
+ Explain what is the function of parse ?,TECHNICAL,BACKBONE,WebTech
+  What is Backbone.sync is used for ?,TECHNICAL,BACKBONE,WebTech
+ In Backbone View what is the use of setElement ?,TECHNICAL,BACKBONE,WebTech
+  Explain what is model.cid ?,TECHNICAL,BACKBONE,WebTech
+What are the common uses of PHP?,TECHNICAL,PHP,WebTech
+What is PEAR in PHP?,TECHNICAL,PHP,WebTech
+What is the difference between static and dynamic websites?,TECHNICAL,PHP,WebTech
+How to execute a PHP script from the command line?,TECHNICAL,PHP,WebTech
+Is PHP a case sensitive language?,TECHNICAL,PHP,WebTech
+What is the meaning of ‘escaping to PHP’?,TECHNICAL,PHP,WebTech
+What are the characteristics of PHP variables?,TECHNICAL,PHP,WebTech
+What are the different types of PHP variables?,TECHNICAL,PHP,WebTech
+What are the rules for naming a PHP variable?,TECHNICAL,PHP,WebTech
+What is NULL?,TECHNICAL,PHP,WebTech
+How do you define a constant in PHP?,TECHNICAL,PHP,WebTech
+What is the purpose of constant() function?,TECHNICAL,PHP,WebTech
+What are the differences between PHP constants and variables?,TECHNICAL,PHP,WebTech
+Name some of the constants  in PHP and their purpose.,TECHNICAL,PHP,WebTech
+What is the purpose of break and continue statement?,TECHNICAL,PHP,WebTech
+What is the difference between PHP4 and PHP5?,TECHNICAL,PHP,WebTech
+How can PHP and HTML interact?,TECHNICAL,PHP,WebTech
+Name some of the popular frameworks in PHP.,TECHNICAL,PHP,WebTech
+What are the data types in PHP?,TECHNICAL,PHP,WebTech
+What are constructor and destructor in PHP?,TECHNICAL,PHP,WebTech
+What are include() and require() functions?,TECHNICAL,PHP,WebTech
+Explain the syntax for ‘foreach’ loop with example.,TECHNICAL,PHP,WebTech
+What are the different types of Array in PHP?,TECHNICAL,PHP,WebTech
+What is the difference between single quoted string and double quoted string?,TECHNICAL,PHP,WebTech
+How to concatenate two strings in PHP?,TECHNICAL,PHP,WebTech
+Name some of the functions in PHP.,TECHNICAL,PHP,WebTech
+What is the use of session and cookies in PHP?,TECHNICAL,PHP,WebTech
+What is GET and POST method in PHP?,TECHNICAL,PHP,WebTech
+What is the difference between GET and POST method?,TECHNICAL,PHP,WebTech
+What is the use of callback in PHP?,TECHNICAL,PHP,WebTech
+ What is HTML?,TECHNICAL,HTML,WebTech
+ What are tags?,TECHNICAL,HTML,WebTech
+ Do all HTML tags come in a pair?,TECHNICAL,HTML,WebTech
+ What are some of the common lists that can be used when designing a page?,TECHNICAL,HTML,WebTech
+ How do you create links to sections within the same page?,TECHNICAL,HTML,WebTech
+ Is there any way to keep list elements straight in an HTML file?,TECHNICAL,HTML,WebTech
+ What is the use of alternative text in image mapping?,TECHNICAL,HTML,WebTech
+ Do older HTML files work on newer browsers?,TECHNICAL,HTML,WebTech
+ Does a hyperlink apply to text only?,TECHNICAL,HTML,WebTech
+ If the user’s operating system does not support the needed character how can the symbol be represented?,TECHNICAL,HTML,WebTech
+ How do you change the number type in the middle of a list?,TECHNICAL,HTML,WebTech
+ What are style sheets?,TECHNICAL,HTML,WebTech
+ State  bullet types available in HTML ,TECHNICAL,HTML,WebTech
+ How do you create multicolored text in a webpage?,TECHNICAL,HTML,WebTech
+ Why are there both numerical and named character entity values?,TECHNICAL,HTML,WebTech
+ What is the advantage of grouping several checkboxes together?,TECHNICAL,HTML,WebTech
+ What will happen if you overlap sets of tags?,TECHNICAL,HTML,WebTech
+ What are applets?,TECHNICAL,HTML,WebTech
+ What if there is no text between the tags or if a text was omitted by mistake? Will it affect the display of the HTML file?,TECHNICAL,HTML,WebTech
+ Is it possible to set specific colors for table borders?,TECHNICAL,HTML,WebTech
+ How do you create a link that will connect to another web page when clicked?,TECHNICAL,HTML,WebTech
+ What other ways can be used to align images and wrap text?,TECHNICAL,HTML,WebTech
+ Can a single text link point to two different web pages?,TECHNICAL,HTML,WebTech
+ What is the difference between the directory and menu lists and the unordered list?,TECHNICAL,HTML,WebTech
+ Can you change the color of bullets?,TECHNICAL,HTML,WebTech
+ What are the limits of the text field size?,TECHNICAL,HTML,WebTech
+ What is the relationship between the border and rule attributes?,TECHNICAL,HTML,WebTech
+ What is a marquee?,TECHNICAL,HTML,WebTech
+ How do you create text on a webpage that will allow you to send an email when clicked?,TECHNICAL,HTML,WebTech
+ Are there instances where the text will appear outside of the browser?,TECHNICAL,HTML,WebTech
+ How are active links different from normal links?,TECHNICAL,HTML,WebTech
+ Do style sheets limit the number of new style definitions that can be included within the brackets?,TECHNICAL,HTML,WebTech
+ What is the hierarchy that is being followed when it comes to style sheets?,TECHNICAL,HTML,WebTech
+ Can several selectors with class names be grouped together?,TECHNICAL,HTML,WebTech
+ What happens if you open the external CSS file in a browser?,TECHNICAL,HTML,WebTech
+ How do you make a picture into a background image of a web page?,TECHNICAL,HTML,WebTech
+ What happens if the list-style-type property is used on a non-list element like a paragraph?,TECHNICAL,HTML,WebTech
+ When is it appropriate to use frames?,TECHNICAL,HTML,WebTech
+ What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?,TECHNICAL,HTML,WebTech
+ Which browsers support HTML5?,TECHNICAL,HTML,WebTech
+ Name two new tags included in the HTML 5,TECHNICAL,HTML,WebTech
+ Do you know which are two semantic tags are included in HTML5 version?,TECHNICAL,HTML,WebTech
+ What is the use of Canvas element?,TECHNICAL,HTML,WebTech
+ What are the new FORM elements which are available in HTML5?,TECHNICAL,HTML,WebTech
+ Tell me two benefits of HTML5 Web Storage,TECHNICAL,HTML,WebTech
+ What are two types of Web Storage in HTML5?,TECHNICAL,HTML,WebTech
+ What is the Application Cache in HTML5 and why it is used? ,TECHNICAL,HTML,WebTech
+ Explain five new input types provided by HTML5 for forms?,TECHNICAL,HTML,WebTech
+ What is the laravel framework? ,TECHNICAL,LARAVEL,PHP
+ How we can install Laravel by composer? ,TECHNICAL,LARAVEL,PHP
+ What are enhancement features in laravel 5.8? ,TECHNICAL,LARAVEL,PHP
+ What is middleware in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is database migration in laravel? How to use this? ,TECHNICAL,LARAVEL,PHP
+ What is service providers in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to get data between two dates with Query in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How can we turn off CRSF protection for a particular route? ,TECHNICAL,LARAVEL,PHP
+ How to create and use Stored Procedures in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Facade in laravel and how it is used? Explain ,TECHNICAL,LARAVEL,PHP
+ What is dd() function in laravel ? ,TECHNICAL,LARAVEL,PHP
+ How to make a helper file in laravel? ,TECHNICAL,LARAVEL,PHP
+ What are the server requirements for Laravel 5.8? ,TECHNICAL,LARAVEL,PHP
+ What is an artisan? Name some common artisan commands? ,TECHNICAL,LARAVEL,PHP
+ How to make a custom validation rule in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is the difference between {{ $username }} and {!! $username !!} in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is the service container in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use session in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to get last inserted id using laravel query? ,TECHNICAL,LARAVEL,PHP
+ How can we configure a mail-in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use  cookies in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Auth? How is it used? ,TECHNICAL,LARAVEL,PHP
+ How to make a constant and use globally? ,TECHNICAL,LARAVEL,PHP
+ What are the difference between laravel 5 and laravel 4? ,TECHNICAL,LARAVEL,PHP
+ How to remove /public from URL in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to get user’s ip address in laravel? ,TECHNICAL,LARAVEL,PHP
+ What are the difference between soft delete and delete in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to enable query log in laravel? ,TECHNICAL,LARAVEL,PHP
+ How we can upload files in laravel? Explain ,TECHNICAL,LARAVEL,PHP
+ What is soft delete in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Eloquent ORM in Laravel? ,TECHNICAL,LARAVEL,PHP
+ Explain the difference between latest() and oldest() in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to enable or disable maintenance mode in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Dependency injection used in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to create real time sitemap.xml file in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use aggregate functions in Laravel Query? ,TECHNICAL,LARAVEL,PHP
+ How to use skip() and take() in Laravel Query? ,TECHNICAL,LARAVEL,PHP
+ What is Queue and what are its advantages? ,TECHNICAL,LARAVEL,PHP
+ What is tinker in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to clear complete cache in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is seed in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use update query in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use multiple OR condition in Laravel Query? ,TECHNICAL,LARAVEL,PHP
+ Please write some additional where Clauses in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use updateOrInsert() method in Laravel Query? ,TECHNICAL,LARAVEL,PHP
+ How to create migrations in Laravel? explain step by steps. ,TECHNICAL,LARAVEL,PHP
+ How to check table is exists or not in our database using Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to check column is exists or not in a table using Laravel? ,TECHNICAL,LARAVEL,PHP
+ What are the difference insert() and insertGetId() in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Active Record in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is the use of Accessors and Mutators in Eloquent ? ,TECHNICAL,LARAVEL,PHP
+ How to change your default database type in Laravel? ,TECHNICAL,LARAVEL,PHP
+ Explain Closures in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is IoC container in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is the latest version of laravel? ,TECHNICAL,LARAVEL,PHP
+ What are the basic concepts in laravel? ,TECHNICAL,LARAVEL,PHP
+ What is lumen? ,TECHNICAL,LARAVEL,PHP
+ Which template engine laravel use? ,TECHNICAL,LARAVEL,PHP
+ How can we use middleware in laravel? ,TECHNICAL,LARAVEL,PHP
+ What are the features of laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Package in laravel? Name some laravel packages? ,TECHNICAL,LARAVEL,PHP
+ What is validation in laravel and how it is used? ,TECHNICAL,LARAVEL,PHP
+ How to  extend a layout file in laravel view? ,TECHNICAL,LARAVEL,PHP
+ How to redirect form controller to view file in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to use Ajax in any form submission? ,TECHNICAL,LARAVEL,PHP
+ How to get current route name? ,TECHNICAL,LARAVEL,PHP
+ How to create model controller and migration in a single artisan command in Laravel? ,TECHNICAL,LARAVEL,PHP
+ How to pass multiple variables by controller to blade file? ,TECHNICAL,LARAVEL,PHP
+ How to pass custom table name in model? ,TECHNICAL,LARAVEL,PHP
+ How to assign a variable value for all view file? ,TECHNICAL,LARAVEL,PHP
+ What is Queues? ,TECHNICAL,LARAVEL,PHP
+ How to add multiple AND conditions in laravel query? ,TECHNICAL,LARAVEL,PHP
+ How to use join in laravel? ,TECHNICAL,LARAVEL,PHP
+ How to get current action name in Laravel? ,TECHNICAL,LARAVEL,PHP
+ What is Blade laravel? ,TECHNICAL,LARAVEL,PHP
+ In Laravel what is fillable attribute in a Model ? ,TECHNICAL,LARAVEL,PHP
+ In Laravel what is Guarded Attribute in a Model ? ,TECHNICAL,LARAVEL,PHP
+ How we can get user's detail when he is logged in using Auth? ,TECHNICAL,LARAVEL,PHP
+ Is Laravel support caching? Explain ,TECHNICAL,LARAVEL,PHP
+ What is WordPress?,TECHNICAL,WORDPRESS,PHP
+ How safe is a website on WordPress?,TECHNICAL,WORDPRESS,PHP
+ Are there any limitations to a WordPress website?,TECHNICAL,WORDPRESS,PHP
+ Do you need to have a blog in order to use WordPress for a site?,TECHNICAL,WORDPRESS,PHP
+ From SEO point of view is WordPress helpful? Will it show the website on Google?,TECHNICAL,WORDPRESS,PHP
+ What is the current version of WordPress?,TECHNICAL,WORDPRESS,PHP
+ What are the types of hooks in WordPress and mention their functions?,TECHNICAL,WORDPRESS,PHP
+ What do you mean by a custom field in WordPress?,TECHNICAL,WORDPRESS,PHP
+ What are the positive aspects of WordPress?,TECHNICAL,WORDPRESS,PHP
+ What are the rules that you have to follow for WordPress plugin development?,TECHNICAL,WORDPRESS,PHP
+ What is the prefix of WordPress tables by default? ,TECHNICAL,WORDPRESS,PHP
+ Why does WordPress use MySQL?,TECHNICAL,WORDPRESS,PHP
+ Is it possible to rename the WordPress folder?,TECHNICAL,WORDPRESS,PHP
+ How many tables are there in WordPress by default?,TECHNICAL,WORDPRESS,PHP
+ What is WordPress loop?,TECHNICAL,WORDPRESS,PHP
+ How can you disable the WordPress comment?,TECHNICAL,WORDPRESS,PHP
+ What are the steps you can take if your WordPress file is hacked?,TECHNICAL,WORDPRESS,PHP
+ What are the template tags in WordPress?,TECHNICAL,WORDPRESS,PHP
+ Does WordPress have cookies?,TECHNICAL,WORDPRESS,PHP
+ In which cases you don’t see plugin menu?,TECHNICAL,WORDPRESS,PHP
+ At what instance you get locked out of your WordPress admin and look at your website as a blank screen?,TECHNICAL,WORDPRESS,PHP
+ Why you use a static front page in WordPress?,TECHNICAL,WORDPRESS,PHP
+ What are the plugins you can use to create a contact form in WordPress?,TECHNICAL,WORDPRESS,PHP
+ Why does widget not show up in the sidebar?,TECHNICAL,WORDPRESS,PHP
+ Is there any limitation for using WordPress?,TECHNICAL,WORDPRESS,PHP
+ How is creating a site on wordpress.org different from wordpress.com?,TECHNICAL,WORDPRESS,PHP
+ Why is wordpress.com considered more secure than wordpress.org?,TECHNICAL,WORDPRESS,PHP
+ Do de-activated plugins slow down a WordPress site?,TECHNICAL,WORDPRESS,PHP
+ In what case we cannot recommend WordPress to our client?,TECHNICAL,WORDPRESS,PHP
+ What are the essential features you look for a theme?,TECHNICAL,WORDPRESS,PHP
+ What is a Child Theme?,TECHNICAL,WORDPRESS,PHP
+ How can you create a static page with WordPress?,TECHNICAL,WORDPRESS,PHP
+ Is there any other CMS better WordPress?,TECHNICAL,WORDPRESS,PHP
+ Which is the best multilingual plugin for WordPress?,TECHNICAL,WORDPRESS,PHP
+ Can you update your own content on the site?,TECHNICAL,WORDPRESS,PHP
+ What are meta-tags?,TECHNICAL,WORDPRESS,PHP
+ What should one use for plugin development — custom post types or custom database tables?,TECHNICAL,WORDPRESS,PHP
+ Can you host WordPress using  Amazon web services such as EC2 RDS EBS etc.?,TECHNICAL,WORDPRESS,PHP
+ Is there any way to write series in WordPress?,TECHNICAL,WORDPRESS,PHP
+ What are the reasons why one should not hack WordPress core file?,TECHNICAL,WORDPRESS,PHP
+ What is YII? ,TECHNICAL,YII,PHP
+ How to compare yii with other frameworks? Explain ,TECHNICAL,YII,PHP
+ What is the latest version of YII? ,TECHNICAL,YII,PHP
+ Who developed YII? ,TECHNICAL,YII,PHP
+ What are the advantages of YII Framework? ,TECHNICAL,YII,PHP
+ What are the directory structure of Yii? ,TECHNICAL,YII,PHP
+ How to install Yii Framework? ,TECHNICAL,YII,PHP
+ How to connect with database in Yii? ,TECHNICAL,YII,PHP
+ What is the naming convention in Yii framework? Explain ,TECHNICAL,YII,PHP
+ What is components in Yii? Explain ,TECHNICAL,YII,PHP
+ What is helper in Yii? Why it is used? ,TECHNICAL,YII,PHP
+ How to make layout in Yii? ,TECHNICAL,YII,PHP
+ How to include a view file in another view file Yii? ,TECHNICAL,YII,PHP
+ How we can remove index.php from URL in Yii? ,TECHNICAL,YII,PHP
+ What is the difference between render() and  renderpartial() in Yii ? ,TECHNICAL,YII,PHP
+ In Yii How to get ip address? ,TECHNICAL,YII,PHP
+ What is gii? Why it is used? ,TECHNICAL,YII,PHP
+ How we can call layouts in controller file in Yii? ,TECHNICAL,YII,PHP
+ How we can get current controller and action name in Yii? ,TECHNICAL,YII,PHP
+ What are the server requirements to install Yii2? ,TECHNICAL,YII,PHP
+ List some database related query functions in Yii? ,TECHNICAL,YII,PHP
+ How we can set default controller in Yii? ,TECHNICAL,YII,PHP
+ How to use form validations in Yii? ,TECHNICAL,YII,PHP
+ How to use session in Yii? ,TECHNICAL,YII,PHP
+ What is widgets in Yii? How we can use it? ,TECHNICAL,YII,PHP
+ How to use asset Bundles in Yii? ,TECHNICAL,YII,PHP
+ How to enable the pretty URL format in Yii2? ,TECHNICAL,YII,PHP
+Explain what is Drupal?,TECHNICAL,DRUPAL,PHP
+Why Drupal is considered powerful CMS compare to other CMS system?,TECHNICAL,DRUPAL,PHP
+Mention what are the key features of Drupal?,TECHNICAL,DRUPAL,PHP
+Explain how caching work in Drupal?,TECHNICAL,DRUPAL,PHP
+Explain how database system of Drupal works?,TECHNICAL,DRUPAL,PHP
+ Name some of the most commonly used PHP based CMSs?,TECHNICAL,DRUPAL,PHP
+What is DRUSH in Drupal?,TECHNICAL,DRUPAL,PHP
+Explain what is module in Drupal? List out some of the modules used in Drupal?,TECHNICAL,DRUPAL,PHP
+Explain what Drupal distributions is and when to use?,TECHNICAL,DRUPAL,PHP
+List out the SEO modules available in Drupal?,TECHNICAL,DRUPAL,PHP
+ Why Drupal needs database? What databases are supported?,TECHNICAL,DRUPAL,PHP
+ Explain what is the use of Ctools in Drupal?,TECHNICAL,DRUPAL,PHP
+  Does Drupal provides support?,TECHNICAL,DRUPAL,PHP
+ Explain CakePHP and why it is used? ,TECHNICAL,CAKEPHP,PHP
+ What are the key features of cakePHP?Explain ,TECHNICAL,CAKEPHP,PHP
+ Write the latest version of cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ How to install cakePHP with composer? ,TECHNICAL,CAKEPHP,PHP
+ What are the Server Requirements for installing cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ How to use session in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ How to use pagination in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ What is a Helper and list some common helpers name used in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ What do you mean by Component in cakephp? List some commonly used components. ,TECHNICAL,CAKEPHP,PHP
+ How we can set layout in the controller file using cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ How to pass multiple parameters to access into the view files? ,TECHNICAL,CAKEPHP,PHP
+ How we can get current URL in CakePHP? ,TECHNICAL,CAKEPHP,PHP
+ Can we use ajax in cakephp? ,TECHNICAL,CAKEPHP,PHP
+ What is the default extension of view files? How we can change it? ,TECHNICAL,CAKEPHP,PHP
+ How many types of caches does CakePHP support? Explain ,TECHNICAL,CAKEPHP,PHP
+ How we can set custom page title in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ List some key features in cakaPHP 3 over cakePHP2? ,TECHNICAL,CAKEPHP,PHP
+ Explain the difference between Component Helper Behavior in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ Please write the name of Cakephp database configuration file name and its location? ,TECHNICAL,CAKEPHP,PHP
+ What do you mean by HABTM? ,TECHNICAL,CAKEPHP,PHP
+ What do you mean by Scaffolding used in CakePHP? ,TECHNICAL,CAKEPHP,PHP
+ How we can call a model from view in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+ In cakePHP which function is first executed before every action in the controller? ,TECHNICAL,CAKEPHP,PHP
+ List some database related query function used in cakePHP. ,TECHNICAL,CAKEPHP,PHP
+ What is the term "Security.salt" and "Security.cipherSeed" in CakePHP? ,TECHNICAL,CAKEPHP,PHP
+ Explain the callback functions in CakePHP? ,TECHNICAL,CAKEPHP,PHP
+ What do you mean by Hooks in CakePHP ? ,TECHNICAL,CAKEPHP,PHP
+ What is Validation Model in CakePHP? ,TECHNICAL,CAKEPHP,PHP
+ Explain the difference between beforeRender() and beforeFilter() in cakePHP? ,TECHNICAL,CAKEPHP,PHP
+Explain what is Joomla?,TECHNICAL,JOOMLA,PHP
+List out the benefits of using Joomla?,TECHNICAL,JOOMLA,PHP
+What is the position in Joomla?,TECHNICAL,JOOMLA,PHP
+Explain what are Joomla Modules?,TECHNICAL,JOOMLA,PHP
+Where can you see the use of Joomla frequently?,TECHNICAL,JOOMLA,PHP
+Explain what are components in Joomla?,TECHNICAL,JOOMLA,PHP
+ Explain what is the difference between Drupal and Joomla?,TECHNICAL,JOOMLA,PHP
+What are the advanced features or add-ons in Joomla that can be useful for the developer?,TECHNICAL,JOOMLA,PHP
+ Is there any possibility with Joomla to control a desktop application?,TECHNICAL,JOOMLA,PHP
+ Explain what are content items section and categories in Joomla?,TECHNICAL,JOOMLA,PHP
+What database system does Joomla supports?,TECHNICAL,JOOMLA,PHP
+Explain what are the drawbacks of Joomla?,TECHNICAL,JOOMLA,PHP
+ In Joomla what determines the homepage?,TECHNICAL,JOOMLA,PHP
+Is Joomla a Blog?,TECHNICAL,JOOMLA,PHP
+What web services does Joomla Support?,TECHNICAL,JOOMLA,PHP
+ What is Symfony? ,TECHNICAL,SYMFONY,PHP
+ Explain the bundles in Symfony. ,TECHNICAL,SYMFONY,PHP
+ What is a Symfony controller? ,TECHNICAL,SYMFONY,PHP
+ Explain an Environment in Symfony. ,TECHNICAL,SYMFONY,PHP
+ Mention few web servers supported by Symfony. ,TECHNICAL,SYMFONY,PHP
+ Explain the tasks performed by a Symfony controller. ,TECHNICAL,SYMFONY,PHP
+ What are the innovations used in Symfony2 compared to Symfony1? ,TECHNICAL,SYMFONY,PHP
+ In which technology Symfony routing configuration files are written? ,TECHNICAL,SYMFONY,PHP
+ Explain Serializer in Symfony. ,TECHNICAL,SYMFONY,PHP
+ What is Twing in Symfony? ,TECHNICAL,SYMFONY,PHP
+ Mention the cache adapters present in Symfony. ,TECHNICAL,SYMFONY,PHP
+ Explain the case of user access denies in Symfony. ,TECHNICAL,SYMFONY,PHP
+ To install and run the latest version of Symfony list the server requirements. ,TECHNICAL,SYMFONY,PHP
+ What are the rules to create methods within the controller in Symfony? ,TECHNICAL,SYMFONY,PHP
+ Is it possible to create a Symfony application using composer? Then how? ,TECHNICAL,SYMFONY,PHP
+ Explain the session set and get methods in Symfony2. ,TECHNICAL,SYMFONY,PHP
+ How can developers get the request parameters in Symfony2? ,TECHNICAL,SYMFONY,PHP
+ Mention the form helper functions in Symfony. ,TECHNICAL,SYMFONY,PHP
+ What are the best benefits of using Symfony? ,TECHNICAL,SYMFONY,PHP
+ Is it possible to create a request object in Symfony then how? ,TECHNICAL,SYMFONY,PHP
+ What is Codeigniter and why it is used for? ,TECHNICAL,CODEIGNITER,PHP
+ What is the latest version of Codelgniter? Lists its new features. ,TECHNICAL,CODEIGNITER,PHP
+ List the databases supported by Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ What is hooks and how we can configure hooks  in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to add or load a model in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to load a view in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What is the default controller used in CodeIgniter?  How we can change it? ,TECHNICAL,CODEIGNITER,PHP
+ Explain the basic Url Structure in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ What do you mean by helper in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ Explain the difference between helper and library in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What do you mean by Get_instance in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What do you mean by routing in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ List some different hook point in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to link images/CSS/JavaScript from a view in codelgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What do you mean by inhibitor in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to remove index.php from URL in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ What is CSRF and how you can enable CSRF in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to extend the class in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ What is Codeigniter Library and how we can load it? ,TECHNICAL,CODEIGNITER,PHP
+ How to handle sessions in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ Explain why codeigniter is called as loosely based mvc framework? ,TECHNICAL,CODEIGNITER,PHP
+ How to install CodeIgniter? Explain step by step. ,TECHNICAL,CODEIGNITER,PHP
+ What are the server requirements to install codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can load multiple helper files in Codelgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can enable hooks in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What do you mean by drivers and how we can create in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can print SQL statement in codeigniter model? ,TECHNICAL,CODEIGNITER,PHP
+ Explain how to create custom 404 page in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to insert data into database in codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to get last inserted id  in codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to write join query in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ Explain how to set and get config item value in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can get Ip address in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can get current method or controller in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to use Pagination in Codelgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to use delete query in Codeigniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to truncate table with query in Codelgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How to enable error log in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can redirect a page in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ How we can connect multiple databases in CodeIgniter? ,TECHNICAL,CODEIGNITER,PHP
+ What is a markup language?,TECHNICAL,XML,WebTech
+ What is XML?,TECHNICAL,XML,WebTech
+ What are the features of XML?,TECHNICAL,XML,WebTech
+ What are the differences between HTML and XML?,TECHNICAL,XML,WebTech
+ Which tag is used to find the version of XML and the syntax?,TECHNICAL,XML,WebTech
+ What is XML DOM Document?,TECHNICAL,XML,WebTech
+ What is XPath?,TECHNICAL,XML,WebTech
+ What is an attribute?,TECHNICAL,XML,WebTech
+ Can we have empty XML tags?,TECHNICAL,XML,WebTech
+ What are the advantages of XML DOM Document?,TECHNICAL,XML,WebTech
+ What are the basic rules while writing XML?,TECHNICAL,XML,WebTech
+ What is XML Element?,TECHNICAL,XML,WebTech
+ What is CDATA?,TECHNICAL,XML,WebTech
+ How comment can be represented in XML?,TECHNICAL,XML,WebTech
+ What are XML Namespaces?,TECHNICAL,XML,WebTech
+ What is XML Parser?,TECHNICAL,XML,WebTech
+ What is XSL?,TECHNICAL,XML,WebTech
+ Who is responsible for XML?,TECHNICAL,XML,WebTech
+ What is an XML Schema?,TECHNICAL,XML,WebTech
+ What is well formed XML document?,TECHNICAL,XML,WebTech
+ Why XML has been used for development?,TECHNICAL,XML,WebTech
+ What is SGML?,TECHNICAL,XML,WebTech
+Can I execute a XML?,TECHNICAL,XML,WebTech
+ What are the special characters used in XML?,TECHNICAL,XML,WebTech
+ What software is available for XML?,TECHNICAL,XML,WebTech
+ Whether graphics can be used in XML? If so How?,TECHNICAL,XML,WebTech
+ Can I replace HTML with XML?,TECHNICAL,XML,WebTech
+ How can I include conditional statements in XML?,TECHNICAL,XML,WebTech
+ What are the benefits of XML?,TECHNICAL,XML,WebTech
+ What are the disadvantages of XML?,TECHNICAL,XML,WebTech
+ What is DTD?,TECHNICAL,XML,WebTech
+ Why XSLT is important for XML?,TECHNICAL,XML,WebTech
+ What are nested elements in XML?,TECHNICAL,XML,WebTech
+ What is XQuery?,TECHNICAL,XML,WebTech
+ What is XLink and XPointer?,TECHNICAL,XML,WebTech
+ Why XML editor is needed instead of Notepad?,TECHNICAL,XML,WebTech
+ What is XML Encoding?,TECHNICAL,XML,WebTech
+ Which XML is set to be valid XML?,TECHNICAL,XML,WebTech
+ What is Simple Element?,TECHNICAL,XML,WebTech
+ What is Complex Element?,TECHNICAL,XML,WebTech
+ Is there a way to describe XML data?,TECHNICAL,XML,WebTech
+ What are the three parts of XSL?,TECHNICAL,XML,WebTech
+ What is the correct syntax when we define XML version?,TECHNICAL,XML,WebTech
+ If XML attribute name itself has double quotes then how it can be represented?,TECHNICAL,XML,WebTech
+ What are the types of XML Parsers?,TECHNICAL,XML,WebTech
+ Whether root element is required for XML? If so how many root elements are required?,TECHNICAL,XML,WebTech
+ What is XML Signature?,TECHNICAL,XML,WebTech
+ What is Data Island?,TECHNICAL,XML,WebTech
+How many characters limits in Meta Description tag? ,TECHNICAL,SEO,WebTech
+What is Google Sandbox?,TECHNICAL,SEO,WebTech
+Tell me something about Black Hat SEO?,TECHNICAL,SEO,WebTech
+Name few Black Hat SEO techniques?,TECHNICAL,SEO,WebTech
+Can you differentiate between ‘nofollow’ and ‘dofollow’ link?,TECHNICAL,SEO,WebTech
+What is the difference between PR (page rank,TECHNICAL,SEO,WebTech
+Why the Title Tag in website is valuable?,TECHNICAL,SEO,WebTech
+What is considered as more significant creating content or building backlinks?,TECHNICAL,SEO,WebTech
+Can you mention the difference between SEO and SEM?,TECHNICAL,SEO,WebTech
+What do you know about LSI?,TECHNICAL,SEO,WebTech
+How will you cross-check whether your SEO campaign is working or not?,TECHNICAL,SEO,WebTech
+What is the meaning of competitive analysis?,TECHNICAL,SEO,WebTech
+What will be your next steps if your SEO methods or technique does not work?,TECHNICAL,SEO,WebTech
+What is PPC?,TECHNICAL,SEO,WebTech
+What is 301 redirect?,TECHNICAL,SEO,WebTech
+What are Webmaster tools?,TECHNICAL,SEO,WebTech
+What is keyword density and what is the formula for knowing keyword density?,TECHNICAL,SEO,WebTech
+What is robots.txt?  ,TECHNICAL,SEO,WebTech
+What will you do for the company website you are working for decides to move all the contents to new domain?,TECHNICAL,SEO,WebTech
+Can you optimize the website which has pages in millions?,TECHNICAL,SEO,WebTech
+What is the latest update in SEO?,TECHNICAL,SEO,WebTech
+What are the key aspects of Panda update?,TECHNICAL,SEO,WebTech
+What are the key aspects of Penguin update?,TECHNICAL,SEO,WebTech
+How will you neutralize a toxic link to your site?,TECHNICAL,SEO,WebTech
+Mention how can you check if someone is not building or re-directing a low-quality backlink to your site?,TECHNICAL,SEO,WebTech
+How backlink tools work?,TECHNICAL,SEO,WebTech
+Mention how often should you perform a link audit?,TECHNICAL,SEO,WebTech
+Mention what do you understand by Frames in HTML?,TECHNICAL,SEO,WebTech
+Mention which is the most important area to include your keywords?,TECHNICAL,SEO,WebTech
+What if your website is banned by the search engines for black hat practices?,TECHNICAL,SEO,WebTech
+Mention what will be your approach if your SEO method don’t work?,TECHNICAL,SEO,WebTech
+ Explain what Ember.js is and how it works?,TECHNICAL,EMBER,WebTech
+ List out main components of Ember.js?,TECHNICAL,EMBER,WebTech
+ Explain what is model in Ember.js?,TECHNICAL,EMBER,WebTech
+ Explain how ember applications are structured? ,TECHNICAL,EMBER,WebTech
+ What controller does in Ember.js?,TECHNICAL,EMBER,WebTech
+ Explain how is ember.js is different than traditional web application?,TECHNICAL,EMBER,WebTech
+ Explain how Router and {{outlet}} tag can be useful in ember.js?,TECHNICAL,EMBER,WebTech
+ Explain what is the difference between Router and Route in ember.js ?,TECHNICAL,EMBER,WebTech
+   Explain what is Ember-data ? ,TECHNICAL,EMBER,WebTech
+ Explain the role of adapter and types of adapters ?,TECHNICAL,EMBER,WebTech
+ Explain what are the two ways of defining and inserting a view?,TECHNICAL,EMBER,WebTech
+ Explain what is controller in ember.js ?                   ,TECHNICAL,EMBER,WebTech
+ Mention the template components used in ember.js ?,TECHNICAL,EMBER,WebTech
+ Explain what is serializer?,TECHNICAL,EMBER,WebTech
+ How you can define a new ember class?,TECHNICAL,EMBER,WebTech
+ Explain how you can create an Ember. handlebars  template ?,TECHNICAL,EMBER,WebTech
+ Explain how you can add data using fixture into an application?,TECHNICAL,EMBER,WebTech
+ Mention some of the functions used in ember packages/ember run-time/lib and packages/ember metal/lib/utils.js ?,TECHNICAL,EMBER,WebTech
+ Explain what is Enumerables in ember.js ?,TECHNICAL,EMBER,WebTech
+ Explain what is Ember.ArrayController and what is the advantage of it ?,TECHNICAL,EMBER,WebTech
+ Explain Application Template ?,TECHNICAL,EMBER,WebTech
+ Explain what is ember.mixin class ?,TECHNICAL,EMBER,WebTech
+ What is Ember.Namespace.Class ?,TECHNICAL,EMBER,WebTech
+ When Ember.TrackedArray can be useful ?,TECHNICAL,EMBER,WebTech
+ Explain how you can create instances in ember.js ?,TECHNICAL,EMBER,WebTech
+ Explain what is the use Ember.SortableMixin ?,TECHNICAL,EMBER,WebTech
+What is SQLite?,TECHNICAL,SQLITE,DBMS
+What are the most important features of SQLite?,TECHNICAL,SQLITE,DBMS
+What are the advantages of using SQLite?,TECHNICAL,SQLITE,DBMS
+What is the difference between SQL and SQLite?,TECHNICAL,SQLITE,DBMS
+What is SQLite Transactions?,TECHNICAL,SQLITE,DBMS
+In which areas SQLite is preferred most?,TECHNICAL,SQLITE,DBMS
+ What Is An Oracle Database?,TECHNICAL,ORACLE,DBMS
+What Are The Components Of Physical Database Structure Of Oracle Database?,TECHNICAL,ORACLE,DBMS
+What Are The Components Of Logical Database Structure Of Oracle Database?,TECHNICAL,ORACLE,DBMS
+What Is A View ?,TECHNICAL,ORACLE,DBMS
+Can One Import/export Between Different Versions Of Oracle?,TECHNICAL,ORACLE,DBMS
+Explain what is MongoDB?,TECHNICAL,MONGODB,DBMS
+What is “Namespace” in MongoDB?,TECHNICAL,MONGODB,DBMS
+What is sharding in MongoDB?,TECHNICAL,MONGODB,DBMS
+How can you see the connection used by Mongos?,TECHNICAL,MONGODB,DBMS
+Explain what is a replica set in mongodb?,TECHNICAL,MONGODB,DBMS
+How replication works in MongoDB?,TECHNICAL,MONGODB,DBMS
+While creating Schema in MongoDB what are the points need to be taken in consideration?,TECHNICAL,MONGODB,DBMS
+ What is the syntax to create a collection and to drop a collection in MongoDB?,TECHNICAL,MONGODB,DBMS
+ Explain what is the role of profiler in MongoDB?,TECHNICAL,MONGODB,DBMS
+Explain can you move old files in the moveChunk directory?,TECHNICAL,MONGODB,DBMS
+To do safe backups what is the feature in MongoDB that you can use?,TECHNICAL,MONGODB,DBMS
+Mention what is Objecld composed of in mongodb?,TECHNICAL,MONGODB,DBMS
+Mention what is the command syntax for inserting a document?,TECHNICAL,MONGODB,DBMS
+Mention how you can inspect the source code of a function?,TECHNICAL,MONGODB,DBMS
+What is the command syntax that tells you whether you are on the master server or not? And how many master does MongoDB allow?,TECHNICAL,MONGODB,DBMS
+Explain what are indexes in MongoDB?,TECHNICAL,MONGODB,DBMS
+Explain what is GridFS in MongoDB?,TECHNICAL,MONGODB,DBMS
+What are alternatives to MongoDB?,TECHNICAL,MONGODB,DBMS
+What Is Postgresql?,TECHNICAL,POSTGRESQL,DBMS
+State Some Of The Advanced Features Of Postgresql?,TECHNICAL,POSTGRESQL,DBMS
+What Are The Languages Which Postgresql Supports?,TECHNICAL,POSTGRESQL,DBMS
+Explain About Functions In Postgresql?,TECHNICAL,POSTGRESQL,DBMS
+Explain About Indices Of Postgresql?,TECHNICAL,POSTGRESQL,DBMS
+What Are The Different Data Types Supported By Postgresql?,TECHNICAL,POSTGRESQL,DBMS
+. How Does Postgresql Compare To Oracle/Mysql?,TECHNICAL,POSTGRESQL,DBMS
+What is SQL?,TECHNICAL,SQL,DBMS
+What is the difference between SQL and NOSQL?,TECHNICAL,SQL,DBMS
+Give me a scenario when you could use NOSQL instead of SQL?,TECHNICAL,SQL,DBMS
+Which databases you know?,TECHNICAL,SQL,DBMS
+Tell me the difference between SQL and PLSQL,TECHNICAL,SQL,DBMS
+What is normalization in database,TECHNICAL,SQL,DBMS
+Explain Joins in databases,TECHNICAL,SQL,DBMS
+Explain ACID Properties in databases,TECHNICAL,SQL,DBMS
+What is Atomicity property in DBMS?,TECHNICAL,SQL,DBMS
+What is Consistency property in DBMS?,TECHNICAL,SQL,DBMS
+What is Isolation property in DBMS?,TECHNICAL,SQL,DBMS
+What is Durablity property in DBMS?,TECHNICAL,SQL,DBMS
+What is the difference between primary key and candidate key?,TECHNICAL,SQL,DBMS
+ What is MySQL?,TECHNICAL,MYSQL,DBMS
+ In which language MySQL has been written?,TECHNICAL,MYSQL,DBMS
+ What are the technical specifications of MySQL?,TECHNICAL,MYSQL,DBMS
+ What is the difference between MySQL and SQL?,TECHNICAL,MYSQL,DBMS
+ What is the difference between database and table?,TECHNICAL,MYSQL,DBMS
+ Why do we use the MySQL database server?,TECHNICAL,MYSQL,DBMS
+ What are the different tables present in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is the difference between CHAR and VARCHAR?,TECHNICAL,MYSQL,DBMS
+ What is the difference between TRUNCATE and DELETE in MySQL?,TECHNICAL,MYSQL,DBMS
+ How many Triggers are possible in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is heap table?,TECHNICAL,MYSQL,DBMS
+ What is BLOB and TEXT in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is a trigger in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is the difference between heap table and temporary table?,TECHNICAL,MYSQL,DBMS
+ What is the difference between FLOAT and DOUBLE?,TECHNICAL,MYSQL,DBMS
+ What are the advantages of MySQL in comparison to Oracle?,TECHNICAL,MYSQL,DBMS
+ What are the disadvantages of MySQL?,TECHNICAL,MYSQL,DBMS
+ What is the difference between MySQL_connect and MySQL_pconnect?,TECHNICAL,MYSQL,DBMS
+ What does "i_am_a_dummy flag" do in MySQL?,TECHNICAL,MYSQL,DBMS
+ How to get the current date in MySQL?,TECHNICAL,MYSQL,DBMS
+ What are the security alerts while using MySQL?,TECHNICAL,MYSQL,DBMS
+ How to change a password for an existing user via Mysqladmin?,TECHNICAL,MYSQL,DBMS
+ What is the difference between Unix timestamps and MySQL timestamps?,TECHNICAL,MYSQL,DBMS
+ How to display Nth highest salary from a table in a MySQL query?,TECHNICAL,MYSQL,DBMS
+ What is MySQL default port number?,TECHNICAL,MYSQL,DBMS
+ What is REGEXP?,TECHNICAL,MYSQL,DBMS
+ How many columns can you create for an index?,TECHNICAL,MYSQL,DBMS
+ What is the difference between NOW(,TECHNICAL,MYSQL,DBMS
+ What is the query to display top 20 rows?,TECHNICAL,MYSQL,DBMS
+ Write a query to display current date and time?,TECHNICAL,MYSQL,DBMS
+ What is save point in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is SQLyog?,TECHNICAL,MYSQL,DBMS
+ How do you backup a database in MySQl?,TECHNICAL,MYSQL,DBMS
+ What are the different column comparison operators in MySQL?,TECHNICAL,MYSQL,DBMS
+ Write a query to count the number of rows of a table in MySQL.,TECHNICAL,MYSQL,DBMS
+ Write a query to retrieve a hundred books starting from 20th.,TECHNICAL,MYSQL,DBMS
+ Write a query to select all teams that won either 1 3 5 or 7 games.,TECHNICAL,MYSQL,DBMS
+ What is the default port of MySQL Server?,TECHNICAL,MYSQL,DBMS
+ How is MyISAM table stored?,TECHNICAL,MYSQL,DBMS
+ What is the usage of ENUMs in MySQL?,TECHNICAL,MYSQL,DBMS
+ What are the advantages of MyISAM over InnoDB?,TECHNICAL,MYSQL,DBMS
+ What are the differences between MySQL_fetch_array(,TECHNICAL,MYSQL,DBMS
+ What is the difference between mysql_connect and mysql_pconnect?,TECHNICAL,MYSQL,DBMS
+ What is the use of mysql_close(,TECHNICAL,MYSQL,DBMS
+ What is MySQL data directory?,TECHNICAL,MYSQL,DBMS
+ How do you determine the location of MySQL data directory?,TECHNICAL,MYSQL,DBMS
+ What is the usage of regular expressions in MySQL?,TECHNICAL,MYSQL,DBMS
+ What is the usage of "i-am-a-dummy" flag in MySQL?,TECHNICAL,MYSQL,DBMS
+ Which command is used to view the content of the table in MySQL?,TECHNICAL,MYSQL,DBMS
+ Explain Access Control Lists.,TECHNICAL,MYSQL,DBMS
+ What is InnoDB?,TECHNICAL,MYSQL,DBMS
+What is IOS?,TECHNICAL,IOS,Mobile
+How IOS is better than ANDROID?,TECHNICAL,IOS,Mobile
+Why IOS IOS development is costlier?,TECHNICAL,IOS,Mobile
+Any Projects you have done on IOS?,TECHNICAL,IOS,Mobile
+IOS development requires an APPLE ECOSYSTEM what are your views regarding the same.,TECHNICAL,IOS,Mobile
+The consumer base of IOS is small compared to ANDROID so don't you think ANDROID is better?,TECHNICAL,IOS,Mobile
+What is ANDROID?,TECHNICAL,ANDROID,Mobile
+How ANDROID is different than IOS?,TECHNICAL,ANDROID,Mobile
+Which language you use for Android Application development JAVA or KOTLIN?,TECHNICAL,ANDROID,Mobile
+How KOTLIN speeds up android development?,TECHNICAL,ANDROID,Mobile
+Why ANDROID?,TECHNICAL,ANDROID,Mobile
+How can security of android can be improved?,TECHNICAL,ANDROID,Mobile
+Which libraries you have used in ANDROID?,TECHNICAL,ANDROID,Mobile
+What projects you have done in android?,TECHNICAL,ANDROID,Mobile
+Android users generally do not buy any application instead they want application which are free What are your views regarding this?,TECHNICAL,ANDROID,Mobile
+IS ANDROID ONLY LIMITED TO MOBILE PHONES?,TECHNICAL,ANDROID,Mobile
+Which is the Best Android Phone?,TECHNICAL,ANDROID,Mobile
+What is stock Android?,TECHNICAL,ANDROID,Mobile
+IS ANDROID OPEN SOURCE,TECHNICAL,ANDROID,Mobile
+What is gradle?,TECHNICAL,ANDROID,Mobile
+What is the Android Application Architecture?,TECHNICAL,ANDROID,Mobile
+In an Android App what is difference between Fragment and Activity?,TECHNICAL,ANDROID,Mobile
+What is Android Architecture Components?,TECHNICAL,ANDROID,Mobile
+ What is an Android Framework?,TECHNICAL,ANDROID,Mobile
+ What is the Android Architecture?,TECHNICAL,ANDROID,Mobile
+ What is the difference between File Class and Activity in android?,TECHNICAL,ANDROID,Mobile
+ What is APK format?,TECHNICAL,ANDROID,Mobile
+ What is Google Android SDK?,TECHNICAL,ANDROID,Mobile
+ What is an ANR? How can ANR be prevented?,TECHNICAL,ANDROID,Mobile
+ How do you launch an activity in your application?,TECHNICAL,ANDROID,Mobile
+ What is the use of WebView in Android?,TECHNICAL,ANDROID,Mobile
+ What are the different kinds of context in Android?,TECHNICAL,ANDROID,Mobile
+ What are the different storage methods in Android,TECHNICAL,ANDROID,Mobile
+ What are the tools required to develop Android Apps?  ,TECHNICAL,ANDROID,Mobile
+ What is Intent?,TECHNICAL,ANDROID,Mobile
+ What is a Sticky Intent?,TECHNICAL,ANDROID,Mobile
+ Explain Folder File Description of Android Apps,TECHNICAL,ANDROID,Mobile
+ How to ‘Start Another Activity’? ,TECHNICAL,ANDROID,Mobile
+ What is AAPT?,TECHNICAL,ANDROID,Mobile
+ What are containers?,TECHNICAL,ANDROID,Mobile
+ What are some of the disadvantages of Android?,TECHNICAL,ANDROID,Mobile
+ Name the four essential states of an activity,TECHNICAL,ANDROID,Mobile
+ What is the difference between a regular bitmap and a nine-patch image?,TECHNICAL,ANDROID,Mobile
+ Which language is supported by Android for application development?,TECHNICAL,ANDROID,Mobile
+ What are the dialog boxes that are supported in Android? ,TECHNICAL,ANDROID,Mobile
+ Give an example for sticky broadcast,TECHNICAL,ANDROID,Mobile
+ What is DDMS?,TECHNICAL,ANDROID,Mobile
+ Name some exceptions in android?,TECHNICAL,ANDROID,Mobile
+What are the different data structures in R? Briefly explain about them.,TECHNICAL,R,Language
+How can you load a .csv file in R?,TECHNICAL,R,Language
+What are the different components of grammar of graphics?,TECHNICAL,R,Language
+What is Rmarkdown? What is the use of it?,TECHNICAL,R,Language
+How do you install a package in R?,TECHNICAL,R,Language
+What are the steps to build and evaluate a linear regression model in R?,TECHNICAL,R,Language
+Name some packages in R which can be used for data imputation?,TECHNICAL,R,Language
+Explain about confusion matrix in R?,TECHNICAL,R,Language
+How would you write a custom function in R? Give an example.,TECHNICAL,R,Language
+Name some functions available in “dplyr” package.,TECHNICAL,R,Language
+How would you create a new R6 Class?,TECHNICAL,R,Language
+What is a Random Forest? How do you build and evaluate a Random Forest in R?,TECHNICAL,R,Language
+Tell me something about shinyR.,TECHNICAL,R,Language
+What is advantage of using apply family of functions in R?,TECHNICAL,R,Language
+What packages are used for data mining in R?,TECHNICAL,R,Language
+What is clustering? What is the difference between kmeans clustering and hierarchical clustering?,TECHNICAL,R,Language
+Give examples of “rbind()” and “cbind()” functions in R,TECHNICAL,R,Language
+Give examples of while and for loop in R.,TECHNICAL,R,Language
+Give examples of “select” and “filter” functions from “dplyr” package.,TECHNICAL,R,Language
+What is the use of stringR package,TECHNICAL,R,Language
+What do you know about the rattle package in R?,TECHNICAL,R,Language
+How would you make multiple plots onto a single page in R?,TECHNICAL,R,Language
+How would you create a scatterplot using ggplot2 package?,TECHNICAL,R,Language
+How would you facet the data using ggplot2 package?,TECHNICAL,R,Language
+Given a vector of values how would you convert it into a time series object?,TECHNICAL,R,Language
+What is a White Noise model and how can you simulate it using R?,TECHNICAL,R,Language
+What is a Random Walk model and how can you simulate it using R?,TECHNICAL,R,Language
+What is Principal Component Analysis and how can you create a PCA model in R?,TECHNICAL,R,Language
+How would you find out the mean of one column w.r.t another?,TECHNICAL,R,Language
+Explain about “initialize()” function in R?,TECHNICAL,R,Language
+How would you fit a linear model over a scatter-plot?,TECHNICAL,R,Language
+What do you know about the evaluate_model() function from “statisticalModeling” Package,TECHNICAL,R,Language
+How would you build a Scatter-plot using plotly?,TECHNICAL,R,Language
+What is the difference between a bar-chart and a histogram? Where would you use a bar-chart and where would you use a histogram?,TECHNICAL,R,Language
+How would you create a box-plot using “plotly”?,TECHNICAL,R,Language
+How would you do a left and right join in R?,TECHNICAL,R,Language
+What is a factor? How would you create a factor in R?,TECHNICAL,R,Language
+Given a vector of numbers how would you turn the values into scientific notation?,TECHNICAL,R,Language
+How would you join multiple strings together?,TECHNICAL,R,Language
+Write a custom function which will replace all the missing values in a vector with the mean of values.,TECHNICAL,R,Language
+What are the different import functions in R?,TECHNICAL,R,Language
+Name some functions which can be used for debugging in R?,TECHNICAL,R,Language
+How would you check the distribution of a categorical variable in R?,TECHNICAL,R,Language
+How would you find the number of missing values in a dataset and remove all of them? ,TECHNICAL,R,Language
+What is correlation? How would you measure correlation in R?,TECHNICAL,R,Language
+How would you extract one particular word from a string?,TECHNICAL,R,Language
+How would you do a cross-product of two tables in R?,TECHNICAL,R,Language
+ What is Haskell and Why it is used for? ,TECHNICAL,HASKELL,Language
+ What are the advantages  and disadvantages of Haskell programming? ,TECHNICAL,HASKELL,Language
+ What is the latest version of Haskell? ,TECHNICAL,HASKELL,Language
+ What are Monads in Haskell? ,TECHNICAL,HASKELL,Language
+ What are the types of polymorphism used in Haskell? ,TECHNICAL,HASKELL,Language
+ Write a program in Haskell to print “bestinterviewquestion.com.” ,TECHNICAL,HASKELL,Language
+ What are the kinds of operators used in Haskell? ,TECHNICAL,HASKELL,Language
+ What is lazy evaluation in Haskell? ,TECHNICAL,HASKELL,Language
+ What is currying in Haskell? ,TECHNICAL,HASKELL,Language
+ What is Zippers in Haskell? ,TECHNICAL,HASKELL,Language
+ Explain the types of Modules used in Haskell ,TECHNICAL,HASKELL,Language
+ Explain the difference between Haskell and Erlang? ,TECHNICAL,HASKELL,Language
+ What is Prelude in Haskell ,TECHNICAL,HASKELL,Language
+ Explain Haskell data types? ,TECHNICAL,HASKELL,Language
+ What is the purpose of a functor Haskell? ,TECHNICAL,HASKELL,Language
+ How is Haskell different from modern dynamic languages? ,TECHNICAL,HASKELL,Language
+ Difference between `data` and `newtype` in Haskell? ,TECHNICAL,HASKELL,Language
+ What is multithreading?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the thread?,TECHNICAL,JAVAMULTITHREADING,Language
+ Differentiate between process and thread? ,TECHNICAL,JAVAMULTITHREADING,Language
+ What do you understand by inter-thread communication?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the purpose of wait(,TECHNICAL,JAVAMULTITHREADING,Language
+ Why must wait(,TECHNICAL,JAVAMULTITHREADING,Language
+ What are the advantages of multithreading?,TECHNICAL,JAVAMULTITHREADING,Language
+ What are the states in the lifecycle of a Thread?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the difference between preemptive scheduling and time slicing? ,TECHNICAL,JAVAMULTITHREADING,Language
+ What is context switching?,TECHNICAL,JAVAMULTITHREADING,Language
+ Differentiate between the Thread class and Runnable interface for creating a Thread?,TECHNICAL,JAVAMULTITHREADING,Language
+ What does join(,TECHNICAL,JAVAMULTITHREADING,Language
+ Describe the purpose and working of sleep(,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the difference between wait(,TECHNICAL,JAVAMULTITHREADING,Language
+ Is it possible to start a thread twice?,TECHNICAL,JAVAMULTITHREADING,Language
+ Can we call the run(,TECHNICAL,JAVAMULTITHREADING,Language
+ What about the daemon threads?,TECHNICAL,JAVAMULTITHREADING,Language
+Can we make the user thread as daemon thread if the thread is started?,TECHNICAL,JAVAMULTITHREADING,Language
+What is shutdown hook?,TECHNICAL,JAVAMULTITHREADING,Language
+When should we interrupt a thread?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the synchronization?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the purpose of the Synchronized block?,TECHNICAL,JAVAMULTITHREADING,Language
+Can Java object be locked down for exclusive use by a given thread? ,TECHNICAL,JAVAMULTITHREADING,Language
+ What is static synchronization?,TECHNICAL,JAVAMULTITHREADING,Language
+What is the difference between notify(,TECHNICAL,JAVAMULTITHREADING,Language
+What is the deadlock?,TECHNICAL,JAVAMULTITHREADING,Language
+ How to detect a deadlock condition? How can it be avoided?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is Thread Scheduler in java?,TECHNICAL,JAVAMULTITHREADING,Language
+ Does each thread have its stack in multithreaded programming?,TECHNICAL,JAVAMULTITHREADING,Language
+ How is the safety of a thread achieved?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is race-condition?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the volatile keyword in java?,TECHNICAL,JAVAMULTITHREADING,Language
+ What do you understand by thread pool?,TECHNICAL,JAVAMULTITHREADING,Language
+ What are the main components of concurrency API?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the Executor interface in Concurrency API in Java?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is BlockingQueue?,TECHNICAL,JAVAMULTITHREADING,Language
+ How to implement producer-consumer problem by using BlockingQueue?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the difference between Java Callable interface and Runnable interface?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the Atomic action in Concurrency in Java?,TECHNICAL,JAVAMULTITHREADING,Language
+ What is lock interface in Concurrency API in Java?,TECHNICAL,JAVAMULTITHREADING,Language
+ Explain the ExecutorService Interface.,TECHNICAL,JAVAMULTITHREADING,Language
+ What is the difference between Synchronous programming and Asynchronous programming regarding a thread?,TECHNICAL,JAVAMULTITHREADING,Language
+ What do you understand by Callable and Future in Java?,TECHNICAL,JAVAMULTITHREADING,Language
+ Define FutureTask class in Java? ,TECHNICAL,JAVAMULTITHREADING,Language
+What is the difference between declaration and definition of a variable/function?,TECHNICAL,C,Language
+What are different storage class specifiers in C?,TECHNICAL,C,Language
+What is scope of a variable? How are variables scoped in C?,TECHNICAL,C,Language
+When should we use pointers in a C program?,TECHNICAL,C,Language
+What is NULL pointer? ,TECHNICAL,C,Language
+What is Dangling pointer?,TECHNICAL,C,Language
+What is memory leak? Why it should be avoided,TECHNICAL,C,Language
+What are local static variables? What is their use?,TECHNICAL,C,Language
+What are static functions? What is their use?,TECHNICAL,C,Language
+ What is the difference between list and tuples in python?,TECHNICAL,PYTHON,Language
+What are the key features of Python?,TECHNICAL,PYTHON,Language
+What is the difference between deep and shallow copy in python?,TECHNICAL,PYTHON,Language
+How is Multithreading achieved in Python?,TECHNICAL,PYTHON,Language
+Whenever Python exits why isn’t all the memory de-allocated?,TECHNICAL,PYTHON,Language
+What is dictionary in Python?,TECHNICAL,PYTHON,Language
+What is monkey patching in Python?,TECHNICAL,PYTHON,Language
+ What is the process of compilation and linking in python?,TECHNICAL,PYTHON,Language
+Explain split() method in Python.,TECHNICAL,PYTHON,Language
+Explain sub() methods  in Python.,TECHNICAL,PYTHON,Language
+Explain subn() methods in Python.,TECHNICAL,PYTHON,Language
+What is the difference between range and xrange in python?,TECHNICAL,PYTHON,Language
+What is pickling and unpickling in python?,TECHNICAL,PYTHON,Language
+Difference between python and java,TECHNICAL,PYTHON,Language
+Difference between python and cpp,TECHNICAL,PYTHON,Language
+Difference between python and c,TECHNICAL,PYTHON,Language
+Is Python object oriented?,TECHNICAL,PYTHON,Language
+How we can use python for web development,TECHNICAL,PYTHON,Language
+Is python scalable for enterprise?,TECHNICAL,PYTHON,Language
+Difference between python2 and python3?,TECHNICAL,PYTHON,Language
+ Explain what is GO?,TECHNICAL,GOLANG,Language
+ What is syntax like in GO?,TECHNICAL,GOLANG,Language
+ Explain what is string literals?,TECHNICAL,GOLANG,Language
+ Explain packages in Go program?,TECHNICAL,GOLANG,Language
+ Explain workspace in GO?,TECHNICAL,GOLANG,Language
+ Explain how to use custom packages in GO language?,TECHNICAL,GOLANG,Language
+ Explain what is GOPATH environment variable?,TECHNICAL,GOLANG,Language
+ Explain how you can do testing in GO?,TECHNICAL,GOLANG,Language
+ Explain what is string types?,TECHNICAL,GOLANG,Language
+ What are the advantages of GO?,TECHNICAL,GOLANG,Language
+ List out the built in support in GO?,TECHNICAL,GOLANG,Language
+ Explain what is go routine in GO? How you can stop go routine?,TECHNICAL,GOLANG,Language
+ Explain how you can write multiline strings in GO?,TECHNICAL,GOLANG,Language
+ Explain how you to access command line arguments passed to a GO program?,TECHNICAL,GOLANG,Language
+ Explain how pointer is represented in GO?,TECHNICAL,GOLANG,Language
+ How you can format a string without printing?,TECHNICAL,GOLANG,Language
+ Explain how arrays in GO works differently then C ?,TECHNICAL,GOLANG,Language
+ Explain GO Interfaces ?,TECHNICAL,GOLANG,Language
+ Explain what Type assertion is used for and how it does it?,TECHNICAL,GOLANG,Language
+ In GO language how you can check variable type at runtime?,TECHNICAL,GOLANG,Language
+ What is Ruby on Rails and why it is used for? ,TECHNICAL,RUBY,Language
+ Who Developed Ruby on Rails? ,TECHNICAL,RUBY,Language
+ Explain the Advantages of Ruby on Rails? ,TECHNICAL,RUBY,Language
+ What is the latest version of ruby on rails? ,TECHNICAL,RUBY,Language
+ What are class libraries? ,TECHNICAL,RUBY,Language
+ What are naming conventions? ,TECHNICAL,RUBY,Language
+ What is Object-Relationship-Model (ORM)? ,TECHNICAL,RUBY,Language
+ What is the difference between false and nil in Ruby? ,TECHNICAL,RUBY,Language
+ What role do sub-directory app/helpers and app/controllers play? ,TECHNICAL,RUBY,Language
+ How are String and Symbol different? ,TECHNICAL,RUBY,Language
+ What is Rails active record? ,TECHNICAL,RUBY,Language
+ How do Rails implement Ajax? ,TECHNICAL,RUBY,Language
+ What is the process for creating a controller for the subject? What is its role? ,TECHNICAL,RUBY,Language
+ What is Rails Migration? What can it do? ,TECHNICAL,RUBY,Language
+ When are self.up and self.down methods used? ,TECHNICAL,RUBY,Language
+ What is Cross-Site Request Forgery (CSRF)? How is Rails protected against it? ,TECHNICAL,RUBY,Language
+ How can you run Rails without creating databases? ,TECHNICAL,RUBY,Language
+ How are Observers and Callbacks different from each other? ,TECHNICAL,RUBY,Language
+ What is Rake? ,TECHNICAL,RUBY,Language
+ How is Dynamic Scaffolding different from Static Scaffolding? ,TECHNICAL,RUBY,Language
+ What role does garbage collection play? ,TECHNICAL,RUBY,Language
+ How is direct different from render? ,TECHNICAL,RUBY,Language
+ What is the importance of RJs? ,TECHNICAL,RUBY,Language
+ How is calling super() different from the super call? ,TECHNICAL,RUBY,Language
+ What are Float Dig and Max? ,TECHNICAL,RUBY,Language
+ How many types of variables are available in Ruby Class? ,TECHNICAL,RUBY,Language
+ How are the key differences between Python and Ruby? ,TECHNICAL,RUBY,Language
+ What is Java?,TECHNICAL,JAVA,Language
+ What are the differences between C++ and Java?,TECHNICAL,JAVA,Language
+ List the features of Java Programming language.,TECHNICAL,JAVA,Language
+ What do you understand by Java virtual machine?,TECHNICAL,JAVA,Language
+ What is the difference between JDK JRE and JVM?,TECHNICAL,JAVA,Language
+ How many types of memory areas are allocated by JVM?,TECHNICAL,JAVA,Language
+ What is JIT compiler?,TECHNICAL,JAVA,Language
+ What is the platform?,TECHNICAL,JAVA,Language
+ What are the main differences between the Java platform and other platforms?,TECHNICAL,JAVA,Language
+ What gives Java its 'write once and run anywhere' nature? ,TECHNICAL,JAVA,Language
+ What is classloader?,TECHNICAL,JAVA,Language
+ Is Empty .java file name a valid source file name?,TECHNICAL,JAVA,Language
+ Is delete next main exit or null keyword in java?,TECHNICAL,JAVA,Language
+ If I don't provide any arguments on the command line then what will the value stored in the String array passed into the main(,TECHNICAL,JAVA,Language
+ What if I write static public void instead of public static void?,TECHNICAL,JAVA,Language
+ What is the default value of the local variables? ,TECHNICAL,JAVA,Language
+ What are the various access specifiers in Java?,TECHNICAL,JAVA,Language
+ What is the purpose of static methods and variables?,TECHNICAL,JAVA,Language
+ What are the advantages of Packages in Java?,TECHNICAL,JAVA,Language
+ What is the output of the following Java program?,TECHNICAL,JAVA,Language
+ What is object-oriented paradigm?,TECHNICAL,JAVA,Language
+ What is an object?,TECHNICAL,JAVA,Language
+ What is the difference between an object-oriented programming language and object-based programming language?,TECHNICAL,JAVA,Language
+ What will be the initial value of an object reference which is defined as an instance variable? ,TECHNICAL,JAVA,Language
+ What is the constructor?,TECHNICAL,JAVA,Language
+ How many types of constructors are used in Java?,TECHNICAL,JAVA,Language
+ What is the purpose of a default constructor?,TECHNICAL,JAVA,Language
+ Does constructor return any value?,TECHNICAL,JAVA,Language
+Is constructor inherited?,TECHNICAL,JAVA,Language
+ Can you make a constructor final?,TECHNICAL,JAVA,Language
+ Can we overload the constructors?,TECHNICAL,JAVA,Language
+ What do you understand by copy constructor in Java?,TECHNICAL,JAVA,Language
+ What are the differences between the constructors and methods?,TECHNICAL,JAVA,Language
+ What is the output of the following Java program? ,TECHNICAL,JAVA,Language
+ What is the static variable?,TECHNICAL,JAVA,Language
+ What is the static method?,TECHNICAL,JAVA,Language
+ What are the restrictions that are applied to the Java static methods?,TECHNICAL,JAVA,Language
+ Why is the main method static?,TECHNICAL,JAVA,Language
+ Can we override the static methods?,TECHNICAL,JAVA,Language
+ What is the static block?,TECHNICAL,JAVA,Language
+ Can we execute a program without main(,TECHNICAL,JAVA,Language
+ What if the static modifier is removed from the signature of the main method?,TECHNICAL,JAVA,Language
+ What is the difference between static (class,TECHNICAL,JAVA,Language
+ Can we make constructors static?,TECHNICAL,JAVA,Language
+ Can we make the abstract methods static in Java?,TECHNICAL,JAVA,Language
+ Can we declare the static variables and methods in an abstract class?,TECHNICAL,JAVA,Language
+ What is this keyword in java?,TECHNICAL,JAVA,Language
+ What are the main uses of this keyword?,TECHNICAL,JAVA,Language
+ Can we assign the reference to this variable?,TECHNICAL,JAVA,Language
+ Can this keyword be used to refer static members?,TECHNICAL,JAVA,Language
+ How can constructor chaining be done using this keyword?,TECHNICAL,JAVA,Language
+ What are the advantages of passing this into a method instead of the current class object itself?,TECHNICAL,JAVA,Language
+ What is the Inheritance?,TECHNICAL,JAVA,Language
+ Why is Inheritance used in Java? ,TECHNICAL,JAVA,Language
+ Which class is the superclass for all the classes? ,TECHNICAL,JAVA,Language
+ Why is multiple inheritance not supported in java?,TECHNICAL,JAVA,Language
+ What is aggregation? ,TECHNICAL,JAVA,Language
+ What is composition? ,TECHNICAL,JAVA,Language
+ What is the difference between aggregation and composition? ,TECHNICAL,JAVA,Language
+ Why does Java not support pointers? ,TECHNICAL,JAVA,Language
+ What is super in java?,TECHNICAL,JAVA,Language
+ How can constructor chaining be done by using the super keyword?,TECHNICAL,JAVA,Language
+ What are the main uses of the super keyword?,TECHNICAL,JAVA,Language
+ What are the differences between this and super keyword?,TECHNICAL,JAVA,Language
+ Can you use this(,TECHNICAL,JAVA,Language
+What is object cloning?,TECHNICAL,JAVA,Language
+ What is method overloading?,TECHNICAL,JAVA,Language
+ Why is method overloading not possible by changing the return type in java?,TECHNICAL,JAVA,Language
+ Can we overload the methods by making them static?,TECHNICAL,JAVA,Language
+ Can we overload the main(,TECHNICAL,JAVA,Language
+ What is method overloading with type promotion?,TECHNICAL,JAVA,Language
+ What is method overriding:,TECHNICAL,JAVA,Language
+ Can we override the static method?,TECHNICAL,JAVA,Language
+ Why can we not override static method?,TECHNICAL,JAVA,Language
+ Can we override the overloaded method?,TECHNICAL,JAVA,Language
+ Difference between method Overloading and Overriding.,TECHNICAL,JAVA,Language
+ Can we override the private methods?,TECHNICAL,JAVA,Language
+ Can we change the scope of the overridden method in the subclass?,TECHNICAL,JAVA,Language
+ Can we modify the throws clause of the superclass method while overriding it in the subclass?,TECHNICAL,JAVA,Language
+ Can you have virtual functions in Java? ,TECHNICAL,JAVA,Language
+ What is covariant return type? ,TECHNICAL,JAVA,Language
+ What is the final variable?,TECHNICAL,JAVA,Language
+ What is the final method?,TECHNICAL,JAVA,Language
+ What is the final class?,TECHNICAL,JAVA,Language
+ What is the final blank variable?,TECHNICAL,JAVA,Language
+ Can we initialize the final blank variable?,TECHNICAL,JAVA,Language
+ Can you declare the main method as final? ,TECHNICAL,JAVA,Language
+ Can we declare a constructor as final?,TECHNICAL,JAVA,Language
+ Can we declare an interface as final?,TECHNICAL,JAVA,Language
+ What is the difference between the final method and abstract method?,TECHNICAL,JAVA,Language
+ What is the difference between compile-time polymorphism and runtime polymorphism?,TECHNICAL,JAVA,Language
+ What is Runtime Polymorphism?,TECHNICAL,JAVA,Language
+ Can you achieve Runtime Polymorphism by data members?,TECHNICAL,JAVA,Language
+ What is the difference between static binding and dynamic binding?,TECHNICAL,JAVA,Language
+ What is Java instanceOf operator?,TECHNICAL,JAVA,Language
+ What is the abstraction?,TECHNICAL,JAVA,Language
+ What is the difference between abstraction and encapsulation?,TECHNICAL,JAVA,Language
+ What is the abstract class?,TECHNICAL,JAVA,Language
+ Can there be an abstract method without an abstract class?,TECHNICAL,JAVA,Language
+ Is the following program written correctly? If yes then what will be the output of the program?,TECHNICAL,JAVA,Language
+ Can you use abstract and final both with a method?,TECHNICAL,JAVA,Language
+ Is it possible to instantiate the abstract class?,TECHNICAL,JAVA,Language
+ What is the interface?,TECHNICAL,JAVA,Language
+ Can you declare an interface method static?,TECHNICAL,JAVA,Language
+ Can the Interface be final?,TECHNICAL,JAVA,Language
+ What is a marker interface?,TECHNICAL,JAVA,Language
+ What are the differences between abstract class and interface?,TECHNICAL,JAVA,Language
+ Can we define private and protected modifiers for the members in interfaces?,TECHNICAL,JAVA,Language
+ When can an object reference be cast to an interface reference? ,TECHNICAL,JAVA,Language
+ How to make a read-only class in Java? ,TECHNICAL,JAVA,Language
+ How to make a write-only class in Java? ,TECHNICAL,JAVA,Language
+ What are the advantages of Encapsulation in Java?,TECHNICAL,JAVA,Language
+ What is the package?,TECHNICAL,JAVA,Language
+ What are the advantages of defining packages in Java?,TECHNICAL,JAVA,Language
+ How to create packages in Java?,TECHNICAL,JAVA,Language
+ How can we access some class in another class in Java?,TECHNICAL,JAVA,Language
+ Do I need to import java.lang package any time? Why?,TECHNICAL,JAVA,Language
+ Can I import same package/class twice? Will the JVM load the package twice at runtime?,TECHNICAL,JAVA,Language
+ What is the static import?,TECHNICAL,JAVA,Language
+ How many types of exception can occur in a Java program?,TECHNICAL,JAVA,Language
+ What is Exception Handling?,TECHNICAL,JAVA,Language
+ Explain the hierarchy of Java Exception classes? ,TECHNICAL,JAVA,Language
+ What is the difference between Checked Exception and Unchecked Exception?,TECHNICAL,JAVA,Language
+ Checked Exception,TECHNICAL,JAVA,Language
+ Unchecked Exception,TECHNICAL,JAVA,Language
+ What is the base class for Error and Exception? ,TECHNICAL,JAVA,Language
+ Is it necessary that each try block must be followed by a catch block?,TECHNICAL,JAVA,Language
+ What is finally block?,TECHNICAL,JAVA,Language
+ Can finally block be used without a catch?,TECHNICAL,JAVA,Language
+ Is there any case when finally will not be executed?,TECHNICAL,JAVA,Language
+ What is the difference between throw and throws?,TECHNICAL,JAVA,Language
+ Can an exception be rethrown?,TECHNICAL,JAVA,Language
+ Can subclass overriding method declare an exception if parent class method doesn't throw an exception?,TECHNICAL,JAVA,Language
+ What is exception propagation?,TECHNICAL,JAVA,Language
+ What is String Pool?,TECHNICAL,JAVA,Language
+ What is the meaning of immutable regarding String?,TECHNICAL,JAVA,Language
+ Why are the objects immutable in java?,TECHNICAL,JAVA,Language
+ How many ways can we create the string object?,TECHNICAL,JAVA,Language
+ String Literal,TECHNICAL,JAVA,Language
+ By new keyword,TECHNICAL,JAVA,Language
+ How many objects will be created in the following code?,TECHNICAL,JAVA,Language
+ Why java uses the concept of the string literal?,TECHNICAL,JAVA,Language
+ What are the differences between String and StringBuffer?,TECHNICAL,JAVA,Language
+ What are the differences between StringBuffer and StringBuilder?,TECHNICAL,JAVA,Language
+ How can we create an immutable class in Java?,TECHNICAL,JAVA,Language
+ What is the purpose of toString(,TECHNICAL,JAVA,Language
+ Why CharArray(,TECHNICAL,JAVA,Language
+ Write a Java program to count the number of words present in a string?,TECHNICAL,JAVA,Language
+ Name some classes present in java.util.regex package.,TECHNICAL,JAVA,Language
+ How the metacharacters are different from the ordinary characters?,TECHNICAL,JAVA,Language
+ Write a regular expression to validate a password. A password must start with an alphabet and followed by alphanumeric characters Its length must be in between 8 to 20.,TECHNICAL,JAVA,Language
+ What are the advantages of Java inner classes? ,TECHNICAL,JAVA,Language
+ What is a nested class? ,TECHNICAL,JAVA,Language
+ What are the disadvantages of using inner classes?,TECHNICAL,JAVA,Language
+ What are the types of inner classes (non-static nested class,TECHNICAL,JAVA,Language
+ Is there any difference between nested classes and inner classes? ,TECHNICAL,JAVA,Language
+ Can we access the non-final local variable inside the local inner class? ,TECHNICAL,JAVA,Language
+ How many class files are created on compiling the OuterClass in the following program? ,TECHNICAL,JAVA,Language
+ What are anonymous inner classes?,TECHNICAL,JAVA,Language
+ What is the nested interface? ,TECHNICAL,JAVA,Language
+ Can a class have an interface? ,TECHNICAL,JAVA,Language
+ Can an Interface have a class? ,TECHNICAL,JAVA,Language
+ What is Garbage Collection?,TECHNICAL,JAVA,Language
+ What is gc(,TECHNICAL,JAVA,Language
+ How is garbage collection controlled?,TECHNICAL,JAVA,Language
+ How can an object be unreferenced?,TECHNICAL,JAVA,Language
+ By nulling a reference:,TECHNICAL,JAVA,Language
+ By assigning a reference to another:,TECHNICAL,JAVA,Language
+ By anonymous object:,TECHNICAL,JAVA,Language
+ What is the purpose of the finalize(,TECHNICAL,JAVA,Language
+ Can an unreferenced object be referenced again?,TECHNICAL,JAVA,Language
+ What kind of thread is the Garbage collector thread? ,TECHNICAL,JAVA,Language
+ What is the difference between final finally and finalize?,TECHNICAL,JAVA,Language
+ What is the purpose of the Runtime class? ,TECHNICAL,JAVA,Language
+ How will you invoke any external process in Java? ,TECHNICAL,JAVA,Language
+ Give the hierarchy of InputStream and OutputStream classes.,TECHNICAL,JAVA,Language
+ What do you understand by an IO stream?,TECHNICAL,JAVA,Language
+ What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy? ,TECHNICAL,JAVA,Language
+ What are the super most classes for all the streams?,TECHNICAL,JAVA,Language
+ What are the FileInputStream and FileOutputStream?,TECHNICAL,JAVA,Language
+ What is the purpose of using BufferedInputStream and BufferedOutputStream classes?,TECHNICAL,JAVA,Language
+ How to set the Permissions to a file in Java?,TECHNICAL,JAVA,Language
+ What are FilterStreams? ,TECHNICAL,JAVA,Language
+ What is an I/O filter? ,TECHNICAL,JAVA,Language
+ In Java How many ways you can take input from the console?,TECHNICAL,JAVA,Language
+ What is serialization?,TECHNICAL,JAVA,Language
+ How can you make a class serializable in Java?,TECHNICAL,JAVA,Language
+ How can you avoid serialization in child class if the base class is implementing the Serializable interface?,TECHNICAL,JAVA,Language
+ Can a Serialized object be transferred via network?,TECHNICAL,JAVA,Language
+ What is Deserialization?,TECHNICAL,JAVA,Language
+ What is the transient keyword?,TECHNICAL,JAVA,Language
+ What is Externalizable?,TECHNICAL,JAVA,Language
+ What is the difference between Serializable and Externalizable interface? ,TECHNICAL,JAVA,Language
+ Give a brief description of Java socket programming? ,TECHNICAL,JAVA,Language
+ What is Socket? ,TECHNICAL,JAVA,Language
+ What are the steps that are followed when two computers connect through TCP? ,TECHNICAL,JAVA,Language
+ Write a program in Java to establish a connection between client and server?,TECHNICAL,JAVA,Language
+ How do I convert a numeric IP address like 192.18.97.39 into a hostname like java.sun.com? ,TECHNICAL,JAVA,Language
+ What is the reflection?,TECHNICAL,JAVA,Language
+ What is the purpose of using java.lang.Class class?,TECHNICAL,JAVA,Language
+ What are the ways to instantiate the Class class?,TECHNICAL,JAVA,Language
+ What is the purpose of using javap?,TECHNICAL,JAVA,Language
+ Can you access the private method from outside the class?,TECHNICAL,JAVA,Language
+What are wrapper classes? ,TECHNICAL,JAVA,Language
+What are autoboxing and unboxing? When does it occur?,TECHNICAL,JAVA,Language
+ What is the output of the below Java program?,TECHNICAL,JAVA,Language
+ What is object cloning? ,TECHNICAL,JAVA,Language
+ What are the advantages and disadvantages of object cloning? ,TECHNICAL,JAVA,Language
+ What is a native method? ,TECHNICAL,JAVA,Language
+ What is the purpose of the strictfp keyword? ,TECHNICAL,JAVA,Language
+ What is the purpose of the System class? ,TECHNICAL,JAVA,Language
+ What comes to mind when someone mentions a shallow copy in Java?,TECHNICAL,JAVA,Language
+ What is a singleton class? ,TECHNICAL,JAVA,Language
+ Write a Java program that prints all the values given at command-line.,TECHNICAL,JAVA,Language
+ Which containers use a border layout as their default layout? ,TECHNICAL,JAVA,Language
+ Which containers use a FlowLayout as their default layout? ,TECHNICAL,JAVA,Language
+ What are peerless components? ,TECHNICAL,JAVA,Language
+ is there is any difference between a Scrollbar and a ScrollPane? ,TECHNICAL,JAVA,Language
+ What is a lightweight component?,TECHNICAL,JAVA,Language
+ What is a heavyweight component?,TECHNICAL,JAVA,Language
+ What is an applet?,TECHNICAL,JAVA,Language
+ Can you write a Java class that could be used both as an applet as well as an application?,TECHNICAL,JAVA,Language
+ What is Locale? ,TECHNICAL,JAVA,Language
+How will you load a specific locale? ,TECHNICAL,JAVA,Language
+ What is a JavaBean?,TECHNICAL,JAVA,Language
+ What is the purpose of using the Java bean?,TECHNICAL,JAVA,Language
+ What do you understand by the bean persistent property?,TECHNICAL,JAVA,Language
+ What is RMI?,TECHNICAL,JAVA,Language
+ What is the  purpose of stub and skeleton?,TECHNICAL,JAVA,Language
+ What are the steps involved to write RMI based programs?,TECHNICAL,JAVA,Language
+ What is the use of HTTP-tunneling in RMI?,TECHNICAL,JAVA,Language
+ What is JRMP?,TECHNICAL,JAVA,Language
+ Can RMI and CORBA based applications interact?,TECHNICAL,JAVA,Language
+ How to perform Bubble Sort in Java?,TECHNICAL,JAVA,Language
+ How to perform Binary Search in Java?,TECHNICAL,JAVA,Language
+ How to perform Selection Sort in Java?,TECHNICAL,JAVA,Language
+ How to perform Linear Search in Java?,TECHNICAL,JAVA,Language
+ How to perform merge sort in Java?,TECHNICAL,JAVA,Language
+ How to perform quicksort in Java?,TECHNICAL,JAVA,Language
+ Write a program in Java to create a doubly linked list containing n nodes.,TECHNICAL,JAVA,Language
+ Write a program in Java to find the maximum and minimum value node from a circular linked list.,TECHNICAL,JAVA,Language
+ Write a program in Java to calculate the difference between the sum of the odd level and even level nodes of a Binary Tree.,TECHNICAL,JAVA,Language
+ What is the Collection framework in Java?,TECHNICAL,JAVA,Language
+ What are the main differences between array and collection?,TECHNICAL,JAVA,Language
+ Explain various interfaces used in Collection framework?,TECHNICAL,JAVA,Language
+ What is the difference between ArrayList and Vector?,TECHNICAL,JAVA,Language
+ What is the difference between ArrayList and LinkedList?,TECHNICAL,JAVA,Language
+ What is the difference between Iterator and ListIterator?,TECHNICAL,JAVA,Language
+ What is the difference between Iterator and Enumeration?,TECHNICAL,JAVA,Language
+ What is the difference between List and Set?,TECHNICAL,JAVA,Language
+ What is the difference between HashSet and TreeSet?,TECHNICAL,JAVA,Language
+ What is the difference between Set and Map?,TECHNICAL,JAVA,Language
+ What is the difference between HashSet and HashMap?,TECHNICAL,JAVA,Language
+ What is the difference between HashMap and TreeMap?,TECHNICAL,JAVA,Language
+ What is the difference between HashMap and Hashtable?,TECHNICAL,JAVA,Language
+ What is the difference between Collection and Collections?,TECHNICAL,JAVA,Language
+ What is the difference between Comparable and Comparator?,TECHNICAL,JAVA,Language
+ What do you understand by BlockingQueue?,TECHNICAL,JAVA,Language
+ What is the advantage of Properties file?,TECHNICAL,JAVA,Language
+ What does the hashCode(,TECHNICAL,JAVA,Language
+ Why we override equals(,TECHNICAL,JAVA,Language
+ How to synchronize List Set and Map elements?,TECHNICAL,JAVA,Language
+ What is the advantage of the generic collection?,TECHNICAL,JAVA,Language
+ What is hash-collision in Hashtable and how it is handled in Java?,TECHNICAL,JAVA,Language
+ What is the Dictionary class?,TECHNICAL,JAVA,Language
+ What is the default size of load factor in hashing based collection?,TECHNICAL,JAVA,Language
+ What do you understand by fail-fast?,TECHNICAL,JAVA,Language
+ What is the difference between Array and ArrayList?,TECHNICAL,JAVA,Language
+ What is the difference between the length of an Array and size of ArrayList?,TECHNICAL,JAVA,Language
+ How to convert ArrayList to Array and Array to ArrayList?,TECHNICAL,JAVA,Language
+ How to make Java ArrayList Read-Only?,TECHNICAL,JAVA,Language
+ How to remove duplicates from ArrayList?,TECHNICAL,JAVA,Language
+ How to reverse ArrayList?,TECHNICAL,JAVA,Language
+ How to sort ArrayList in descending order?,TECHNICAL,JAVA,Language
+ How to synchronize ArrayList?,TECHNICAL,JAVA,Language
+ When to use ArrayList and LinkedList?,TECHNICAL,JAVA,Language
+ What is JDBC?,TECHNICAL,JAVA,Language
+ What is JDBC Driver?,TECHNICAL,JAVA,Language
+ What are the steps to connect to the database in java?,TECHNICAL,JAVA,Language
+ What are the JDBC API components?,TECHNICAL,JAVA,Language
+ What are the JDBC statements?,TECHNICAL,JAVA,Language
+ What is the return type of Class.forName(,TECHNICAL,JAVA,Language
+ What are the differences between Statement and PreparedStatement interface?,TECHNICAL,JAVA,Language
+ How can we set null value in JDBC PreparedStatement?,TECHNICAL,JAVA,Language
+ What are the benefits of PreparedStatement over Statement?,TECHNICAL,JAVA,Language
+ What are the differences between execute executeQuery and executeUpdate?,TECHNICAL,JAVA,Language
+ What are the different types of ResultSet?,TECHNICAL,JAVA,Language
+ What are the differences between ResultSet and RowSet?,TECHNICAL,JAVA,Language
+ How can we execute stored procedures using CallableStatement?,TECHNICAL,JAVA,Language
+ What is the role of the JDBC DriverManager class?,TECHNICAL,JAVA,Language
+ What are the functions of the JDBC Connection interface?,TECHNICAL,JAVA,Language
+ What does the JDBC ResultSet interface?,TECHNICAL,JAVA,Language
+ What does the JDBC ResultSetMetaData interface?,TECHNICAL,JAVA,Language
+ What does the JDBC DatabaseMetaData interface?,TECHNICAL,JAVA,Language
+ Which interface is responsible for transaction management in JDBC?,TECHNICAL,JAVA,Language
+ What is batch processing and how to perform batch processing in JDBC?,TECHNICAL,JAVA,Language
+ What are CLOB and BLOB data types in JDBC?,TECHNICAL,JAVA,Language
+ What are the different types of lockings in JDBC?,TECHNICAL,JAVA,Language
+ How can we store and retrieve images from the database?,TECHNICAL,JAVA,Language
+ How can we store the file in the Oracle database?,TECHNICAL,JAVA,Language
+ How can we retrieve the file in the Oracle database?,TECHNICAL,JAVA,Language
+ What are the differences between stored procedure and functions?,TECHNICAL,JAVA,Language
+ How can we maintain the integrity of a database by using JDBC?,TECHNICAL,JAVA,Language
+ What is the JDBC Rowset?,TECHNICAL,JAVA,Language
+ What is the major difference between java.util.Date and java.sql.Date data type?,TECHNICAL,JAVA,Language
+ What does JDBC setMaxRows method do?,TECHNICAL,JAVA,Language
+What are the differences between C and C++?,TECHNICAL,CPP,Language
+What are the differences between references and pointers?,TECHNICAL,CPP,Language
+What are virtual functions?,TECHNICAL,CPP,Language
+What is this pointer?,TECHNICAL,CPP,Language
+ Major Differences between JAVA and C++ ,TECHNICAL,CPP,Language
+What are C++ access specifiers ?,TECHNICAL,CPP,Language
+Tell me Major C++ features,TECHNICAL,CPP,Language
+What are  Inline Functions?,TECHNICAL,CPP,Language
+What does .NET Framework provides?,TECHNICAL,DOTNET,Language
+Mention what are main components of .Net framework?,TECHNICAL,DOTNET,Language
+Mention key characteristics of .NET ?,TECHNICAL,DOTNET,Language
+Mention what are the languages that .NET supports?,TECHNICAL,DOTNET,Language
+Mention how big is the datatype int in .NET?,TECHNICAL,DOTNET,Language
+Mention what is .Net Namespaces?,TECHNICAL,DOTNET,Language
+Mention what is MSIL in .NET ?,TECHNICAL,DOTNET,Language
+Mention what are the functions .NET Assembly performs?,TECHNICAL,DOTNET,Language
+Mention what is .Net Assembly Manifest?,TECHNICAL,DOTNET,Language
+Explain what is PE (Portable Executable,TECHNICAL,DOTNET,Language
+Mention what is the difference between Assembly and Namespace?,TECHNICAL,DOTNET,Language
+List out the namespace provided by .net for data management?,TECHNICAL,DOTNET,Language
+Mention what is GAC in .net ?,TECHNICAL,DOTNET,Language
+Mention what is STA in .NET?,TECHNICAL,DOTNET,Language
+Mention what is data access modifier in .NET?,TECHNICAL,DOTNET,Language
+Mention what are the types of access modifier in .NET?,TECHNICAL,DOTNET,Language
+Mention the type of code security available in .NET?,TECHNICAL,DOTNET,Language
+Explain how you can implement singleton pattern in .NET?,TECHNICAL,DOTNET,Language
+Explain how the exception is handled in .NET?,TECHNICAL,DOTNET,Language
+Explain how can you create and use an array in .NET?,TECHNICAL,DOTNET,Language
+Mention what is user-defined data type?,TECHNICAL,DOTNET,Language
+List out few of the .Net base class library namespace?,TECHNICAL,DOTNET,Language
+Mention what is the difference between structures and classes in .NET?,TECHNICAL,DOTNET,Language
+Mention the types of multidimensional arrays used in .NET ?,TECHNICAL,DOTNET,Language
+Explain how to add properties in.NET?,TECHNICAL,DOTNET,Language
+Mention what is event bubbling in .NET?,TECHNICAL,DOTNET,Language
+Mention what are the debugging windows available?,TECHNICAL,DOTNET,Language
+Explain what is Microsoft Silverlight?,TECHNICAL,DOTNET,Language
+What Silverlight is composed of?,TECHNICAL,DOTNET,Language
+Explain what is .xap file?,TECHNICAL,DOTNET,Language
+List out the tools required to build Silverlight applications?,TECHNICAL,DOTNET,Language
+Mention whether Silverlight allows MPEG4 and H.264 videos or AAC (advanced audio coding,TECHNICAL,DOTNET,Language
+Explain how you can host a Silverlight Applications?,TECHNICAL,DOTNET,Language
+Mention what is the difference between WPF (Windows Presentation Foundation,TECHNICAL,DOTNET,Language
+Explain how you can pass parameters to silver light controls from ASP.NET pages?,TECHNICAL,DOTNET,Language
+Explain how Silverlight and ASP.NET AJAX can be used by consumers?,TECHNICAL,DOTNET,Language
+Explain how you can check the internet connection status in Silverlight?,TECHNICAL,DOTNET,Language
+Explain what is RIA?,TECHNICAL,DOTNET,Language
+Mention what are the different layout controls available in Silverlight?,TECHNICAL,DOTNET,Language
+What is the syntax for Net?,TECHNICAL,DOTNET,Language
+ What are the basic differences between relational database and HDFS?,TECHNICAL,HADOOP,Others
+Explain “Big Data” and what are five V’s of Big Data?,TECHNICAL,HADOOP,Others
+What is Hadoop and its components. ,TECHNICAL,HADOOP,Others
+What are HDFS and YARN?,TECHNICAL,HADOOP,Others
+Tell me about the various Hadoop daemons and their roles in a Hadoop cluster.,TECHNICAL,HADOOP,Others
+Compare HDFS with Network Attached Storage (NAS).
+,TECHNICAL,HADOOP,Others
+List the difference between Hadoop 1 and Hadoop 2.,TECHNICAL,HADOOP,Others
+What are active and passive “NameNodes”? ,TECHNICAL,HADOOP,Others
+ Why does one remove or add nodes in a Hadoop cluster frequently?,TECHNICAL,HADOOP,Others
+What happens when two clients try to access the same file in the HDFS?,TECHNICAL,HADOOP,Others
+How does NameNode tackle DataNode failures?,TECHNICAL,HADOOP,Others
+What will you do when NameNode is down?,TECHNICAL,HADOOP,Others
+ How is HDFS fault tolerant? ,TECHNICAL,HADOOP,Others
+Can NameNode and DataNode be a commodity hardware? ,TECHNICAL,HADOOP,Others
+ Why do we use HDFS for applications having large data sets and not when there are a lot of small files? ,TECHNICAL,HADOOP,Others
+How can I restart “NameNode” or all the daemons in Hadoop? ,TECHNICAL,HADOOP,Others
+What is the difference between an “HDFS Block” and an “Input Split”?,TECHNICAL,HADOOP,Others
+Name the three modes in which Hadoop can run.,TECHNICAL,HADOOP,Others
+What is “MapReduce”? What is the syntax to run a “MapReduce” program? ,TECHNICAL,HADOOP,Others
+State the reason why we can’t perform “aggregation” (addition) in mapper? Why do we need the “reducer” for this?,TECHNICAL,HADOOP,Others
+What does a “MapReduce Partitioner” do?,TECHNICAL,HADOOP,Others
+What are the benefits of Apache Pig over MapReduce? ,TECHNICAL,HADOOP,Others
+What are the different data types in Pig Latin?,TECHNICAL,HADOOP,Others
+ What is Apache HBase?,TECHNICAL,HADOOP,Others
+What are the components of Apache HBase?,TECHNICAL,HADOOP,Others
+. Mention the differences between “HBase” and “Relational Databases”?,TECHNICAL,HADOOP,Others
+What is Apache Spark?,TECHNICAL,HADOOP,Others
+What is Apache ZooKeeper and Apache Oozie?,TECHNICAL,HADOOP,Others

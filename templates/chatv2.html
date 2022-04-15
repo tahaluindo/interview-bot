@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+   <head lang="en">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chatbot</title>
+        <link href="{{ url_for('static', filename='styles/bootstrap4.min.css') }}" type="text/css" rel="stylesheet" />
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+
+
+	<script src="{{ url_for('static', filename='js/bootstrap4.min.js') }}"></script> 
+        <link href="{{ url_for('static', filename='styles/style.css') }}" type="text/css" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='js/Chart.min.js') }}"></script>
+  	<script src="{{ url_for('static',filename='js/face-api.js') }}"></script>
+    	<script src="{{ url_for('static',filename='js/commons.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/tf.min.js') }}"></script>
+
+        <link href="{{ url_for('static', filename='styles/font-awesome.min.css') }}" type="text/css" rel="stylesheet" />
+      	<link href="{{ url_for('static',filename ='styles/style.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link href="{{ url_for('static',filename='lib/video-js.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='lib/videojs.wavesurfer.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename='lib/videojs.record.css') }}" rel="stylesheet">
+
+  <script src="{{ url_for('static',filename='lib/video.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='lib/RecordRTC.js') }}" ></script>
+  <script src="{{ url_for('static',filename='lib/adapter.js') }}"></script>
+  <script src="{{ url_for('static',filename='lib/wavesurfer.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='lib/wavesurfer.microphone.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='lib/videojs.wavesurfer.min.js') }}"></script>
+
+  <script src="{{ url_for('static',filename='lib/videojs.record.js') }}"></script>
+
+      <style type="text/css">
+  #myAudio {
+      background-color: #4a148c;
+  }
+        .fixed-panel {
+        min-height: 250px;
+        max-height:250px;
+        background-color: white;
+        color: black;
+        overflow: auto;
+	padding:1.5%;
+	border:1px #4a148c solid;
+        }
+	.modal-backdrop {
+	  z-index: 0;
+	}
+	.user-chat{
+	background:white;
+	padding:5%;
+	margin-left:25%;
+	text-align:right;
+	color : #4a148c;
+	border: 1px solid #4a148c;
+	border-radius:30px;
+	width:100%;
+	}
+	.chat-bot{
+	background:#4a148c;
+	padding:5%;
+	margin-right:8%;
+	margin-top:2%;
+	margin-bottom:2%;
+	color : white;
+	border-radius:30px;
+	width:100%;
+	}	
+        .media-list {
+        overflow: auto;
+        clear: both;
+        display: table;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: normal;
+        line-break: strict;
+        color:black;
+        }
+        .panel {
+        margin-bottom: 20px;
+        background-color: white;
+        border: 6px solid transparent;
+        border-radius: 25px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        }
+        .panel-info {
+        border-color: white;
+        }
+        .panel-info>.panel-heading {
+        color: black;
+        background-color: white;
+        border-color: #0c2735;
+        }
+        .panel-footer {
+        padding: 15px 20px;
+        background-color: white;
+        border-top: 1px solid #0c2735;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px
+        }
+
+        #demotext {
+        color:black;
+        text-align:center;
+
+        }
+        #container2 {
+        margin: 0px auto;
+        width: 500px;
+        height: 375px;
+        border: 10px #333 solid;
+        }
+        #videoElement {
+        width: 105%;
+        height: 36%;
+        background-color: #666;
+        }
+	#overlay {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  z-index: 10;
+	  background-color: transparent;
+
+	}
+
+	.chatbot-background{
+	background:#4a148c;
+	}
+	::backdrop
+	{
+	    background-color: white;
+	}
+
+      </style>
+   </head>
+<body>
+{% include  "includes/_navbar.html" %}
+<br/>
+<br/>
+<br/>
+<div class="container-fluid" id="container">
+
+
+</div><!--container -->
+
+
+
+
+
+
+
+   </body>
+</html>

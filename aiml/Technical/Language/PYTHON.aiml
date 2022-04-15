@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PYTHON1
+</pattern>
+<template>
+<random>
+<li> What is the difference between list and tuples in python?</li>
+<li>What are the key features of Python?</li>
+<li>What is the difference between deep and shallow copy in python?</li>
+<li>How is Multithreading achieved in Python?</li>
+<li>Whenever Python exits why isn’t all the memory de-allocated?</li>
+<li>What is dictionary in Python?</li>
+<li>What is monkey patching in Python?</li>
+<li> What is the process of compilation and linking in python?</li>
+<li>Explain split() method in Python.</li>
+<li>Explain sub() methods  in Python.</li>
+<li>Explain subn() methods in Python.</li>
+<li>What is the difference between range and xrange in python?</li>
+<li>What is pickling and unpickling in python?</li>
+<li>Difference between python and java</li>
+<li>Difference between python and cpp</li>
+<li>Difference between python and c</li>
+<li>Is Python object oriented?</li>
+<li>How we can use python for web development</li>
+<li>Is python scalable for enterprise?</li>
+<li>Difference between python2 and python3?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PYTHON
+</pattern>
+<template>
+<srai>
+PYTHON1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PYTHON
+</pattern>
+<template>
+<srai>
+PYTHON1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PYTHON *
+</pattern>
+<template>
+<srai>
+PYTHON1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PYTHON *
+</pattern>
+<template>
+<srai>
+PYTHON1
+</srai>
+</template>
+</category>
+</aiml>

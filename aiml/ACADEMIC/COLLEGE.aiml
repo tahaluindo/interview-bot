@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+COLLEGE1
+</pattern>
+<template>
+<random>
+<li>Describe a mistake or something you should not have done since being in university.</li>
+<li>What celebrations/festivals/events do you enjoy the most in your college ? Why?</li>
+<li>What's the best advice you would tell a brother/sister or friend
+who is now entering college?</li>
+<li>What's the best excuse you've heard or given for missing a class?</li>
+<li>How has your life changed since beginning college?</li>
+<li>How much note taking do you do in most of your classes?</li>
+<li>How often do you reread or organize your notes from a professor's lecture?</li>
+<li>What are some advantages in studying with sophomore/junior/senior students/friends or with older students?</li>
+<li>If you wanted to when could you fit in more study time?</li>
+<li>What do you fear most about next semester's classes?</li>
+<li>What was your biggest fear before you began your freshman year of college?</li>
+<li>How much of the course material is covered by the professors in your classes?</li>
+<li>During classes do you like working in student groups or working alone? Why?</li>
+<li>What are some advantages of studying alone? Disadvantages?</li>
+<li>What are some advantages of studying in groups? Disadvantages?</li>
+<li>Do you prefer to study with friends/classmates or to study alone?</li>
+<li>Do you have easy access to your professors outside of class?</li>
+<li>How often do you read ahead for your classes?</li>
+<li>What can/do you do if you fall behind in your classes?</li>
+<li>What do you plan to do during the summer vacation?</li>
+<li>What's your biggest motivation for your university life?</li>
+<li>What can you do if you don't like your roommates?</li>
+<li>Are the counselors at school helpful?</li>
+<li>What's your favorite spot on campus?</li>
+<li>What's your favorite way to take a 'short' break from studying at night?</li>
+<li>What do you miss most about your home and your hometown?</li>
+<li>What's your best memory of your college ? </li>
+<li>What's your worst memory of your college?</li>
+<li>Are you a member of any student organization?</li>
+<li>What extracurricular activities are you involved in your college?</li>
+<li>What are some qualities of a good student?</li>
+<li>What are some qualities of a good teacher?</li>
+<li>How do you travel to your classes everyday?</li>
+<li>What advantages are there to home schooling?</li>
+<li>If you became principal of your college what changes would you make? Why?</li>
+<li>If you became principal of your college which rule would you abolish?</li>
+<li>What is the biggest difficulty in being a college student?</li>
+<li>Why is a college education important?</li>
+<li>What does a college education provide?</li>
+<li>What kinds of scholarships are there for students at your school?</li>
+<li>What must you do to receive a college diploma?</li>
+<li>Where is the best place for you to study? Why?</li>
+<li>How many hours do you spend on homework or studying each night?</li>
+<li>What do you do on campus when you're not studying?</li>
+<li>Which class or subject is most important for your future job?</li>
+<li>What is your favorite class or subject? Why?</li>
+<li>How can a student receive a scholarship?</li>
+<li>How many back-to-back classes do you have?</li>
+<li>What is a disadvantage of back-to-back classes?</li>
+<li>After your grade point average (GPA) what is the 2nd most important thing in college?</li>
+<li>Do most of your professors or instructors take attendance? Why?</li>
+<li>How often do your professors let class out early?</li>
+<li>Which do you prefer more morning or afternoon classes? Why?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+COLLEGE
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COLLEGE
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+COLLEGE *
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COLLEGE *
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+UNIVERSITY
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UNIVERSITY
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+UNIVERSITY *
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UNIVERSITY *
+</pattern>
+<template>
+<srai>
+COLLEGE1
+</srai>
+</template>
+</category>
+
+</aiml>

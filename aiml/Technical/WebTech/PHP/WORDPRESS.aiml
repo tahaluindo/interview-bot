@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+WORDPRESS1
+</pattern>
+<template>
+<random>
+<li> What is WordPress?</li>
+<li> How safe is a website on WordPress?</li>
+<li> Are there any limitations to a WordPress website?</li>
+<li> Do you need to have a blog in order to use WordPress for a site?</li>
+<li> From SEO point of view is WordPress helpful? Will it show the website on Google?</li>
+<li> What is the current version of WordPress?</li>
+<li> What are the types of hooks in WordPress and mention their functions?</li>
+<li> What do you mean by a custom field in WordPress?</li>
+<li> What are the positive aspects of WordPress?</li>
+<li> What are the rules that you have to follow for WordPress plugin development?</li>
+<li> What is the prefix of WordPress tables by default? </li>
+<li> Why does WordPress use MySQL?</li>
+<li> Is it possible to rename the WordPress folder?</li>
+<li> How many tables are there in WordPress by default?</li>
+<li> What is WordPress loop?</li>
+<li> How can you disable the WordPress comment?</li>
+<li> What are the steps you can take if your WordPress file is hacked?</li>
+<li> What are the template tags in WordPress?</li>
+<li> Does WordPress have cookies?</li>
+<li> In which cases you don’t see plugin menu?</li>
+<li> At what instance you get locked out of your WordPress admin and look at your website as a blank screen?</li>
+<li> Why you use a static front page in WordPress?</li>
+<li> What are the plugins you can use to create a contact form in WordPress?</li>
+<li> Why does widget not show up in the sidebar?</li>
+<li> Is there any limitation for using WordPress?</li>
+<li> How is creating a site on wordpress.org different from wordpress.com?</li>
+<li> Why is wordpress.com considered more secure than wordpress.org?</li>
+<li> Do de-activated plugins slow down a WordPress site?</li>
+<li> In what case we cannot recommend WordPress to our client?</li>
+<li> What are the essential features you look for a theme?</li>
+<li> What is a Child Theme?</li>
+<li> How can you create a static page with WordPress?</li>
+<li> Is there any other CMS better WordPress?</li>
+<li> Which is the best multilingual plugin for WordPress?</li>
+<li> Can you update your own content on the site?</li>
+<li> What are meta-tags?</li>
+<li> What should one use for plugin development — custom post types or custom database tables?</li>
+<li> Can you host WordPress using  Amazon web services such as EC2 RDS EBS etc.?</li>
+<li> Is there any way to write series in WordPress?</li>
+<li> What are the reasons why one should not hack WordPress core file?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+WORDPRESS
+</pattern>
+<template>
+<srai>
+WORDPRESS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WORDPRESS
+</pattern>
+<template>
+<srai>
+WORDPRESS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+WORDPRESS *
+</pattern>
+<template>
+<srai>
+WORDPRESS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WORDPRESS *
+</pattern>
+<template>
+<srai>
+WORDPRESS1
+</srai>
+</template>
+</category>
+
+</aiml>

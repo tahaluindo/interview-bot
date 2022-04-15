@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+IOS1
+</pattern>
+<template>
+<random>
+<li>What is IOS?</li>
+<li>How IOS is better than ANDROID?</li>
+<li>Why IOS IOS development is costlier?</li>
+<li>Any Projects you have done on IOS?</li>
+<li>IOS development requires an APPLE ECOSYSTEM what are your views regarding the same.</li>
+<li>The consumer base of IOS is small compared to ANDROID so don't you think ANDROID is better?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+IOS
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOS
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IOS *
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOS *
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IPHONE
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IPHONE
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IPHONE *
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IPHONE *
+</pattern>
+<template>
+<srai>
+IOS1
+</srai>
+</template>
+</category>
+
+</aiml>

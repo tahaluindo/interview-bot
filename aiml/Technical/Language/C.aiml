@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+C1
+</pattern>
+<template>
+<random>
+<li>What is the difference between declaration and definition of a variable/function?</li>
+<li>What are different storage class specifiers in C?</li>
+<li>What is scope of a variable? How are variables scoped in C?</li>
+<li>When should we use pointers in a C program?</li>
+<li>What is NULL pointer? </li>
+<li>What is Dangling pointer?</li>
+<li>What is memory leak? Why it should be avoided</li>
+<li>What are local static variables? What is their use?</li>
+<li>What are static functions? What is their use?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+C
+</pattern>
+<template>
+<srai>
+C1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C
+</pattern>
+<template>
+<srai>
+C1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+C *
+</pattern>
+<template>
+<srai>
+C1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C *
+</pattern>
+<template>
+<srai>
+C1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PHP1
+</pattern>
+<template>
+<random>
+<li>What are the common uses of PHP?</li>
+<li>What is PEAR in PHP?</li>
+<li>What is the difference between static and dynamic websites?</li>
+<li>How to execute a PHP script from the command line?</li>
+<li>Is PHP a case sensitive language?</li>
+<li>What is the meaning of ‘escaping to PHP’?</li>
+<li>What are the characteristics of PHP variables?</li>
+<li>What are the different types of PHP variables?</li>
+<li>What are the rules for naming a PHP variable?</li>
+<li>What is NULL?</li>
+<li>How do you define a constant in PHP?</li>
+<li>What is the purpose of constant() function?</li>
+<li>What are the differences between PHP constants and variables?</li>
+<li>Name some of the constants  in PHP and their purpose.</li>
+<li>What is the purpose of break and continue statement?</li>
+<li>What is the difference between PHP4 and PHP5?</li>
+<li>How can PHP and HTML interact?</li>
+<li>Name some of the popular frameworks in PHP.</li>
+<li>What are the data types in PHP?</li>
+<li>What are constructor and destructor in PHP?</li>
+<li>What are include() and require() functions?</li>
+<li>Explain the syntax for ‘foreach’ loop with example.</li>
+<li>What are the different types of Array in PHP?</li>
+<li>What is the difference between single quoted string and double quoted string?</li>
+<li>How to concatenate two strings in PHP?</li>
+<li>Name some of the functions in PHP.</li>
+<li>What is the use of session and cookies in PHP?</li>
+<li>What is GET and POST method in PHP?</li>
+<li>What is the difference between GET and POST method?</li>
+<li>What is the use of callback in PHP?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PHP
+</pattern>
+<template>
+<srai>
+PHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHP
+</pattern>
+<template>
+<srai>
+PHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PHP *
+</pattern>
+<template>
+<srai>
+PHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHP *
+</pattern>
+<template>
+<srai>
+PHP1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,57 @@
+{% extends "home.html"%}
+{% block title %}
+Interview Bot <br />
+All Reports
+{% endblock %}
+{% block container %}
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+
+    <div class="card card-body">
+        <span style="font-size: 24px;color:red"> Total Interviews Given <span
+                style="color:black;margin-left:70%;">{{info.totalInterviews}}</span> </span>
+    </div>
+    {% for u in user%}
+    <li class="card card-body">{{u.interviewId}} <button type="button" class="btn btn-primary" data-toggle="modal"
+            data-target="#myOutput{{ loop.index-1 }}" style="margin-left:80%;margin-top:-3%"><i
+                class="fas fa-arrow-right"></i></button>
+    </li>
+    <div class="modal fade bd-example-modal-lg" id="myOutput{{ loop.index-1 }}" tabindex="-1" srole="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+            <div class="modal-content">
+
+
+                <div class="modal-body container-fluid" id="modal-body">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Interview Id
+                                </div>
+                                <div class="col-md-6 border-left">
+                                    {{u.interviewId}} </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% for r in u.user_response %}
+                    <div class="card">
+                        <li class=" card-body bg-info "> <b>Question : {{r.question}}</b></li>
+                        <li class="card-body  ">{{r.answer}}</li>
+                    </div>
+                    <br />
+
+
+                    {% endfor %}
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

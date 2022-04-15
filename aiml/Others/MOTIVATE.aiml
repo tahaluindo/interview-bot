@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MOTIVATE1
+</pattern>
+<template>
+<random>
+<li>What motivates you? Why?</li>
+<li>Are you very motivated to do things or do you need motivation?</li>
+<li>What activity do you have no motivation to do?</li>
+<li>What is a great motivational quote?</li>
+<li>Have you read any good motivational books or articles? What were they about?</li>
+<li>Does motivation come from inside a person or from their environment? Explain why you think so.</li>
+<li>How can you help someone who has no motivation?</li>
+<li>How often do you exercise or workout? What is the best way to motivate yourself to work out?</li>
+<li>What song do you listen to for motivation?</li>
+<li>What do you think of motivation posters in offices do they actually help?</li>
+<li>Have you ever tried to lose weight?</li>
+<li>What motivated you to start a diet?</li>
+<li>Is it important to motivate children?</li>
+<li>How do you motivate children?</li>
+<li>Can some people destroy your motivation?</li>
+<li>What is something a boss can do to motivate his workers?</li>
+<li>How are you best motivated?</li>
+<li>How do you motivate your friends?</li>
+<li>Have you ever tried to quit smoking?</li>
+<li>How do you define motivation?</li>
+<li>What are some of the factors of motivation?</li>
+<li>What part does motivation plays in effective teaching?</li>
+<li>What is the role of motivation for slow learners?</li>
+<li>What are three things that motivate you?</li>
+<li>Do you feel motivated when you are at school?</li>
+<li>Do you feel motivated when learning something new?</li>
+<li>How would you describe motivation?</li>
+<li>Does motivation affect learning?</li>
+<li>In what way can we help people to increase their motivation?</li>
+<li>Why do you study English?</li>
+<li>What is your proudest accomplishment so far this year?</li>
+<li>What is the difference between internal and external motivation?</li>
+<li>Do you find that motivated people are more successful than unmotivated people?</li>
+<li>What do you do to keep your motivation?</li>
+<li>Do you have an English goal?</li>
+<li>Is your goal specific measurable with a deadline?</li>
+<li>How do you maintain your motivation when you fail?</li>
+<li>Do you share goals and plans with others so that they will help you maintain your motivation and drive?</li>
+<li>How do you plan to motivate yourself to improve your English?</li>
+<li>What do you do if you feel your English is not improving?</li>
+<li>What role do teachers play in motivating students? What role do students play in motivating teachers?</li>
+<li>Have you ever tried to motivate someone else to do something? How did you feel after?</li>
+<li>Who is the most important person in your life?</li>
+<li>Under what conditions can motivation be influenced by ambition?</li>
+<li>Is ambition a bad personality trait?</li>
+<li>Is competition good?</li>
+<li>Can motivation influence competitive behavior?</li>
+<li>Can robots replace people in sports? How would that change sports?</li>
+<li>Tell three things that make you to be motivated.</li>
+<li>What is the difference between internal (intrinsic) and external (extrinsic) motivation?</li>
+<li>Do you find that motivated people are more successful than unmotivated people?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATE
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATE
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATE *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATE *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATIONAL
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATIONAL
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATIONAL *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATIONAL *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATED
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATED
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTIVATED *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTIVATED *
+</pattern>
+<template>
+<srai>
+MOTIVATE1
+</srai>
+</template>
+</category>
+
+</aiml>

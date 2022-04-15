@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Report {{user.interviewId}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" style="height:100vh;">
+        <div class="row" style="height:100vh;">
+            <div class="col-md-4  card card-body shadow  mb-1 bg-white rounded">
+                <div class="row text-center" style="margin-left:3%;">
+                    <h4 style="text-align: center;color:red;">Your Report is generated</h4>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"><span style="color:blueviolet;">ID</span>
+                        : &nbsp;&nbsp;&nbsp;{{user.interviewId}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">Congratulations <span style="color:red">{{session.username}}</span>,</div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row alert-warning p-3" style="text-align: justify;margin:2%;">
+                    We hope you have came across various questions which could be asked based on the responses you
+                    provide during
+                    the interview process.<br />
+                    We agree interviews may seem difficult, but once you get come to know how to answer in ther
+                    interview you can
+                    defintely crack any interview. This is a report generated based on the responses you gave during the
+                    mock
+                    interview. Don't get disheartned if you scored less there is always a room of improvement, and if
+                    you have
+                    scored great, that's awesome keep practising.
+                </div>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6" style="text-align: right;">Thank You<br />Interview Bot</div>
+                </div>
+                <hr />
+                <button class="btn btn-success" onclick="window.print();">Download as PDF / Print</button>
+                <br />
+
+                {% if user.totalScore < 50 %}
+                <div class="row card bg-danger mb-3 p-3 rounded" style="color:white;margin:2%;">
+                    Your score is {{user.totalScore|round}}<br />
+                    <p>You need to practise as your score is below 50. You can again give mock interviews ans prepare,
+                        try to watch
+                        videos on youtube and other mediums and prepare</p>
+                </div>
+                {% elif user.totalScore < 70 %}
+                <div class="row card bg-info mb-3 p-3 rounded" style="color:white;margin:2%;">
+                    Your score is {{user.totalScore|round}}<br />
+                    <p>You are going great, Just a little practise and you would definetly excel in your interviews</p>
+                </div>
+                {% else %}
+                <div class="row card bg-success mb-3 p-3 rounded" style="color:white;margin:2%;">
+                    Your score is {{user.totalScore|round}}<br />
+                    <p>You are doing an awesome job, but don't be overconfident. All the Best !!</p>
+                </div>
+                {% endif %}
+
+            </div>
+            <div class=" col-md-4 card card-body shadow mb-1 bg-white rounded" style="padding:3%;">
+                <div class="row config">
+                    <div class="row">
+                        <div class="row">
+                            <h4>Emotion Score</h4>
+                        </div>
+                        <div class="row">
+                            <p>Overall Emotion during the interview process was : <b
+                                    style="color:red">{{user.prominentEmotion}}</b></p>
+                            <p class="alert-info p-3">{{user.emsg}}</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <canvas id="emotionChart" width="370" height="200"></canvas>
+                    </div>
+                </div>
+                <hr />
+                <div class="row config">
+                    <div class="row">
+                        <div class="row">
+                            <h4>Sentiment Score</h4>
+                        </div>
+                        <div class="row">
+                            <p>Overall sentiment during the interview process was : <b
+                                    style="color:red">{{user.prominentSentiment}}</b>
+                            </p>
+                            <p class="alert-info p-3">{{user.smsg}}
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <canvas id="sentimentChart" width="380" height="200"></canvas>
+                    </div>
+                    <div class="row" style="background:white;color:#4a148c;margin-left:5%;padding:3%;margin-top:1.5%;">
+                        <!-- start row -->
+
+
+                    </div><!-- end row -->
+                </div>
+            </div>
+            <div class="col-md-4  card card-body shadow ">
+                <div class="row">
+                    <div class="col-md-8 p-3">
+                        <h4>Your Transcript</h4>
+                    </div>
+                    <div class="col-md-4"><a href="/home" class="btn btn-danger">Go Home</a></div>
+                </div>
+                <div class="alert-warning p-3">
+                    Kindly Note that scoring is based on various factors,<br />
+                    Take the score as a motivation<br />
+                    Red signifies you need to work hard and improvement<br />
+                    Violet signifies you are doing good, there is scope for improvement<br />
+                    Green signifies you doing an awesome job, Keep it Up<br />
+                </div>
+                <br />
+                <ul style="list-style-type: none;">
+                    {% for item in user.user_response %}
+                    <li>
+                        <div class=" card card-body shadow-sm p-3 mb-3 bg-white rounded">
+                            Bot - &nbsp;&nbsp;&nbsp;&nbsp;{{ item.question }}<br />
+                            You - &nbsp;&nbsp;&nbsp;&nbsp; {{ item.answer }}<br />
+                            <hr />
+
+                            {% if item.score|round < 50 %}
+                            <span class="bg-red" style="background-color:red;color:white;padding:3%;">Your Score for
+                                this answer was
+                                {{item.score|round}}</span>
+                            {% elif item.score|round < 75 %}
+                            <span class="bg-info" style="background-color:blueviolet;color:white;padding:3%;">Your Score
+                                for this answer was
+                                {{item.score|round}}</span>
+                            {% else %}
+                            <span class="bg-success" style="background-color:green;color:white;padding:3%;">Your Score
+                                for this answer was
+                                {{item.score|round}}</span>
+                            {% endif %}
+
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    Chart.defaults.global.responsive = false;
+    Chart.defaults.global.legend.display = false;
+    var ctx = document.getElementById("emotionChart").getContext("2d");
+    echart = new Chart($("#emotionChart"), {
+        type: "radar",
+        data: {
+            labels: ['neutral', 'angry', 'disgust', 'fear', 'happy', 'sad', 'surprise'],
+            datasets: [{
+                label: "Emotion Analysis",
+                backgroundColor: ["#ff5722", "#827717", "#6200ea", "#c51162", "#3f51b5", "#004d40", "#9e9e9e"],
+                data: {{ user.totalEmotion.values() | list }}
+    }], options: {
+            legend: {
+                display: false
+            }
+        }
+}}); //end chart
+
+    var ctx = document.getElementById("sentimentChart").getContext("2d");
+    echart = new Chart($("#sentimentChart"), {
+        type: "line",
+        data: {
+            labels: ["Positive", "Negative", "Neutral"],
+            datasets: [{
+                label: "Sentiment in terms of %",
+                backgroundColor: ["#FF6347", "#03c637", "#f4424b", "#8e5ea2"],
+                data: {{ user.totalSentiment.values() | list }}
+    }], options: {
+            legend: {
+                display: false
+            }
+        }
+}}); //end chart
+</script>
+<style>
+    .scrolling-wrapper-flexbox {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+    }
+
+    .tcard {
+        flex: 0 0 auto;
+        margin: 1%;
+        width: 20vw;
+    }
+
+    .config {
+        margin: 3%;
+    }
+</style>
+
+</html>

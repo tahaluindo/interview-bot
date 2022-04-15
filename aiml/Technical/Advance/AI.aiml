@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+AI1
+</pattern>
+<template>
+<random>
+<li><get name="USERNAME"></get> What is Artificial Intelligence?</li>
+<li>How AI is been utilized in your daily life?</li>
+<li>List some applications of AI.</li>
+<li>What is Turing test?</li>
+<li><get name="USERNAME"></get> What is Deep learning?</li>
+<li>can you differentiate between supervised unsupervised and reinforcement learning.</li>
+<li>Name few Machine Learning algorithms you know.</li>
+<li><get name="USERNAME"></get> Tell me any project you have done in AI.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+AI
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AI
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AI *
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AI *
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ARTIFICIAL INTELLIGENCE
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ARTIFICIAL INTELLIGENCE
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ARTIFICIAL INTELLIGENCE *
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ARTIFICIAL INTELLIGENCE *
+</pattern>
+<template>
+<srai>
+AI1
+</srai>
+</template>
+</category>
+
+</aiml>

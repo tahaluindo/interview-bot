@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+LARAVEL1
+</pattern>
+<template>
+<random>
+<li> What is the laravel framework? </li>
+<li> How we can install Laravel by composer? </li>
+<li> What are enhancement features in laravel 5.8? </li>
+<li> What is middleware in Laravel? </li>
+<li> What is database migration in laravel? How to use this? </li>
+<li> What is service providers in Laravel? </li>
+<li> How to get data between two dates with Query in Laravel? </li>
+<li> How can we turn off CRSF protection for a particular route? </li>
+<li> How to create and use Stored Procedures in Laravel? </li>
+<li> What is Facade in laravel and how it is used? Explain </li>
+<li> What is dd() function in laravel ? </li>
+<li> How to make a helper file in laravel? </li>
+<li> What are the server requirements for Laravel 5.8? </li>
+<li> What is an artisan? Name some common artisan commands? </li>
+<li> How to make a custom validation rule in laravel? </li>
+<li> What is the difference between {{ $username }} and {!! $username !!} in Laravel? </li>
+<li> What is the service container in laravel? </li>
+<li> How to use session in laravel? </li>
+<li> How to get last inserted id using laravel query? </li>
+<li> How can we configure a mail-in laravel? </li>
+<li> How to use  cookies in laravel? </li>
+<li> What is Auth? How is it used? </li>
+<li> How to make a constant and use globally? </li>
+<li> What are the difference between laravel 5 and laravel 4? </li>
+<li> How to remove /public from URL in laravel? </li>
+<li> How to get user’s ip address in laravel? </li>
+<li> What are the difference between soft delete and delete in Laravel? </li>
+<li> How to enable query log in laravel? </li>
+<li> How we can upload files in laravel? Explain </li>
+<li> What is soft delete in laravel? </li>
+<li> What is Eloquent ORM in Laravel? </li>
+<li> Explain the difference between latest() and oldest() in Laravel? </li>
+<li> How to enable or disable maintenance mode in Laravel? </li>
+<li> What is Dependency injection used in Laravel? </li>
+<li> How to create real time sitemap.xml file in Laravel? </li>
+<li> How to use aggregate functions in Laravel Query? </li>
+<li> How to use skip() and take() in Laravel Query? </li>
+<li> What is Queue and what are its advantages? </li>
+<li> What is tinker in laravel? </li>
+<li> How to clear complete cache in Laravel? </li>
+<li> What is seed in laravel? </li>
+<li> How to use update query in Laravel? </li>
+<li> How to use multiple OR condition in Laravel Query? </li>
+<li> Please write some additional where Clauses in Laravel? </li>
+<li> How to use updateOrInsert() method in Laravel Query? </li>
+<li> How to create migrations in Laravel? explain step by steps. </li>
+<li> How to check table is exists or not in our database using Laravel? </li>
+<li> How to check column is exists or not in a table using Laravel? </li>
+<li> What are the difference insert() and insertGetId() in laravel? </li>
+<li> What is Active Record in Laravel? </li>
+<li> What is the use of Accessors and Mutators in Eloquent ? </li>
+<li> How to change your default database type in Laravel? </li>
+<li> Explain Closures in laravel? </li>
+<li> What is IoC container in Laravel? </li>
+<li> What is the latest version of laravel? </li>
+<li> What are the basic concepts in laravel? </li>
+<li> What is lumen? </li>
+<li> Which template engine laravel use? </li>
+<li> How can we use middleware in laravel? </li>
+<li> What are the features of laravel? </li>
+<li> What is Package in laravel? Name some laravel packages? </li>
+<li> What is validation in laravel and how it is used? </li>
+<li> How to  extend a layout file in laravel view? </li>
+<li> How to redirect form controller to view file in laravel? </li>
+<li> How to use Ajax in any form submission? </li>
+<li> How to get current route name? </li>
+<li> How to create model controller and migration in a single artisan command in Laravel? </li>
+<li> How to pass multiple variables by controller to blade file? </li>
+<li> How to pass custom table name in model? </li>
+<li> How to assign a variable value for all view file? </li>
+<li> What is Queues? </li>
+<li> How to add multiple AND conditions in laravel query? </li>
+<li> How to use join in laravel? </li>
+<li> How to get current action name in Laravel? </li>
+<li> What is Blade laravel? </li>
+<li> In Laravel what is fillable attribute in a Model ? </li>
+<li> In Laravel what is Guarded Attribute in a Model ? </li>
+<li> How we can get user's detail when he is logged in using Auth? </li>
+<li> Is Laravel support caching? Explain </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+LARAVEL
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LARAVEL
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+LARAVEL *
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LARAVEL *
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+LARAVEL FRAMEWORK
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LARAVEL FRAMEWORK
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+LARAVEL FRAMEWORK *
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ LARAVEL FRAMEWORK *
+</pattern>
+<template>
+<srai>
+LARAVEL1
+</srai>
+</template>
+</category>
+
+</aiml>

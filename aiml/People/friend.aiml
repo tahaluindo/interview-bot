@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>FRND1</pattern>
+<template>
+<random>
+<li>who is your best friend?</li>
+<li>what do you admire about your friend</li>
+<li>what do you hate about your friend</li>
+<li>have you ever cheated on your friend</li>
+<li>what is the craziest thing you have done with your friend</li>
+<li>college friends or school friends which one do you think are best?</li>
+<li>Do you prefer to have many friends or just a few that you are close to?</li>
+<li>What are the benefits of having just a few close friends? How about the benefits of having many friends?</li>
+<li>Describe your best friend.</li>
+<li>Are you close friends with anyone who you knew in elementary school?</li>
+<li>Why do people need friends? What can happen if a person has no friends?</li>
+<li>What is the biggest thing you have done to help a friend?</li>
+<li>Do you have any friends who would risk their life to save you?</li>
+<li>Would you risk your life to save a friend? How about a stranger?</li>
+<li>What kind of qualities do you look for in a friend?</li>
+<li>What is the best way to make new friends? Do you like making new friends?</li>
+<li>Do you think sites like Facebook are good for friendships or do they stop people from becoming close?</li>
+<li>How did you meet your best friend?</li>
+<li>Have you made some friends over the internet?</li>
+<li>There are agencies on the internet which claim to be able to put you in touch with other people with similar interests.  What do you think of such agencies?</li>
+<li>Have you ever used the internet to try to contact a long-lost friend?</li>
+<li>Have you ever met in real life somebody you first met on the internet?</li>
+<li>Have you ever been 'unfriended' by someone or have you ever 'unfriended' someone?</li>
+<li>Do you have many friendships which have lasted since childhood?</li>
+<li>Do we need to work to maintain friendships?</li>
+<li>Has the concept of "friendship" changed in the modern age?</li>
+<li>Why do people stop being friends?</li>
+<li>Do you have any friends you don't really like?</li>
+<li>Do you relate differently to your male and female friends?</li>
+<li>Which is more important to you - your friends or your family?</li>
+<li>There is an old English saying "A friend in need is a friend indeed."  What do you think this means?</li>
+<li>Are you friends with people because of or in spite of what they do?</li>
+<li>What is the best way to meet new friends?</li>
+<li>What's the best place to meet new friends?</li>
+<li>What do you think of the idea of buying (or renting!) a puppy and walking around town with it?</li>
+<li>Do you think that it's easier to make friends at one time of life than at another?</li>
+<li>Do you think that rich people make more friends?</li>
+<li>Do you think that most people are naturally able to get along with others or is it a skill which needs to be learnt?</li>
+<li>It is sometimes claimed that a true friend is someone who who can call you at 3 am to ask you to help start their car.  Do you agree?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>FRIEND</pattern>
+<template>
+<srai>FRND1</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FRIEND</pattern>
+<template>
+<srai>FRND1</srai>
+</template>
+</category>
+
+<category>
+<pattern>FRIEND * </pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+ </category>
+
+ <category>
+ <pattern>_ FRIEND *</pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+</category>
+
+
+<category>
+<pattern>_ FRIENDS</pattern>
+<template>
+<srai>FRND1</srai>
+</template>
+</category>
+
+<category>
+<pattern>FRIENDS * </pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+ </category>
+
+ <category>
+ <pattern>_ FRIENDS *</pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+</category>
+</aiml>

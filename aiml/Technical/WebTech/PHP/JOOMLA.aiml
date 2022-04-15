@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+JOOMLA1
+</pattern>
+<template>
+<random>
+<li>Explain what is Joomla?</li>
+<li>List out the benefits of using Joomla?</li>
+<li>What is the position in Joomla?</li>
+<li>Explain what are Joomla Modules?</li>
+<li>Where can you see the use of Joomla frequently?</li>
+<li>Explain what are components in Joomla?</li>
+<li> Explain what is the difference between Drupal and Joomla?</li>
+<li>What are the advanced features or add-ons in Joomla that can be useful for the developer?</li>
+<li> Is there any possibility with Joomla to control a desktop application?</li>
+<li> Explain what are content items section and categories in Joomla?</li>
+<li>What database system does Joomla supports?</li>
+<li>Explain what are the drawbacks of Joomla?</li>
+<li> In Joomla what determines the homepage?</li>
+<li>Is Joomla a Blog?</li>
+<li>What web services does Joomla Support?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+JOOMLA
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JOOMLA
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JOOMLA *
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JOOMLA *
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JOOMLA CMS
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JOOMLA CMS
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JOOMLA CMS *
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JOOMLA CMS *
+</pattern>
+<template>
+<srai>
+JOOMLA1
+</srai>
+</template>
+</category>
+
+</aiml>

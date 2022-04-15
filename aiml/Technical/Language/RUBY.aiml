@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+RUBY1
+</pattern>
+<template>
+<random>
+<li> What is Ruby on Rails and why it is used for? </li>
+<li> Who Developed Ruby on Rails? </li>
+<li> Explain the Advantages of Ruby on Rails? </li>
+<li> What is the latest version of ruby on rails? </li>
+<li> What are class libraries? </li>
+<li> What are naming conventions? </li>
+<li> What is Object-Relationship-Model (ORM)? </li>
+<li> What is the difference between false and nil in Ruby? </li>
+<li> What role do sub-directory app/helpers and app/controllers play? </li>
+<li> How are String and Symbol different? </li>
+<li> What is Rails active record? </li>
+<li> How do Rails implement Ajax? </li>
+<li> What is the process for creating a controller for the subject? What is its role? </li>
+<li> What is Rails Migration? What can it do? </li>
+<li> When are self.up and self.down methods used? </li>
+<li> What is Cross-Site Request Forgery (CSRF)? How is Rails protected against it? </li>
+<li> How can you run Rails without creating databases? </li>
+<li> How are Observers and Callbacks different from each other? </li>
+<li> What is Rake? </li>
+<li> How is Dynamic Scaffolding different from Static Scaffolding? </li>
+<li> What role does garbage collection play? </li>
+<li> How is direct different from render? </li>
+<li> What is the importance of RJs? </li>
+<li> How is calling super() different from the super call? </li>
+<li> What are Float Dig and Max? </li>
+<li> How many types of variables are available in Ruby Class? </li>
+<li> How are the key differences between Python and Ruby? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+RUBY
+</pattern>
+<template>
+<srai>
+RUBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ RUBY
+</pattern>
+<template>
+<srai>
+RUBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+RUBY *
+</pattern>
+<template>
+<srai>
+RUBY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ RUBY *
+</pattern>
+<template>
+<srai>
+RUBY1
+</srai>
+</template>
+</category>
+
+</aiml>

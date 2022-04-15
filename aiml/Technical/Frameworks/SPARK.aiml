@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SPARK1
+</pattern>
+<template>
+<random>
+<li> Compare Hadoop and Spark Hadoop</li>
+<li> What is Apache Spark?</li>
+<li> Explain the key features of Apache Spark</li>
+<li> What are the languages supported by Apache Spark and which is the most popular one?</li>
+<li> What are benefits of Spark over MapReduce?</li>
+<li> What is YARN?</li>
+<li> Do you need to install Spark on all nodes of YARN cluster?</li>
+<li> Is there any benefit of learning MapReduce if Spark is better than MapReduce?</li>
+<li> Explain the concept of Resilient Distributed Dataset (RDD)</li>
+<li> How do we create RDDs in Spark?</li>
+<li> What is Executor Memory in a Spark application?</li>
+<li> Define Partitions in Apache Spark</li>
+<li> What operations does RDD support?</li>
+<li> What do you understand by Transformations in Spark?</li>
+<li> Define Actions in Spark</li>
+<li> Define functions of SparkCore</li>
+<li> What do you understand by Pair RDD?</li>
+<li> Name the components of Spark Ecosystem</li>
+<li> How is Streaming implemented in Spark? Explain with examples</li>
+<li> Is there an API for implementing graphs in Spark?</li>
+<li> What is PageRank in GraphX?</li>
+<li> How is machine learning implemented in Spark?</li>
+<li> Is there a module to implement SQL in Spark? How does it work?</li>
+<li> How can Apache Spark be used alongside Hadoop?</li>
+<li> What is RDD Lineage?</li>
+<li> What is Spark Driver?</li>
+<li> What file systems does Spark support?</li>
+<li> List the functions of Spark SQL</li>
+<li> What is Spark Executor?</li>
+<li> Name types of Cluster Managers in Spark</li>
+<li> What do you understand by worker node?</li>
+<li> Illustrate some demerits of using Spark</li>
+<li> List some use cases where Spark outperforms Hadoop in processing</li>
+<li> What is a Sparse Vector?</li>
+<li> Can you use Spark to access and analyze data stored in Cassandra databases?</li>
+<li> Is it possible to run Apache Spark on Apache Mesos?</li>
+<li> How can Spark be connected to Apache Mesos?</li>
+<li> How can you minimize data transfers when working with Spark?</li>
+<li> What are broadcast variables?</li>
+<li> Why is there a need for broadcast variables when working with Apa</li>
+<li> How can you trigger automatic clean-ups in Spark to handle accumulated metadata?</li>
+<li> What is the significance of Sliding Window operation?</li>
+<li> When running Spark applications is it necessary to install Spark on all the nodes of YARN cluster?</li>
+<li> What are the various data sources available in Spark SQL?</li>
+<li> What are the various levels of persistence in Apache Spark?</li>
+<li> Does Apache Spark provide checkpoints?</li>
+<li> How Spark uses Akka?</li>
+<li> What do you understand by Lazy Evaluation?</li>
+<li> Explain a scenario where you will be using Spark Streaming</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SPARK
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPARK
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPARK *
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPARK *
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+APACHE SPARK
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ APACHE SPARK
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+APACHE SPARK *
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ APACHE SPARK *
+</pattern>
+<template>
+<srai>
+SPARK1
+</srai>
+</template>
+</category>
+
+</aiml>

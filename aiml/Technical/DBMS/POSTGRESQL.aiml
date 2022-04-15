@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+POSTGRESQL1
+</pattern>
+<template>
+<random>
+<li>What Is Postgresql?</li>
+<li>State Some Of The Advanced Features Of Postgresql?</li>
+<li>What Are The Languages Which Postgresql Supports?</li>
+<li>Explain About Functions In Postgresql?</li>
+<li>Explain About Indices Of Postgresql?</li>
+<li>What Are The Different Data Types Supported By Postgresql?</li>
+<li>. How Does Postgresql Compare To Oracle/Mysql?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+POSTGRESQL
+</pattern>
+<template>
+<srai>
+POSTGRESQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ POSTGRESQL
+</pattern>
+<template>
+<srai>
+POSTGRESQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+POSTGRESQL *
+</pattern>
+<template>
+<srai>
+POSTGRESQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ POSTGRESQL *
+</pattern>
+<template>
+<srai>
+POSTGRESQL1
+</srai>
+</template>
+</category>
+</aiml>

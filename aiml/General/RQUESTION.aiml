@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>ASK QUESTION</pattern>
+<template>
+<random>
+<li>What is your weakness?</li>
+<li>What is your strength?</li>
+<li>Tell me something which is not on your resume?</li>
+<li>What if we hire you for development and ask you to do testing or support work?</li>
+<li>What do know about our company?</li>
+<li>Why should we hire you?</li>
+<li>Why aren't you opting for hire studies?</li>
+<li>tell me something about your family?</li>
+<li>How you feel about working late or during the weekends?</li>
+<li>Have you faced any challenging situation? How did you handle it?</li>
+<li>Where do you see yourself in the next five years?</li>
+<li>What are your hobbies and interests?</li>
+<li>Do you lie?</li>
+<li>How much salary are you expecting?</li>
+<li>Do you have any questions for me?</li>
+<li>You have not done your PG yet. This is not a drawback but don’t you think you should get a PG degree asap?</li>
+<li>What are your strong points? or What are your strengths?</li>
+<li>What is your greatest fear?</li>
+<li>If I call up your current or previous reporting manager now what will be their opinion about you? What will they say that you need to work on?</li>
+<li>Do you have any serious medical issues?</li>
+<li>Did you ever have a conflict with your current/previous boss or professor?</li>
+<li>What do your friends/co-workers say about you?</li>
+<li>What did you do in the last year to improve your knowledge?</li>
+<li>Explain the difference between group and team. Are you a team player?</li>
+<li>What is your ideal company or workplace?</li>
+<li>Have you ever had to fire anyone? How did you feel about that?</li>
+<li>What is the most difficult thing that you’ve ever accomplished? or What is the most difficult thing you have ever done?</li>
+<li>What is the difference between hard work and smart work?</li>
+<li>How do you feel about working weekends and night shifts?</li>
+<li>Where do you see yourself 3 years from now? or Where do you see yourself in 5 years?</li>
+<li>Give an example of a time you had to respond to an unhappy manager/ customer/ colleague/ professor/ friend.</li>
+<li>How quickly do you adapt to new technology?</li>
+<li>What software packages are you familiar with?</li>
+<li>On a scale of 1 to 10 how would you rate yourself as a leader?</li>
+<li>What makes you angry?</li>
+<li>Are you open to take risks? or Do you like experimenting?</li>
+<li>What are your future goals? Tell me about your short term and long-term goals.</li>
+<li>What motivates you?</li>
+<li>What are your hobbies? or What are you passionate about?</li>
+<li>What are your biggest achievements till date?</li>
+<li>What are you most proud of?</li>
+<li>What has been your greatest failure?</li>
+<li>What do you always regret? or Do you have any regrets?</li>
+<li>How do you respond to change?</li>
+<li>Are you demanding as a boss?</li>
+<li>Are you an organized person?</li>
+<li>Can you describe your time management skills?</li>
+<li>Are you reliable? or Can I trust you with responsibilities?</li>
+<li>What are the three things that are most important for you in a job?</li>
+<li>What was the toughest decision you ever had to make?</li>
+<li>If you won a Rs.10-crore lottery would you still work?</li>
+<li>Give me an example of your creativity.</li>
+<li>What makes you happy?</li>
+<li>How do you work under pressure? Can you handle the pressure?</li>
+<li>Are you willing to relocate or travel?</li>
+<li>What do you know about us or our company?</li>
+<li>How long do you think you will work for us after we hire you?</li>
+<li>Are you applying for other jobs? Do you have any other offer in hand?</li>
+<li>Why do you want to work for us or our company? or Why do you want this job?</li>
+<li>Do you know anyone who works for us?</li>
+<li>Why should we hire you? or Why should I hire you?</li>
+<li>What are your salary expectations?</li>
+<li>Share an experience you had in dealing with a difficult person and how you handled the situation.</li>
+<li>Share an effective method you have used to enforce rules and regulations.</li>
+<li>Name a time when your advice to management led to an improvement in your company or otherwise helped your employer.</li>
+<li>Please share with me an example of how you helped coach or mentor someone. What improvements did you see in the person's knowledge or skills?</li>
+<li>Provide an example of a time when you successfully organized a diverse group of people to accomplish a task.</li>
+<li>Tell me how you organize plan and prioritize your work.</li>
+<li>Share an experience when you applied new technology or information in your job. How did it help your company or project?</li>
+<li>Tell me about an experience in which you analyzed information and evaluated results to choose the best solution to a problem.</li>
+<li>Name a time when you identified strengths and weaknesses of alternative solutions to problems. What was the impact?</li>
+<li>Provide an example of a time when you were able to demonstrate excellent listening skills. What was the situation and outcome?</li>
+<li>Please share an experience in which you presented to a group. What was the situation and how did it go?</li>
+<li>Share an example of when you went above and beyond the "call of duty".</li>
+<li>In your experience what is the key to developing a good team?</li>
+<li>Provide a time when you dealt calmly and effectively with a high-stress situation.</li>
+<li>What have you found to be the best way to monitor the performance of your work and/or the work of others? Share a time when you had to take correctiv</li>
+<li>Provide a time when you worked in a rapidly evolving workplace. How did you deal with the change?</li>
+<li>Name a time when your patience was tested. How did you keep your emotions in check?</li>
+<li>Provide an example when your ethics were tested.</li>
+<li>Provide an experience in which you were sensitive to somone's needs or feelings. How did your helpfulness affect your work environment?</li>
+<li>Provide an example when you were able to prevent a problem because you foresaw the reaction of another person.</li>
+<li>Share an experience in which you successfully coordinated with others. How about a coordination effort that was not as successful?</li>
+<li>Tell me about a time when you developed your own way of doing things or were self-motivated to finish an important task.</li>
+<li>How do you balance cooperation with others and independent thinking? Share an example. </li>
+<li>Provide an example of when you were persistent in the face of obstacles</li>
+<li>Describe your ability to deal with conflict. </li>
+<li>Tell me your three weaknesses. </li>
+<li>What are your three greatest strengths? </li>
+<li>Where do you see yourself in  years? </li>
+<li>Tell me about your ability to work under pressure. </li>
+<li>Why do you apply for this position? </li>
+<li>What has been your greatest accomplishment? </li>
+<li>Why did you leave your previous job? </li>
+<li>How would you deal with this kind of situation? </li>
+<li>Are you a team player? </li>
+<li>How would your friends or coworkers describe you? </li>
+<li>What are your salary requirements? </li>
+<li>What are your short-term goals? Long-term? </li>
+<li>How do you motivate people? </li>
+<li>How do you manage multiple tasks/projects? </li>
+<li>What is your definition of great customer service? </li>
+<li>How do you define success? </li>
+<li>Tell me three books you have read recently. </li>
+<li>What kind of experience did you gain from your previous job/internship/etc? </li>
+<li>May me check your reference? </li>
+<li>Do you have an upcoming interview?</li>
+<li>When can you start to work if hired? </li>
+<li>describe a situation you took full responsibility for actions and outcome </li>
+<li>How do you think you will compensate for your lack of experience? </li>
+<li>Briefly describe the type of career opportunity you are seeking. </li>
+<li>In what kind of work environment are you comfortable in? </li>
+<li>Tell me about your proudest achievement. </li>
+<li>What is your philosophy towards work? </li>
+<li>Describe work-related problems and how you solved them. </li>
+<li>What are your career goals? </li>
+<li>Briefly describe your ideal job? </li>
+<li>Describe your work ethic. </li>
+<li>how do you plan to achieve these goals? </li>
+<li>What kinds of situations put you under stress? How do you handle that stress? </li>
+<li>How do you solve problems </li>
+<li>If hired how long do you expect to work for us? </li>
+<li>Describe yourself mentioning three of your characterristics. </li>
+<li>Tell me about your dream job. </li>
+<li>Describe a situation where you had an irate customer and how did you handle it </li>
+<li>What motivates you to do your best on the job? </li>
+<li>If you have a customer in front of you a client on the phone and a boss who wants to see you what do you do? </li>
+<li>What do you know about our company? </li>
+<li>If you disagree with your supervisor on an important issue of the job what will you do?</li>
+<li>How do you establish a working relationship with new people? </li>
+<li>Tell me about a time where you faced an ethical dilemma. How did you handle it?</li>
+<li>How would you adapt to a new work environment? </li>
+<li>What have you done to improve your skills/knowledge from last year? </li>
+<li>Why did you choose your major? </li>
+<li>How do you evaluate yourself? </li>
+<li>Explain how you would be an asset to this company. </li>
+<li>What irritates you about coworkers? </li>
+<li>How do you handle an important assignment? </li>
+<li>How did you prepare for this interview? </li>
+<li>Describe what qualities would you like to see in a supervisor? </li>
+<li>Dscribe an experience that you think out of the box. </li>
+<li>what do you like most and least about your last or current job </li>
+<li>What two or three things are most important to you in your job? </li>
+<li>Please describe your experience working with people of different socio-economically and culturally diverse group. </li>
+<li>Why did you choose this industry? </li>
+<li>What are some of your expectations of your future employer? </li>
+<li>Please explain the gap on your resume? </li>
+<li>Are you willing to travel (for the job)? </li>
+<li>How long would it take for you to make a meaningful contribution to our company? </li>
+<li>Can you work well under deadlines or pressure? </li>
+<li>What are you expectations regarding promotions and salary increases? </li>
+<li>How do you relate to your boss? </li>
+<li>Do you consider yourself successful? </li>
+<li>Tell me about a project you initiated. </li>
+<li>MENTION THE EXPERIENCE YOU HAVE RELATED TO THIS POSITION AND YEARS OF EXPERIENCE? </li>
+<li>What do you feel about diversity in the workplace? Do you think it is important? </li>
+<li>Where else have you applied? </li>
+<li>How would you describe the pace at which you work? </li>
+<li>What was the most useful criticism you received? Who was it from? </li>
+<li>Will you take a drug/psychological examination as a condition of employment? </li>
+<li>How do you handle rejection? </li>
+<li>What were your favorite classes or activities during school? </li>
+<li>What kind of job are you looking for? </li>
+<li>Is there anyone you could not work with? </li>
+<li>How do you think your education has prepared you for this type of position? </li>
+<li>Do you consider yourself overqualified for this position? </li>
+<li>Tell me about a suggestion you have made. </li>
+<li>How do you handle dishonesty? </li>
+<li>What is more important to you the money or the work? </li>
+<li>Do you know anyone who works for us? </li>
+<li>What would you like to accomplish through this position that you were not able </li>
+<li>Tell me about an assignment that was too difficult for you. How did you handle </li>
+<li>What did you do when you had a deadline and didn't make it? </li>
+<li>Tell me about any issues with any previous bosses. </li>
+<li>What is your GPA? How does your GPA reflect your abilities? </li>
+<li>Would you rather work with information or people? </li>
+<li>What would your previous supervisor say your strongest point is? </li>
+<li>How do you relate to your co-workers? </li>
+<li>What new skills have you developed recently? </li>
+<li>What kind of personal goals have you set for yourself? </li>
+<li>Would you consider yourself an organized person? </li>
+<li>How long have you been looking for a job? </li>
+<li>What position do you prefer when working on a team? </li>
+<li>If hired will you work full/part-time? Nights? Weekends? </li>
+<li>If you were hiring someone for this job what would you look for? </li>
+<li>How would you tackle the first  days at this job? </li>
+<li>Describe a typical work day. </li>
+<li>Tell me about the most fun you had on the job. </li>
+<li>Have you ever been fired? </li>
+<li>What makes this position different from your last employed standing? </li>
+<li>Site an example from your personal life when you were dishonest to someone? </li>
+<li>How do you typically confront subordinates when results are unacceptale? </li>
+<li>Describe what you would classify as a crisis? </li>
+<li>Do you set goals for yourself? </li>
+<li>What has disappointed you in a job? </li>
+<li>Tell me about a time that you successfully dealt with a person when that person did not like you or vice-versa. </li>
+<li>In hindsight how could you have improved your performance at previous jobs? </li>
+<li>What significant trends do you see in our industry? </li>
+<li>Do you plan to get a graduate degree in the future? </li>
+<li>What would you do if your employer instructed you to do something that was unethical or illegal? </li>
+<li>Why did you stay at this position for such a short time? </li>
+<li>What were the most important decisions you made in your last job? </li>
+<li>Tell me about an instance where you have failed and what you learned from it. </li>
+<li>Are you looking for a permanent or temporary position at the company? </li>
+<li>Would you rather be feared or liked? </li>
+<li>How do you feel about taking 'no' for an answer? </li>
+<li>What do you know about this industry? </li>
+<li>Have you ever had to fire anyone? How did you feel about that? </li>
+<li>How do you understand your job duties? </li>
+<li>In the last three years what have you done to develop professionally? </li>
+<li>Are you reapplying for this position? </li>
+<li>Can you relocate either now or in the future? </li>
+<li>How do you incorporate fun into your day? </li>
+<li>If you could start your life over what would you change? </li>
+<li>What do you know about our company </li>
+<li>Tell me the difference between good and exceptional. </li>
+<li>If you inherited a lot of money say $ or $ million what would you do? </li>
+<li>What changes would you have made at your college? </li>
+<li>Who or what has had the greatest impact in the development of your career plans/interests? </li>
+<li>What gives you the most satisfaction during free/vacation time?</li>
+<li>Name reasons why you would leave a job? </li>
+<li>Careful listening and effective communication go together. Tell me about a specific time when your skill in listening helped you communicate better... </li>
+<li>What do you like best about your school?</li>
+<li>What do you think of your current/former boss? </li>
+<li>what is the typical work week? is overtime expacted? </li>
+<li>what has been your greatest acomplishment </li>
+<li>What would you do to deal with office gossip? </li>
+<li>Describe a situation in which you were able to use personneol successfully convince someone to see things your way. </li>
+<li>Why should I hire an outsider when I could fill the job with someone inside the company? </li>
+<li>How do you priortize your work to meet deadlines? </li>
+<li>What do your colleagues say about you? </li>
+<li>Can you explain how you contact or initiate communications with customers? </li>
+<li>what is customer service for you? </li>
+<li>what are the type of career opportunity you are seeking? </li>
+<li>How can you contribute to our company? </li>
+<li>when applying for a job and they ask if you have been fired what is a professional why of putting it down. </li>
+<li>Why did you choose this career? </li>
+<li>wht did u enjoy the most and least about ur last job? </li>
+<li>What would you do to deal with office gossip? </li>
+<li>Who could be an inspiration to you? </li>
+<li>how do you handle rejections? </li>
+<li>what makes you the best candidate for the job </li>
+<li>why do you want to work in our company </li>
+<li>Why are you interested in working for company </li>
+<li>Briefly describe your career history and your special traits and abilities. </li>
+<li>Please briefly describe your career history and your special traits and abilities </li>
+<li>WHY DO YOU THINK YOU'RE THE BEST PERSON FOR THIS POSITION? </li>
+<li>Briefly describe your strengths that would be attractive to a potential employer?</li>
+<li>What would you consider your greatest strengths and weaknesses? </li>
+<li>Why should I pick you for this position? </li>
+<li>tell me something about yourself? </li>
+<li>Why am I the best person for this position </li>
+<li>why are you applying here? </li>
+<li>What made you apply in the call center? </li>
+<li>what are your expectations? </li>
+<li>What does co creation means to you </li>
+<li>what is your principal shortcoming? </li>
+<li>Why do you think you're the best candiate for this position? </li>
+<li>How do you keep up to date with recent developments in your field</li>
+<li>Can you talk about three names you go by?</li>
+<li>Can you talk about three things you like about yourself?</li>
+<li>Can you talk about three things you dislike about yourself?</li>
+<li>Can you talk about three parts of your heritage?</li>
+<li>Can you talk about three things that scare you?</li>
+<li>Can you talk about three things you need to do everyday?</li>
+<li>Can you talk about three things you are wearing now?</li>
+<li>Can you talk about three of your favorite band that you listen to now?</li>
+<li>Can you talk about three of your favorite songs?</li>
+<li>Can you talk about three things you want to do in the next twelve months?</li>
+<li>Can you talk about three things you want in a relationship?</li>
+<li>Can you talk about three things you can't do?</li>
+<li>Can you talk about three of your hobbies?</li>
+<li>Can you talk about three things you want to do right now?</li>
+<li>Can you talk about three things you want to do before the end of the year?</li>
+<li>Can you talk about three cities you would like to visit?</li>
+<li>Can you talk about three of your favorite things to eat?</li>
+<li>Can you talk three people who have influenced your life?</li>
+<li>Can you talk about three of your most prized possessions?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><srai>ASK QUESTION</srai></template>
+</category>
+
+<category>
+<pattern>NEXT QUESTION</pattern>
+<template>
+<srai>ASK QUESTION</srai>
+</template>
+</category>
+</aiml>

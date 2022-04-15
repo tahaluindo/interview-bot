@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+XML1
+</pattern>
+<template>
+<random>
+<li> What is a markup language?</li>
+<li> What is XML?</li>
+<li> What are the features of XML?</li>
+<li> What are the differences between HTML and XML?</li>
+<li> Which tag is used to find the version of XML and the syntax?</li>
+<li> What is XML DOM Document?</li>
+<li> What is XPath?</li>
+<li> What is an attribute?</li>
+<li> Can we have empty XML tags?</li>
+<li> What are the advantages of XML DOM Document?</li>
+<li> What are the basic rules while writing XML?</li>
+<li> What is XML Element?</li>
+<li> What is CDATA?</li>
+<li> How comment can be represented in XML?</li>
+<li> What are XML Namespaces?</li>
+<li> What is XML Parser?</li>
+<li> What is XSL?</li>
+<li> Who is responsible for XML?</li>
+<li> What is an XML Schema?</li>
+<li> What is well formed XML document?</li>
+<li> Why XML has been used for development?</li>
+<li> What is SGML?</li>
+<li>Can I execute a XML?</li>
+<li> What are the special characters used in XML?</li>
+<li> What software is available for XML?</li>
+<li> Whether graphics can be used in XML? If so How?</li>
+<li> Can I replace HTML with XML?</li>
+<li> How can I include conditional statements in XML?</li>
+<li> What are the benefits of XML?</li>
+<li> What are the disadvantages of XML?</li>
+<li> What is DTD?</li>
+<li> Why XSLT is important for XML?</li>
+<li> What are nested elements in XML?</li>
+<li> What is XQuery?</li>
+<li> What is XLink and XPointer?</li>
+<li> Why XML editor is needed instead of Notepad?</li>
+<li> What is XML Encoding?</li>
+<li> Which XML is set to be valid XML?</li>
+<li> What is Simple Element?</li>
+<li> What is Complex Element?</li>
+<li> Is there a way to describe XML data?</li>
+<li> What are the three parts of XSL?</li>
+<li> What is the correct syntax when we define XML version?</li>
+<li> If XML attribute name itself has double quotes then how it can be represented?</li>
+<li> What are the types of XML Parsers?</li>
+<li> Whether root element is required for XML? If so how many root elements are required?</li>
+<li> What is XML Signature?</li>
+<li> What is Data Island?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+XML
+</pattern>
+<template>
+<srai>
+XML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ XML
+</pattern>
+<template>
+<srai>
+XML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+XML *
+</pattern>
+<template>
+<srai>
+XML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ XML *
+</pattern>
+<template>
+<srai>
+XML1
+</srai>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,16 @@
+{% extends "home.html"%}
+{% block title %}
+Interview Bot <br />
+Profile
+{% endblock %}
+{% block container %}
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+    <form action="/profile" method="POST">
+        <input type="text" placeholder="name" value="{{user.username}}" />
+        <input type="password" placeholder="password" value="" />
+
+        <button type="submit" class="btn btn-success">Update Profile</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HADOOP1
+</pattern>
+<template>
+<random>
+<li> What are the basic differences between relational database and HDFS?</li>
+<li>Explain “Big Data” and what are five V’s of Big Data?</li>
+<li>What is Hadoop and its components. </li>
+<li>What are HDFS and YARN?</li>
+<li>Tell me about the various Hadoop daemons and their roles in a Hadoop cluster.</li>
+<li>Compare HDFS with Network Attached Storage (NAS).
+</li>
+<li>List the difference between Hadoop 1 and Hadoop 2.</li>
+<li>What are active and passive “NameNodes”? </li>
+<li> Why does one remove or add nodes in a Hadoop cluster frequently?</li>
+<li>What happens when two clients try to access the same file in the HDFS?</li>
+<li>How does NameNode tackle DataNode failures?</li>
+<li>What will you do when NameNode is down?</li>
+<li> How is HDFS fault tolerant? </li>
+<li>Can NameNode and DataNode be a commodity hardware? </li>
+<li> Why do we use HDFS for applications having large data sets and not when there are a lot of small files? </li>
+<li>How can I restart “NameNode” or all the daemons in Hadoop? </li>
+<li>What is the difference between an “HDFS Block” and an “Input Split”?</li>
+<li>Name the three modes in which Hadoop can run.</li>
+<li>What is “MapReduce”? What is the syntax to run a “MapReduce” program? </li>
+<li>State the reason why we can’t perform “aggregation” (addition) in mapper? Why do we need the “reducer” for this?</li>
+<li>What does a “MapReduce Partitioner” do?</li>
+<li>What are the benefits of Apache Pig over MapReduce? </li>
+<li>What are the different data types in Pig Latin?</li>
+<li> What is Apache HBase?</li>
+<li>What are the components of Apache HBase?</li>
+<li>. Mention the differences between “HBase” and “Relational Databases”?</li>
+<li>What is Apache Spark?</li>
+<li>What is Apache ZooKeeper and Apache Oozie?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HADOOP
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HADOOP
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HADOOP *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HADOOP *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+APACHE HADOOP
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ APACHE HADOOP
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+APACHE HADOOP *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ APACHE HADOOP *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HDFS
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HDFS
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HDFS *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HDFS *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HADOOP FILE SYSTEM
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HADOOP FILE SYSTEM
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HADOOP FILE SYSTEM *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HADOOP FILE SYSTEM *
+</pattern>
+<template>
+<srai>
+HADOOP1
+</srai>
+</template>
+</category>
+
+</aiml>

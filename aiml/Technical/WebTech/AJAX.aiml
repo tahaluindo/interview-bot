@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+AJAX1
+</pattern>
+<template>
+<random>
+<li>What is AJAX?</li>
+<li>What are the advantages of AJAX?</li>
+<li>What are the disadvantages of AJAX?</li>
+<li>What are the real web applications of AJAX currently running in the market?</li>
+<li>What are the security issues with AJAX?</li>
+<li>What is the difference between synchronous and asynchronous requests?</li>
+<li>What are the technologies used by AJAX?</li>
+<li>What is the purpose of XMLHttpRequest?</li>
+<li>What are the properties of XMLHttpRequest?</li>
+<li>What is the role of the callback function in AJAX?</li>
+<li>What is JSON in AJAX?</li>
+<li>What are the tools for debugging AJAX applications?</li>
+<li>What is the difference between JavaScript and AJAX?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+AJAX
+</pattern>
+<template>
+<srai>
+AJAX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AJAX
+</pattern>
+<template>
+<srai>
+AJAX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AJAX *
+</pattern>
+<template>
+<srai>
+AJAX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AJAX *
+</pattern>
+<template>
+<srai>
+AJAX1
+</srai>
+</template>
+</category>
+</aiml>

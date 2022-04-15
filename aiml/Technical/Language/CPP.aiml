@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CPP1
+</pattern>
+<template>
+<random>
+<li>What are the differences between C and C++?</li>
+<li>What are the differences between references and pointers?</li>
+<li>What are virtual functions?</li>
+<li>What is this pointer?</li>
+<li> Major Differences between JAVA and C++ </li>
+<li>What are C++ access specifiers ?</li>
+<li>Tell me Major C++ features</li>
+<li>What are  Inline Functions?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CPP
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CPP
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CPP *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CPP *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+C++
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C++
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+C++ *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C++ *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+C PLUS PLUS
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C PLUS PLUS
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+C PLUS PLUS *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ C PLUS PLUS *
+</pattern>
+<template>
+<srai>
+CPP1
+</srai>
+</template>
+</category>
+
+
+</aiml>

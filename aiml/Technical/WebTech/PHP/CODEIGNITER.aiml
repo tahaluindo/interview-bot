@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CODEIGNITER1
+</pattern>
+<template>
+<random>
+<li> What is Codeigniter and why it is used for? </li>
+<li> What is the latest version of Codelgniter? Lists its new features. </li>
+<li> List the databases supported by Codeigniter? </li>
+<li> What is hooks and how we can configure hooks  in CodeIgniter? </li>
+<li> How to add or load a model in CodeIgniter? </li>
+<li> How to load a view in CodeIgniter? </li>
+<li> What is the default controller used in CodeIgniter?  How we can change it? </li>
+<li> Explain the basic Url Structure in Codeigniter? </li>
+<li> What do you mean by helper in CodeIgniter? </li>
+<li> Explain the difference between helper and library in CodeIgniter? </li>
+<li> What do you mean by Get_instance in CodeIgniter? </li>
+<li> What do you mean by routing in Codeigniter? </li>
+<li> List some different hook point in Codeigniter? </li>
+<li> How to link images/CSS/JavaScript from a view in codelgniter? </li>
+<li> What do you mean by inhibitor in CodeIgniter? </li>
+<li> How to remove index.php from URL in Codeigniter? </li>
+<li> What is CSRF and how you can enable CSRF in CodeIgniter? </li>
+<li> How to extend the class in Codeigniter? </li>
+<li> What is Codeigniter Library and how we can load it? </li>
+<li> How to handle sessions in Codeigniter? </li>
+<li> Explain why codeigniter is called as loosely based mvc framework? </li>
+<li> How to install CodeIgniter? Explain step by step. </li>
+<li> What are the server requirements to install codeigniter? </li>
+<li> How we can load multiple helper files in Codelgniter? </li>
+<li> How we can enable hooks in CodeIgniter? </li>
+<li> What do you mean by drivers and how we can create in CodeIgniter? </li>
+<li> How we can print SQL statement in codeigniter model? </li>
+<li> Explain how to create custom 404 page in CodeIgniter? </li>
+<li> How to insert data into database in codeigniter? </li>
+<li> How to get last inserted id  in codeigniter? </li>
+<li> How to write join query in CodeIgniter? </li>
+<li> Explain how to set and get config item value in Codeigniter? </li>
+<li> How we can get Ip address in Codeigniter? </li>
+<li> How we can get current method or controller in Codeigniter? </li>
+<li> How to use Pagination in Codelgniter? </li>
+<li> How to use delete query in Codeigniter? </li>
+<li> How to truncate table with query in Codelgniter? </li>
+<li> How to enable error log in CodeIgniter? </li>
+<li> How we can redirect a page in CodeIgniter? </li>
+<li> How we can connect multiple databases in CodeIgniter? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CODEIGNITER
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CODEIGNITER
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CODEIGNITER *
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CODEIGNITER *
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CODE IGNITER
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CODE IGNITER
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CODE IGNITER *
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CODE IGNITER *
+</pattern>
+<template>
+<srai>
+CODEIGNITER1
+</srai>
+</template>
+</category>
+
+</aiml>

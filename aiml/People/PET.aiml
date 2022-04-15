@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PETQ1
+</pattern>
+<template>
+<random>
+<li>What springs to mind when you hear the word ‘pet’?</li>
+<li>Do you like pets?</li>
+<li>How many pets have you had?</li>
+<li>Is it important for children to have a pet?</li>
+<li>Why do people have pets?</li>
+<li>Do you think it’s unfair to keep animals in the home  shouldn’t they be in their natural habitat?</li>
+<li>Do you know anyone with an unusual pet?</li>
+<li>Is it wrong to spend money on pets and pet food when so many people are starving?</li>
+<li>Do you like visiting pet shops?</li>
+<li>What animal do you think makes the best pet?</li>
+<li>Do pets make good gifts?</li>
+<li>Do people usually choose good names for their pets in your country?</li>
+<li>What do you think of restaurants and stores aimed at pets?</li>
+<li>What problems do pets create for people?</li>
+<li>Is a spider or a snake really a pet?</li>
+<li>Why do some people prefer pets to children?</li>
+<li>What do you think of people who dispose of their pets because they are too much trouble?</li>
+<li>Do you think pet owners are often similar to their pets?</li>
+<li>What do you think of the idea of virtual pets like Tamagotchi?</li>
+<li>Are pets good value for money?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PET
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PET
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PET *
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PET *
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PETS
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PETS
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PETS *
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PETS *
+</pattern>
+<template>
+<srai>
+PETQ1
+</srai>
+</template>
+</category>
+
+</aiml>

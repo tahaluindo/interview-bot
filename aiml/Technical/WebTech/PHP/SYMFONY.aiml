@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SYMFONY1
+</pattern>
+<template>
+<random>
+<li> What is Symfony? </li>
+<li> Explain the bundles in Symfony. </li>
+<li> What is a Symfony controller? </li>
+<li> Explain an Environment in Symfony. </li>
+<li> Mention few web servers supported by Symfony. </li>
+<li> Explain the tasks performed by a Symfony controller. </li>
+<li> What are the innovations used in Symfony2 compared to Symfony1? </li>
+<li> In which technology Symfony routing configuration files are written? </li>
+<li> Explain Serializer in Symfony. </li>
+<li> What is Twing in Symfony? </li>
+<li> Mention the cache adapters present in Symfony. </li>
+<li> Explain the case of user access denies in Symfony. </li>
+<li> To install and run the latest version of Symfony list the server requirements. </li>
+<li> What are the rules to create methods within the controller in Symfony? </li>
+<li> Is it possible to create a Symfony application using composer? Then how? </li>
+<li> Explain the session set and get methods in Symfony2. </li>
+<li> How can developers get the request parameters in Symfony2? </li>
+<li> Mention the form helper functions in Symfony. </li>
+<li> What are the best benefits of using Symfony? </li>
+<li> Is it possible to create a request object in Symfony then how? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SYMFONY
+</pattern>
+<template>
+<srai>
+SYMFONY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SYMFONY
+</pattern>
+<template>
+<srai>
+SYMFONY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SYMFONY *
+</pattern>
+<template>
+<srai>
+SYMFONY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SYMFONY *
+</pattern>
+<template>
+<srai>
+SYMFONY1
+</srai>
+</template>
+</category>
+
+</aiml>

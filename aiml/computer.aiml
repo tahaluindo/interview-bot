@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>WHAT YEAR IS THIS</pattern>
+<template><date format="%Y"/>.</template>
+</category>
+
+
+<category>
+<pattern>I AM AFRAID OF * </pattern>
+<template>WHAT HAVE YOU DONE TO OVERCOME YOUR FEAR OF <star/>?</template>
+</category>
+
+<category>
+    <pattern>^ aiml ^</pattern>
+    <template>AIML is cool.</template>
+</category>
+</aiml>

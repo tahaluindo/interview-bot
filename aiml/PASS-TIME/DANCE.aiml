@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DANCE1
+</pattern>
+<template>
+<random>
+<li>Do you like dancing?</li>
+<li>How important is dancing   in your culture?</li>
+<li>How often do you dance?</li>
+<li>What kinds of dancing can   we see in your country?</li>
+<li>Do you like dancing in   discos?</li>
+<li>Do you have any early   memories of dancing?</li>
+<li>Why do people like to   dance?</li>
+<li>Do you ever go to see   dance performances?</li>
+<li>What dances from other   countries do you like?</li>
+<li>Are you good at dancing?</li>
+<li>Is there a national dance   in your country?</li>
+<li>Are there any famous   dancing groups in your country?</li>
+<li>Do you think being a   professional dancer would be a good job?</li>
+<li>Do you like movies about   dancing?</li>
+<li>What kind of music do you   think is good to dance to?</li>
+<li>Do you prefer dancing   alone or with other people?</li>
+<li>What do you think of   ballet?</li>
+<li>Do you ever dance in the   streets at festivals?</li>
+<li>Have you seen or taken   part in dances that tell a story?</li>
+<li>What is the difference   between a good dancer and a bad dancer?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DANCE
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DANCE
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DANCE *
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DANCE *
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DANCING
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DANCING
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DANCING *
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DANCING *
+</pattern>
+<template>
+<srai>
+DANCE1
+</srai>
+</template>
+</category>
+
+</aiml>

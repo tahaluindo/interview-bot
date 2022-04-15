@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+R1
+</pattern>
+<template>
+<random>
+<li>What are the different data structures in R? Briefly explain about them.</li>
+<li>How can you load a .csv file in R?</li>
+<li>What are the different components of grammar of graphics?</li>
+<li>What is Rmarkdown? What is the use of it?</li>
+<li>How do you install a package in R?</li>
+<li>What are the steps to build and evaluate a linear regression model in R?</li>
+<li>Name some packages in R which can be used for data imputation?</li>
+<li>Explain about confusion matrix in R?</li>
+<li>How would you write a custom function in R? Give an example.</li>
+<li>Name some functions available in “dplyr” package.</li>
+<li>How would you create a new R6 Class?</li>
+<li>What is a Random Forest? How do you build and evaluate a Random Forest in R?</li>
+<li>Tell me something about shinyR.</li>
+<li>What is advantage of using apply family of functions in R?</li>
+<li>What packages are used for data mining in R?</li>
+<li>What is clustering? What is the difference between kmeans clustering and hierarchical clustering?</li>
+<li>Give examples of “rbind()” and “cbind()” functions in R</li>
+<li>Give examples of while and for loop in R.</li>
+<li>Give examples of “select” and “filter” functions from “dplyr” package.</li>
+<li>What is the use of stringR package</li>
+<li>What do you know about the rattle package in R?</li>
+<li>How would you make multiple plots onto a single page in R?</li>
+<li>How would you create a scatterplot using ggplot2 package?</li>
+<li>How would you facet the data using ggplot2 package?</li>
+<li>Given a vector of values how would you convert it into a time series object?</li>
+<li>What is a White Noise model and how can you simulate it using R?</li>
+<li>What is a Random Walk model and how can you simulate it using R?</li>
+<li>What is Principal Component Analysis and how can you create a PCA model in R?</li>
+<li>How would you find out the mean of one column w.r.t another?</li>
+<li>Explain about “initialize()” function in R?</li>
+<li>How would you fit a linear model over a scatter-plot?</li>
+<li>What do you know about the evaluate_model() function from “statisticalModeling” Package</li>
+<li>How would you build a Scatter-plot using plotly?</li>
+<li>What is the difference between a bar-chart and a histogram? Where would you use a bar-chart and where would you use a histogram?</li>
+<li>How would you create a box-plot using “plotly”?</li>
+<li>How would you do a left and right join in R?</li>
+<li>What is a factor? How would you create a factor in R?</li>
+<li>Given a vector of numbers how would you turn the values into scientific notation?</li>
+<li>How would you join multiple strings together?</li>
+<li>Write a custom function which will replace all the missing values in a vector with the mean of values.</li>
+<li>What are the different import functions in R?</li>
+<li>Name some functions which can be used for debugging in R?</li>
+<li>How would you check the distribution of a categorical variable in R?</li>
+<li>How would you find the number of missing values in a dataset and remove all of them? </li>
+<li>What is correlation? How would you measure correlation in R?</li>
+<li>How would you extract one particular word from a string?</li>
+<li>How would you do a cross-product of two tables in R?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+R
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+R *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+R LANGUAGE
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R LANGUAGE
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+R LANGUAGE *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R LANGUAGE *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+R STUDIO
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R STUDIO
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+R STUDIO *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ R STUDIO *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+RSTUDIO
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ RSTUDIO
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+RSTUDIO *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ RSTUDIO *
+</pattern>
+<template>
+<srai>
+R1
+</srai>
+</template>
+</category>
+
+</aiml>

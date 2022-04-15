@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+ML1
+</pattern>
+<template>
+<random>
+<li>What is Machine Learning?</li>
+<li>Why is naive Bayes so naive ?</li>
+<li>How AI is different from Machine Learning?</li>
+<li>Do you know any company which have a product based on Machine Learning</li>
+<li>How to handle unbalanced databases?</li>
+<li>Is It the Most Important For You Model Model Accuracy or Model Performance?</li>
+<li>What is the forward selection of data pre-processing?</li>
+<li>What are the different Algorithm techniques in Machine Learning?</li>
+<li>Difference between supervised and unsupervised machine learning?</li>
+<li>What is Overfitting in Machine Learning?</li>
+<li>What are the advantages of decision trees?</li>
+<li>What are the three stages to build the hypotheses or model in machine learning?</li>
+<li>What are some different cases uses of machine learning algorithms can be used?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+ML
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ML
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ML *
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ML *
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MACHINE LEARNING
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MACHINE LEARNING
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MACHINE LEARNING *
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MACHINE LEARNING *
+</pattern>
+<template>
+<srai>
+ML1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SPRING1
+</pattern>
+<template>
+<random>
+<li>What is Spring Framework?</li>
+<li>What are some of the important features and advantages of Spring Framework?</li>
+<li>What do you understand by Dependency Injection?</li>
+<li>How do we implement Dependency Injection in Spring Framework?</li>
+<li>What do you understand by Aspect Oriented Programming?</li>
+<li>Name some of the important Spring Modules?</li>
+<li>What is a Spring Bean?</li>
+<li>What is a Controller in Spring MVC?</li>
+<li>How Spring is different than STRUTS?</li>
+<li>What is a difference between SPRING and HIBERNATE?</li>
+<li>How would you relate Spring MVC Framework to MVC architecture?</li>
+<li>What are some of the important Spring annotations you have used?</li>
+<li>How to integrate Spring and Hibernate Frameworks?</li>
+<li>What are some of the best practices for Spring Framework?</li>
+<li>What are other java frameworks you know other than Spring?</li>
+<li>Name some of the design patterns used in Spring Framework?</li>
+<li>What are the major features in different versions of Spring Framework?</li>
+<li>List the advantages of Spring Framework.</li>
+<li>What are the different features of Spring Framework?</li>
+<li>How many modules are there in Spring Framework and what are they?</li>
+<li>What is a Spring configuration file?</li>
+<li>What is Spring IOC Container?</li>
+<li>What do you mean by Dependency Injection? </li>
+<li>Differentiate between BeanFactory and ApplicationContext.</li>
+<li>What do you mean by  Annotation-based container configuration?</li>
+<li> What do you understand by @RequestMapping annotation?</li>
+<li>Describe Spring DAO support?</li>
+<li> Which classes are present in spring JDBC API?</li>
+<li>What are the ways by which Hibernate can be accessed using Spring?</li>
+<li>Name the types of transaction management that Spring supports.</li>
+<li>What do you mean by Aspect?</li>
+<li>Explain JoinPoint in SPRING?.</li>
+<li>What do you mean by Spring MVC framework?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SPRING
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPRING
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPRING *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPRING *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+JAVA SPRING
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA SPRING
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA SPRING *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA SPRING *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+SPRING FRAMEWORK
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPRING FRAMEWORK
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPRING FRAMEWORK *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPRING FRAMEWORK *
+</pattern>
+<template>
+<srai>
+SPRING1
+</srai>
+</template>
+</category>
+
+</aiml>

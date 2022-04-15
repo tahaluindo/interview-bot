@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+BACKBONEJS1
+</pattern>
+<template>
+<random>
+<li> Explain what is backbone.js ?</li>
+<li> What are the main components of Backbone.js ?</li>
+<li> Explain what is Backbone.js collections ?</li>
+<li> Explain what is Backbone.js router is used for ?</li>
+<li> What is Backbone events ?</li>
+<li> What are the keypoints of Backbone ?</li>
+<li> Why you have to use Backbone ? Advantages ?</li>
+<li> What are the three js files that you require to setup a working environment for backbone?</li>
+<li> Explain when you require Backbone.js ?</li>
+<li> Explain what is view in Backbone.js?</li>
+<li> Explain what is Backbone.js Models?</li>
+<li> Explain how you can use backbone.js for multiple page web app ?</li>
+<li> Explain what is Modelbinder in Backbone.js ?</li>
+<li> What is the most powerful capabilities of the ModelBinder ?</li>
+<li> Explain what is Converter in Backbone.js ?</li>
+<li> What is model.attributes ?</li>
+<li> What is the function of toJSON ?</li>
+<li> Explain when you can use Unbinding function in Backbone.js ?</li>
+<li></li>
+<li> What are the configuration options available ?</li>
+<li> Mention what are the typical problems you might face with the Backbone view code ?</li>
+<li> What is the function of escape ?</li>
+<li> Explain what is the function of parse ?</li>
+<li>  What is Backbone.sync is used for ?</li>
+<li> In Backbone View what is the use of setElement ?</li>
+<li>  Explain what is model.cid ?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+BACKBONE.JS
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BACKBONE.JS
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BACKBONE.JS *
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BACKBONE.JS *
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BACKBONE
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BACKBONE
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BACKBONE *
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BACKBONE *
+</pattern>
+<template>
+<srai>
+BACKBONEJS1
+</srai>
+</template>
+</category>
+
+</aiml>

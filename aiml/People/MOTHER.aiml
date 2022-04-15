@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MOTHER1
+</pattern>
+<template>
+<random>
+<li>What images spring to mind   when you hear the word ‘mother’?</li>
+<li>Can you describe your   mother in one word? Why that word?</li>
+<li>Have you ever thought that   mothers might have ESP?</li>
+<li>Do you always buy your   mother a present on Mother’s Day?</li>
+<li>What are the differences   between a mother and a mother-in-law?</li>
+<li>In what ways do you take   after your mother?</li>
+<li>What is your mother’s   biggest fault?</li>
+<li>Is your mother more like a   mother or a best friend?</li>
+<li>What do/did your mother   and you argue about?</li>
+<li>What do you think of   Mother’s Day? Is it necessary?</li>
+<li>What are the biggest   differences between mothers and fathers?</li>
+<li>Why and how did your   father fall in love with your mother?</li>
+<li>Are you happy with the way   your mother raised you?</li>
+<li>Should mothers stay at   home and look after the kids?</li>
+<li>What’s the best piece of   advice your mother has given you?</li>
+<li>Do you think mothers are   the same all around the world?</li>
+<li>How are mothers and   grandmothers different?</li>
+<li>What do you think is the hardest   thing about being a mother?</li>
+<li>What’s the biggest lie   you’ve ever told your mother?</li>
+<li>What do you talk to your   mother about on the phone?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTHER
+</pattern>
+<template>
+<srai>
+MOTHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTHER
+</pattern>
+<template>
+<srai>
+MOTHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOTHER *
+</pattern>
+<template>
+<srai>
+MOTHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOTHER *
+</pattern>
+<template>
+<srai>
+MOTHER1
+</srai>
+</template>
+</category>
+
+</aiml>

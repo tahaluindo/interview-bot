@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+PERSONALITY1
+</pattern>
+<template>
+<random>
+<li>Describe your personality.</li>
+<li>What kinds of people do you get along well with?</li>
+<li>What kinds of personality traits do you hate?</li>
+<li>How important is personality when you are choosing a spouse?</li>
+<li>Do all of your friends have similar personalities?</li>
+<li>What kind of personality traits are best for running a business?</li>
+<li>What kind of personality should a doctor have?</li>
+<li>Is your personality more similar to your mother’s or father’s?</li>
+<li>Do you think we are born with our personalities or do we develop them because of what happens to us?</li>
+<li>What personality trait would you like to develop?</li>
+<li>Which of your personality traits would you like to lose?</li>
+<li>What are some characteristics of your personality?</li>
+<li>What makes you happy?</li>
+<li>What are some things that make you angry?</li>
+<li>Are you happy with your personality?</li>
+<li>Would you like to be different?</li>
+<li>Are you a determined person? Are you a stubborn person?</li>
+<li>Are you shy ? In which occasions are you shy?</li>
+<li>Do you consider yourself selfish ? Why?</li>
+<li>Is your personality suited to your job?</li>
+<li>In what way has your personality changed? Why has it changed??</li>
+<li>Are you more introverted (focused on your inner world) or more extraverted (focused on other people and the outer world)?</li>
+<li>Do you think you can change a major characteristic of your personality if you try?</li>
+<li>Do you think you have an unusual personality? Why?</li>
+<li>If you could change any aspect of your personality what would it be?</li>
+<li>What sort of things would you do to amuse yourself during a car journey?</li>
+<li>What personality traits do you consider important in a good friend / a boss / a partner?</li>
+<li>Do you consider yourself to be even-tempered?</li>
+<li>What is one thing that many people don't know about you?</li>
+
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+PERSONALITY
+</pattern>
+<template>
+<srai>
+PERSONALITY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PERSONALITY
+</pattern>
+<template>
+<srai>
+PERSONALITY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PERSONALITY *
+</pattern>
+<template>
+<srai>
+PERSONALITY1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PERSONALITY *
+</pattern>
+<template>
+<srai>
+PERSONALITY1
+</srai>
+</template>
+</category>
+
+</aiml>

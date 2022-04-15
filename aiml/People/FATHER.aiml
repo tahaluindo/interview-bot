@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+FATHER1
+</pattern>
+<template>
+<random>
+<li>Tell me more about your father</li>
+<li>Tell me more about your father's profession</li>
+<li>What would you like to full fill  your dream or your fathers dream?</li>
+<li>What did you have as a child that kids today don’t have?</li>
+<li>Which family member has been your greatest coach in life? How have they coached you? What has made them good at it?</li>
+<li>When you were a teenager which family member did you go to for advice? Looking back was it good advice?</li>
+<li>Tell me a story about a family reunion or family party that you remember attending as a child.</li>
+<li> What is the most embarrassing thing your mother or father ever did to you?</li>
+<li>What are your best memories of holidays or family gatherings as a child?</li>
+<li>Describe your father is 3 words</li>
+<li> If you could go back to one day in your childhood which day would that be? Why?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+FATHER
+</pattern>
+<template>
+<srai>
+FATHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ FATHER
+</pattern>
+<template>
+<srai>
+FATHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+FATHER *
+</pattern>
+<template>
+<srai>
+FATHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ FATHER *
+</pattern>
+<template>
+<srai>
+FATHER1
+</srai>
+</template>
+</category>
+
+</aiml>

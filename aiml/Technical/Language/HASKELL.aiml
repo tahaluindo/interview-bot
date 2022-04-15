@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HASKELL1
+</pattern>
+<template>
+<random>
+<li> What is Haskell and Why it is used for? </li>
+<li> What are the advantages  and disadvantages of Haskell programming? </li>
+<li> What is the latest version of Haskell? </li>
+<li> What are Monads in Haskell? </li>
+<li> What are the types of polymorphism used in Haskell? </li>
+<li> Write a program in Haskell to print “bestinterviewquestion.com.” </li>
+<li> What are the kinds of operators used in Haskell? </li>
+<li> What is lazy evaluation in Haskell? </li>
+<li> What is currying in Haskell? </li>
+<li> What is Zippers in Haskell? </li>
+<li> Explain the types of Modules used in Haskell </li>
+<li> Explain the difference between Haskell and Erlang? </li>
+<li> What is Prelude in Haskell </li>
+<li> Explain Haskell data types? </li>
+<li> What is the purpose of a functor Haskell? </li>
+<li> How is Haskell different from modern dynamic languages? </li>
+<li> Difference between `data` and `newtype` in Haskell? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HASKELL
+</pattern>
+<template>
+<srai>
+HASKELL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HASKELL
+</pattern>
+<template>
+<srai>
+HASKELL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HASKELL *
+</pattern>
+<template>
+<srai>
+HASKELL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HASKELL *
+</pattern>
+<template>
+<srai>
+HASKELL1
+</srai>
+</template>
+</category>
+
+</aiml>

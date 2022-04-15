@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MUSIC1
+</pattern>
+<template>
+<random>
+<li>Who are your favorite bands or artists?</li>
+<li>How often do you listen to music?</li>
+<li>When was the last time you bought a song or album?</li>
+<li>Do you usually buy albums online or CD’s from the store?</li>
+<li>Have you ever illegally downloaded music? Do you think it is okay or not okay to download music illegally?</li>
+<li>What kind of music do you listen to when you want to dance?</li>
+<li>What kind of music do you listen to when you are sad?</li>
+<li>Is there a certain song or type of music that makes you really energetic?</li>
+<li>Do you think music is getting better or worse?</li>
+<li>What kind of music will your kids listen to?</li>
+<li>What music did your parents listen to?</li>
+<li>How do you feel about your country’s traditional music?</li>
+<li>Should people try to modernize traditional music?</li>
+<li>How is your country’s traditional music different from other countries’ traditional music? </li>
+<li>How good are you at singing?</li>
+<li>Where do you sing most?</li>
+<li>How often do you do karaoke?</li>
+<li>What song are you best at singing?</li>
+<li>What song do you have to sing along with when you hear it?</li>
+<li>Whose singing do you hate?</li>
+<li>Can you sing your country’s national anthem?</li>
+<li>Who is the best singer you personally know? How about the worst?</li>
+<li>Can singing be learned or are people born with the ability to sing?</li>
+<li>When was the last time you sang in front of someone?</li>
+<li>What kind of music do you like?</li>
+<li>Are you a good singer?</li>
+<li>Can you concentrate on other things when you are listening to music?</li>
+<li>Can you play a musical instrument?</li>
+<li>Can you play the drums?</li>
+<li>Can you play the guitar?</li>
+<li>Do you enjoy music videos?</li>
+<li>Do you ever listen to MP3 files on your computer?</li>
+<li>Do you have an expensive stereo system? </li>
+<li>Do you know the band named Metallica? If so do you like them?</li>
+<li>Do you like all kinds of music?</li>
+<li>Do you like to listen classical music?</li>
+<li>Do you like to listen country music?</li>
+<li>Who is your favorite country singer?</li>
+<li>Do you listen to music while doing your homework?</li>
+<li>Do you sing while taking a bath?</li>
+<li>Do you think there is a relationship between drugs and music? </li>
+<li>Do you think your favorite music twenty years from now will be the same as it is today?</li>
+<li>Do you watch music shows on TV? If so what do you watch?</li>
+<li>Does you mother play the piano?</li>
+<li>Have you ever been to a concert?</li>
+<li>Have you ever taken part in a singing competition?</li>
+<li>How does music make you feel?</li>
+<li>How much time do you spend listening to music?</li>
+<li>How often do you listen to music?</li>
+<li>If you could play any musical instrument what would it be?</li>
+<li>If you could start a band what type of music would you play? Why?</li>
+<li>If you were a song what song would you be and why?</li>
+<li>Is there any kind of music that you hate?</li>
+<li>What are some special or traditional musical instruments in your country?</li>
+<li>What do you think the world would be like without music?</li>
+<li>What is one of your favorite songs?</li>
+<li>What is your favorite kind of music?</li>
+<li>What kind of music do you like?</li>
+<li>What kind of music do you listen to to cheer you up?</li>
+<li>What kind of music do you usually listen to?</li>
+<li>What kind of music do your parents listen to?</li>
+<li>What kind of music you like the most?</li>
+<li>What kind of songs do you like to sing?</li>
+<li>What kinds of music do people listen to in your country?</li>
+<li>What kinds of music do you dislike?</li>
+<li>What was the last concert you went to?</li>
+<li>What was your favorite music five years ago? 10 years ago? How have your musical tastes changed?</li>
+<li>When was the last time you went to a concert?</li>
+<li>Where do you usually listen to music?</li>
+<li>Which do you prefer songs in English or songs in your own language?</li>
+<li>Who is your favorite singer or group?</li>
+<li>Who is your favorite singer?</li>
+<li>Why do you think music is important and how does it affect different people?</li>
+<li>Why is music so important to people and culture?</li>
+<li>Is the image of the group or singer more important than the music?</li>
+<li>Can you think of examples of music calming people or increasing their efficiency?</li>
+<li>Do you mind singing to other people? (Another wording: ...singing in front of people?)</li>
+<li>If you don't mind then how large an audience would be too many?</li>
+<li>While listening to the radio do you ever want to sing the song that is being played?</li>
+<li>Why do you think some people believe opera singers should be fat?</li>
+<li>Do you think music can heal sick people?</li>
+<li>Do you think that animals can enjoy music? How do you know?</li>
+<li>Do you think that music can help make world peace? How?</li>
+<li>How important do you think a good music teacher is to mastering an instrument?</li>
+<li>What do you think the next piece of music technology will be after digital technology?</li>
+<li>If you could invent a new instrument what would it sound like?</li>
+<li>Do you think the use of drugs by some musicians increases their artistic creativity?</li>
+<li>Who is your favorite composer?</li>
+<li>Did you go to the symphony when you were a child?</li>
+<li>Do your brothers and sisters also love classical music?</li>
+<li>What makes a song popular for you the lyrics of the song or the melody?</li>
+<li>Why is the recorder called the recorder?</li>
+<li>Who is the most famous musician from your country?</li>
+<li>Do you think it is wrong to download music for free?</li>
+<li>Do you prefer listening to songs in your own language or in another language? Why?</li>
+<li>Does music affect unborn children?</li>
+<li>Do you think that people form different cultures react to music in different ways?</li>
+<li>What do you think of when you listen to music?</li>
+<li>What kind or style of music would it be weird for your parents to listen to? Why?</li>
+<li>If you could be any musician in the world who would you be and why?</li>
+<li>If you could be a musician who would you be?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MUSIC
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MUSIC
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MUSIC *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MUSIC *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PLAYING MUSIC
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PLAYING MUSIC
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PLAYING MUSIC *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PLAYING MUSIC *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SONG
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SONG
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SONG *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SONG *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SONGS
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SONGS
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SONGS *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SONGS *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SING
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SING
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SING *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SING *
+</pattern>
+<template>
+<srai>
+MUSIC1
+</srai>
+</template>
+</category>
+
+</aiml>

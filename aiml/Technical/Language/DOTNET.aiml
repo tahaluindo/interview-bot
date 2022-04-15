@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DOTNET1
+</pattern>
+<template>
+<random>
+<li>What does .NET Framework provides?</li>
+<li>Mention what are main components of .Net framework?</li>
+<li>Mention key characteristics of .NET ?</li>
+<li>Mention what are the languages that .NET supports?</li>
+<li>Mention how big is the datatype int in .NET?</li>
+<li>Mention what is .Net Namespaces?</li>
+<li>Mention what is MSIL in .NET ?</li>
+<li>Mention what are the functions .NET Assembly performs?</li>
+<li>Mention what is .Net Assembly Manifest?</li>
+<li>Mention what is MSIL in .NET ?</li>
+<li>Explain what is PE (Portable Executable</li>
+<li>Mention what is the difference between Assembly and Namespace?</li>
+<li>List out the namespace provided by .net for data management?</li>
+<li>Mention what is GAC in .net ?</li>
+<li>Mention what is STA in .NET?</li>
+<li>Mention what is data access modifier in .NET?</li>
+<li>Mention what are the types of access modifier in .NET?</li>
+<li>Mention the type of code security available in .NET?</li>
+<li>Explain how you can implement singleton pattern in .NET?</li>
+<li>Explain how the exception is handled in .NET?</li>
+<li>Explain how can you create and use an array in .NET?</li>
+<li>Mention what is user-defined data type?</li>
+<li>List out few of the .Net base class library namespace?</li>
+<li>Mention what is the difference between structures and classes in .NET?</li>
+<li>Mention the types of multidimensional arrays used in .NET ?</li>
+<li>Explain how to add properties in.NET?</li>
+<li>Mention what is event bubbling in .NET?</li>
+<li>Mention what are the debugging windows available?</li>
+<li>Explain what is Microsoft Silverlight?</li>
+<li>What Silverlight is composed of?</li>
+<li>Explain what is .xap file?</li>
+<li>List out the tools required to build Silverlight applications?</li>
+<li>Mention whether Silverlight allows MPEG4 and H.264 videos or AAC (advanced audio coding</li>
+<li>Explain how you can host a Silverlight Applications?</li>
+<li>Mention what is the difference between WPF (Windows Presentation Foundation</li>
+<li>Explain how you can pass parameters to silver light controls from ASP.NET pages?</li>
+<li>Explain how Silverlight and ASP.NET AJAX can be used by consumers?</li>
+<li>Explain how you can check the internet connection status in Silverlight?</li>
+<li>Explain what is RIA?</li>
+<li>Mention what are the different layout controls available in Silverlight?</li>
+<li>What is the syntax for Net?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DOT NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOT NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOT NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOT NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOTNET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOTNET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOTNET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOTNET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+. NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ . NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+. NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ . NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+.NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ .NET
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+.NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ .NET *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOT NET FRAMEWORK
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOT NET FRAMEWORK
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOT NET FRAMEWORK *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOT NET FRAMEWORK *
+</pattern>
+<template>
+<srai>
+DOTNET1
+</srai>
+</template>
+</category>
+
+</aiml>

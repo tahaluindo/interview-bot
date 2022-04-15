@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MONGO1
+</pattern>
+<template>
+<random>
+<li>Explain what is MongoDB?</li>
+<li>What is “Namespace” in MongoDB?</li>
+<li>What is sharding in MongoDB?</li>
+<li>How can you see the connection used by Mongos?</li>
+<li>Explain what is a replica set in mongodb?</li>
+<li>How replication works in MongoDB?</li>
+<li>While creating Schema in MongoDB what are the points need to be taken in consideration?</li>
+<li> What is the syntax to create a collection and to drop a collection in MongoDB?</li>
+<li> Explain what is the role of profiler in MongoDB?</li>
+<li>Explain can you move old files in the moveChunk directory?</li>
+<li>To do safe backups what is the feature in MongoDB that you can use?</li>
+<li>Mention what is Objecld composed of in mongodb?</li>
+<li>Mention what is the command syntax for inserting a document?</li>
+<li>Mention how you can inspect the source code of a function?</li>
+<li>What is the command syntax that tells you whether you are on the master server or not? And how many master does MongoDB allow?</li>
+<li>Explain what are indexes in MongoDB?</li>
+<li>Explain what is GridFS in MongoDB?</li>
+<li>What are alternatives to MongoDB?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGODB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGODB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGODB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGODB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGO DB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGO DB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGO DB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGO DB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGOD
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGOD
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGOD *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGOD *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NOSQL MONGODB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NOSQL MONGODB
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NOSQL MONGODB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NOSQL MONGODB *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGODB NOSQL
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGODB NOSQL
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGODB NOSQL *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGODB NOSQL *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGO DATABASE
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGO DATABASE
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MONGO DATABASE *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MONGO DATABASE *
+</pattern>
+<template>
+<srai>
+MONGO1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,70 @@
+<!-- #4a148c; -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top font-weight-bold" style="background-color:#4a148c
+">
+  <a class="navbar-brand" href="/"><img src="{{ url_for('static',filename='images/icon.png') }}" style="width:40px;"></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Interview Bot</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav navbar-nav ml-auto font-weight-bold">
+	{% if session.log %}
+      <li class="nav-item active">
+        <a class="nav-link" href="/home"><i class="fas fa-home"></i>
+
+ &nbsp;&nbsp;Home <span class="sr-only">(current)</span></a>
+      </li>
+	{% endif %} 
+    </ul>
+    <ul class="nav navbar-nav justify-content-end font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link" href="/ppt"><i class="fas fa-info"></i>
+
+&nbsp;&nbsp;<b>How it works?</b></a>
+      </li>
+	{% if not session.log %}
+
+      <li class="nav-item">
+        <a class="nav-link" href="/register"><i class="fas fa-user-plus"></i>
+
+&nbsp;&nbsp;<b>Register</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i>
+
+&nbsp;&nbsp;<b>Login</b></a>
+      </li>
+
+
+	{% else %}
+
+      <li class="nav-item">
+        <a class="nav-link" href="/chatbot"><i class="fas fa-chalkboard-teacher"></i>
+
+&nbsp;&nbsp;<b>Mock Interview </b></a>
+      </li>       
+      <li class="nav-item">
+        <a class="nav-link" href="/logout"><i class="fas fa-sign-out-alt"></i>
+
+&nbsp;&nbsp;<b>Logout</b></a>
+      </li>     
+
+	{% endif %} 
+ 	<li class="nav-item p-2">
+        <a class="nav-link" href=""></a>
+      	</li>
+ 	<li class="nav-item">
+        <a class="nav-link" href=""></a>
+      	</li>
+ 	<li class="nav-item">
+        <a class="nav-link" href=""></a>
+      	</li> 	<li class="nav-item">
+        <a class="nav-link" href=""></a>
+      	</li> 	<li class="nav-item">
+        <a class="nav-link" href=""></a>
+      	</li>
+    </ul>
+   
+  </div>
+</nav>
+

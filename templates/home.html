@@ -1,0 +1,231 @@
+<html>
+
+<head>
+  <link href="{{ url_for('static', filename='styles/bootstrap4.min.css') }}" type="text/css" rel="stylesheet" />
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+
+  <script src="{{ url_for('static', filename='js/bootstrap4.min.js') }}"></script>
+  <link href="{{ url_for('static', filename='styles/style.css') }}" type="text/css" rel="stylesheet" />
+  <script src="{{ url_for('static', filename='js/Chart.min.js') }}"></script>
+  <link rel='stylesheet' href="{{ url_for('static',filename ='styles/all.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+  <link rel='stylesheet' href="{{ url_for('static',filename ='styles/icon.css') }}">
+</head>
+
+<body>
+  {% include  "includes/_message.html" %}
+  <style>
+    body {
+      overflow-x: hidden;
+      background-color: #e5e0ff;
+    }
+
+    .sidebar_button {
+      color: white;
+      margin-top: 1%;
+      background-color: #3e1b87;
+    }
+
+    .sidebar_button::hover {
+      color: white;
+      background-color: #c143ed;
+    }
+
+    #sidebar-wrapper {
+      background-color: white;
+      min-height: 100vh;
+      margin-left: -5rem;
+      -webkit-transition: margin .25s ease-out;
+      -moz-transition: margin .25s ease-out;
+      -o-transition: margin .25s ease-out;
+      transition: margin .25s ease-out;
+    }
+
+    #sidebar-wrapper .sidebar-heading {
+      padding: 0.875rem 1.25rem;
+      font-size: 1.2rem;
+      font-weight: bolder;
+    }
+
+    #sidebar-wrapper .list-group {
+      width: 8rem;
+      margin-left: 6vh;
+
+    }
+
+    #page-content-wrapper {
+      min-width: 100vw;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: 0;
+    }
+
+    @media (min-width: 768px) {
+      #sidebar-wrapper {
+        margin-left: 0;
+      }
+
+      #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+      }
+
+      #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+      }
+    }
+  </style>
+  <div class="d-flex" id="wrapper">
+
+    <div class="border-right shadow-sm" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        {% block title %}
+        Interview Bot<br />Dashboard
+        {% endblock %}
+      </div>
+
+      <div class="list-group list-group-flush">
+        <a class=" btn sidebar_button " href="/profile"><i class="fa fa-user" aria-hidden="true"></i>
+          Profile
+        </a>
+        <a class="btn sidebar_button" href="/chatbot">
+          <i class="fa fa-desktop" aria-hidden="true"></i>
+          Interview
+        </a>
+        <a class="btn sidebar_button" href="">
+          <i class="fa fa-sticky-note" aria-hidden="true"></i>
+
+          Interview Tips
+        </a>
+        <a class="btn sidebar_button" href="/subscription">
+          <i class="fa fa-credit-card" aria-hidden="true"></i>
+
+          Subscription
+        </a>
+        <a class="btn sidebar_button" href="/logout">
+          <i class="fa fa-sign-out" style="color:white" aria-hidden="true"></i>
+          Logout </a>
+
+
+        <button class=" btn sidebar_button border-right" id="helpTab" style="margin-top:50vh;">
+          <i class="fas fa-info-circle" aria-hidden="true"></i> Help</button>
+
+        <button class="  btn btn-info border-right" id="helpTab" style="">
+          <i class="fas fa-cogs"></i> Settings</button>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow p-3 mb-5 bg-white rounded">
+
+        <a style="color:#6729a9;font-size:24px"><i class="fas fa-bars"></i></a>
+        &nbsp;&nbsp;<span class="font-weight-bolder"></span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            {% if session.admin %}
+            <li class="nav-item">
+              <a class="nav-link" href="/admin">Admin Panel <span class="sr-only">(current)</span></a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/home">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/chatbot">Mock Interview <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                User Settings
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/subscription">Subscription</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/logout">Logout</a>
+                <!--<div class="dropdown-divider"></div>
+                                                  <a class="dropdown-item" href="#">
+                                                          Practise for the interviews
+                                                  </a>
+                                                  -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {% block container %}
+      <div class="container-fluid">
+        <div class="row shadow p-3 mb-5 bg-white rounded" style="margin:2%">
+          <div class="col-md-6 border-right">
+            <img src="{{ url_for('static',filename='images/icon.png') }}" style="width:180px;margin:2%;"></img>
+          </div>
+          <div class="col-md-6">
+            <p class="text-right font-weight-bold" style="margin:2%">
+              Welcome {{user.username}}
+            </p>
+            <p class="text-right font-weight-bold" style="margin:2%">
+              You created the account on {{user.created}}
+            </p>
+            <p class="text-right font-weight-bold" style="margin:2%">
+              <a class="btn btn-info" href="/profile"> Update your profile >> </a>
+            </p>
+
+
+          </div>
+
+        </div>
+        <div class="row ">
+          <div class="col-md-3  shadow p-3 mb-5 bg-white rounded" style="margin:2%">
+            <h5>You have <span style="color:red">{{user.availableInterview}}</span> Interviews available with you
+              <br /></h5>
+            <br /><br />
+            {% if user.availableInterview < 1 %}
+            <div>
+              <a href="/subscription" class="btn btn-danger">
+                Add Interviews >>
+              </a>
+            </div>
+
+            {% else %}
+            <div>
+              <a href="/chatbot" class="btn btn-success">
+                Give Mock interview
+              </a>
+            </div>
+            {% endif %}
+
+          </div>
+
+          <div class="col-md-3  shadow p-3 mb-5 bg-white rounded" style="margin:2%">
+            <h5>Total Interviews gave till date :</h5>
+            <h5><span style="color:red">{{user.totalInterviews}}</span></h5>
+            <a href="/viewInterview" class="btn btn-info">
+              View All Interviews data
+            </a>
+          </div>
+
+          <div class="col-md-3  shadow p-3 mb-5 bg-white rounded" style="margin:2%">
+            <h5>View Reports</h5>
+            <a href="/viewReport" class="btn btn-warning">
+              View All reports
+            </a>
+          </div>
+        </div>
+
+      </div>
+      {% endblock %}
+    </div>
+  </div>
+</body>
+
+</html>

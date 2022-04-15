@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+REACT12
+</pattern>
+<template>
+<random>
+<li>  Differentiate between Real DOM and Virtual DOM</li>
+<li> What is React?</li>
+<li> What are the features of React?</li>
+<li> List some of the major advantages of React</li>
+<li> What are the limitations of React?</li>
+<li> What is JSX?</li>
+<li> What do you understand by Virtual DOM? Explain its working</li>
+<li> Why can’t browsers read JSX?</li>
+<li> How different is React’s ES6 syntax when compared to ES5?</li>
+<li> How is React different from Angular?</li>
+<li> What do you understand from “In React everything is a component</li>
+<li> Explain the purpose of render() in React</li>
+<li> How can you embed two or more components into one?</li>
+<li> What is Props?</li>
+<li> What is a state in React and how is it used?</li>
+<li> Differentiate between states and props</li>
+<li> How can you update the state of a component?</li>
+<li> What is arrow function in React? How is it used?</li>
+<li> Differentiate between stateful and stateless components</li>
+<li> What are the different phases of React component’s lifecycle?</li>
+<li> Explain the lifecycle methods of React components in detail</li>
+<li> What is an event in React?</li>
+<li> How do you create an event in React?</li>
+<li> What are synthetic events in React?</li>
+<li> What do you understand by refs in React?</li>
+<li> List some of the cases when you should use Refs</li>
+<li> How do you modularize code in React?</li>
+<li> What do you know about controlled and uncontrolled components?</li>
+<li> What are Higher Order Components(HOC)?</li>
+<li> What can you do with HOC?</li>
+<li> What are Pure Components?</li>
+<li> What is the significance of keys in React?</li>
+<li> What were the major problems with MVC framework?</li>
+<li> Explain Flux in react?</li>
+<li> What are the three principles that Redux follows?</li>
+<li> What do you understand by “S</li>
+<li> List down the components of Redux</li>
+<li> Show how the data flows through Redux?</li>
+<li> How are Actions defined in Redux?</li>
+<li> Explain the role of Reducer</li>
+<li> What is the significance of Store in Redux?</li>
+<li> How is Redux different from Flux?</li>
+<li> What are the advantages of Redux?</li>
+<li> What is React Router?</li>
+<li> Why do we need a Router in React?</li>
+<li> List down the advantages of React Router</li>
+<li> How is React Router different from conventional routing?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+REACTJS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACTJS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACTJS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACTJS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT JS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT JS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT JS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT JS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT LIBRARY
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT LIBRARY
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT LIBRARY *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT LIBRARY *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT UI LIBRARY
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT UI LIBRARY
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT UI LIBRARY *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT UI LIBRARY *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT COMPONENT
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT COMPONENT
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT COMPONENT *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT COMPONENT *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT COMPONENTS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT COMPONENTS
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+REACT COMPONENTS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ REACT COMPONENTS *
+</pattern>
+<template>
+<srai>
+REACT12
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+ANGER1
+</pattern>
+<template>
+<random>
+<li>What springs to mind when you hear the word   ‘anger’? </li>
+<li>Are you an angry person? </li>
+<li>What are you like when you are angry? </li>
+<li>What’s the angriest you’ve ever been? </li>
+<li>When you get angry do you stay angry for a long   time? </li>
+<li>Do you like looking at other people getting   angry? </li>
+<li>What colour is anger? </li>
+<li>What makes you angry about modern life? </li>
+<li>Someone   once said: “For every minute you are angry you lose sixty seconds of   happiness.” Do you agree? </li>
+<li>Someone   once said: “Anger is one letter short of danger.” Do you agree? </li>
+<li>Why do we have the emotion of anger? </li>
+<li>Is there anything positive about getting angry? </li>
+<li>Who is the angriest person you know? </li>
+<li>Should anger be a sin? </li>
+<li>Why do we get angriest with the ones we love? </li>
+<li>Who on Earth angers you most? </li>
+<li>What happens when you bottle up your anger? </li>
+<li>Is it easy for you to control and hide your   anger? </li>
+<li>Elizabeth   Kenny said: “He who angers you conquers you.” What do you think she means by   this? Do you agree? </li>
+<li>A Chinese   Proverb said: “Never write a letter while you are angry.” Do you think this   is good advice?   Have you regretted writing an angry letter? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGER
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGER
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGER *
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGER *
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGRY
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGRY
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANGRY *
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANGRY *
+</pattern>
+<template>
+<srai>
+ANGER1
+</srai>
+</template>
+</category>
+
+</aiml>

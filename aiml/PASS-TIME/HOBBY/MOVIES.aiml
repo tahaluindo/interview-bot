@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MOVIES1
+</pattern>
+<template>
+<random>
+<li>What is your all-time favorite movie?</li>
+<li>Are there any kinds of movies you dislike?</li>
+<li>Do you like to watch horror movies?</li>
+<li>Do you prefer fiction or nonfiction books? How about movies?</li>
+<li>Do you usually watch movies at home or at a movie theater?</li>
+<li>Have you ever seen the same movie more than once?</li>
+<li>Have you ever seen Marvel movies? (Insert the name of a movie.)</li>
+<li>How often do you go to movies?</li>
+<li>If a book has been made into a movie which do you prefer to do first see the movie or read the book? Why?</li>
+<li>What do you think of people who talk during movies at a movie theater?</li>
+<li>What is the best movie you have ever seen?</li>
+<li>What is the scariest movies you have ever seen?</li>
+<li>What's the funniest movies you have ever seen?</li>
+<li>What's the most romantic movies you have ever seen?</li>
+<li>What is the worst movie you've ever seen?</li>
+<li>What was the last movie you saw?</li>
+<li>Which do you like better action movies or comedy movies?</li>
+<li>What movie star would you most like to meet?</li>
+<li>Who is your favorite actor or actress?</li>
+<li>What do you think of reality shows?</li>
+<li>Do you think that films can be educational?</li>
+<li>Is there a movie you could watch over and over again?</li>
+<li>Who's your favorite director?</li>
+<li>Seen any good movies lately?</li>
+<li>Do you think movies have been developing technology or technology has been developing movies?</li>
+<li>What is the most horrible movie you have ever seen?</li>
+<li>Are addicted to watching movies?</li>
+<li>Do you like to see a movie many times?</li>
+<li>Would you like to be an actor/actress? Why or why not?</li>
+<li>Do you think action movies are bad for children?</li>
+<li>Which do you prefer to watch movies or to read books?</li>
+<li>How much money do you spend when you go to movies?</li>
+<li>What do you prefer animated movies or real movies?</li>
+<li>What is your favorite movie soundtrack?</li>
+<li>Do you think historical movies are educational?</li>
+<li>Do you like documentaries?</li>
+<li>Who is your favorite movie hero?</li>
+<li>What do you think about comic books movies?</li>
+<li>Can you remember the name of the first movie you saw that made you cry?</li>
+<li>What is your favorite classical movie?</li>
+<li>Which do you prefer comedy movies or horror movies?</li>
+<li>Have you ever watched a movie twice that you disliked?</li>
+<li>Do you ever download movies torrent?</li>
+<li>Do you like foreign films that are dubbed in your mother tongue or do you like watching the film in its original form?</li>
+<li>What kind of movie would you like to star in? Why?</li>
+<li>What is something that you have never seen happen in a movie?</li>
+<li>What things happen too often in movies?</li>
+<li>What is the name of a boring movie you have seen. Is there a way to make it better?</li>
+<li>How would you make a really bad movie?</li>
+<li>Which movie star do you think should die today?</li>
+<li>Which movie star should live forever?</li>
+<li>Which two movie stars would you like to have for your parents?</li>
+<li>If a movie star wanted to marry you would you divorce your spouse?</li>
+<li>If you could be a movie bad guy which one would you be?</li>
+<li>Have you ever thought about what super powers you would like to have?</li>
+<li>Which famous person would you like to have for a best friend?</li>
+<li>How often would you go to the movie theater if you always had free tickets?</li>
+<li>Which movie has the best story ? Tell me about it.</li>
+<li>Which horror movie is the scariest? Why?</li>
+<li>If they made a movie about your life what kind of movie would it be?</li>
+<li>Which actor or actress would be you in a movie about your life?</li>
+<li>Do you want your children to be actors or actresses?</li>
+<li>How would your life change if you could do TV commercials?</li>
+<li>How would you like to clean house for a celebrity?</li>
+<li>Would you let a movie crew film in your house?</li>
+<li>Would you like to be a movie extra?</li>
+<li>Do you think there is too much nudity in movies or not enough?</li>
+<li>Do you think there is too much violence in movies? Does it affect children?</li>
+<li>Do you think a movie has to be expensive to make to become a blockbuster? Why?</li>
+<li>Why do some people become famous and others don't?</li>
+<li>What kind of character would you like to play in a television drama?</li>
+<li>If someone were to make a movie about your life what would you want included? </li>
+<li>What do you think about eating during movies at a movie theater?</li>
+<li>What are the different types/genres of films you can watch?</li>
+<li>Do you think that films should be more educational?</li>
+<li>Do you choose a film for the plot/story or the actors?</li>
+<li>What is the longest film you've ever seen? How many hours was it?</li>
+<li>Do you like animated films?</li>
+<li>Have you seen any of the "Lord of the Rings" or "Harry Potter" films? Did you enjoy them?</li>
+<li>Do you prefer watching films in their original version or in your mother language?</li>
+<li>Who chooses the programs the family watches together?</li>
+<li>If two people want to watch different programs at the same time how do you settle the problem?</li>
+<li>Should some kinds of movies not be made?</li>
+<li>What kind of movie would you like to star in? Why?</li>
+<li> Do you think there should be more movies made in your country?</li>
+<li> What is something that you have never seen happen in a movie?</li>
+<li> What things happen too often in movies?</li>
+<li> Which movie star should live forever?</li>
+<li> Which two movie stars would you like to have for parents?</li>
+<li> If you could be a movie bad guy which one would you be?</li>
+<li> Have you ever thought about what super powers you'd like to have?</li>
+<li> Which famous person would you like to have for a best friend?</li>
+<li> How often would you go to the movie theater if you always had free tickets?</li>
+<li> Which movie has the best story? Tell me about it.</li>
+<li> Which horror movie is the scariest? Why?</li>
+<li> Would you be willing to leave your country forever if you could be famous?</li>
+<li> What are some problems that famous people have?</li>
+<li> Would it be a problem if your sweetheart became famous but you didn't?</li>
+<li> If they made a movie about your life what kind of movie would it be?</li>
+<li> Which actor or actress would be you in a movie about your life?</li>
+<li> Do you want your children to be actors or actresses?</li>
+<li> How would your life change if you could do TV commercials?</li>
+<li>Would you like to clean house for a celebrity?</li>
+<li>Would you let a movie crew film in your house?</li>
+<li>What kind or style of music would it be weird for your parents to listen to? Why?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MOVIES
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOVIES
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOVIES *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOVIES *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOVIE
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOVIE
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MOVIE *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MOVIE *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CINEMA
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CINEMA
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CINEMA *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CINEMA *
+</pattern>
+<template>
+<srai>
+MOVIES1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,22 @@
+Question	Question Type	Sub Category	Category	Keywords 
+Mention what is Jenkins?	TECHNICAL	JENKINS	Tools	open source tool,continuous integration purpose,track of version control system,provides reports
+Explain what is continuous integration?	TECHNICAL	JENKINS	Tools	development practice, integrate code,shared repository,allowing teams,detect problems early
+What is the requirement for using Jenkins?	TECHNICAL	JENKINS	Tools	source code,repository,accessible, for instance, a Git repository,script,Maven script
+Mention what are the advantages of Jenkins?	TECHNICAL	JENKINS	Tools	build failures are cached,notify developer,LDAP mail server,continuous integration,agile development,automated,tracking of bugs
+Explain how you can move or copy Jenkins from one server to another?	TECHNICAL	JENKINS	Tools	copying,job directory,clone,Renaming,existing job
+Mention what are the commands you can use to start Jenkins manually?	TECHNICAL	JENKINS	Tools	Jenkins_url,restart,safeRestart
+Mention some of the useful plugins in Jenkin?	TECHNICAL	JENKINS	Tools	Maven 2 project,Amazon EC2,HTML publisher,Copy artifact,Join,Green Balls
+Explain how you can deploy a custom build of a core plugin?	TECHNICAL	JENKINS	Tools	Stop Jenkins,Jenkins_Home,plugins,Delete ,empty, file,start Jenkins
+Explain how can create a backup and copy files in Jenkins?	TECHNICAL	JENKINS	Tools	setting, build artifacts,logs, back up,directory,job,Jenkins
+Explain how you can clone a Git repository via Jenkins?	TECHNICAL	JENKINS	Tools	Jenkins,Git repository,e-mail, user name,git config
+Explain how you can set up Jenkins job?	TECHNICAL	JENKINS	Tools	Jenkins,select,free-style,new,job
+Mention what are the two components Jenkins is mainly integrated with?	TECHNICAL	JENKINS	Tools	jenkins,Version Control,GIT, SVN,,tools, Apache Maven.
+What are the differences between Docker and Hypervisors?	TECHNICAL	DOCKER	Tools	Docker,Hypervisors,virtual machine,container,template,image,linked,repository,catlog,registry,boots in minutes,boots in seconds
+What is Docker?	TECHNICAL	DOCKER	Tools	software,platform,deploy,developers, open-source,portable,cloud 
+What is Docker image?	TECHNICAL	DOCKER	Tools	file,multiple,layers,Docker container,Images,run,execute,instructions,host,OS,kernel
+What is Docker container?	TECHNICAL	DOCKER	Tools	Docker,container,open,source,portable,running
+What is Dockerfile used for?	TECHNICAL	DOCKER	Tools	Docker,tool,create,deploy,run,developer,libraries,dependencies
+ How to create Docker container?	TECHNICAL	DOCKER	Tools	docker,container,create,Apache,server,Run
+How to stop and restart the Docker container?	TECHNICAL	DOCKER	Tools	detach,container,stop,ctrl,plus,c,ports,Restart,systemctl,SIGHUP
+Do I lose my data when the Docker container exits?	TECHNICAL	DOCKER	Tools	Yes,container,ceases,data,lost
+Mention some commonly used Docker command?	TECHNICAL	DOCKER	Tools	microservices,cloud,docker,ps,pull ,run,logs,rm,rmi,stop

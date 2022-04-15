@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CAKEPHP1
+</pattern>
+<template>
+<random>
+<li> Explain CakePHP and why it is used? </li>
+<li> What are the key features of cakePHP?Explain </li>
+<li> Write the latest version of cakePHP? </li>
+<li> How to install cakePHP with composer? </li>
+<li> What are the Server Requirements for installing cakePHP? </li>
+<li> How to use session in cakePHP? </li>
+<li> How to use pagination in cakePHP? </li>
+<li> What is a Helper and list some common helpers name used in cakePHP? </li>
+<li> What do you mean by Component in cakephp? List some commonly used components. </li>
+<li> How we can set layout in the controller file using cakePHP? </li>
+<li> How to pass multiple parameters to access into the view files? </li>
+<li> How we can get current URL in CakePHP? </li>
+<li> Can we use ajax in cakephp? </li>
+<li> What is the default extension of view files? How we can change it? </li>
+<li> How many types of caches does CakePHP support? Explain </li>
+<li> How we can set custom page title in cakePHP? </li>
+<li> List some key features in cakaPHP 3 over cakePHP2? </li>
+<li> Explain the difference between Component Helper Behavior in cakePHP? </li>
+<li> Please write the name of Cakephp database configuration file name and its location? </li>
+<li> What do you mean by HABTM? </li>
+<li> What do you mean by Scaffolding used in CakePHP? </li>
+<li> How we can call a model from view in cakePHP? </li>
+<li> In cakePHP which function is first executed before every action in the controller? </li>
+<li> List some database related query function used in cakePHP. </li>
+<li> What is the term "Security.salt" and "Security.cipherSeed" in CakePHP? </li>
+<li> Explain the callback functions in CakePHP? </li>
+<li> What do you mean by Hooks in CakePHP ? </li>
+<li> What is Validation Model in CakePHP? </li>
+<li> Explain the difference between beforeRender() and beforeFilter() in cakePHP? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CAKEPHP
+</pattern>
+<template>
+<srai>
+CAKEPHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CAKEPHP
+</pattern>
+<template>
+<srai>
+CAKEPHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CAKEPHP *
+</pattern>
+<template>
+<srai>
+CAKEPHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CAKEPHP *
+</pattern>
+<template>
+<srai>
+CAKEPHP1
+</srai>
+</template>
+</category>
+
+</aiml>

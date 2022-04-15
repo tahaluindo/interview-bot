@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+TESTING1
+</pattern>
+<template>
+<random>
+<li> What are the Advantages of Manual Testing and Automated Testing? </li>
+<li> How automation process is carried out? </li>
+<li> Elaborate the situation where automation testing can’t be used for agile methods? </li>
+<li> Name the frameworks that are used in Software Automation Testing? </li>
+<li> Elaborate the scripting standard while executing testing </li>
+<li> Notice the distinction between Data Driven Testing and Retesting? </li>
+<li> What is client side validation? Write a snippet. </li>
+<li> What is Selenium? </li>
+<li> What is Quick Test Professional and what test environment it supports? </li>
+<li> Elaborate the fields in Bug Report in automated testing </li>
+<li> What is the difference between Static and Dynamic Testing? </li>
+<li> Highlight attributes of good framework </li>
+<li> How do select which automation testing tool is the best for you? </li>
+<li> What is Self-referencing constraint in mainframe development? </li>
+<li> Elaborate Test Plan and content availability in test plan. </li>
+<li> What is Test Environment? Elaborate with example. </li>
+<li> How Software Testing is handled? </li>
+<li> Differentiate between HDAM and HIDAM Database? </li>
+<li> What is lock Contention? </li>
+<li> What are the different types of locks in mainframe? </li>
+<li> What is the difference between Continue and Next Sentence? </li>
+<li> Define some of the attributes of a test case? </li>
+<li> Simplify the term defect severity. </li>
+<li> Give some examples of priority – severity defect levels. </li>
+<li> What is a critical bug in a testing field? </li>
+<li> Define SDLC in testing. </li>
+<li> Is it possible to achieve 100% automation? </li>
+<li> Where to maintain information like login password and URL? </li>
+<li> Mention a few good practices while performing automation testing. </li>
+<li> Is UI level testing possible? </li>
+<li> How to select an automation tool best matched for your project? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+TESTING
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TESTING
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TESTING *
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TESTING *
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SOFTWARE TESTING
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SOFTWARE TESTING
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SOFTWARE TESTING *
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SOFTWARE TESTING *
+</pattern>
+<template>
+<srai>
+TESTING1
+</srai>
+</template>
+</category>
+
+</aiml>

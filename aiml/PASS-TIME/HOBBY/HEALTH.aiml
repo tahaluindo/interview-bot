@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HEALTH1
+</pattern>
+<template>
+<random>
+<li>What is the best thing to do to stay healthy?</li>
+<li>What do you think the worst disease to have would be?</li>
+<li>Do you consider yourself to be healthy? Why?</li>
+<li>How often do you exercise?</li>
+<li>What is your diet like? Do you eat mostly fruits and vegetables?</li>
+<li>What do you think about the health care system in your country? How could it be improved?</li>
+<li>People are living longer and longer thanks to medicine. How long would you like to live? How about forever?</li>
+<li>Are there any diseases like small pox that you think humans could totally get rid of if we tried?</li>
+<li>Where do you think the future of medicine will be? Genetics? Cybernetics? Chemistry?</li>
+<li>Would you like to get your genome sequenced?</li>
+<li>If you could find out that you were at risk to get a certain disease would you want to know?</li>
+<li>What do you do to relax after working hard or experiencing other challenging or stressful situations?</li>
+<li>Do you think life is more stressful today than fifty years ago? </li>
+<li>Have you ever practiced yoga? </li>
+<li>Have you ever done meditation? </li>
+<li>Can you give some examples of how mind and body are connected from your own experience.</li>
+<li>Do you have a kind of red warning flag that indicates too much stress?</li>
+<li>When you are stressful how do you feel physically? </li>
+<li>Do you play games sports or do other activities that can be stressful?</li>
+<li>Is stress good before an exam? </li>
+<li>In what situations can stress be a good thing? Does stress ever make you feel more alive?</li>
+<li>If you are playing a sport and your team is losing does it give you extra energy?</li>
+<li>Do you feel tense when you meet someone for the first time?</li>
+<li>Do you get nervous if you have to make a speech?</li>
+<li>Do you suffer from stress when you have too much work to do?</li>
+<li>Do you work or study for long hours under stressful conditions?</li>
+<li>Does the place you live have a low-stress environment?</li>
+<li>Can you be alone as much as you like?</li>
+<li>Can you be with friends as often as you like?</li>
+<li>Is it easy for you to make decisions about important things?</li>
+<li>Can you relax when you are sleeping away from home?</li>
+<li>In what kinds of situations do you observe other people feeling stressed?</li>
+<li>What are some situations that you enjoy?</li>
+<li>What are some situations that make you feel stressful?</li>
+<li>How can you eliminate stressful situations?</li>
+<li>Can you plan a low-stress cheap one-day holiday?</li>
+<li>How do you relieve stress?</li>
+<li>Do you always eat healthy food? </li>
+<li>Is your diet healthy?</li>
+<li>Do you eat a lot of vegetables?</li>
+<li>Do you eat lots of fruit?</li>
+<li>Do you eat vegetables every day?</li>
+<li>Do you ever get headaches? </li>
+<li>Do you know anyone who suffers from migraine headaches?</li>
+<li>Do you ever read magazines or news articles about health? </li>
+<li>Do you exercise? </li>
+<li>What kind of exercise do you do? How often do you exercise?</li>
+<li>Do you go for regular medical check-ups?</li>
+<li>Do you go to the dentist's twice a year?</li>
+<li>Do you have a lot of stress?</li>
+<li>Do you normally go one doctor in particular or any available doctor?</li>
+<li>Do you have any allergies?</li>
+<li>Do you have any scars?</li>
+<li>Do you know anyone who suffers from backaches?</li>
+<li>Do you know anyone with false teeth?</li>
+<li>Do you often eat fast food?</li>
+<li>What drinks to you think are healthy? </li>
+<li>What drinks do you think are unhealthy? </li>
+<li>What foods to you think are healthy? </li>
+<li>What foods do you think are unhealthy? </li>
+<li>When was the last time you went to a dentist?</li>
+<li>When was the last time you went to a doctor?</li>
+<li>When was the last time you went to a hospital?</li>
+<li>When was the last time you were sick?</li>
+<li>Which kind of medicine do you prefer to take when you are sick?</li>
+<li>What springs to mind when you hear the word   ‘exercise’?</li>
+<li>Why is exercise so important?</li>
+<li>What kind of exercise do you think is best?</li>
+<li>Do you wish you could exercise more?</li>
+<li>Why do many people not exercise?</li>
+<li>Do you think it’s easy or difficult to find time   to exercise during the day?</li>
+<li>Do you think people who exercise are happier than   those who don’t?</li>
+<li>Do you think there should be a law that requires   everyone to exercise?</li>
+<li>Is it more fun to exercise alone or with other   people?</li>
+<li>Do   you need advice about how to exercise?</li>
+<li>Do you like exercise?</li>
+<li>Who do you know who exercises a lot?</li>
+<li>What are the bad things about exercise?</li>
+<li>Which exercise would you prefer jogging   swimming or cycling?</li>
+<li>Is not exercising a crime against your body?</li>
+<li>Do you think the government should do more to   ensure everyone exercises?</li>
+<li>How can you adapt the everyday things you do to   increase your level of exercise?</li>
+<li>Do you think exercising makes your brain work   better?</li>
+<li>What do you think of the idea of having higher   hospital charges for those who don’t exercise?</li>
+<li>If   exercise makes you live a lot longer why do so many people not bother to do   it?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTH
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTH
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTH *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTH *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTHY
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTHY
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTHY *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTHY *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DIET
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DIET
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DIET *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DIET *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DIETING
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DIETING
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DIETING *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DIETING *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTHY LIFESTYLE
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTHY LIFESTYLE
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HEALTHY LIFESTYLE *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HEALTHY LIFESTYLE *
+</pattern>
+<template>
+<srai>
+HEALTH1
+</srai>
+</template>
+</category>
+
+</aiml>

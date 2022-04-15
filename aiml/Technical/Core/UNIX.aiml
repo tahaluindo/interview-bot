@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+UNIX1
+</pattern>
+<template>
+<random>
+<li>What is the description for Kernel?</li>
+<li>What are the main features of UNIX?</li>
+<li>What is called Shell?</li>
+<li>What are the responsibilities of a shell?</li>
+<li>Describe the term directory in UNIX?</li>
+<li>Describe fork() system call?</li>
+<li>What is meant by Super User in unix?</li>
+<li>What are the different file types available with UNIX?</li>
+<li>Discuss the difference between swapping and paging?</li>
+<li>What do you understand by UNIX shell?</li>
+<li>What do you understand by shell variables?</li>
+<li>Define piping in unix</li>
+<li>What do you understand by terms system calls and library functions with respect to UNIX command?</li>
+<li>Explain pid in unix systems.</li>
+<li> What is chmod command?</li>
+<li>Differentiate Swapping and Paging.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+UNIX
+</pattern>
+<template>
+<srai>
+UNIX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UNIX
+</pattern>
+<template>
+<srai>
+UNIX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+UNIX *
+</pattern>
+<template>
+<srai>
+UNIX1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ UNIX *
+</pattern>
+<template>
+<srai>
+UNIX1
+</srai>
+</template>
+</category>
+</aiml>

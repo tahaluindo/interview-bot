@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+<pattern>FAMILY</pattern>
+<template>
+<random>
+<li>Tell me more about your family</li>
+<li>Tell me more about your parents</li>
+<li>Tell me about your siblings</li>
+<li>Why family is important for you?</li>
+<li>What comes to mind when   you hear the word ‘family’?</li>
+<li>How important is your   family to you?</li>
+<li>How important are you to   your family?</li>
+<li>Would you like / Do you   have your own family?</li>
+<li>Do you prefer spending   time with your family or friends?</li>
+<li>Are there any strange   people in your family?</li>
+<li>Are you jealous of any of   your family members?</li>
+<li>Do you get on well with   all of your family members?</li>
+<li>How often do you have big   family get-togethers?</li>
+<li>How much of a family   person are you?</li>
+<li>Do you have the ideal   family?</li>
+<li>Is there a black sheep in   your family?</li>
+<li>Is “blood thicker than   water” regarding your family?</li>
+<li>Do you prefer the idea of   extended or nuclear families?</li>
+<li>When do you need your   family most?</li>
+<li>What would the world be   like without families?</li>
+<li>Are we all in one big   happy family?</li>
+<li>Do you ever get tired of   family duties?</li>
+<li>How far back do you know   your family tree?</li>
+ 
+</random>
+</template>
+</category>
+
+<category>
+<pattern>_ FAMILY</pattern>
+<template>
+<srai>FAMILY</srai>
+</template>
+</category>
+
+<category>
+<pattern>FAMILY * </pattern>
+ <template>
+ <srai>FAMILY</srai>
+ </template>
+ </category>
+ <category>
+ <pattern>_ FAMILY *</pattern>
+ <template>
+ <srai>FAMILY</srai>
+ </template>
+</category>
+
+
+</aiml>

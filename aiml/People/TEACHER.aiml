@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+TEACHER1
+</pattern>
+<template>
+<random>
+<li>Tell me about your teachers</li>
+<li>What Role teachers have played in your life?</li>
+<li>Give me a scenario when you have taught someone</li>
+<li>Why not teaching as a career option</li>
+<li>Do you always require a teacher with you? or you can self learn</li>
+<li>What did you learn from your teachers?</li>
+<li>Can you think of a good teacher you had? </li>
+<li>What made that teacher good?</li>
+<li>Think of a bad teacher you had. </li>
+<li>What made that teacher bad?</li>
+<li>What do you think it takes to be a good teacher?</li>
+<li>What are some traits of teachers?</li>
+<li>What different kind of teachers can you name?</li>
+<li>How are you a teacher to someone else?</li>
+<li>What is the retirement age for teachers in your country?</li>
+<li>Would you rather learn from a young teacher or an older teacher?</li>
+<li>What are the salaries for teachers in your country?</li>
+<li>Do you enjoy spending time with your teachers?</li>
+<li>If you were going to be a teacher where would you like to teach?</li>
+<li>Young people spend a lot of their "formative years" with teachers. On the whole is this time well-spent?</li>
+<li>What kind of formal training do teachers need in your country?</li>
+<li>Do you think the training is sufficient?</li>
+<li>If you could how would you change this training</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+TEACHER
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TEACHER
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TEACHER *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TEACHER *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INSTRUCTOR
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INSTRUCTOR
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INSTRUCTOR *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INSTRUCTOR *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>
+INSTRUCTOR
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INSTRUCTOR
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INSTRUCTOR *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INSTRUCTOR *
+</pattern>
+<template>
+<srai>
+TEACHER1
+</srai>
+</template>
+</category>
+</aiml>

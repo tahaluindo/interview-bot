@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DJANGO1
+</pattern>
+<template>
+<random>
+<li>Explain what is Django?</li>
+<li>Mention what are the features available in Django?</li>
+<li>Mention the architecture of Django architecture?</li>
+<li>Why Django should be used for web-development?</li>
+<li>Explain how you can create a project in Django?</li>
+<li>Explain how you can set up the Database in Django?</li>
+<li>Give an example how you can write a VIEW in Django?</li>
+<li>Explain how you can setup static files in Django?</li>
+<li>Mention what does the Django templates consists of?</li>
+<li>Explain the use of session framework in Django?</li>
+<li>Explain how you can use file based sessions?</li>
+<li>Explain the migration in Django and how you can do in SQL?</li>
+<li>Mention what command line can be used to load data into Django?</li>
+<li>Explain what does django-admin.py makemessages command is used for?</li>
+<li>List out the inheritance styles in Django?</li>
+<li>Mention what does the Django field class types?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DJANGO
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DJANGO
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DJANGO *
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DJANGO *
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DJANGO FRAMEWORK
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DJANGO FRAMEWORK
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DJANGO FRAMEWORK *
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DJANGO FRAMEWORK *
+</pattern>
+<template>
+<srai>
+DJANGO1
+</srai>
+</template>
+</category>
+
+</aiml>

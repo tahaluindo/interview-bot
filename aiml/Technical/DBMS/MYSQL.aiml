@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+MYSQL1
+</pattern>
+<template>
+<random>
+<li> What is MySQL?</li>
+<li> In which language MySQL has been written?</li>
+<li> What are the technical specifications of MySQL?</li>
+<li> What is the difference between MySQL and SQL?</li>
+<li> What is the difference between database and table?</li>
+<li> Why do we use the MySQL database server?</li>
+<li> What are the different tables present in MySQL?</li>
+<li> What is the difference between CHAR and VARCHAR?</li>
+<li> What is the difference between TRUNCATE and DELETE in MySQL?</li>
+<li> How many Triggers are possible in MySQL?</li>
+<li> What is heap table?</li>
+<li> What is BLOB and TEXT in MySQL?</li>
+<li> What is a trigger in MySQL?</li>
+<li> What is the difference between heap table and temporary table?</li>
+<li> What is the difference between FLOAT and DOUBLE?</li>
+<li> What are the advantages of MySQL in comparison to Oracle?</li>
+<li> What are the disadvantages of MySQL?</li>
+<li> What is the difference between CHAR and VARCHAR?</li>
+<li> What is the difference between MySQL_connect and MySQL_pconnect?</li>
+<li> What does "i_am_a_dummy flag" do in MySQL?</li>
+<li> How to get the current date in MySQL?</li>
+<li> What are the security alerts while using MySQL?</li>
+<li> How to change a password for an existing user via Mysqladmin?</li>
+<li> What is the difference between Unix timestamps and MySQL timestamps?</li>
+<li> How to display Nth highest salary from a table in a MySQL query?</li>
+<li> What is MySQL default port number?</li>
+<li> What is REGEXP?</li>
+<li> How many columns can you create for an index?</li>
+<li> What is the difference between NOW(</li>
+<li> What is the query to display top 20 rows?</li>
+<li> Write a query to display current date and time?</li>
+<li> What is save point in MySQL?</li>
+<li> What is SQLyog?</li>
+<li> How do you backup a database in MySQl?</li>
+<li> What are the different column comparison operators in MySQL?</li>
+<li> Write a query to count the number of rows of a table in MySQL.</li>
+<li> Write a query to retrieve a hundred books starting from 20th.</li>
+<li> Write a query to select all teams that won either 1 3 5 or 7 games.</li>
+<li> What is the default port of MySQL Server?</li>
+<li> How is MyISAM table stored?</li>
+<li> What is the usage of ENUMs in MySQL?</li>
+<li> What are the advantages of MyISAM over InnoDB?</li>
+<li> What are the differences between MySQL_fetch_array(</li>
+<li> What is the difference between mysql_connect and mysql_pconnect?</li>
+<li> What is the use of mysql_close(</li>
+<li> What is MySQL data directory?</li>
+<li> How do you determine the location of MySQL data directory?</li>
+<li> What is the usage of regular expressions in MySQL?</li>
+<li> What is the usage of "i-am-a-dummy" flag in MySQL?</li>
+<li> Which command is used to view the content of the table in MySQL?</li>
+<li> Explain Access Control Lists.</li>
+<li> What is InnoDB?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+MYSQL
+</pattern>
+<template>
+<srai>
+MYSQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MYSQL
+</pattern>
+<template>
+<srai>
+MYSQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MYSQL *
+</pattern>
+<template>
+<srai>
+MYSQL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MYSQL *
+</pattern>
+<template>
+<srai>
+MYSQL1
+</srai>
+</template>
+</category>
+</aiml>

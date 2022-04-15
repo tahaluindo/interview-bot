@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+BLC
+</pattern>
+<template>
+<random>
+<li>What is blockchain</li>
+<li>Is blockchain and bitcoin one and the same thing.</li>
+<li>How blockchain can bring revolution</li>
+<li>Any projects or ideas you have implemented based on blockchain.</li>
+<li> What do you know about Blockchain? What is the difference between Bitcoin blockchain and Ethereum blockchain?</li>
+<li> What is the principle on which blockchain technology is based on?</li>
+<li> What are the different types of Blockchains?</li>
+<li> Why is Blockchain a trusted approach?</li>
+<li> Name the two types of records that are present in the blockchain database?</li>
+<li> What are the properties of Blockchain?</li>
+<li> What is encryption? What is its role in Blockchain?</li>
+<li> What do you mean by blocks in the blockchain technology?</li>
+<li> How does a block is recognized in the Blockchain approach?</li>
+<li> Is it possible to modify the data once it is written in a block?</li>
+<li> What are Block Identifiers?</li>
+<li> Is it possible in Blockchain to remove one or more block from the networks?</li>
+<li> What exactly do you know about the security of a block?</li>
+<li> What are Merkle trees? How important are Merkle trees in Blockchains?</li>
+<li> What is a ledger? Is Blockchain an incorruptible ledger?</li>
+<li> Name the common type of ledgers that can be considered by users in Blockchain?</li>
+<li> How is a blockchain ledger different from an ordinary one?</li>
+<li> What type of records can be kept in a Blockchain? Is there any restriction on same?</li>
+<li> A distributed digital ledger is used for recording transaction in Blockchain</li>
+<li> Can You explain the components of Blockchain Ecosystem?</li>
+<li> State difference between proof-of-work and proof-of-stake?</li>
+<li> Name some popular platforms for developing blockchain applications</li>
+<li> What is Double Spending? Is it possible to double spend in a Blockchain system?</li>
+<li> What are the benefits of Blockchain that you know?</li>
+<li> Each block of a Blockchain consists of which of the following?</li>
+<li> Which of the following is first distributed blockchain implementation?</li>
+<li> Bitcoin is based on which blockchain?</li>
+<li> Hash identifying each block in the Blockchain is generated using which of the following cryptographic algorithm?</li>
+<li> A block in the blockchain can never have more than one parent block?</li>
+<li> Blockchain forks can result in which of the following?</li>
+<li> Which of the following is asymmetric encryption Algorithm?</li>
+<li> Can you tell me some of the widely used cryptographic algorithms?</li>
+<li> Tell me more about RSA algorithm? How secure is this algorithm?</li>
+<li> Explain the significance of blind signature and how it is useful?</li>
+<li> What is Secret Sharing? Does it have any benefit in Blockchain technology?</li>
+<li> Can you explain what are off-chain transactions?</li>
+<li> What exactly do you know about executive accounting? Does Blockchain support the same?</li>
+<li> What are the threats to the information you are familiar with?</li>
+<li> How will you handle the risk management when it comes to securing the transactions records?</li>
+<li> What is 51% attack? </li>
+<li> What challenges information leak can impose on an organization?</li>
+<li> What is information processing according to you? What are the key challenges that are associated with it?</li>
+<li> Name organizations that can use Blockchain technology?</li>
+<li> What are the core requirements for a Business Blockchain?</li>
+<li> What are the key principles in Blockchain that are helpful in eliminating the security threats that needs to be followed?</li>
+<li> What is a security policy?</li>
+<li>  Is the Blockchain Different from Banking Ledgers?</li>
+<li>  Can you list some of the popular consensus algorithms? Why we need different consensus mechanisms?<br/>
+</li>
+<li> Is there any network specific conditions for using Blockchain technology in an organization?</li>
+<li> Name the steps that are involved in the Blockchain project implementation?</li>
+<li> Explain a real-life use-case where Blockchain is being used?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+BLOCKCHAIN
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BLOCKCHAIN
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BLOCKCHAIN *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BLOCKCHAIN *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ETHEREUM
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ETHEREUM
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ETHEREUM *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ETHEREUM *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DISTRIBUTED SHARED LEDGER
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DISTRIBUTED SHARED LEDGER
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DISTRIBUTED SHARED LEDGER *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DISTRIBUTED SHARED LEDGER *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HYPER LEDGER
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HYPER LEDGER
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HYPER LEDGER *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HYPER LEDGER *
+</pattern>
+<template>
+<srai>
+BLC
+</srai>
+</template>
+</category>
+
+</aiml>

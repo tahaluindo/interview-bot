@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+FEAR1
+</pattern>
+<template>
+<random>
+<li>Are there any parts of the city where you live which you are afraid to visit after dark? Where? Why?</li>
+<li>Are there certain weather conditions that scare people? What are they? Why do people become scared?</li>
+<li>Are you afraid of flying?</li>
+<li>Are you afraid of ghosts?</li>
+<li>Are you afraid of giving a speech in public?</li>
+<li>Are you afraid of heights?</li>
+<li>Are you afraid of scary movies?</li>
+<li>Are you afraid of the dark?</li>
+<li>Are you afraid to die? Why?</li>
+<li>Are you afraid of getting old? Why?</li>
+<li>Are there any numbers that people are afraid of in your culture?</li>
+<li>Do you fear certain insects or animals? Why?</li>
+<li>Do you know anyone with a phobia?</li>
+<li>Do you like horror movies?</li>
+<li>Do you think young children should be allowed to watch horror movies?</li>
+<li>How do you react when you see something frightening?</li>
+<li>Is there any person you are afraid of?</li>
+<li>Were you afraid of the dark as a child?</li>
+<li>Were you afraid on your first day of school here in the United States? How do you feel now?</li>
+<li>What animal do you think is the most scary?</li>
+<li>What are some things which many people are afraid of? Why are they afraid of them?</li>
+<li>What is the scariest movie you have ever seen?</li>
+<li>What is your biggest fear in life? Are you afraid that it might come true?</li>
+<li>What kinds of things make you nervous?</li>
+<li>What was the most frightening experience you've had?</li>
+<li>When you were a child what things were you afraid of?</li>
+<li>How often do you have nightmares?</li>
+<li>Have you ever seen any reality TV shows where people face their fears for money? </li>
+<li>Would you ever face one of your fears for money?</li>
+<li>Do you find this kind of show interesting to watch?</li>
+<li>What is your biggest fear?</li>
+<li>Have you overcome any of your fears?</li>
+<li>Are you afraid of being ill? What disease are you most afraid of? Why?</li>
+<li>Do you believe people can be cured of phobias by hypnosis?</li>
+<li>Are you afraid to fly?</li>
+<li>-Are you afraid to ride a motorcycle?</li>
+<li>-Are you afraid of death of dying?</li>
+<li>How do you cope with your fears?</li>
+<li>Are you afraid of being ill? What disease are you most afraid of? Why?</li>
+<li>What is your biggest fear for yourself?</li>
+<li>What is your biggest fear for the world?</li>
+<li>How often do you feel afraid?</li>
+<li>How would you help someone to get over their fear?</li>
+<li>Do you have any form of phobia or paranoia?</li>
+<li>What were you afraid of as a child?</li>
+<li>What facial expressions accompany fear?</li>
+<li>If you 'put the fear of God into someone' how do you think that person feels?</li>
+<li>Are you afraid you might get sick?</li>
+<li>Are you afraid of speaking English?</li>
+<li>Are you afraid of speaking A foreign language?</li>
+<li>Are you afraid of speaking In front of many people?</li>
+<li>Are you afraid of speaking At official functions?</li>
+<li>Are you afraid of germs?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+FEAR
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ FEAR
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+FEAR *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ FEAR *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SCARED
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCARED
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SCARED *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCARED *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CREEP
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CREEP
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CREEP *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CREEP *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PHOBIA
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHOBIA
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PHOBIA *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHOBIA *
+</pattern>
+<template>
+<srai>
+FEAR1
+</srai>
+</template>
+</category>
+
+</aiml>

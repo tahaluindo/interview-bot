@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+COOKING1
+</pattern>
+<template>
+<random>
+<li>How often do you cook?</li>
+<li>How good are you at cooking?</li>
+<li>What are some things that you can cook?</li>
+<li>What dish or food are you best at cooking?</li>
+<li>Do you think you can cook better than your mother?</li>
+<li>Who is a better cook your mother or your grandmother?</li>
+<li>Are cooking shows popular in your country? Do you watch any cooking shows?</li>
+<li>What is the hardest thing to cook?</li>
+<li>What are some of the advantages of cooking your meals at home? How about the disadvantages?</li>
+<li> Is it important for husbands to know how to cook?</li>
+<li>Does your father cook?</li>
+<li>Who is the best cook you know?</li>
+<li>Would you like to be a chef? Why?</li>
+<li>If you had your own personal chef what meal would you ask for most?</li>
+<li>How hard is it to become a chef? What do you have to do to become a chef?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+COOKING
+</pattern>
+<template>
+<srai>
+COOKING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COOKING
+</pattern>
+<template>
+<srai>
+COOKING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+COOKING *
+</pattern>
+<template>
+<srai>
+COOKING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COOKING *
+</pattern>
+<template>
+<srai>
+COOKING1
+</srai>
+</template>
+</category>
+
+</aiml>

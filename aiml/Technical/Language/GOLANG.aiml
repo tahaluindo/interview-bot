@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+GOLANG1
+</pattern>
+<template>
+<random>
+<li> Explain what is GO?</li>
+<li> What is syntax like in GO?</li>
+<li> Explain what is string literals?</li>
+<li> Explain packages in Go program?</li>
+<li> Explain workspace in GO?</li>
+<li> Explain how to use custom packages in GO language?</li>
+<li> Explain what is GOPATH environment variable?</li>
+<li> Explain how you can do testing in GO?</li>
+<li> Explain what is string types?</li>
+<li> What are the advantages of GO?</li>
+<li> List out the built in support in GO?</li>
+<li> Explain what is go routine in GO? How you can stop go routine?</li>
+<li> Explain how you can write multiline strings in GO?</li>
+<li> Explain how you to access command line arguments passed to a GO program?</li>
+<li> Explain how pointer is represented in GO?</li>
+<li> How you can format a string without printing?</li>
+<li> Explain how arrays in GO works differently then C ?</li>
+<li> Explain GO Interfaces ?</li>
+<li> Explain what Type assertion is used for and how it does it?</li>
+<li> In GO language how you can check variable type at runtime?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+GOLANG
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ GOLANG
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+GOLANG *
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ GOLANG *
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+GO PROGRAMMING
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ GO PROGRAMMING
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+GO PROGRAMMING *
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ GO PROGRAMMING *
+</pattern>
+<template>
+<srai>
+GOLANG1
+</srai>
+</template>
+</category>
+
+</aiml>

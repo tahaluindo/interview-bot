@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+ORACLE1
+</pattern>
+<template>
+<random>
+<li> What Is An Oracle Database?</li>
+<li>What Are The Components Of Physical Database Structure Of Oracle Database?</li>
+<li>What Are The Components Of Logical Database Structure Of Oracle Database?</li>
+<li>What Is A View ?</li>
+<li>Can One Import/export Between Different Versions Of Oracle?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+ORACLE
+</pattern>
+<template>
+<srai>
+ORACLE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ORACLE
+</pattern>
+<template>
+<srai>
+ORACLE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ORACLE *
+</pattern>
+<template>
+<srai>
+ORACLE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ORACLE *
+</pattern>
+<template>
+<srai>
+ORACLE1
+</srai>
+</template>
+</category>
+</aiml>

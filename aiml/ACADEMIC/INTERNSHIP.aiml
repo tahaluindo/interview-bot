@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+INTERNSHP1
+</pattern>
+<template>
+<random>
+<li>Tell me more about your internship</li>
+<li>What did you learn from your internship?</li>
+<li>What was your internship project?</li>
+<li>Which technology stack did you used in your internship project?</li>
+<li>Tell me your internship experience?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+INTERNSHIP
+</pattern>
+<template>
+<srai>
+INTERNSHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INTERNSHIP
+</pattern>
+<template>
+<srai>
+INTERNSHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INTERNSHIP *
+</pattern>
+<template>
+<srai>
+INTERNSHP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INTERNSHIP *
+</pattern>
+<template>
+<srai>
+INTERNSHP1
+</srai>
+</template>
+</category>
+
+</aiml>

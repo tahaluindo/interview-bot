@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SPORTS1
+</pattern>
+<template>
+<random>
+<li>What are some sports you like watching? Why?</li>
+<li>What are some sports you dislike watching? Why?</li>
+<li>Do you play any sports? If so which ones?</li>
+<li>Would you like to learn how to play a sport or do an activity? What would you like to learn?</li>
+<li>Why are sports so popular?</li>
+<li>Do you know of any interesting or strange sports or activities?</li>
+<li>What two sports would you like to mix?</li>
+<li>Do you prefer to watch sports or play them? Why</li>
+<li>What do you think is the most dangerous sport?</li>
+<li>What do you think of athletes making so much money? Is it a good thing or a bad thing?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SPORTS
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPORTS
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPORTS *
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPORTS *
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPORT
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPORT
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SPORT *
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SPORT *
+</pattern>
+<template>
+<srai>
+SPORTS1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap4.min.js') }}"></script>
+  <link href="{{ url_for('static',filename ='styles/bootstrap4.min.css') }}" rel="stylesheet">
+  <link rel='stylesheet' href="{{ url_for('static',filename ='styles/all.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+  <link rel='stylesheet' href="{{ url_for('static',filename ='styles/icon.css') }}">
+
+  <style>
+    .fixed-bottom {
+      border: solid 1px #4a148c;
+      color: #4a148c;
+      font-style: bold;
+    }
+
+    body {
+      z-index: 1
+    }
+
+
+    header h1 {
+      color: white;
+    }
+
+    svg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+      z-index: -3;
+    }
+
+    section {}
+
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+
+    }
+  </style>
+  <title></title>
+</head>
+
+<body>
+  {% include  "includes/_navbar.html" %}
+  <?xml version="1.0" standalone="no"?>
+  <!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="isolation:isolate" viewBox="0 0 1080 512" width="1080" height="512">
+    <defs>
+      <clipPath id="_clipPath_16hyhvd3TyjYpFWkJOcgOdVvheiGz4OM">
+        <rect width="1080" height="512" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_16hyhvd3TyjYpFWkJOcgOdVvheiGz4OM)">
+      <ellipse vector-effect="non-scaling-stroke" cx="944" cy="79" rx="340" ry="319" fill="rgb(74,20,140)" />
+    </g>
+  </svg>
+  <br />
+  <br />
+  <br />
+  <div class="container-fluid">
+    {% include  "includes/_message.html" %}
+    <div class="row">
+      <div class="col-md-8">
+        <h1 style="color:#4a148c;
+" class="display-6 font-weight-bolder" align="left">IB : Interview Bot</h1>
+
+        <br />
+        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 80%;margin:0%;">
+          <div class="card-text">
+            <p style="color:#4a148c;margin:1.5%;" class="font-weight-bolder">
+              Preparing for job interviews is very difficult. A lot of candidates are not prepared for the interviews
+              and so they are
+              not able to fetch their dream jobs. Mostly candidate's selection is based on the answers given in the
+              interview. Using deep learning techniques we are proposing an
+              application framework which would help candidates in preparing for the interviews.
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-4 text-center">
+
+
+        <img src="{{ url_for('static',filename='images/icon.png') }}" style="height:200px;width:200px;"></img>
+        <br />
+        <br />
+        {% if session.log %}
+        <p style="color:white" class=" font-weight-bold text-center btn btn-light"><a href="/chatbot">Give Mock
+            Interview &nbsp;&nbsp;<b>></b>
+          </a></p>
+        {% else %}
+        <p style="color:white" class=" font-weight-bold text-center btn btn-light"><a href="/register">Register Now</a>
+        </p>
+        {% endif%}
+
+      </div>
+    </div>
+
+
+    <div class="row" style="margin:0.1%;padding:0.1%;">
+
+      <div class="card shadow-lg p-3 mb-5 rounded "
+        style="width: 10rem;margin:1%;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center ">
+          <i class="material-icons" style="font-size:48px;color:white">chat</i>
+
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Chatbot based Interview</h6>
+
+        </div>
+      </div>
+
+
+      <div class="card shadow-lg p-3 mb-5 rounded"
+        style="width: 10rem;margin:1%;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center">
+          <i class="material-icons" style="font-size:48px;color:white">record_voice_over</i>
+
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Voice based Interaction</h6>
+        </div>
+      </div>
+
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded"
+        style="width: 10rem;margin:1%;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center">
+          <i class="material-icons" style="font-size:48px;color:white">insert_emoticon</i>
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Emotion Analysis</h6>
+        </div>
+      </div>
+
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded"
+        style="width: 10rem;margin:1%;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center">
+          <i class="material-icons" style="font-size:48px;color:white;">sentiment_neutral</i>
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Sentiment Analysis</h6>
+        </div>
+      </div>
+
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded"
+        style="width: 10rem;margin:1%;border:1px solid white;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center">
+          <i class="material-icons" style="font-size:48px;color:white;">note_add</i>
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Report Generation</h6>
+        </div>
+      </div>
+
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded"
+        style="width: 11rem;margin:1%;border:1px solid white;background-image: linear-gradient(to right top, #ea0fff, #b327d9, #812ab1, #562587, #321b5c);">
+        <div class="card-body text-center">
+          <i class="material-icons" style="font-size:48px;color:white;">multiline_chart</i>
+          <br />
+          <br />
+          <h6 class="card-title" style="color:white">Realtime Data Visualization</h6>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <footer class="fixed-bottom font-weight-bold text-center" style="background-color:#4a148c; color:white;">
+    Interview Bot
+  </footer>
+</body>
+
+</html>

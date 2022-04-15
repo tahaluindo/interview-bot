@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DOCKER1
+</pattern>
+<template>
+<random>
+<li> What are the differences between Docker and Hypervisors?</li>
+<li> What is Docker?</li>
+<li> What is Docker image?</li>
+<li> What is Docker container?</li>
+<li> What is Dockerfile used for?</li>
+<li> How to create Docker container?</li>
+<li> How to stop and restart the Docker container?</li>
+<li> Do I lose my data when the Docker container exits?</li>
+<li> Mention some commonly used Docker command?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DOCKER
+</pattern>
+<template>
+<srai>
+DOCKER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOCKER
+</pattern>
+<template>
+<srai>
+DOCKER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DOCKER *
+</pattern>
+<template>
+<srai>
+DOCKER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DOCKER *
+</pattern>
+<template>
+<srai>
+DOCKER1
+</srai>
+</template>
+</category>
+
+</aiml>

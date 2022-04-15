@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+JAVAMULTITHREADING1
+</pattern>
+<template>
+<random>
+<li> What is multithreading?</li>
+<li> What is the thread?</li>
+<li> Differentiate between process and thread? </li>
+<li> What do you understand by inter-thread communication?</li>
+<li> What is the purpose of wait(</li>
+<li> Why must wait(</li>
+<li> What are the advantages of multithreading?</li>
+<li> What are the states in the lifecycle of a Thread?</li>
+<li> What is the difference between preemptive scheduling and time slicing? </li>
+<li> What is context switching?</li>
+<li> Differentiate between the Thread class and Runnable interface for creating a Thread?</li>
+<li> What does join(</li>
+<li> Describe the purpose and working of sleep(</li>
+<li> What is the difference between wait(</li>
+<li> Is it possible to start a thread twice?</li>
+<li> Can we call the run(</li>
+<li> What about the daemon threads?</li>
+<li>Can we make the user thread as daemon thread if the thread is started?</li>
+<li>What is shutdown hook?</li>
+<li>When should we interrupt a thread?</li>
+<li> What is the synchronization?</li>
+<li> What is the purpose of the Synchronized block?</li>
+<li>Can Java object be locked down for exclusive use by a given thread? </li>
+<li> What is static synchronization?</li>
+<li>What is the difference between notify(</li>
+<li>What is the deadlock?</li>
+<li> How to detect a deadlock condition? How can it be avoided?</li>
+<li> What is Thread Scheduler in java?</li>
+<li> Does each thread have its stack in multithreaded programming?</li>
+<li> How is the safety of a thread achieved?</li>
+<li> What is race-condition?</li>
+<li> What is the volatile keyword in java?</li>
+<li> What do you understand by thread pool?</li>
+<li> What are the main components of concurrency API?</li>
+<li> What is the Executor interface in Concurrency API in Java?</li>
+<li> What is BlockingQueue?</li>
+<li> How to implement producer-consumer problem by using BlockingQueue?</li>
+<li> What is the difference between Java Callable interface and Runnable interface?</li>
+<li> What is the Atomic action in Concurrency in Java?</li>
+<li> What is lock interface in Concurrency API in Java?</li>
+<li> Explain the ExecutorService Interface.</li>
+<li> What is the difference between Synchronous programming and Asynchronous programming regarding a thread?</li>
+<li> What do you understand by Callable and Future in Java?</li>
+<li> Define FutureTask class in Java? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVAMULTITHREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVAMULTITHREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVAMULTITHREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVAMULTITHREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTITHREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTITHREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTITHREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTITHREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTI PROGRAMMING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTI PROGRAMMING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTI PROGRAMMING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTI PROGRAMMING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTI THREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTI THREADING
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA MULTI THREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA MULTI THREADING *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA THREAD
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA THREAD
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA THREAD *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA THREAD *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA THREADS
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA THREADS
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA THREADS *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA THREADS *
+</pattern>
+<template>
+<srai>
+JAVAMULTITHREADING1
+</srai>
+</template>
+</category>
+
+</aiml>

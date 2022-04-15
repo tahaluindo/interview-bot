@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+VR1
+</pattern>
+<template>
+<random>
+<li>What is Virtual Reality?</li>
+<li>How do you develop an application using VR?</li>
+<li>How VR is different than AR?</li>
+<li>Can you name few companies which are working on product related to VR?</li>
+<li>What are the applications of VR in healthcare?</li>
+<li>What are the applications of VR in education?</li>
+<li>What Are The Major Trends Driving The Introduction Of Virtual Reality Systems?</li>
+<li>What Is Google Cardboard And How Does It Fit Into The Vr World?</li>
+<li>How HOLOLENS is different than other VR devices?</li>
+<li>How Might The Virtual World Change The World Of Work?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+VR
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ VR
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+VR *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ VR *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+VIRTUAL REALITY
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ VIRTUAL REALITY
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+VIRTUAL REALITY *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ VIRTUAL REALITY *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MIXED REALITY
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MIXED REALITY
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MIXED REALITY *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MIXED REALITY *
+</pattern>
+<template>
+<srai>
+VR1
+</srai>
+</template>
+</category>
+
+</aiml>

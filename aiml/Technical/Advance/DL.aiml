@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DL1
+</pattern>
+<template>
+<random>
+<li>What is deep learning?</li>
+<li>What is a Neural Network</li>
+<li>How deep learning is different than machine learning</li>
+<li>What projects you have done in DEEP LEARNING?</li>
+<li>Do you know how to take neural network in production</li>
+<li>Which Deep Learning Libraries you have USED</li>
+<li>What is the cost function?</li>
+<li>What is mean by gradient descent?</li>
+<li> What is meant by a backpropagation?</li>
+<li>What is means by auto-encoder?</li>
+<li>What are the roles of activation function?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DL
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DL
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DL *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DL *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DEEP LEARNING
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DEEP LEARNING
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DEEP LEARNING *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DEEP LEARNING *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANN
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANN
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANN *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANN *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NEURAL NETWORK
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NEURAL NETWORK
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NEURAL NETWORK *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NEURAL NETWORK *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NEURAL NETWORKS
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NEURAL NETWORKS
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NEURAL NETWORKS *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NEURAL NETWORKS *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANNS
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANNS
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANNS *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANNS *
+</pattern>
+<template>
+<srai>
+DL1
+</srai>
+</template>
+</category>
+
+</aiml>

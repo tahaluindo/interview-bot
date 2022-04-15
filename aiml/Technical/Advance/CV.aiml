@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CV1
+</pattern>
+<template>
+<random>
+<li>What is computer vision</li>
+<li>Is Computer vision or pattern recognition or image processing is all same thing.</li>
+<li>Any projects related to computer vision?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CV
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CV
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CV *
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CV *
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+COMPUTER VISION
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COMPUTER VISION
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+COMPUTER VISION *
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ COMPUTER VISION *
+</pattern>
+<template>
+<srai>
+CV1
+</srai>
+</template>
+</category>
+
+</aiml>

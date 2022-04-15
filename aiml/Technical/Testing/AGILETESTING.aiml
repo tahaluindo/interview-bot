@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+AGILETESTING1
+</pattern>
+<template>
+<random>
+<li> Explain the key characteristic of Agile testing methodology. </li>
+<li> What are the changes that an Agile development team has to accept with the addition of the testing process? </li>
+<li> How Can Agile testing be advantageous to the developers? </li>
+<li> Mention few differences between Agile and conventional methodologies. </li>
+<li> Explain the Agile testing life cycle. </li>
+<li> Differentiate sprint backlog and product backlog </li>
+<li> What is velocity in Agile? </li>
+<li> What is pair programming? </li>
+<li> What is a test stub in Agile? </li>
+<li> Mention the qualities that an excellent Agile tester should have. </li>
+<li> Differentiate user stories tasks and epic. </li>
+<li> Explain the term spike. </li>
+<li> What is TDD (Test Driven Development)? </li>
+<li> What is scrum-ban? </li>
+<li> Explain the tracer bullet. </li>
+<li> What do you mean by Taskboard in Agile? </li>
+<li> Explain the difference between burn-down and burn-up in Agile? </li>
+<li> What do you mean by refactoring also explain its importance in agile testing? </li>
+<li> Explain the difference between agile and scrum? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILETESTING
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILETESTING
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILETESTING *
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILETESTING *
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILE TESTING
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILE TESTING
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILE TESTING *
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILE TESTING *
+</pattern>
+<template>
+<srai>
+AGILETESTING1
+</srai>
+</template>
+</category>
+
+</aiml>

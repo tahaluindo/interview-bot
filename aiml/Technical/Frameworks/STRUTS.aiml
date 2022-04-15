@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+STRUTS1
+</pattern>
+<template>
+<random>
+<li>What is Struts2?</li>
+<li>What are the differences between Struts1 and Struts2 or how Struts2 is better than Struts1?</li>
+<li>What are Struts2 core components?</li>
+<li>What is interceptor in Struts2?</li>
+<li>Which design pattern is implemented by Struts2 interceptors?</li>
+<li>What are different ways to create Action classes in Struts2?</li>
+<li>Does Struts2 action and interceptors are thread safe?</li>
+<li>Name some useful annotations introduced in Struts2?</li>
+<li>Provide some important Struts2 constants that you have used?</li>
+<li>How can we upload files in Struts2 application?</li>
+<li>What are best practices to follow while developing Struts2 application?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+STRUTS
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ STRUTS
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+STRUTS *
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ STRUTS *
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+STRUTS2
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ STRUTS2
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+STRUTS2 *
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ STRUTS2 *
+</pattern>
+<template>
+<srai>
+STRUTS1
+</srai>
+</template>
+</category>
+
+
+</aiml>

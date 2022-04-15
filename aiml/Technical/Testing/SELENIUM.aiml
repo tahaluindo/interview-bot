@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SELENIUM1
+</pattern>
+<template>
+<random>
+<li> What are the advantages of Selenium as a test tool? </li>
+<li> What are the different components in Selenium? </li>
+<li> What are testing types supported by Selenium? </li>
+<li> What is the purpose of Selenium IDE? </li>
+<li> What do you mean by Selenese? </li>
+<li> How many types of locators are there in Selenium? </li>
+<li> How is Assert command different from Verify command? </li>
+<li> Explain XPath. </li>
+<li> How are Selenium IDE WebDriver and Selenium RC different from each other? </li>
+<li> What is the use of Selenium Grid? </li>
+<li> What are Selenium 1 and Selenium 2? </li>
+<li> Name the different types of waits in WebDriver. </li>
+<li> What are the uses of findElement() and findElements()? </li>
+<li> How is driver.close()command different from driver.quit command? </li>
+<li> Is Selenium capable of handling Windows pop-ups? </li>
+<li> How are web-based pop-ups handled in Selenium? </li>
+<li> Explain Junit. What are annotations? </li>
+<li> How is TestNG better than Junit? </li>
+<li> How is Selenium different from QTP? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SELENIUM
+</pattern>
+<template>
+<srai>
+SELENIUM1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SELENIUM
+</pattern>
+<template>
+<srai>
+SELENIUM1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SELENIUM *
+</pattern>
+<template>
+<srai>
+SELENIUM1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SELENIUM *
+</pattern>
+<template>
+<srai>
+SELENIUM1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+JAVA1
+</pattern>
+<template>
+<random>
+<li> What is Java?</li>
+<li> What are the differences between C++ and Java?</li>
+<li> List the features of Java Programming language.</li>
+<li> What do you understand by Java virtual machine?</li>
+<li> What is the difference between JDK JRE and JVM?</li>
+<li> How many types of memory areas are allocated by JVM?</li>
+<li> What is JIT compiler?</li>
+<li> What is the platform?</li>
+<li> What are the main differences between the Java platform and other platforms?</li>
+<li> What gives Java its 'write once and run anywhere' nature? </li>
+<li> What is classloader?</li>
+<li> Is Empty .java file name a valid source file name?</li>
+<li> Is delete next main exit or null keyword in java?</li>
+<li> If I don't provide any arguments on the command line then what will the value stored in the String array passed into the main(</li>
+<li> What if I write static public void instead of public static void?</li>
+<li> What is the default value of the local variables? </li>
+<li> What are the various access specifiers in Java?</li>
+<li> What is the purpose of static methods and variables?</li>
+<li> What are the advantages of Packages in Java?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is object-oriented paradigm?</li>
+<li> What is an object?</li>
+<li> What is the difference between an object-oriented programming language and object-based programming language?</li>
+<li> What will be the initial value of an object reference which is defined as an instance variable? </li>
+<li> What is the constructor?</li>
+<li> How many types of constructors are used in Java?</li>
+<li> What is the purpose of a default constructor?</li>
+<li> Does constructor return any value?</li>
+<li>Is constructor inherited?</li>
+<li> Can you make a constructor final?</li>
+<li> Can we overload the constructors?</li>
+<li> What do you understand by copy constructor in Java?</li>
+<li> What are the differences between the constructors and methods?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program? </li>
+<li> What is the output of the following Java program?</li>
+<li> What is the static variable?</li>
+<li> What is the static method?</li>
+<li> What are the restrictions that are applied to the Java static methods?</li>
+<li> Why is the main method static?</li>
+<li> Can we override the static methods?</li>
+<li> What is the static block?</li>
+<li> Can we execute a program without main(</li>
+<li> What if the static modifier is removed from the signature of the main method?</li>
+<li> What is the difference between static (class</li>
+<li> Can we make constructors static?</li>
+<li> Can we make the abstract methods static in Java?</li>
+<li> Can we declare the static variables and methods in an abstract class?</li>
+<li> What is this keyword in java?</li>
+<li> What are the main uses of this keyword?</li>
+<li> Can we assign the reference to this variable?</li>
+<li> Can this keyword be used to refer static members?</li>
+<li> How can constructor chaining be done using this keyword?</li>
+<li> What are the advantages of passing this into a method instead of the current class object itself?</li>
+<li> What is the Inheritance?</li>
+<li> Why is Inheritance used in Java? </li>
+<li> Which class is the superclass for all the classes? </li>
+<li> Why is multiple inheritance not supported in java?</li>
+<li> What is aggregation? </li>
+<li> What is composition? </li>
+<li> What is the difference between aggregation and composition? </li>
+<li> Why does Java not support pointers? </li>
+<li> What is super in java?</li>
+<li> How can constructor chaining be done by using the super keyword?</li>
+<li> What are the main uses of the super keyword?</li>
+<li> What are the differences between this and super keyword?</li>
+<li> What is the output of the following Java program?</li>
+<li> Can you use this(</li>
+<li>What is object cloning?</li>
+<li> What is method overloading?</li>
+<li> Why is method overloading not possible by changing the return type in java?</li>
+<li> Can we overload the methods by making them static?</li>
+<li> Can we overload the main(</li>
+<li> What is method overloading with type promotion?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is method overriding:</li>
+<li> Can we override the static method?</li>
+<li> Why can we not override static method?</li>
+<li> Can we override the overloaded method?</li>
+<li> Difference between method Overloading and Overriding.</li>
+<li> Can we override the private methods?</li>
+<li> Can we change the scope of the overridden method in the subclass?</li>
+<li> Can we modify the throws clause of the superclass method while overriding it in the subclass?</li>
+<li> What is the output of the following Java program? </li>
+<li> Can you have virtual functions in Java? </li>
+<li> What is covariant return type? </li>
+<li> What is the output of the following Java program?</li>
+<li> What is the final variable?</li>
+<li> What is the final method?</li>
+<li> What is the final class?</li>
+<li> What is the final blank variable?</li>
+<li> Can we initialize the final blank variable?</li>
+<li> Can you declare the main method as final? </li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> Can we declare a constructor as final?</li>
+<li> Can we declare an interface as final?</li>
+<li> What is the difference between the final method and abstract method?</li>
+<li> What is the difference between compile-time polymorphism and runtime polymorphism?</li>
+<li> What is Runtime Polymorphism?</li>
+<li> Can you achieve Runtime Polymorphism by data members?</li>
+<li> What is the difference between static binding and dynamic binding?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is Java instanceOf operator?</li>
+<li> What is the abstraction?</li>
+<li> What is the difference between abstraction and encapsulation?</li>
+<li> What is the abstract class?</li>
+<li> Can there be an abstract method without an abstract class?</li>
+<li> Is the following program written correctly? If yes then what will be the output of the program?</li>
+<li> Can you use abstract and final both with a method?</li>
+<li> Is it possible to instantiate the abstract class?</li>
+<li> What is the interface?</li>
+<li> Can you declare an interface method static?</li>
+<li> Can the Interface be final?</li>
+<li> What is a marker interface?</li>
+<li> What are the differences between abstract class and interface?</li>
+<li> Can we define private and protected modifiers for the members in interfaces?</li>
+<li> When can an object reference be cast to an interface reference? </li>
+<li> How to make a read-only class in Java? </li>
+<li> How to make a write-only class in Java? </li>
+<li> What are the advantages of Encapsulation in Java?</li>
+<li> What is the package?</li>
+<li> What are the advantages of defining packages in Java?</li>
+<li> How to create packages in Java?</li>
+<li> How can we access some class in another class in Java?</li>
+<li> Do I need to import java.lang package any time? Why?</li>
+<li> Can I import same package/class twice? Will the JVM load the package twice at runtime?</li>
+<li> What is the static import?</li>
+<li> How many types of exception can occur in a Java program?</li>
+<li> What is Exception Handling?</li>
+<li> Explain the hierarchy of Java Exception classes? </li>
+<li> What is the difference between Checked Exception and Unchecked Exception?</li>
+<li> Checked Exception</li>
+<li> Unchecked Exception</li>
+<li> What is the base class for Error and Exception? </li>
+<li> Is it necessary that each try block must be followed by a catch block?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is finally block?</li>
+<li> Can finally block be used without a catch?</li>
+<li> Is there any case when finally will not be executed?</li>
+<li> What is the difference between throw and throws?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> Can an exception be rethrown?</li>
+<li> Can subclass overriding method declare an exception if parent class method doesn't throw an exception?</li>
+<li> What is exception propagation?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is String Pool?</li>
+<li> What is the meaning of immutable regarding String?</li>
+<li> Why are the objects immutable in java?</li>
+<li> How many ways can we create the string object?</li>
+<li> String Literal</li>
+<li> By new keyword</li>
+<li> How many objects will be created in the following code?</li>
+<li> Why java uses the concept of the string literal?</li>
+<li> How many objects will be created in the following code?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the output of the following Java program?</li>
+<li> What are the differences between String and StringBuffer?</li>
+<li> What are the differences between StringBuffer and StringBuilder?</li>
+<li> How can we create an immutable class in Java?</li>
+<li> What is the purpose of toString(</li>
+<li> Why CharArray(</li>
+<li> Write a Java program to count the number of words present in a string?</li>
+<li> Name some classes present in java.util.regex package.</li>
+<li> How the metacharacters are different from the ordinary characters?</li>
+<li> Write a regular expression to validate a password. A password must start with an alphabet and followed by alphanumeric characters Its length must be in between 8 to 20.</li>
+<li> What is the output of the following Java program?</li>
+<li> What are the advantages of Java inner classes? </li>
+<li> What is a nested class? </li>
+<li> What are the disadvantages of using inner classes?</li>
+<li> What are the types of inner classes (non-static nested class</li>
+<li> Is there any difference between nested classes and inner classes? </li>
+<li> Can we access the non-final local variable inside the local inner class? </li>
+<li> How many class files are created on compiling the OuterClass in the following program? </li>
+<li> What are anonymous inner classes?</li>
+<li> What is the nested interface? </li>
+<li> Can a class have an interface? </li>
+<li> Can an Interface have a class? </li>
+<li> What is Garbage Collection?</li>
+<li> What is gc(</li>
+<li> How is garbage collection controlled?</li>
+<li> How can an object be unreferenced?</li>
+<li> By nulling a reference:</li>
+<li> By assigning a reference to another:</li>
+<li> By anonymous object:</li>
+<li> What is the purpose of the finalize(</li>
+<li> Can an unreferenced object be referenced again?</li>
+<li> What kind of thread is the Garbage collector thread? </li>
+<li> What is the difference between final finally and finalize?</li>
+<li> What is the purpose of the Runtime class? </li>
+<li> How will you invoke any external process in Java? </li>
+<li> Give the hierarchy of InputStream and OutputStream classes.</li>
+<li> What do you understand by an IO stream?</li>
+<li> What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy? </li>
+<li> What are the super most classes for all the streams?</li>
+<li> What are the FileInputStream and FileOutputStream?</li>
+<li> What is the purpose of using BufferedInputStream and BufferedOutputStream classes?</li>
+<li> How to set the Permissions to a file in Java?</li>
+<li> What are FilterStreams? </li>
+<li> What is an I/O filter? </li>
+<li> In Java How many ways you can take input from the console?</li>
+<li> What is serialization?</li>
+<li> How can you make a class serializable in Java?</li>
+<li> How can you avoid serialization in child class if the base class is implementing the Serializable interface?</li>
+<li> Can a Serialized object be transferred via network?</li>
+<li> What is Deserialization?</li>
+<li> What is the transient keyword?</li>
+<li> What is Externalizable?</li>
+<li> What is the difference between Serializable and Externalizable interface? </li>
+<li> Give a brief description of Java socket programming? </li>
+<li> What is Socket? </li>
+<li> What are the steps that are followed when two computers connect through TCP? </li>
+<li> Write a program in Java to establish a connection between client and server?</li>
+<li> How do I convert a numeric IP address like 192.18.97.39 into a hostname like java.sun.com? </li>
+<li> What is the reflection?</li>
+<li> What is the purpose of using java.lang.Class class?</li>
+<li> What are the ways to instantiate the Class class?</li>
+<li> What is the output of the following Java program?</li>
+<li> What is the purpose of using javap?</li>
+<li> Can you access the private method from outside the class?</li>
+<li>What are wrapper classes? </li>
+<li>What are autoboxing and unboxing? When does it occur?</li>
+<li> What is the output of the below Java program?</li>
+<li> What is object cloning? </li>
+<li> What are the advantages and disadvantages of object cloning? </li>
+<li> What is a native method? </li>
+<li> What is the purpose of the strictfp keyword? </li>
+<li> What is the purpose of the System class? </li>
+<li> What comes to mind when someone mentions a shallow copy in Java?</li>
+<li> What is a singleton class? </li>
+<li> Write a Java program that prints all the values given at command-line.</li>
+<li> Which containers use a border layout as their default layout? </li>
+<li> Which containers use a FlowLayout as their default layout? </li>
+<li> What are peerless components? </li>
+<li> is there is any difference between a Scrollbar and a ScrollPane? </li>
+<li> What is a lightweight component?</li>
+<li> What is a heavyweight component?</li>
+<li> What is an applet?</li>
+<li> Can you write a Java class that could be used both as an applet as well as an application?</li>
+<li> What is Locale? </li>
+<li>How will you load a specific locale? </li>
+<li> What is a JavaBean?</li>
+<li> What is the purpose of using the Java bean?</li>
+<li> What do you understand by the bean persistent property?</li>
+<li> What is RMI?</li>
+<li> What is the  purpose of stub and skeleton?</li>
+<li> What are the steps involved to write RMI based programs?</li>
+<li> What is the use of HTTP-tunneling in RMI?</li>
+<li> What is JRMP?</li>
+<li> Can RMI and CORBA based applications interact?</li>
+<li> How to perform Bubble Sort in Java?</li>
+<li> How to perform Binary Search in Java?</li>
+<li> How to perform Selection Sort in Java?</li>
+<li> How to perform Linear Search in Java?</li>
+<li> How to perform merge sort in Java?</li>
+<li> How to perform quicksort in Java?</li>
+<li> Write a program in Java to create a doubly linked list containing n nodes.</li>
+<li> Write a program in Java to find the maximum and minimum value node from a circular linked list.</li>
+<li> Write a program in Java to calculate the difference between the sum of the odd level and even level nodes of a Binary Tree.</li>
+<li> What is the Collection framework in Java?</li>
+<li> What are the main differences between array and collection?</li>
+<li> Explain various interfaces used in Collection framework?</li>
+<li> What is the difference between ArrayList and Vector?</li>
+<li> What is the difference between ArrayList and LinkedList?</li>
+<li> What is the difference between Iterator and ListIterator?</li>
+<li> What is the difference between Iterator and Enumeration?</li>
+<li> What is the difference between List and Set?</li>
+<li> What is the difference between HashSet and TreeSet?</li>
+<li> What is the difference between Set and Map?</li>
+<li> What is the difference between HashSet and HashMap?</li>
+<li> What is the difference between HashMap and TreeMap?</li>
+<li> What is the difference between HashMap and Hashtable?</li>
+<li> What is the difference between Collection and Collections?</li>
+<li> What is the difference between Comparable and Comparator?</li>
+<li> What do you understand by BlockingQueue?</li>
+<li> What is the advantage of Properties file?</li>
+<li> What does the hashCode(</li>
+<li> Why we override equals(</li>
+<li> How to synchronize List Set and Map elements?</li>
+<li> What is the advantage of the generic collection?</li>
+<li> What is hash-collision in Hashtable and how it is handled in Java?</li>
+<li> What is the Dictionary class?</li>
+<li> What is the default size of load factor in hashing based collection?</li>
+<li> What do you understand by fail-fast?</li>
+<li> What is the difference between Array and ArrayList?</li>
+<li> What is the difference between the length of an Array and size of ArrayList?</li>
+<li> How to convert ArrayList to Array and Array to ArrayList?</li>
+<li> How to make Java ArrayList Read-Only?</li>
+<li> How to remove duplicates from ArrayList?</li>
+<li> How to reverse ArrayList?</li>
+<li> How to sort ArrayList in descending order?</li>
+<li> How to synchronize ArrayList?</li>
+<li> When to use ArrayList and LinkedList?</li>
+<li> What is JDBC?</li>
+<li> What is JDBC Driver?</li>
+<li> What are the steps to connect to the database in java?</li>
+<li> What are the JDBC API components?</li>
+<li> What are the JDBC statements?</li>
+<li> What is the return type of Class.forName(</li>
+<li> What are the differences between Statement and PreparedStatement interface?</li>
+<li> How can we set null value in JDBC PreparedStatement?</li>
+<li> What are the benefits of PreparedStatement over Statement?</li>
+<li> What are the differences between execute executeQuery and executeUpdate?</li>
+<li> What are the different types of ResultSet?</li>
+<li> What are the differences between ResultSet and RowSet?</li>
+<li> How can we execute stored procedures using CallableStatement?</li>
+<li> What is the role of the JDBC DriverManager class?</li>
+<li> What are the functions of the JDBC Connection interface?</li>
+<li> What does the JDBC ResultSet interface?</li>
+<li> What does the JDBC ResultSetMetaData interface?</li>
+<li> What does the JDBC DatabaseMetaData interface?</li>
+<li> Which interface is responsible for transaction management in JDBC?</li>
+<li> What is batch processing and how to perform batch processing in JDBC?</li>
+<li> What are CLOB and BLOB data types in JDBC?</li>
+<li> What are the different types of lockings in JDBC?</li>
+<li> How can we store and retrieve images from the database?</li>
+<li> How can we store the file in the Oracle database?</li>
+<li> How can we retrieve the file in the Oracle database?</li>
+<li> What are the differences between stored procedure and functions?</li>
+<li> How can we maintain the integrity of a database by using JDBC?</li>
+<li> What is the JDBC Rowset?</li>
+<li> What is the major difference between java.util.Date and java.sql.Date data type?</li>
+<li> What does JDBC setMaxRows method do?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA
+</pattern>
+<template>
+<srai>
+JAVA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA
+</pattern>
+<template>
+<srai>
+JAVA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA *
+</pattern>
+<template>
+<srai>
+JAVA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA *
+</pattern>
+<template>
+<srai>
+JAVA1
+</srai>
+</template>
+</category>
+
+</aiml>

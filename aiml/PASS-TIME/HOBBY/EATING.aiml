@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+EATING1
+</pattern>
+<template>
+<random>
+<li>Talk about what you have eaten today.</li>
+<li>What is the most unhealthy food you can think of?</li>
+<li>What do people need to eat more of?</li>
+<li>Do you usually eat healthy food?</li>
+<li>What are some different types of diets you have heard of?</li>
+<li>Do you think your parents ate healthier food at your age than you do? How about your grandparents?</li>
+<li>Do you eat a lot of small portions or a few large portions of food each day?</li>
+<li>Do you think people from your country usually eat healthy food?</li>
+<li>What are some things about your eating habits you want to change?</li>
+<li>Do you think that organic food is much better than normal food or are they about the same?</li>
+<li>Why is organic food so much more expensive?</li>
+<li>What is traditional food in your country like? Is it healthy?</li>
+<li>Do you think that a person s eating habits affect how long they will live?</li>
+<li>What is your favorite snack?</li>
+<li>What unhealthy food do you love?</li>
+<li>What food did your mother always tell you to eat and not to eat?</li>
+<li>What food helps with which health problem?</li>
+<li>What is the future of food in your country?</li>
+<li>What kinds of food did you eat when you were a child? Do you eat the same things now?</li>
+<li>What is the best food to eat when you are sick?</li>
+<li>What is your favorite food that your mother/father cooks?</li>
+<li>Do you prefer to eat unhealthy or healthy food?</li>
+<li>How often do you eat out?</li>
+<li>If you could have any food right now what would it be?</li>
+<li>How would you describe your country’s food?</li>
+<li>What dishes from your country are often confused by tourists or foreigners?</li>
+<li>What is your favorite food? What is in it?</li>
+<li>Can you think of any of your country’s cuisine that other countries influenced?</li>
+<li>What is your favorite foreign food? How is it different from your country’s cuisine?</li>
+<li>How often do you eat foreign food and how often do you eat your country’s cuisine?</li>
+<li>Where is the best place to eat in your town? Why is it so good?</li>
+<li>Do you eat a healthy diet? Why or why not?</li>
+<li>What could you do to improve your diet?</li>
+<li>Have you ever gone on a diet to improve your health or lose weight? How well did it work?</li>
+<li>Describe your favorite food. What ingredients are in it? Why is it your favorite?</li>
+<li>Do you eat different foods depending on the season or weather? Give some examples.</li>
+<li>What kinds of food can you cook? Would you like to learn how to cook more types of food?</li>
+<li>What is your least favorite fast food restaurant and why?</li>
+<li>Does fast food taste good or bad? Why?</li>
+<li>Why is fast food so popular?</li>
+<li>How often do you eat fast food? What do you usually eat? Where?</li>
+<li>What is a food that people think is healthy but really isn’t?</li>
+<li>Do you know anyone who has worked at a fast food restaurant? How did they like it?</li>
+<li>How has fast food changed in your country?</li>
+<li>How is your country’s fast food different from other countries’ fast food?</li>
+<li>Can you think of any healthy fast food?</li>
+<li>How would you define fast food?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+EATING
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EATING
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EATING *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EATING *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EAT
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EAT
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EAT *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EAT *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ATE
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ATE
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ATE *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ATE *
+</pattern>
+<template>
+<srai>
+EATING1
+</srai>
+</template>
+</category>
+
+</aiml>

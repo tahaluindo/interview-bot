@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+JENKINS1
+</pattern>
+<template>
+<random>
+<li> Mention what is Jenkins?</li>
+<li> Explain what is continuous integration?</li>
+<li> What is the requirement for using Jenkins?</li>
+<li> Mention what are the advantages of Jenkins?</li>
+<li> Explain how you can move or copy Jenkins from one server to another?</li>
+<li> Mention what are the commands you can use to start Jenkins manually?</li>
+<li> Mention some of the useful plugins in Jenkin?</li>
+<li> Explain how you can deploy a custom build of a core plugin?</li>
+<li> Explain how can create a backup and copy files in Jenkins?</li>
+<li> Explain how you can clone a Git repository via Jenkins?</li>
+<li> Explain how you can set up Jenkins job?</li>
+<li> Mention what are the two components Jenkins is mainly integrated with?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+JENKINS
+</pattern>
+<template>
+<srai>
+JENKINS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JENKINS
+</pattern>
+<template>
+<srai>
+JENKINS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JENKINS *
+</pattern>
+<template>
+<srai>
+JENKINS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JENKINS *
+</pattern>
+<template>
+<srai>
+JENKINS1
+</srai>
+</template>
+</category>
+
+</aiml>

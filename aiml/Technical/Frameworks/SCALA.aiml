@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SCALA1
+</pattern>
+<template>
+<random>
+<li>What is Scala? Is it a Language or Platform? Does it support OOP or FP? Who is the father of Scala?</li>
+<li>Is Scala Statically-Typed Language? What is Statically-Typed Language and What is Dynamically-Typed Language?</li> 
+<li>What is the difference between statically typed and dynamically typed languages?</li>
+<li>Is Scala a Pure OOP Language? Is Java a Pure OOP Language?</li>
+<li>Does Scala support all Functional Programming concepts? Does Java 8 support all Functional Programming concepts?</li>
+<li>What are the major advantages of Scala Language? Are there any drawbacks of Scala Language?</li>
+<li>What is the Main drawback of Scala Language?</li>
+<li>What is the main motto of Scala Language?</li>
+<li>What are the popular JVM Languages available now?</li>
+<li>Like Java’s java.lang.Object class what is the super class of all classes in Scala?</li>
+<li>What is default access modifier in Scala?Does Scala have “public” keyword?</li>
+<li>Is Scala an Expression-Based Language or Statement-Based Language? Is Java an Expression-Based Language or Statement-Based Language?</li>
+<li>Tell me some features which are supported by Java but not by Scala and Vice versa?</li>
+<li>Mention Some keywords which are used by Java and not required in Scala? Why Scala does not require them?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SCALA
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCALA
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SCALA *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCALA *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA SCALA
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA SCALA
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+JAVA SCALA *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ JAVA SCALA *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SCALA FRAMEWORK
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCALA FRAMEWORK
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SCALA FRAMEWORK *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SCALA FRAMEWORK *
+</pattern>
+<template>
+<srai>
+SCALA1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+TRAVEL1
+</pattern>
+<template>
+<random>
+<li>Have you ever been abroad?</li>
+<li>Where have you been?</li>
+<li>Are you planning on going anywhere for your next vacation?</li>
+<li>How long will you stay?</li>
+<li>Are you afraid of going abroad alone?</li>
+<li>Could you live in another country for the rest of your life?</li>
+<li>Describe the most interesting person you met on one of your travels.</li>
+<li>What was your best trip.</li>
+<li>What was your worst trip.</li>
+<li>Did your class in high school go on a trip together?</li>
+<li>If so where did you go?</li>
+<li>How long did you stay?</li>
+<li>How did you get there?</li>
+<li>Do you have a driver's license?</li>
+<li>Do you like to travel with children? Why or why not?</li>
+<li>Do you like to travel with your mother? Why or why not?</li>
+<li>Do you prefer summer vacations or winter vacations?</li>
+<li>Do you prefer to travel alone or in a group? Why?</li>
+<li>Do you prefer to travel by train bus plane or ship?</li>
+<li>Do you prefer traveling by car or by plane?</li>
+<li>Have you ever been in a difficult situation while traveling?</li>
+<li>Have you ever been on an airplane?</li>
+<li>How many times?</li>
+<li>What airlines have you flown with?</li>
+<li>Have you ever been to a foreign country?</li>
+<li>Have you ever gotten lost while traveling? If so tell about it.</li>
+<li>Have you ever hitchhiked? If so how many times?</li>
+<li>Have you ever taken a package tour?</li>
+<li>How do you spend your time when you are on holiday and the weather is bad?</li>
+<li>How many countries have you been to? How many states?</li>
+<li>How many times have you traveled abroad?</li>
+<li>How much luggage do you usually carry?</li>
+<li>If you traveled to South America what countries would like to visit?</li>
+<li>If you went to ___(Insert a country name)__ what kind of souvenirs would you buy?</li>
+<li>If you were going on a camping trip for a week what 10 things would you bring? Explain why.</li>
+<li>What are some countries that you would never visit? Why would you not visit them?</li>
+<li>What are some things that you always take with you on a trip?</li>
+<li>What countries would you like to visit? Why?</li>
+<li>What countries would you most like to visit?</li>
+<li>What countries would you not like to visit? Why?</li>
+<li>What country do you most want to visit?Why?</li>
+<li>Do you think you will ever go there?</li>
+<li>What do you need before you can travel to another country?</li>
+<li>What is the most interesting city to visit in your country?</li>
+<li>What is the most interesting souvenir that you have ever bought on one of your holidays?</li>
+<li>What languages can you speak?</li>
+<li>What place do you want to visit someday?</li>
+<li>What was the most interesting place you have ever visited?</li>
+<li>What's the most beautiful place you've ever been to?</li>
+<li>When was the last time your traveled?</li>
+<li>When you are on a long car journey do you play games or sing songs to occupy your time?</li>
+<li>Where are you going to go the next time you travel?</li>
+<li>Where did you go on your last vacation?Who did you go with?</li>
+<li>Where did you spend your last vacation? Your summer vacation? Your Christmas vacation?</li>
+<li>Where will you go on your next vacation?</li>
+<li>Would you like to take a cruise? Where to? With who?</li>
+<li>Do you prefer traveling on a hovercraft or a ferry?</li>
+<li>Would you prefer to stay at a hotel/motel or camp while on vacation?</li>
+<li>Would you rather visit another country or travel within your own country?</li>
+<li>Would you rather go to a place where there are a lot of people or to a place where there are few people?</li>
+<li>Do you find more fulfillment from your leisure activities including vacations than from your job?</li>
+<li>Do you think the type of vacation one takes reflects one's social status?</li>
+<li>What are popular tourist destinations in your country?</li>
+<li>Which tourist would you recommend if you could only recommend one? Why?</li>
+<li>Do you prefer active or relaxing holidays? Why?</li>
+<li>Which is better package tour or a tour you organize and book yourself?</li>
+<li>Why do you travel?</li>
+<li>Would you like to go back to the same place?</li>
+<li>Did you find anything of particular interest? / Did you get attracted to anything special?</li>
+<li>What are some benefits of travel?</li>
+<li>Why do people travel?</li>
+<li>What is your favorite mode of travel?</li>
+<li>Have you travelled in business class?</li>
+<li>When you were a child did your family take a vacation every year?</li>
+<li>Do you prefer a budget or first class hotel? Why?</li>
+<li>Do you travel with a lot of baggage or do you like to travel light?</li>
+<li>What is your favorite method of travel at your destination? Train? Bus? Boat? Bicycle? Backpacking?</li>
+<li>What is the best kind of holiday for different ages of people? Children? Teenagers? Adults? Elderly people?</li>
+<li>Do you think it is a good idea to travel with friends or alone? How about with your family?</li>
+<li>If you had 10 Lakh rupees where would you go on holiday? How about if you had 1 lakh rupees? What about 10 thousand rupees?</li>
+<li>Which countries have you travelled to?</li>
+<li> Do you prefer hot countries or cool countries when you go on holiday</li>
+<li>Who makes the decisions when your family decides to go on holiday</li>
+<li>If you could choose one place to go this weekend where would it be? </li>
+<li>Has the airline ever lost your luggage? What happened?</li>
+<li>On long flights do you usually walk around the plane to avoid health problems?</li>
+<li>Have you ever read an interesting question in an in-flight magazine? What was it?</li>
+<li>Is there any difference between young tourists and adult tourists?</li>
+<li>Do you think tourism will harm the earth?</li>
+<li>Where do you like to go on vacation?</li>
+<li>Where would you like to go on vacation?</li>
+<li>Tell your partner about your best travel story.</li>
+<li>What are some things you always take with you on a trip?</li>
+<li>Do you prefer package tours or making your own trip?</li>
+<li>Where did you spend your last vacation? What did you do?</li>
+<li>What are some of the benefits of traveling alone?</li>
+<li>What are some of the benefits of traveling with a group?</li>
+<li>What is the longest journey you have ever made?</li>
+<li>What’s the best way to travel? (By plane ship train car etc.)</li>
+<li>Where is the most amazing place you have been?</li>
+<li>What is the best and worst thing about traveling to a new country?</li>
+<li>Where do you prefer to stay when you go on vacation? (Hotel hostel Airbnb house / room etc.)</li>
+<li>What are your best travel tips?</li>
+<li>What is the strangest food you’ve seen or eaten while on vacation?</li>
+<li>What do you like to do while you are traveling? (i.e. relax shop sight see experience local culture…)</li>
+<li>How often do you travel?</li>
+<li>What souvenirs have you brought back from traveling?</li>
+<li>Where are you going for your next trip?</li>
+<li>Where are the best places to go on vacation in your country?</li>
+<li>Who in your family travels the most?</li>
+<li>What popular travel destination do you want to avoid?</li>
+<li>How adventurous are you when you travel?</li>
+<li>Do you try to learn some of the local language before you travel to a new country? What phrases do you try to learn?</li>
+<li>What is the longest trip you’ve taken?</li>
+<li>How much vacation time do you get a year?</li>
+<li>What do you usually forget to bring when you go on vacation?</li>
+<li>What do you miss most when you are traveling?</li>
+<li>What was the worst flight that you have taken?</li>
+<li>What is the ideal length for a vacation?</li>
+<li>How important is tourism in your country?</li>
+<li>What is the biggest tourist destination in your country?</li>
+<li>What are the benefits of international tourism? Are there any drawbacks?</li>
+<li>Do you prefer tourism package tours or do you prefer to plan your own vacations? Why?</li>
+<li>Is it better to go to popular tourist destinations or lesser known tourist destinations? Why?</li>
+<li>Should a government try to improve domestic tourism or try to attract international tourists instead? Why?</li>
+<li>What’s the best way to travel when you visit a country? Train car bicycle bus some other way? Why?</li>
+<li>If you could create a tourism slogan for your country what would it be?</li>
+<li>What’s the best way for a country to bring in more tourists?</li>
+<li>How do you feel about tourists who visit your country?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVEL
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVEL
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVEL *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVEL *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVELLER
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVELLER
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+TRAVELLER *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ TRAVELLER *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MY HOBBY IS TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MY HOBBY IS TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MY HOBBY IS TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MY HOBBY IS TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+I LOVE TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ I LOVE TRAVELLING
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+I LOVE TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ I LOVE TRAVELLING *
+</pattern>
+<template>
+<srai>
+TRAVEL1
+</srai>
+</template>
+</category>
+
+</aiml>

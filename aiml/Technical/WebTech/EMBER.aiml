@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+EMBER1
+</pattern>
+<template>
+<random>
+<li> Explain what Ember.js is and how it works?</li>
+<li> List out main components of Ember.js?</li>
+<li> Explain what is model in Ember.js?</li>
+<li> Explain how ember applications are structured? </li>
+<li> What controller does in Ember.js?</li>
+<li> Explain how is ember.js is different than traditional web application?</li>
+<li> Explain how Router and {{outlet}} tag can be useful in ember.js?</li>
+<li> Explain what is the difference between Router and Route in ember.js ?</li>
+<li>   Explain what is Ember-data ? </li>
+<li> Explain the role of adapter and types of adapters ?</li>
+<li> Explain what are the two ways of defining and inserting a view?</li>
+<li> Explain what is controller in ember.js ?                   </li>
+<li> Mention the template components used in ember.js ?</li>
+<li> Explain what is serializer?</li>
+<li> How you can define a new ember class?</li>
+<li> Explain how you can create an Ember. handlebars  template ?</li>
+<li> Explain how you can add data using fixture into an application?</li>
+<li> Mention some of the functions used in ember packages/ember run-time/lib and packages/ember metal/lib/utils.js ?</li>
+<li> Explain what is Enumerables in ember.js ?</li>
+<li> Explain what is Ember.ArrayController and what is the advantage of it ?</li>
+<li> Explain Application Template ?</li>
+<li> Explain what is ember.mixin class ?</li>
+<li> What is Ember.Namespace.Class ?</li>
+<li> When Ember.TrackedArray can be useful ?</li>
+<li> Explain how you can create instances in ember.js ?</li>
+<li> Explain what is the use Ember.SortableMixin ?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER.JS
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER.JS
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER.JS *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER.JS *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER JS
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER JS
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+EMBER JS *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ EMBER JS *
+</pattern>
+<template>
+<srai>
+EMBER1
+</srai>
+</template>
+</category>
+
+</aiml>

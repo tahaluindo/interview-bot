@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+CSS1
+</pattern>
+<template>
+<random>
+<li>What is CSS?</li>
+<li>What are the different variations of CSS?</li>
+<li>How can you integrate CSS on a web page?</li>
+<li>What are the advantages of CSS?</li>
+<li>What are the limitations of CSS?</li>
+<li>What are the CSS frameworks?</li>
+<li>Why background and color are the separate properties if they should always be set together?</li>
+<li>What is Embedded Style Sheet?</li>
+<li>What is a CSS selector?</li>
+<li>Name some CSS style components.</li>
+<li>What are the advantages of External Style Sheets?</li>
+<li>What is the difference between inline embedded and external style sheets?</li>
+<li>What is the difference between CSS2 and CSS3?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+CSS
+</pattern>
+<template>
+<srai>
+CSS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CSS
+</pattern>
+<template>
+<srai>
+CSS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+CSS *
+</pattern>
+<template>
+<srai>
+CSS1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ CSS *
+</pattern>
+<template>
+<srai>
+CSS1
+</srai>
+</template>
+</category>
+</aiml>

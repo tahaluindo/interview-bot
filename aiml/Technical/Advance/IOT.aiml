@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+IOT1
+</pattern>
+<template>
+<random>
+<li>What are the main parts of IoT systems?</li>
+<li>What is Internet of things?</li>
+<li>Have you done anything or any project related to IOT?</li>
+<li>Can you name few companies who are working IOT based products?</li>
+<li>How IOT is changing or revolutionizing our world?</li>
+<li>What are security concerns related to IoT?</li>
+<li>What is meant by a smart city regarding the Internet of Things?</li>
+<li>Name some of the sectors where IOT played a major role?</li>
+<li>What are the challenges in IOT?</li>
+<li>Can IOT take over human mind?</li>
+<li>What is the scope of IOT devices in the future?</li>
+<li>What is the big IOT implementation so far?</li>
+<li>What are Android things?</li>
+<li>What are the most used sensors types in iot?</li>
+<li>What is common uses of IoT?</li>
+<li>What is application of IoT in Environmental Monitoring?</li>
+<li>What is application of IoT in Transportation?</li>
+<li>What is application of IoT in Government?</li>
+<li>What is application of IoT in Law enforcement?</li>
+<li>What is IoT Cloud?</li>
+<li>How does the Internet of Everything relate to the Internet of Things?</li>
+<li>What is the difference between the Internet of Things (IoT) and the Sensors?</li>
+<li>Why Internet of Things will be successful in the coming years?</li>
+<li>What are the important Components of Internet of Things?</li>
+<li>What impacts will the Internet of Things (IoT) have on Energy Sector?</li>
+<li>What impacts will the Internet of Things (IoT) have on Agriculture Sector?</li>
+<li>What is application of IoT in Healthcare?</li>
+<li>How will the Internet of Things affect the manageability of the business and will it have any effect on the earth?</li>
+<li>What kind of data does Internet of Things objects convey?</li>
+<li>Why will the Internet of Things be effective in the coming years?</li>
+<li> What is the effect of the Internet of Things have on Healthcare segment?</li>
+<li> what are the fundamental difficulties of the Internet of Things usage?</li>
+<li>When you state Internet of Things I am not catching your meaning by the thing?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+IOT
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOT
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IOT *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOT *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INTERNET OF THINGS
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INTERNET OF THINGS
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+INTERNET OF THINGS *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ INTERNET OF THINGS *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MACHINE TO MACHINE 
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MACHINE TO MACHINE 
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+MACHINE TO MACHINE  *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ MACHINE TO MACHINE  *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IOT DEVICE
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOT DEVICE
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+IOT DEVICE *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ IOT DEVICE *
+</pattern>
+<template>
+<srai>
+IOT1
+</srai>
+</template>
+</category>
+
+</aiml>

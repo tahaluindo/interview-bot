@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+BDDATA
+</pattern>
+<template>
+<random>
+<li>What do you know about the term Big Data?</li>
+<li>What are the five V’s of Big Data?</li>
+<li>Tell us how big data and Hadoop are related to each other.</li>
+<li>How is big data analysis helpful in increasing business revenue?</li>
+<li>Explain the steps to be followed to deploy a Big Data solution.</li>
+<li>Define respective components of HDFS and YARN</li>
+<li>Why is Hadoop used for Big Data Analytics?</li>
+<li>What are the main differences between NAS (Network-attached storage) and HDFS?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+BIG DATA
+</pattern>
+<template>
+<srai>
+BDDATA
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BIG DATA
+</pattern>
+<template>
+<srai>
+BDDATA
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+BIG DATA *
+</pattern>
+<template>
+<srai>
+BDDATA
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ BIG DATA *
+</pattern>
+<template>
+<srai>
+BDDATA
+</srai>
+</template>
+</category>
+
+</aiml>

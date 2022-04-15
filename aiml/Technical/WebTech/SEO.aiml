@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+SEO1
+</pattern>
+<template>
+<random>
+<li>How many characters limits in Meta Description tag? </li>
+<li>What is Google Sandbox?</li>
+<li>Tell me something about Black Hat SEO?</li>
+<li>Name few Black Hat SEO techniques?</li>
+<li>Can you differentiate between ‘nofollow’ and ‘dofollow’ link?</li>
+<li>What is the difference between PR (page rank</li>
+<li>Why the Title Tag in website is valuable?</li>
+<li>What is considered as more significant creating content or building backlinks?</li>
+<li>Can you mention the difference between SEO and SEM?</li>
+<li>What do you know about LSI?</li>
+<li>How will you cross-check whether your SEO campaign is working or not?</li>
+<li>What is the meaning of competitive analysis?</li>
+<li>What will be your next steps if your SEO methods or technique does not work?</li>
+<li>What is PPC?</li>
+<li>What is 301 redirect?</li>
+<li>What are Webmaster tools?</li>
+<li>What is keyword density and what is the formula for knowing keyword density?</li>
+<li>What is robots.txt?  </li>
+<li>What will you do for the company website you are working for decides to move all the contents to new domain?</li>
+<li>Can you optimize the website which has pages in millions?</li>
+<li>What is the latest update in SEO?</li>
+<li>What are the key aspects of Panda update?</li>
+<li>What are the key aspects of Penguin update?</li>
+<li>How will you neutralize a toxic link to your site?</li>
+<li>Mention how can you check if someone is not building or re-directing a low-quality backlink to your site?</li>
+<li>How backlink tools work?</li>
+<li>Mention how often should you perform a link audit?</li>
+<li>Mention what do you understand by Frames in HTML?</li>
+<li>Mention which is the most important area to include your keywords?</li>
+<li>What if your website is banned by the search engines for black hat practices?</li>
+<li>Mention what will be your approach if your SEO method don’t work?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+SEO
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SEO
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SEO *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SEO *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SEARCH ENGINE OPTIMIZATION
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SEARCH ENGINE OPTIMIZATION
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+SEARCH ENGINE OPTIMIZATION *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ SEARCH ENGINE OPTIMIZATION *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PAGE RANKING
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAGE RANKING
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PAGE RANKING *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PAGE RANKING *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+WEB PAGE RANKING
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WEB PAGE RANKING
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+WEB PAGE RANKING *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ WEB PAGE RANKING *
+</pattern>
+<template>
+<srai>
+SEO1
+</srai>
+</template>
+</category>
+
+</aiml>

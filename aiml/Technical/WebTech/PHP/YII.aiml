@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+YII1
+</pattern>
+<template>
+<random>
+<li> What is YII? </li>
+<li> How to compare yii with other frameworks? Explain </li>
+<li> What is the latest version of YII? </li>
+<li> Who developed YII? </li>
+<li> What are the advantages of YII Framework? </li>
+<li> What are the directory structure of Yii? </li>
+<li> How to install Yii Framework? </li>
+<li> How to connect with database in Yii? </li>
+<li> What is the naming convention in Yii framework? Explain </li>
+<li> What is components in Yii? Explain </li>
+<li> What is helper in Yii? Why it is used? </li>
+<li> How to make layout in Yii? </li>
+<li> How to include a view file in another view file Yii? </li>
+<li> How we can remove index.php from URL in Yii? </li>
+<li> What is the difference between render() and  renderpartial() in Yii ? </li>
+<li> In Yii How to get ip address? </li>
+<li> What is gii? Why it is used? </li>
+<li> How we can call layouts in controller file in Yii? </li>
+<li> How we can get current controller and action name in Yii? </li>
+<li> What are the server requirements to install Yii2? </li>
+<li> List some database related query functions in Yii? </li>
+<li> How we can set default controller in Yii? </li>
+<li> How to use form validations in Yii? </li>
+<li> How to use session in Yii? </li>
+<li> What is widgets in Yii? How we can use it? </li>
+<li> How to use asset Bundles in Yii? </li>
+<li> How to enable the pretty URL format in Yii2? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+YII
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ YII
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+YII *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ YII *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PHP YII
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHP YII
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+PHP YII *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ PHP YII *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+YII FRAMEWORK
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ YII FRAMEWORK
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+YII FRAMEWORK *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ YII FRAMEWORK *
+</pattern>
+<template>
+<srai>
+YII1
+</srai>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+OPENSTACK1
+</pattern>
+<template>
+<random>
+<li>Explain what is OpenStack?</li>
+<li>Mention what are the three components that make modular architecture of OpenStack?</li>
+<li>Give an overview of OpenStack Services?</li>
+<li>What does “role” and “tenant” indicates in OpenStack?</li>
+<li>Explain what hypervisor is and what type of hypervisor does OpenStack supports?</li>
+<li>What are the two types of storage does OpenStack Compute provides?</li>
+<li>What are the basic functions of Identity Service in OpenStack?</li>
+<li>What are the main components of identity user management?</li>
+<li>What is the meaning of term “Cinder” in OpenStack service?</li>
+<li>List out the storage locations for VM images in OpenStack?</li>
+<li>Explain what is Cells in OpenStack?</li>
+<li>For networking what hardware is used in OpenStack? </li>
+<li>Explain how you can transfer volume from one owner to another in OpenStack?</li>
+<li>What is bare-metal node and what does it comprised of?</li>
+<li>Mention what is the command to remove network interface from bare-metal node?</li>
+<li>Explain what is the function of Cinder Scheduler?</li>
+<li>Explain what is Token in OpenStack?</li>
+<li>Explain about OpenStack Python SDK?</li>
+<li>What is the command used for pause and unpause an instance?</li>
+<li>What is the command used to list IP address information?</li>
+<li>What is the meaning of term “flavor” in OpenStack? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+OPENSTACK
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPENSTACK
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+OPENSTACK *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPENSTACK *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+OPEN STACK
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPEN STACK
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+OPEN STACK *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPEN STACK *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+OPEN STACK CLOUD
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPEN STACK CLOUD
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+OPEN STACK CLOUD *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ OPEN STACK CLOUD *
+</pattern>
+<template>
+<srai>
+OPENSTACK1
+</srai>
+</template>
+</category>
+
+</aiml>

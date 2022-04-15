@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+ANDR1
+</pattern>
+<template>
+<random>
+<li>What is ANDROID?</li>
+<li>How ANDROID is different than IOS?</li>
+<li>Which language you use for Android Application development JAVA or KOTLIN?</li>
+<li>How KOTLIN speeds up android development?</li>
+<li>Why ANDROID?</li>
+<li>How can security of android can be improved?</li>
+<li>Which libraries you have used in ANDROID?</li>
+<li>What projects you have done in android?</li>
+<li>Android users generally do not buy any application instead they want application which are free What are your views regarding this?</li>
+<li>IS ANDROID ONLY LIMITED TO MOBILE PHONES?</li>
+<li>Which is the Best Android Phone?</li>
+<li>What is stock Android?</li>
+<li>IS ANDROID OPEN SOURCE</li>
+<li>What is gradle?</li>
+<li>What is the Android Application Architecture?</li>
+<li>In an Android App what is difference between Fragment and Activity?</li>
+<li>What is Android Architecture Components?</li>
+<li> What is an Android Framework?</li>
+<li> What is the Android Architecture?</li>
+<li> What is the difference between File Class and Activity in android?</li>
+<li> What is APK format?</li>
+<li> What is Google Android SDK?</li>
+<li> What is an ANR? How can ANR be prevented?</li>
+<li> How do you launch an activity in your application?</li>
+<li> What is the use of WebView in Android?</li>
+<li> What are the different kinds of context in Android?</li>
+<li> What are the different storage methods in Android</li>
+<li> What are the tools required to develop Android Apps?  </li>
+<li> What is Intent?</li>
+<li> What is a Sticky Intent?</li>
+<li> Explain Folder File Description of Android Apps</li>
+<li> How to ‘Start Another Activity’? </li>
+<li> What is AAPT?</li>
+<li> What are containers?</li>
+<li> What are some of the disadvantages of Android?</li>
+<li> Name the four essential states of an activity</li>
+<li> What is the difference between a regular bitmap and a nine-patch image?</li>
+<li> Which language is supported by Android for application development?</li>
+<li> What are the dialog boxes that are supported in Android? </li>
+<li> Give an example for sticky broadcast</li>
+<li> What is DDMS?</li>
+<li> Name some exceptions in android?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID OS
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID OS
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID OS *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID OS *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID OPERATING SYSTEM
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID OPERATING SYSTEM
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID OPERATING SYSTEM *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID OPERATING SYSTEM *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID PHONE
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID PHONE
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID PHONE *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID PHONE *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID PHONES
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID PHONES
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID PHONES *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID PHONES *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID APP
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID APP
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID APP *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID APP *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID APPLICATION
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID APPLICATION
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+ANDROID APPLICATION *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ ANDROID APPLICATION *
+</pattern>
+<template>
+<srai>
+ANDR1
+</srai>
+</template>
+</category>
+
+</aiml>

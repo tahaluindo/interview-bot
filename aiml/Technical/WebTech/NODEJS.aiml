@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+NODE1
+</pattern>
+<template>
+<random>
+<li>What is Node.js?</li>
+<li>What is the fundamental difference between Node.js and Ajax?</li>
+<li>Explain the term I/O in the context of Node.js.</li>
+<li>State where Node.js can be used.</li>
+<li>List the tools and IDEs that are used for Node.js.</li>
+<li>What is an error-first callback?</li>
+<li>In the context of Node.js differentiate between operational and programmer errors.</li>
+<li>Which is the framework that is most commonly used in Node.js?</li>
+<li>Define “event-driven programming.</li>
+<li>What are the two sections of event-driven programming?</li>
+<li>List some of the big advantages of using Node.js.</li>
+<li>List the steps involved in the Control Flow function.</li>
+<li>Can a user access DOM in a Node?</li>
+<li>In Node.js how do you access the last expression?</li>
+<li>In Node.js which command is used to import external libraries?</li>
+<li>What is the biggest drawback of Node.js?</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+NODEJS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODEJS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NODEJS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODEJS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NODE JS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODE JS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NODE JS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODE JS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NODE.JS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODE.JS
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NODE.JS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NODE.JS *
+</pattern>
+<template>
+<srai>
+NODE1
+</srai>
+</template>
+</category>
+
+</aiml>

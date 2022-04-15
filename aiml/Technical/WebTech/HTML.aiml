@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+HTML1
+</pattern>
+<template>
+<random>
+<li> What is HTML?</li>
+<li> What are tags?</li>
+<li> Do all HTML tags come in a pair?</li>
+<li> What are some of the common lists that can be used when designing a page?</li>
+<li> How do you create links to sections within the same page?</li>
+<li> Is there any way to keep list elements straight in an HTML file?</li>
+<li> What is the use of alternative text in image mapping?</li>
+<li> Do older HTML files work on newer browsers?</li>
+<li> Does a hyperlink apply to text only?</li>
+<li> If the user’s operating system does not support the needed character how can the symbol be represented?</li>
+<li> How do you change the number type in the middle of a list?</li>
+<li> What are style sheets?</li>
+<li> State  bullet types available in HTML </li>
+<li> How do you create multicolored text in a webpage?</li>
+<li> Why are there both numerical and named character entity values?</li>
+<li> What is the advantage of grouping several checkboxes together?</li>
+<li> What will happen if you overlap sets of tags?</li>
+<li> What are applets?</li>
+<li> What if there is no text between the tags or if a text was omitted by mistake? Will it affect the display of the HTML file?</li>
+<li> Is it possible to set specific colors for table borders?</li>
+<li> How do you create a link that will connect to another web page when clicked?</li>
+<li> What other ways can be used to align images and wrap text?</li>
+<li> Can a single text link point to two different web pages?</li>
+<li> What is the difference between the directory and menu lists and the unordered list?</li>
+<li> Can you change the color of bullets?</li>
+<li> What are the limits of the text field size?</li>
+<li> What is the relationship between the border and rule attributes?</li>
+<li> What is a marquee?</li>
+<li> How do you create text on a webpage that will allow you to send an email when clicked?</li>
+<li> Are there instances where the text will appear outside of the browser?</li>
+<li> How are active links different from normal links?</li>
+<li> Do style sheets limit the number of new style definitions that can be included within the brackets?</li>
+<li> What is the hierarchy that is being followed when it comes to style sheets?</li>
+<li> Can several selectors with class names be grouped together?</li>
+<li> What happens if you open the external CSS file in a browser?</li>
+<li> How do you make a picture into a background image of a web page?</li>
+<li> What happens if the list-style-type property is used on a non-list element like a paragraph?</li>
+<li> When is it appropriate to use frames?</li>
+<li> What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?</li>
+<li> Which browsers support HTML5?</li>
+<li> Name two new tags included in the HTML 5</li>
+<li> Do you know which are two semantic tags are included in HTML5 version?</li>
+<li> What is the use of Canvas element?</li>
+<li> What are the new FORM elements which are available in HTML5?</li>
+<li> Tell me two benefits of HTML5 Web Storage</li>
+<li> What are two types of Web Storage in HTML5?</li>
+<li> What is the Application Cache in HTML5 and why it is used? </li>
+<li> Explain five new input types provided by HTML5 for forms?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+HTML
+</pattern>
+<template>
+<srai>
+HTML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HTML
+</pattern>
+<template>
+<srai>
+HTML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+HTML *
+</pattern>
+<template>
+<srai>
+HTML1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ HTML *
+</pattern>
+<template>
+<srai>
+HTML1
+</srai>
+</template>
+</category>
+</aiml>

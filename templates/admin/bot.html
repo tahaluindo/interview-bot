@@ -1,0 +1,48 @@
+{% extends "admin/layout.html"%}
+{% block page %}
+<div class="container-fluid">
+    <div class="container shadow p-3 mb-5 bg-white rounded ">
+        <div class="row">
+            <div class="col-md-4 shadow m-5 rounded" style="background-color:blueviolet;color:white;padding:4%;">
+                Total Categories : {{aiml|count}}</div>
+        </div>
+        <table class="table shadow m-1 rounded">
+            <thead style="background-color: blueviolet;color:white;padding:3%;">
+                <tr>
+                    <td>Intent</td>
+                    <td>Sub Category</td>
+
+                    <td>Category</td>
+
+                    <td></td>
+
+                </tr>
+            </thead>
+            {% for file in aiml %}
+            <tr>
+                <td style="padding:1%;">
+                    {{file.split("/")[-1].split(".")[0]|upper}}</td>
+                <td style="padding:1%;">
+                    {{file.split("/")[-2]|upper}}</td>
+                <td style="padding:1%;">
+
+                    {% if file.split("/")[-3] != "aiml" %}
+                    {{file.split("/")[-3]}}
+                    {% else %}
+
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="/editFile/{{file.replace('/','__')}}" class="btn btn-success"> EDIT
+                        {{file.split("/")[-1].split(".")[0]|upper}}</a>
+                </td>
+            </tr>
+
+    </div>
+
+    {% endfor %}
+    </table>
+
+</div>
+</div>
+{% endblock %}

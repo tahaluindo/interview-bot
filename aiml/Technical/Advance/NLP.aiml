@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+NLP1
+</pattern>
+<template>
+<random>
+<li>Explain Named entity recognition (NER)?</li>
+<li>What is Lemmatization in NLP?</li>
+<li>List some Components of NLP?</li>
+<li>List some OpenSource Libraries for NLP?</li>
+<li>What is latent semantic indexing? Where it is applied.</li>
+<li>List some areas of NLP?</li>
+<li>List some tools for training NLP models?</li>
+<li>What is NLTK?</li>
+<li>What is tokenization in NLP?</li>
+<li>What is stemming in NLP?</li>
+<li>What is part of speech (POS) tagging?</li>
+<li>List few differences between AI Machine Learning and NLP?</li>
+<li>What is the significance of TF-IDF?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+NLP
+</pattern>
+<template>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NLP
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NLP *
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NLP *
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NATURAL LANGUAGE PROCESSING
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NATURAL LANGUAGE PROCESSING
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+NATURAL LANGUAGE PROCESSING *
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ NATURAL LANGUAGE PROCESSING *
+</pattern>
+<template>
+<srai>
+NLP1
+</srai>
+</template>
+</category>
+
+</aiml>

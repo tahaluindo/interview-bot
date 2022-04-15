@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+AGILE1
+</pattern>
+<template>
+<random>
+<li>What is Agile Methology?</li>
+<li>What is the duration of a scrum sprint?</li>
+<li>What do you know about impediments in Scrum? Give some examples of impediments.</li>
+<li>What is the difference and similarity between Agile and Scrum?</li>
+<li>State some of the Agile quality strategies.</li>
+<li>Do you know about Agile Manifesto and its Principles? Explain in brief.</li>
+<li>Is there any drawback of the Agile model? If yes explain.</li>
+<li>What do you understand by the term Agile testing?</li>
+<li>State some major principles of Agile testing.</li>
+<li>Scrum is an Agile framework right? Name a few other Agile frameworks.</li>
+<li>Name some methodologies and development where you have used the Agile model.</li>
+<li>What is the difference between the agile and traditional way of working?</li>
+<li>How is an agile testing methodology different from other testing methodologies?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILE
+</pattern>
+<template>
+<srai>
+AGILE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILE
+</pattern>
+<template>
+<srai>
+AGILE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+AGILE *
+</pattern>
+<template>
+<srai>
+AGILE1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ AGILE *
+</pattern>
+<template>
+<srai>
+AGILE1
+</srai>
+</template>
+</category>
+
+</aiml>

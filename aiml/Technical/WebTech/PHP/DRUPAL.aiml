@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>
+DRUPAL1
+</pattern>
+<template>
+<random>
+<li>Explain what is Drupal?</li>
+<li>Why Drupal is considered powerful CMS compare to other CMS system?</li>
+<li>Mention what are the key features of Drupal?</li>
+<li>Explain how caching work in Drupal?</li>
+<li>Explain how database system of Drupal works?</li>
+<li> Name some of the most commonly used PHP based CMSs?</li>
+<li>What is DRUSH in Drupal?</li>
+<li>Explain what is module in Drupal? List out some of the modules used in Drupal?</li>
+<li>Explain what Drupal distributions is and when to use?</li>
+<li>List out the SEO modules available in Drupal?</li>
+<li> Why Drupal needs database? What databases are supported?</li>
+<li> Explain what is the use of Ctools in Drupal?</li>
+<li>  Does Drupal provides support?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>
+DRUPAL
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRUPAL
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRUPAL *
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRUPAL *
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRUPAL CMS
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRUPAL CMS
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+DRUPAL CMS *
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>
+_ DRUPAL CMS *
+</pattern>
+<template>
+<srai>
+DRUPAL1
+</srai>
+</template>
+</category>
+
+</aiml>

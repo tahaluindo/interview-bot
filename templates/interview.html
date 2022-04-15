@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatbot</title>
+        <link href="{{ url_for('static', filename='styles/bootstrap4.min.css') }}" type="text/css" rel="stylesheet" />
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+
+        <script src="{{ url_for('static', filename='js/bootstrap4.min.js') }}"></script>
+        <link href="{{ url_for('static', filename='styles/style.css') }}" type="text/css" rel="stylesheet" />
+        <script src="{{ url_for('static', filename='js/Chart.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='js/face-api.js') }}"></script>
+        <script src="{{ url_for('static',filename='js/commons.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/tf.min.js') }}"></script>
+
+        <link href="{{ url_for('static', filename='styles/font-awesome.min.css') }}" type="text/css" rel="stylesheet" />
+        <link href="{{ url_for('static',filename ='styles/style.css') }}" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+                crossorigin="anonymous" />
+
+        <link href="{{ url_for('static',filename='lib/video-js.min.css') }}" rel="stylesheet" />
+        <link href="{{ url_for('static',filename='lib/videojs.wavesurfer.min.css') }}" rel="stylesheet" />
+        <link href="{{ url_for('static',filename='lib/videojs.record.css') }}" rel="stylesheet" />
+
+        <script src="{{ url_for('static',filename='lib/video.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='lib/RecordRTC.js') }}"></script>
+        <script src="{{ url_for('static',filename='lib/adapter.js') }}"></script>
+        <script src="{{ url_for('static',filename='lib/wavesurfer.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='lib/wavesurfer.microphone.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='lib/videojs.wavesurfer.min.js') }}"></script>
+
+        <script src="{{ url_for('static',filename='lib/videojs.record.js') }}"></script>
+
+</head>
+
+<body>
+        <div class="d-flex" id="wrapper">
+
+                <!-- Sidebar -->
+                <div class="border-right shadow-sm" id="sidebar-wrapper">
+                        <div class="sidebar-heading">Interview Bot</div>
+                        <div class="list-group list-group-flush">
+                                <button class=" btn sidebar_button " id="startInterviewButton"><i class="fa fa-play"
+                                                aria-hidden="true"></i>
+                                        Start Interview
+                                </button>
+                                <button class="btn sidebar_button" id="finishInterviewButton">
+                                        <i class="fa fa-stop" aria-hidden="true"></i>
+                                        Finish Interview
+                                </button>
+                                <form enctype='application/json' id="finishForm" action="/report" method="post">
+                                        <input type="text" id="data" name="data" value="data" hidden />
+                                        <input type="text" id="iTime" name="iTime" value="hidden value" hidden />
+                                </form>
+
+                                <button class="btn sidebar_button" id="fullScreenMode">
+                                        <i class="fas fa-compress"></i>
+                                        Go Full Screen </button>
+
+                                <button class=" btn sidebar_button border-right" id="helpTab" style="margin-top:50vh;">
+                                        <i class="fas fa-info-circle" aria-hidden="true"></i> Help</button>
+
+                                <button class="  btn btn-info border-right" id="helpTab" style="">
+                                        <i class="fas fa-cogs"></i> Settings</button>
+                        </div>
+                </div>
+                <!-- /#sidebar-wrapper -->
+
+                <!-- Page Content -->
+                <div id="page-content-wrapper">
+
+                        <nav
+                                class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow p-3 mb-5 bg-white rounded">
+                                <!--   <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+-->
+                                <a style="color:#6729a9;font-size:24px"><i class="fas fa-bars"></i></a>
+                                &nbsp;&nbsp;<span class="font-weight-bolder">{{interviewId}}</span>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="/">Home <span
+                                                                        class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="/home">Dashboard <span
+                                                                        class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item active">
+                                                        <a class="nav-link" href="/chatbot">Mock Interview <span
+                                                                        class="sr-only">(current)</span></a>
+                                                </li>
+
+                                                <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                                role="button" data-toggle="dropdown"
+                                                                aria-haspopup="true" aria-expanded="false">
+                                                                User Settings
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-right"
+                                                                aria-labelledby="navbarDropdown">
+                                                                <a class="dropdown-item" href="#">Profile</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">Subscription</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="/logout">Logout</a>
+                                                                <!--<div class="dropdown-divider"></div>
+                                                                <a class="dropdown-item" href="#">
+                                                                        Practise for the interviews
+                                                                </a>
+                                                                -->
+                                                        </div>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </nav>
+                        <div class="container-fluid">
+
+                                <div class="row" style="min-height: 100vh">
+                                        <div class="col-md-4 border-right">
+
+                                                <video onplay="onPlay(this)" id="inputVideo" autoplay muted
+                                                        style="border-radius:30px;"></video>
+                                                <br />
+                                                <audio id="myAudio" class="video-js" autoplay muted></audio>
+                                                <br />
+                                                <div class="card shadow p-3 mb-5 bg-white rounded">
+                                                        <div class="card-body">
+                                                                <div class="row">
+                                                                        <div class="col-md-3 font-weight-bold">Score
+                                                                        </div>
+                                                                        <div class="col-md-9">
+                                                                                <input disabled value="-" type="text"
+                                                                                        id="answer_score">
+                                                                        </div>
+                                                                </div>
+                                                                <br />
+                                                                <div class="row text-justify">
+                                                                        <div class="col-md-3 font-weight-bold"> Previous
+                                                                                Question</div>
+                                                                        <div class="col-md-9" id="previous_question">
+                                                                        </div>
+
+                                                                </div>
+                                                                <br />
+                                                                <div class="row text-justify">
+                                                                        <div class="col-md-3 font-weight-bold">Your
+                                                                                Answer</div>
+                                                                        <div class="col-md-9" id="previous_answer">
+                                                                        </div>
+
+                                                                </div>
+
+
+
+                                                        </div>
+                                                </div>
+                                                <canvas id="overlay" style="border-radius:30px;" />
+
+
+                                        </div>
+                                        <div class="col-md-4 border-right">
+                                                <div class="row" style="min-height: 60vh">
+                                                        <div id="chatPanel" class="panel panel-info">
+                                                                <div class="panel-body fixed-panel">
+                                                                        <ul class="media-list">
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row border-top" style="min-height: 30vh">
+                                                        <div class="panel-footer chatbot-background">
+                                                                <!--chat option -->
+                                                                <form method="post" id="chatbot-form"
+                                                                        autocomplete="off">
+                                                                        <textarea class="form-control" rows="3"
+                                                                                placeholder="Enter Message"
+                                                                                name="messageText" id="messageText"
+                                                                                autofocus disabled
+                                                                                required /></textarea>
+                                                                        <!--chat area-->
+                                                                        <input type="hidden" name="escore"
+                                                                                id="escore" /></input>
+                                                                        <br />
+                                                                        <div class="input-group">
+                                                                                <!--chat buttons-->
+                                                                                <span class="input-group-btn">
+                                                                                        <button class="btn"
+                                                                                                style="background:white;color:#4a148c;"
+                                                                                                type="button"
+                                                                                                id="chatbot-form-btn-clear-input"
+                                                                                                disabled>Clear
+                                                                                                input</button>
+                                                                                        <button class="btn"
+                                                                                                style="background:white;color:#4a148c;"
+                                                                                                type="button"
+                                                                                                id="chatbot-form-btn"
+                                                                                                disabled>Submit
+                                                                                                Your
+                                                                                                Answer</button>
+                                                                                        <button class="btn"
+                                                                                                style="background:white;color:#4a148c;"
+                                                                                                type="button"
+                                                                                                id="chatbot-form-btn-clear"
+                                                                                                disabled>Clear</button>
+                                                                                        <!--<button class="btn btn-info" type="button" id="chatbot-form-btn-voice" disabled>Voice</button> -->
+                                                                                </span>
+                                                                        </div>
+                                                                </form>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                                <div class="card shadow p-3 mb-5 bg-white rounded">
+                                                        <button class="btn btn-danger" id="timerText"> 0 secs </button>
+
+                                                        <input disabled value="-" id="questionNo" type="text"
+                                                                class="btn btn-info">
+                                                </div>
+
+                                                <div class="card shadow p-3 mb-5 bg-white rounded"
+                                                        style="margin-left:3%;">
+                                                        <canvas id="myChart" width="400" height="170"></canvas>
+                                                        <canvas id="myChart2" width="400" height="200"></canvas>
+                                                        <canvas id="freqChart" width="300" height="110"></canvas>
+
+                                                </div>
+                                                <div class="card card-body shadow p-3 mb-5 bg-white rounded"
+                                                        style="margin:2%;">
+
+                                                        <div class="row" style="margin:2%;">
+                                                                <div class="col-md-12" style="margin:2%">
+                                                                        <label for="fps">Estimated Fps:</label>
+                                                                        <input disabled value="-" id="fps" type="text">
+                                                                </div>
+                                                                <!--
+                                                                <div class="col-md-3" style="margin:2%">
+                                                                        <label for="0.08 seconfidenceS">Confidence :
+                                                                        </label>
+                                                                        <input disabled value="-" id="confidenceS"
+                                                                                type="text">
+                                                                </div>
+                                                                -->
+                                                        </div>
+
+                                                        <div class="row" style="margin:2%">
+                                                                <!--
+                                                                <div class="col-md-6">
+                                                                        <label for="nos">Total unique words</label>
+                                                                        <input disabled value="-" id="nos" type="text"
+                                                                                class="bold">
+                                                                </div>
+                                                                -->
+                                                                <div class="col-md-12" style="margin:2%;">
+                                                                        <label for="ld">Lexical Diversity:</label>
+                                                                        <input disabled value="-" id="ld" type="text"
+                                                                                class="bold">
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                                <!--emotion-->
+
+
+                                        </div>
+
+                                </div>
+                        </div>
+                        <!-- /#page-content-wrapper -->
+
+                </div>
+
+</body>
+
+<style>
+        body {
+                overflow-x: hidden;
+                background-color: #e5e0ff;
+        }
+
+        .sidebar_button {
+                color: white;
+                margin-top: 1%;
+                background-color: #3e1b87;
+        }
+
+        .sidebar_button::hover {
+                color: white;
+                background-color: #c143ed;
+        }
+
+        #sidebar-wrapper {
+                background-color: white;
+                min-height: 100vh;
+                margin-left: -5rem;
+                -webkit-transition: margin .25s ease-out;
+                -moz-transition: margin .25s ease-out;
+                -o-transition: margin .25s ease-out;
+                transition: margin .25s ease-out;
+        }
+
+        #sidebar-wrapper .sidebar-heading {
+                padding: 0.875rem 1.25rem;
+                font-size: 1.2rem;
+                font-weight: bolder;
+        }
+
+        #sidebar-wrapper .list-group {
+                width: 8rem;
+                margin-left: 6vh;
+
+        }
+
+        #page-content-wrapper {
+                min-width: 100vw;
+        }
+
+        #wrapper.toggled #sidebar-wrapper {
+                margin-left: 0;
+        }
+
+        @media (min-width: 768px) {
+                #sidebar-wrapper {
+                        margin-left: 0;
+                }
+
+                #page-content-wrapper {
+                        min-width: 0;
+                        width: 100%;
+                }
+
+                #wrapper.toggled #sidebar-wrapper {
+                        margin-left: -15rem;
+                }
+        }
+</style>
+
+<style type="text/css">
+        #myAudio {
+                background-color: #4a148c;
+        }
+
+        .fixed-panel {
+                min-height: 60vh;
+                max-height: 60vh;
+                min-width: 53vh;
+                max-width: 53vh;
+                background-color: white;
+                color: black;
+                overflow: auto;
+                padding: 1.5%;
+                border: 1px #4a148c solid;
+        }
+
+        .modal-backdrop {
+                z-index: 0;
+        }
+
+        .user-chat {
+                background: white;
+                padding: 5%;
+                margin-left: 25%;
+                text-align: right;
+                color: #4a148c;
+                border: 1px solid #4a148c;
+                border-radius: 30px;
+                width: 100%;
+        }
+
+        .chat-bot {
+                background: #4a148c;
+                padding: 5%;
+                margin-right: 8%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                color: white;
+                border-radius: 30px;
+
+        }
+
+        .media-list {
+                overflow: auto;
+                clear: both;
+                display: table;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                word-break: normal;
+                line-break: strict;
+                color: black;
+        }
+
+        .panel {
+                margin-bottom: 20px;
+                background-color: white;
+                border: 6px solid transparent;
+                border-radius: 25px;
+                -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        }
+
+        .panel-info {
+                border-color: white;
+        }
+
+        .panel-info>.panel-heading {
+                color: black;
+                background-color: white;
+                border-color: #0c2735;
+        }
+
+        .panel-footer {
+                padding: 15px 20px;
+                background-color: white;
+                border-top: 1px solid #0c2735;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                min-width: 53vh;
+                max-width: 53vh;
+        }
+
+        #demotext {
+                color: black;
+                text-align: center;
+
+        }
+
+        #container2 {
+                margin: 0px auto;
+                width: 500px;
+                height: 375px;
+                border: 10px #333 solid;
+        }
+
+        #videoElement {
+                width: 105%;
+                height: 36%;
+                background-color: #666;
+        }
+
+        #overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
+                background-color: transparent;
+
+        }
+
+        .chatbot-background {
+                background-image: linear-gradient(to right top, #140d64, #3e1b87, #6729a9, #9336cc, #c143ed);
+        }
+
+        ::backdrop {
+                background-color: white;
+        }
+</style>
+
+
+<script src="{{ url_for('static', filename='js/emotion.js') }}"></script>
+<script>
+
+        //runs tensorflow in browser
+        async function run() {
+
+                const Model_url = "{{url_for('static',filename='js/models/tiny_face_detector_model-weights_manifest.json')}}"
+                await faceapi.loadTinyFaceDetectorModel(Model_url)
+                modelLoaded = true
+
+                navigator.mediaDevices.getUserMedia(constraints)  //change global constraints for height and width
+                        .then(successCallback)
+                        .catch(errorCallback);
+                //passing video id
+                onPlay($('#inputVideo').get(0))
+                //hiding loader
+                $('#loader').hide()
+        }
+        function loadModelFunction() {
+                loadModel("{{url_for('static',filename='model.json')}}")  //https://js.tensorflow.org/api/0.15.3/#loadModel
+        }
+
+        function getReadingTime(text) {
+                console.log('check ' + text)
+                var totalWords,
+                        wordsPerMillisecond,
+                        totalReadingTime,
+                        wordsPerMinute = 250,
+                        wordsPerMillisecond = wordsPerMinute / 60000;
+
+                text = text.replace(/<\/?[^>]+(>|$)/g, ''); // Remove any HTML-tags
+                totalWords = text.split(/\s+/g).length; // Split up in words
+                totalReadingTime = Math.floor(totalWords * 100 / 200);
+
+                return totalReadingTime;
+        }
+</script>
+
+<script>
+        var options = {
+                controls: false,
+                width: 450,
+                height: 100,
+                fluid: false,
+                plugins: {
+                        wavesurfer: {
+                                src: "live",
+                                waveColor: "white",
+                                progressColor: "black",
+                                debug: false,
+                                cursorWidth: 1,
+                                msDisplayMax: 20,
+                                hideScrollbar: true
+                        },
+                        record: {
+                                audio: true,
+                                video: false,
+                                maxLength: 20,
+                                debug: true
+                        }
+                }
+        };
+
+        var userTranscript = {
+                username: "",
+                interviewTime: "",
+                transcript: []
+        };
+        var userSentiment = {
+                positive: 0,
+                negative: 0,
+                neutral: 0,
+                answerCount: 0
+        };
+        var script = "";
+        var rdata = "";
+        var sentimentFlag = false;
+        var freqFlag = false;
+        var schart = null;
+        var fchart = null;
+        var totalWords = 0;
+        var totalDuration = 0;
+        var containerElement = $("#container");
+        //audio
+        var player = videojs("myAudio", options, function () { });
+        var msg;
+        //Pre initialization of chatbot
+        function chatbotInstruction(instruct) {
+                $(".media-list").append(
+                        '<li class="media"><div class="media-body"><div class="media"><div class="media-body chat-bot">' +
+                        instruct +
+                        "</div></div></div></li>"
+                );
+                $(".fixed-panel")
+                        .stop()
+                        .animate({ scrollTop: $(".fixed-panel")[0].scrollHeight }, 1000);
+                msg.text = "";
+                msg.text = instruct;
+                userTranscript.transcript.push("IBot: " + instruct);
+                speechSynthesis.speak(msg);
+        }
+        //Main functionalities
+        $(function () {
+                $(".toast").toast("show");
+                loadModelFunction();
+                const sizeTypeSelect = sizeType;
+
+                var asked_questions = [];
+                var previousQuestion = "";
+                var reportData = {
+                        interviewTime: "0",
+                        overallSentiment: ""
+                };
+                $("#startInterviewButton").click(function () {
+                        $("#myModal").modal("toggle");
+                });
+
+                //chartjs context
+                var ctx = document.getElementById("myChart").getContext("2d");
+
+                //speech synthesis
+                var synth = window.speechSynthesis;
+                window.SpeechRecognition =
+                        window.SpeechRecognition || window.webkitSpeechRecognition;
+                const recognition = new SpeechRecognition();
+                recognition.interimResults = true;
+                recognition.lang = "en-gb";
+                //recognition.continuous = true;  //continous dictation
+
+                p = document.getElementById("words");
+                text = "";
+                recognition.addEventListener("result", e => {
+                        //console.log(e);
+                        const transcript = Array.from(e.results)
+                                .map(result => result[0])
+                                .map(result => result.transcript)
+                                .join("");
+
+                        const confidence = Array.from(e.results)
+                                .map(result => result[0])
+                                .map(result => result.confidence)
+                                .join("");
+                        script = transcript; //replace anything here
+
+                        $("#confidenceS").val(confidence * 100 + " %");
+                        $("#messageText").val(script);
+                        if (e.results[0].isFinal) {
+                                //console.log("event interpretation :  - "+e.interpretation);
+
+                                //$('#messageText').val(text);
+                                $("#messageText").val(script);
+
+                                $("#s_status").val("You / Bot Are Not Speaking");
+                        } else {
+                                $("#s_status").val("You / Bot Are Speaking");
+                        }
+                }); //end event
+
+                recognition.addEventListener("end", recognition.start);
+                recognition.start();
+                msg = new SpeechSynthesisUtterance();
+                var voices = synth.getVoices();
+                //Tuning
+                msg.voice = voices[7];
+                msg.rate = 1;
+                msg.pitch = 0.9;
+
+                //Interview finish
+                $("#finishInterviewButton").click(function (e) {
+                        e.preventDefault();
+
+                        $("#finishModal").modal("toggle");
+                        $("#iTime").val($("#timerText").text());
+                });
+
+                //calls for pdf
+
+                $("#finsihModalButton").click(function (e) {
+                        $("#timerText").hide();
+                        $("#timerText").prop("disabled", false);
+                        userTranscript.transcript.push("You : END INTERVIEW.");
+                        userTranscript.emotion = emotionDisplay;
+                        userTranscript.sentiment = userSentiment;
+                        userTranscript.interviewTime = $("#timerText").text();
+                        $("#data").val(JSON.stringify(userTranscript));
+                        $("#finishForm").submit();
+                });
+
+                //timer
+                $("#timerText").click(function (e) {
+                        var start = new Date();
+                        setInterval(function () {
+                                $("#timerText").text(
+                                        Math.round((new Date() - start) / 1000) + " Seconds"
+                                );
+                        }, 1000);
+                });
+
+                //hide timer
+                $("#timerText").hide();
+
+                //start Interview action
+                $("#continueInterview").click(function (e) {
+                        loadModel("{{ url_for('static',filename='model.json') }}"); //https://js.tensorflow.org/api/0.15.3/#loadModel
+                        //const sizeTypeSelect =160
+                        //run()
+                        //initEmotion();
+                        //enabling buttons	S
+                        run();
+                        $("#chatbot-form-btn-clear-input").prop("disabled", false);
+                        $("#chatbot-form-btn").prop("disabled", false);
+                        $("#chatbot-form-btn-voice").prop("disabled", false);
+                        $("#chatbot-form-btn-clear").prop("disabled", false);
+                        $("#finishInterviewButton").prop("disabled", false);
+                        $("#startInterviewButton").prop("disabled", true);
+                        $("#messageText").prop("disabled", false);
+                        $("#timerText").click();
+                        $("#timerText").show();
+                        $("#timerText").prop("disabled", true);
+
+                        //full screen
+                        //openFullscreen()
+                        toggleFullscreen();
+
+                        const chatPanel = document.getElementById("chatPanel");
+                        setTimeout(
+                                chatbotInstruction(
+                                        "Hello , I am a interview bot whose task is to ask you interview Questions.You would be graded based on answer you provide , the sentiment of the answer and emotions while giving answer."
+                                ),
+                                1500
+                        );
+                        setTimeout(
+                                chatbotInstruction(
+                                        "To start interview speak START INTERVIEW and submit your response."
+                                ),
+                                2000
+                        );
+                });
+
+                // error handling
+                player.on("deviceError", function () {
+                        console.log("device error:", player.deviceErrorCode);
+                });
+                player.on("error", function (element, error) {
+                        console.error(error);
+                });
+                // user clicked the record button and started recording
+                player.on("startRecord", function () {
+                        console.log("started recording!");
+                });
+                // user completed recording and stream is available
+                player.on("finishRecord", function () {
+                        // the blob object contains the recorded data that
+                        // can be downloaded by the user, stored on server etc.
+                        console.log("finished recording: ", player.recordedData);
+                });
+
+                $("#chatbot-form-btn").click(function (e) {
+                        e.preventDefault();
+                        $("#escore").val(JSON.stringify(emotionDisplay));
+                        $("#chatbot-form").submit();
+                });
+                //clear chat history
+                $("#chatbot-form-btn-clear").click(function (e) {
+                        e.preventDefault();
+                        $("#chatPanel")
+                                .find(".media-list")
+                                .html("");
+                });
+                //clear input text
+                $("#chatbot-form-btn-clear-input").click(function (e) {
+                        $("#messageText").val("");
+                });
+
+                $("#fullScreenMode").click(function (e) {
+                        toggleFullscreen();
+                });
+                //voice button interaction
+                $("#chatbot-form-btn-voice").click(function (e) {
+                        e.preventDefault();
+                        //console.log("clicked");
+
+                        var onAnythingSaid = function (text) {
+                                console.log("Interim text: ", text);
+                        };
+
+                        var onFinalised = function (text) {
+                                console.log("Finalised text: ", text);
+                                $("#messageText").val(text);
+                        };
+                        var onFinishedListening = function () {
+                                // $('#chatbot-form-btn').click();
+                        };
+
+                        try {
+                                var listener = new SpeechToText(
+                                        onAnythingSaid,
+                                        onFinalised,
+                                        onFinishedListening
+                                );
+                                listener.startListening();
+
+                                setTimeout(function () {
+                                        listener.stopListening();
+                                        if ($("#messageText").val()) {
+                                                $("#chatbot-form-btn").click();
+                                        }
+                                }, 5000);
+                        } catch (error) {
+                                console.log(error);
+                        }
+                }); //end voice button
+                questionlist = [];
+                //on submit button
+                $("#chatbot-form").submit(function (e) {
+                        //console.log(userTranscript);
+                        e.preventDefault();
+                        var message = $("#messageText")
+                                .val()
+                                .toUpperCase();
+                        var message_validation = message.split(" ");
+                        userTranscript.transcript.push("You: " + message);
+                        var wpm = getReadingTime(message);
+                        $("#ss").val(wpm);
+                        //begin if
+                        if (
+                                message_validation.length > 3 ||
+                                message.indexOf("MY NAME IS") != -1 ||
+                                message.indexOf("START INTERVIEW") != -1 ||
+                                message.indexOf("NEXT QUESTION") != -1 ||
+                                message.indexOf("ASK QUESTION") != -1
+                        ) {
+                                $(".media-list").append(
+                                        '<li class="media"><div class="media-body"><div class="media"><div class="media-body user-chat">' +
+                                        message +
+                                        "</div></div></div></li>"
+                                );
+
+                                //ajax for chatbot
+                                $.ajax({
+                                        type: "POST",
+                                        url: "/interact",
+                                        data: $(this).serialize(),
+                                        success: function (response) {
+                                                //$('#messageText').val('');
+                                                if (response.questionNo < 12) {
+                                                        console.log(response);
+                                                        var answer = response.question.toUpperCase();
+                                                        previousQuestion = answer;
+                                                        $("#answer_score").val(response.score);
+                                                        $("#previous_question").text(response.previousQuestion)
+                                                        $("#previous_answer").text(response.answer);
+                                                        textAnalysis(response.textAnalytics);
+                                                        sentimentAnalysis(response.sentiment);
+                                                        $("#questionNo").val("Question No. " + response.questionNo);
+                                                }
+                                                else {
+                                                        $("#chatbot-form-btn-clear-input").prop("disabled", true);
+                                                        $("#chatbot-form-btn").prop("disabled", true);
+                                                        $("#chatbot-form-btn-voice").prop("disabled", true);
+                                                        $("#chatbot-form-btn-clear").prop("disabled", true);
+                                                        $("#finishInterviewButton").prop("disabled", false);
+                                                        $("#finishInterviewButton").css("background-color", "red");
+                                                        $("#startInterviewButton").prop("disabled", true);
+                                                        $("#messageText").prop("disabled", true);
+                                                        var answer = response.question.toUpperCase();
+                                                        previousQuestion = answer;
+                                                        $("#answer_score").val(response.score);
+                                                        $("#previous_question").text(response.previousQuestion)
+                                                        $("#previous_answer").text(response.answer);
+                                                        textAnalysis(response.textAnalytics);
+                                                        sentimentAnalysis(response.sentiment);
+                                                        $("#questionNo").val("Question No. " + response.questionNo);
+                                                }
+                                                /*
+                                                                                                //console.log(answer);
+                                                                                                if (questionlist.includes(answer)) {
+                                                                                                        //console.log(questionlist)
+                                                                                                        //console.log("Already asked");
+                                                                                                        $("#messageText").val("ASK QUESTION");
+                                                                                                        e.preventDefault();
+                                                                                                        $("#chatbot-form").submit();
+                                                                                                } //re ask
+                                                                                                else {*/
+                                                //console.log("new 1");
+                                                questionlist.push(answer);
+                                                const chatPanel = document.getElementById("chatPanel");
+                                                $(".media-list").append(
+                                                        '<li class="media"><div class="media-body"><div class="media"><div class="media-body chat-bot">' +
+                                                        answer +
+                                                        "</div></div></div></li>"
+                                                );
+                                                $(".fixed-panel")
+                                                        .stop()
+                                                        .animate({ scrollTop: $(".fixed-panel")[0].scrollHeight }, 1000);
+                                                userTranscript.transcript.push("IBot: " + answer);
+                                                msg.text = "";
+                                                msg.text = answer;
+                                                speechSynthesis.speak(msg);
+                                                // }
+                                        },
+                                        error: function (error) {
+                                                console.log(error);
+                                        }
+                                }); //end ajax
+                        }
+
+                });
+        }); //end onload
+
+        function toggleFullscreen(elem) {
+                elem = elem || document.documentElement;
+                if (
+                        !document.fullscreenElement &&
+                        !document.mozFullScreenElement &&
+                        !document.webkitFullscreenElement &&
+                        !document.msFullscreenElement
+                ) {
+                        if (elem.requestFullscreen) {
+                                elem.requestFullscreen();
+                        } else if (elem.msRequestFullscreen) {
+                                elem.msRequestFullscreen();
+                        } else if (elem.mozRequestFullScreen) {
+                                elem.mozRequestFullScreen();
+                        } else if (elem.webkitRequestFullscreen) {
+                                elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                        }
+                        $("#fullScreenMode").text("Exit Full Screen");
+                } else {
+                        if (document.exitFullscreen) {
+                                document.exitFullscreen();
+                        } else if (document.msExitFullscreen) {
+                                document.msExitFullscreen();
+                        } else if (document.mozCancelFullScreen) {
+                                document.mozCancelFullScreen();
+                        } else if (document.webkitExitFullscreen) {
+                                document.webkitExitFullscreen();
+                        }
+                        $("#fullScreenMode").text("Enter Full Screen");
+                }
+        }
+        function textAnalysis(response) {
+                $("#word").val(response["numTokens"]);
+                $("#nos").val(response["uniqueTokens"]);
+                $("#ld").val(response["Lexical"]);
+                $("#frequentword").val(response["topwords"]);
+
+                var flabels = [];
+                var fval = [];
+                for (var i = 0; i < response["topwords"].length; i++) {
+                        flabels.push(response["topwords"][i][0]);
+                        fval.push(response["topwords"][i][1]);
+                }
+
+                if (freqFlag) {
+                        fchart.destroy();
+                }
+                freqFlag = true;
+                fchart = new Chart($("#freqChart"), {
+                        type: "polarArea",
+                        data: {
+                                labels: flabels,
+                                datasets: [
+                                        {
+                                                label: "Most Frequent Word",
+                                                backgroundColor: [
+                                                        "#03c637",
+                                                        "#f4424b",
+                                                        "#8e5ea2",
+                                                        "#ff5722",
+                                                        "#827717",
+                                                        "#6200ea",
+                                                        "#c51162",
+                                                        "#3f51b5",
+                                                        "#004d40",
+                                                        "#9e9e9e"
+                                                ],
+                                                data: fval
+                                        }
+                                ]
+                        },
+                        options: {
+                                animation: { duration: 0 },
+                                legend: { display: true },
+                                title: {
+                                        display: true,
+                                        text: "Text Analysis : Most Frequent Words",
+                                }
+                        }
+                });
+        }
+        function sentimentAnalysis(response) {
+                var positive = response.sentiment_positive;
+                var negative = response.sentiment_negative;
+                var neutral = response.sentiment_neutral;
+                userSentiment.positive = userSentiment.positive + positive;
+                userSentiment.negative = userSentiment.negative + negative;
+                userSentiment.neutral = userSentiment.neutral + neutral;
+                userSentiment.answerCount = userSentiment.answerCount + 1;
+                console.log(userSentiment);
+                //userTranscript.sentiment.push(response.overall_sentiment);
+                //console.log(positive,negative,neutral);
+                if (sentimentFlag) {
+                        schart.destroy();
+                }
+                sentimentFlag = true;
+                schart = new Chart($("#myChart"), {
+                        type: "horizontalBar",
+                        data: {
+                                labels: ["Positive", "Negative", "Neutral"],
+                                datasets: [
+                                        {
+                                                label: "Sentiment in terms of %",
+                                                backgroundColor: ["#03c637", "#f4424b", "#8e5ea2"],
+                                                data: [positive, -1 * negative, neutral]
+                                        }
+                                ]
+                        },
+                        options: {
+                                animation: { duration: 0 },
+                                legend: { display: false },
+                                title: {
+                                        display: true,
+                                        text:
+                                                "Sentiment Analysis : Overall Sentiment " +
+                                                response.overall_sentiment
+                                }
+                        }
+                }); //end chart
+        }
+</script>
+
+<script>
+        function invokeGetDisplayMedia(success, error) {
+                var displaymediastreamconstraints = {
+                        video: {
+                                displaySurface: 'monitor', // monitor, window, application, browser
+                                logicalSurface: true,
+                                cursor: 'always' // never, always, motion
+                        }
+                };
+
+                // above constraints are NOT supported YET
+                // that's why overridnig them
+                displaymediastreamconstraints = {
+                        video: true
+                };
+
+                if (navigator.mediaDevices.getDisplayMedia) {
+                        navigator.mediaDevices.getDisplayMedia(displaymediastreamconstraints).then(success).catch(error);
+                }
+                else {
+                        navigator.getDisplayMedia(displaymediastreamconstraints).then(success).catch(error);
+                }
+        }
+
+        function captureScreen(callback) {
+                invokeGetDisplayMedia(function (screen) {
+                        addStreamStopListener(screen, function () {
+                                if (window.stopCallback) {
+                                        window.stopCallback();
+                                }
+
+                        });
+                        callback(screen);
+                }, function (error) {
+                        console.error(error);
+                        alert('Unable to capture your screen. Please check console logs.\n' + error);
+                });
+        }
+
+        function captureCamera(cb) {
+                navigator.mediaDevices.getUserMedia({ audio: true, video: true }).then(cb);
+        }
+
+        function keepStreamActive(stream) {
+                var video = document.createElement('video');
+                video.muted = true;
+                video.srcObject = stream;
+                video.style.display = 'none';
+                (document.body || document.documentElement).appendChild(video);
+        }
+</script>
+
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Start Interview - Instructions</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                                <h3>Welcome to Interview Bot</h3>
+                                <h5> Interviews required practise and this project aims to prepare you for the same.
+                                </h5>
+                                <div style="color:green">
+                                        <ul>
+                                                <li>The Left side of the screen panel have your live stream</li>
+                                                <li>The Center side of the screen is the interviewer</li>
+                                                <li>The Righ side of the screen have the chatbot which will take your
+                                                        interview</li>
+                                                <li>The Bottom of the screen have the various analysis which are done
+                                                        your reponse to the question</li>
+                                        </ul>
+                                </div>
+                                <p>Before starting the interview, please read the following instructions</p>
+                                <ul>
+                                        <li>To begin interview speak "<b><span style="color:red">START
+                                                                INTERVIEW</span></b>"</li>
+                                        <li>After speaking your answer click on the <b>SEND</b> button</li>
+                                        <li>If the bot continously asks the same question or you want to skip the
+                                                question, then speak "<b><span style="color:red">NEXT
+                                                                QUESTION</span></b>"</li>
+                                </ul>
+                        </div>
+                        <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                <button type="button" class="btn btn-info" data-dismiss="modal"
+                                        id="continueInterview">Continue</button>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<!-- end modal -->
+<!-- Modal -->
+<div class="modal" id="finishModal" role="dialog">
+        <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" id="instruction_heading">Start Interview - Instructions</h4>
+                        </div>
+                        <div class="modal-body" id="instruction_body">
+                                <h3>Are you sure you want to finish the interview?</h3>
+
+                                </ul>
+
+
+                        </div>
+                        <div class="modal-footer">
+                                <p style="color:green">Finish Interview</p>
+                                <button type="button" class="btn btn-warning" data-dismiss="modal"
+                                        id="finsihModalButton">Finish</button>
+                        </div>
+                </div>
+
+        </div>
+</div>
+
+</html>

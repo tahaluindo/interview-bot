@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category>
+<pattern>FRND1</pattern>
+<template>
+<random>
+<li>who is your best friend?</li>
+<li>what do you admire about your friend</li>
+<li>what do you hate about your friend</li>
+<li>have you ever cheated on your friend</li>
+<li>what is the craziest thing you have done with your friend</li>
+<li>college friends or school friends</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>_ FRIEND</pattern>
+<template>
+<srai>FRND1</srai>
+</template>
+</category>
+
+<category>
+<pattern>FRIEND * </pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+ </category>
+
+ <category>
+ <pattern>_ FRIEND *</pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+</category>
+
+
+<category>
+<pattern>_ FRIENDS</pattern>
+<template>
+<srai>FRND1</srai>
+</template>
+</category>
+
+<category>
+<pattern>FRIENDS * </pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+ </category>
+
+ <category>
+ <pattern>_ FRIENDS *</pattern>
+ <template>
+ <srai>FRND1</srai>
+ </template>
+</category>
+<aiml>
